@@ -260,7 +260,7 @@ function renderChangeLog(roster, updates) {
             if (newPos && oldPos !== newPos) {
                 changesHtml += `
                     <div class="log-entry">
-                        <span class="pos-label">${newPos}:</span> ${player.name}
+                        <span class="pos-label">${oldPos} &rarr; ${newPos}:</span> ${player.name}
                     </div>
                 `;
             }
