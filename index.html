@@ -247,7 +247,7 @@
         });
     }
 
-    function renderChangeLog(roster, updates) {
+function renderChangeLog(roster, updates) {
         const logContainer = document.getElementById("change-log");
         let changesHtml = "";
 
@@ -256,27 +256,13 @@
             const oldPos = player.selected_position;
             const newPos = updates[player.player_key];
 
-            // Only proceed if a position change occurred
+            // Only proceed if a position change actually occurred
             if (newPos && oldPos !== newPos) {
-                if (newPos === "BN") {
-                    // Specific requirement: BN spots only show the player name
-                    changesHtml += `
-                        <div class="log-entry">
-                            <span class="pos-label">${newPos}:</span> ${player.name}
-                        </div>
-                    `;
-                } else {
-                    // Find who was previously at the new position slot for "->" mapping
-                    const originalOccupant = roster.find(p => p.selected_position === newPos);
-                    
-                    if (originalOccupant && originalOccupant.player_key !== player.player_key) {
-                        changesHtml += `
-                            <div class="log-entry">
-                                <span class="pos-label">${newPos}:</span> ${originalOccupant.name} &rarr; ${player.name}
-                            </div>
-                        `;
-                    }
-                }
+                changesHtml += `
+                    <div class="log-entry">
+                        <span class="pos-label">${newPos}:</span> ${player.name}
+                    </div>
+                `;
             }
         });
 
