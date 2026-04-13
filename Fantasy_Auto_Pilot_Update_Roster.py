@@ -20,6 +20,10 @@ def _save_token(token):
     TOKEN_CACHE.write_text(json.dumps(token, indent=2))
 
 def _load_token():
+    token_from_env = os.getenv("YAHOO_TOKEN")
+    if token_from_env:
+        try: return json.loads(token_from_env)
+        except: pass
     if TOKEN_CACHE.exists():
         try: return json.loads(TOKEN_CACHE.read_text())
         except: pass
