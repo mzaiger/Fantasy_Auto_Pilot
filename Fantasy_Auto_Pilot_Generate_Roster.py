@@ -16,7 +16,9 @@ Algorithm:
      where "↑" means lower is better and "↓" means higher is better.
   7. Positions are filled in order: C, 1B, 2B, 3B, SS, OF, OF, OF,
      Util, Util, SP, SP, SP, RP, RP, RP, P, P, P.
-     Once a player is assigned a slot they are removed from all other pools.
+     If a specific position cannot be filled directly, the algorithm checks if 
+     an already-assigned player can move to fill it, vacating their spot 
+     for an unassigned player.
   8. Any editable players not placed in an active slot are marked BN.
 """
 
@@ -32,6 +34,7 @@ from datetime import date
 ROSTER_JSON  = "current_roster.json"
 GAMES_JSON   = "mlb_games.json"
 OUTPUT_XML   = "roster_update.xml"
+
 parser = argparse.ArgumentParser(description="Fantasy Baseball Roster Optimizer")
 parser.add_argument(
     "--date",
@@ -232,7 +235,6 @@ def main():
         print(f"  {slot}: {cnt}")
     print()
 
-    # Fix: Correctly calculate remaining slots without double-counting
     remaining_slot_counts = {}
     for slot in ACTIVE_SLOTS:
         remaining_slot_counts[slot] = remaining_slot_counts.get(slot, 0) + 1
@@ -241,7 +243,6 @@ def main():
         if slot in remaining_slot_counts:
             remaining_slot_counts[slot] = max(0, remaining_slot_counts[slot] - cnt)
 
-    # Use a temp counter to ensure we only add the remaining amount per slot type
     open_slots = []
     temp_counts = copy.deepcopy(remaining_slot_counts)
     for slot in ACTIVE_SLOTS:
@@ -249,38 +250,59 @@ def main():
             open_slots.append(slot)
             temp_counts[slot] -= 1
 
-    print(f"Open slots for editable players: {open_slots}")
-    print(f"Editable players to place: {[p['name'] for p in available]}")
-    print()
-
-    # ── Step 4: Greedy best-fit assignment ────────────────────────────────────
+    # ── Step 4: Swap/Reassignment Logic ───────────────────────────────────────
     unassigned = list(available)          
     assignments: dict[str, str] = {}     
 
-    for slot in open_slots:
-        candidates = [
-            p for p in unassigned
-            if slot_matches(slot, parse_positions(p["position"]))
-        ]
-        if not candidates:
-            print(f"  WARNING: No eligible player for slot '{slot}'")
-            continue
+    def find_and_assign(target_slot):
+        """
+        Attempts to fill target_slot by:
+        1. Checking unassigned players.
+        2. Checking if someone already assigned can move to target_slot, 
+           freeing their old slot for an unassigned player.
+        """
+        # 1. Try to fill directly from unassigned
+        candidates = [p for p in unassigned if slot_matches(target_slot, parse_positions(p["position"]))]
+        if candidates:
+            scored = sorted(candidates, key=lambda p: composite_score(p, candidates), reverse=True)
+            best = scored[0]
+            assignments[best["player_key"]] = target_slot
+            unassigned.remove(best)
+            print(f"  Slot {target_slot:6s} → {best['name']:30s} (Direct)")
+            return True
 
-        scored = sorted(
-            candidates,
-            key=lambda p: composite_score(p, candidates),
-            reverse=True   
-        )
-        best = scored[0]
-        assignments[best["player_key"]] = slot
-        unassigned.remove(best)
-        print(f"  Slot {slot:6s} → {best['name']:30s}  "
-              f"(pre={best['preseason_rank']}, cur={best['current_rank']}, "
-              f"pct={best['percent_started']})")
+        # 2. Try to Swap: Can someone already assigned move here?
+        for p_key, current_assigned_slot in assignments.items():
+            # Find the actual player object for this key
+            p_obj = next(p for p in available if p["player_key"] == p_key)
+            
+            # If this player CAN move to the empty target_slot...
+            if slot_matches(target_slot, parse_positions(p_obj["position"])):
+                vacated_slot = current_assigned_slot
+                # ...check if someone unassigned can take their OLD slot
+                potential_fillers = [u for u in unassigned if slot_matches(vacated_slot, parse_positions(u["position"]))]
+                
+                if potential_fillers:
+                    # Execute the swap
+                    best_filler = sorted(potential_fillers, key=lambda u: composite_score(u, potential_fillers), reverse=True)[0]
+                    
+                    print(f"  [Swap] Moving {p_obj['name']} from {vacated_slot} to {target_slot}")
+                    assignments[p_key] = target_slot
+                    
+                    print(f"  [Swap] Filling vacated {vacated_slot} with {best_filler['name']}")
+                    assignments[best_filler["player_key"]] = vacated_slot
+                    unassigned.remove(best_filler)
+                    return True
+        return False
+
+    print("── Assignment Process ────────────────────────────────────────────")
+    for slot in open_slots:
+        if not find_and_assign(slot):
+            print(f"  WARNING: Could not fill slot '{slot}' (no eligible player or swap possible)")
 
     for p in unassigned:
         assignments[p["player_key"]] = "BN"
-        print(f"  Slot {'BN':6s} → {p['name']:30s}  (no suitable active slot)")
+        print(f"  Slot {'BN':6s} → {p['name']:30s}  (No suitable active slot)")
 
     # ── Step 5 & 6: Position map and XML ──────────────────────────────────────
     final_positions: dict[str, str] = {}
