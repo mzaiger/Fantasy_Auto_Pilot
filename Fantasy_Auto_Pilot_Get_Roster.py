@@ -21,6 +21,11 @@ def _load_token():
     if token_from_env:
         try: return json.loads(token_from_env)
         except: pass
+    except Exception as e:
+            print(f"❌ YAHOO_TOKEN env var found, but failed to parse JSON: {e}")
+    else:
+        print("ℹ️ YAHOO_TOKEN environment variable is not set.")
+
     if TOKEN_CACHE.exists():
         try: return json.loads(TOKEN_CACHE.read_text())
         except: pass
