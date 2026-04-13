@@ -26,17 +26,17 @@
     "percent_started": 88
   },
   {
-    "player_key": "469.p.12100",
-    "name": "Otto Lopez",
-    "team": "Miami Marlins",
-    "position": "2B,SS",
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
     "selected_position": "2B",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "182",
-    "current_rank": "443",
-    "percent_started": 50
+    "preseason_rank": "165",
+    "current_rank": "526",
+    "percent_started": 54
   },
   {
     "player_key": "469.p.9507",
@@ -65,19 +65,6 @@
     "percent_started": 88
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "165",
-    "current_rank": "526",
-    "percent_started": 53
-  },
-  {
     "player_key": "469.p.12314",
     "name": "Steven Kwan",
     "team": "Cleveland Guardians",
@@ -104,17 +91,17 @@
     "percent_started": 40
   },
   {
-    "player_key": "469.p.11365",
-    "name": "Alec Bohm",
-    "team": "Philadelphia Phillies",
-    "position": "1B,3B",
+    "player_key": "469.p.12100",
+    "name": "Otto Lopez",
+    "team": "Miami Marlins",
+    "position": "2B,SS",
     "selected_position": "Util",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "168",
-    "current_rank": "572",
-    "percent_started": 30
+    "preseason_rank": "182",
+    "current_rank": "443",
+    "percent_started": 50
   },
   {
     "player_key": "469.p.9571",
@@ -141,6 +128,19 @@
     "preseason_rank": "243",
     "current_rank": "638",
     "percent_started": 22
+  },
+  {
+    "player_key": "469.p.11365",
+    "name": "Alec Bohm",
+    "team": "Philadelphia Phillies",
+    "position": "1B,3B",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "168",
+    "current_rank": "572",
+    "percent_started": 30
   },
   {
     "player_key": "469.p.11268",
@@ -205,7 +205,7 @@
     "status": "Healthy",
     "preseason_rank": "18",
     "current_rank": "157",
-    "percent_started": 85
+    "percent_started": 84
   },
   {
     "player_key": "469.p.10236",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "204",
     "current_rank": "235",
-    "percent_started": 35
+    "percent_started": 34
   },
   {
     "player_key": "469.p.11014",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "51",
     "current_rank": "285",
-    "percent_started": 92
+    "percent_started": 91
   },
   {
     "player_key": "469.p.12345",
