@@ -63,6 +63,8 @@ def update_workflow_schedule():
         "    steps:",
         "      - name: Checkout repository",
         "        uses: actions/checkout@v4",
+        "        with:",
+        "          token: ${{ secrets.PAT_TOKEN }}",
         "",
         "      - name: Set up Python",
         "        uses: actions/setup-python@v5",
@@ -83,12 +85,9 @@ def update_workflow_schedule():
         "          python Fantasy_Auto_Pilot_Main.py --league 469.l.23321 --team \"Zegster\" --date \"$CURRENT_DATE\"",
         "",
         "      - name: Commit and Push changes",
-        "        env:",
-        "          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}",  # <-- comma was missing here
         "        run: |",
         "          git config --global user.name \"GitHub Action\"",
         "          git config --global user.email \"action@github.com\"",
-        "          git remote set-url origin https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }}",
         "          git add .",
         "          git commit -m \"Auto-update roster for $(date +%Y-%m-%d)\" || echo \"No changes to commit\"",
         "          git push"
