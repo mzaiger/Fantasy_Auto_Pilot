@@ -71,7 +71,7 @@ def update_workflow_schedule():
         "",
         "      - name: Install dependencies",
         "        run: |",
-        "          pip install yahoofantasy lxml",
+        "          pip install yahoofantasy lxml requests-oauthlib",
         "",
         "      - name: Run Fantasy Auto Pilot",
         "        run: |",
