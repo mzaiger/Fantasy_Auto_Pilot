@@ -52,9 +52,9 @@ def main():
     ])
 
     # 5. Update YAML
-    run_command([
-        "python", "Fantasy_Auto_Pilot_Update_YAML.py"
-    ])
+    #run_command([
+    #    "python", "Fantasy_Auto_Pilot_Update_YAML.py"
+    #])
 
     print(f"\n✅ All tasks completed for {team} on {target_date}!")
 
