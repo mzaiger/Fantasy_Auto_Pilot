@@ -2,15 +2,15 @@ name: Fantasy Baseball Auto Pilot
 
 on:
   schedule:
-    - cron: '0 20 * * *'
+    - cron: '0 23 * * *'
     - cron: '0 9 * * *' # 4am Central
-    - cron: '15 18 * * *'
-    - cron: '15 23 * * *'
-    - cron: '2 20 * * *'
-    - cron: '30 17 * * *'
-    - cron: '35 17 * * *'
-    - cron: '5 18 * * *'
-    - cron: '5 19 * * *'
+    - cron: '10 23 * * *'
+    - cron: '30 22 * * *'
+    - cron: '35 1 * * *'
+    - cron: '35 22 * * *'
+    - cron: '35 23 * * *'
+    - cron: '40 23 * * *'
+    - cron: '5 2 * * *'
     - cron: '5 20 * * *'
   workflow_dispatch:
 
