@@ -17,17 +17,25 @@ BASE_URL = "https://fantasysports.yahooapis.com/fantasy/v2"
 # --- AUTH HELPERS ---
 def _save_token(token): TOKEN_CACHE.write_text(json.dumps(token, indent=2))
 def _load_token():
+    # 1. Try loading from Environment Variable
     token_from_env = os.getenv("YAHOO_TOKEN")
     if token_from_env:
-        try: return json.loads(token_from_env)
-    except Exception as e:
+        try: 
+            return json.loads(token_from_env)
+        except Exception as e:
             print(f"❌ YAHOO_TOKEN env var found, but failed to parse JSON: {e}")
     else:
         print("ℹ️ YAHOO_TOKEN environment variable is not set.")
 
+    # 2. Try loading from Local Cache File
     if TOKEN_CACHE.exists():
-        try: return json.loads(TOKEN_CACHE.read_text())
-        except: pass
+        try: 
+            return json.loads(TOKEN_CACHE.read_text())
+        except Exception as e:
+            print(f"❌ token_cache.json found, but failed to parse: {e}")
+    else:
+        print("ℹ️ token_cache.json file not found.")
+
     return None
 
 def get_oauth_session() -> OAuth2Session:
