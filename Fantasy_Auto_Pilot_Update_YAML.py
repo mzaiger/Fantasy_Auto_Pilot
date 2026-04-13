@@ -81,7 +81,7 @@ def update_workflow_schedule():
         "          YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}",
         "          YAHOO_TOKEN: ${{ secrets.YAHOO_TOKEN }}",
         "        run: |",
-        "          CURRENT_DATE=$(TZ="America/Chicago" date +%Y-%m-%d)",
+        "          CURRENT_DATE=$(TZ="""America/Chicago""" date +%Y-%m-%d)",
         "          python Fantasy_Auto_Pilot_Main.py --league 469.l.23321 --team \"Zegster\" --date \"$CURRENT_DATE\"",
         "",
         "      - name: Commit and Push changes",
