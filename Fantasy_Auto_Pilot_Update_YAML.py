@@ -84,10 +84,11 @@ def update_workflow_schedule():
         "",
         "      - name: Commit and Push changes",
         "        env:",
-        "          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}"
+        "          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}",  # <-- comma was missing here
         "        run: |",
         "          git config --global user.name \"GitHub Action\"",
         "          git config --global user.email \"action@github.com\"",
+        "          git remote set-url origin https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }}",
         "          git add .",
         "          git commit -m \"Auto-update roster for $(date +%Y-%m-%d)\" || echo \"No changes to commit\"",
         "          git push"
