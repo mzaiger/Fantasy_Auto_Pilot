@@ -20,7 +20,6 @@ def _load_token():
     token_from_env = os.getenv("YAHOO_TOKEN")
     if token_from_env:
         try: return json.loads(token_from_env)
-        except: pass
     except Exception as e:
             print(f"❌ YAHOO_TOKEN env var found, but failed to parse JSON: {e}")
     else:
