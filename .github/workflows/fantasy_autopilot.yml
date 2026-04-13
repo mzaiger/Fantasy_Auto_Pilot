@@ -1,17 +1,8 @@
 name: Fantasy Baseball Auto Pilot
 
 on:
-  schedule:
-    - cron: '0 23 * * *'
-    - cron: '0 9 * * *' # 4am Central
-    - cron: '10 23 * * *'
-    - cron: '30 22 * * *'
-    - cron: '35 1 * * *'
-    - cron: '35 22 * * *'
-    - cron: '35 23 * * *'
-    - cron: '40 23 * * *'
-    - cron: '5 2 * * *'
-    - cron: '5 20 * * *'
+  repository_dispatch:
+    types: [trigger-roster-update]
   workflow_dispatch:
 
 jobs:
