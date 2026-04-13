@@ -1,0 +1,51 @@
+name: Fantasy Baseball Auto Pilot
+
+on:
+  schedule:
+    - cron: '0 20 * * *'
+    - cron: '0 9 * * *' # 4am Central
+    - cron: '15 18 * * *'
+    - cron: '15 23 * * *'
+    - cron: '2 20 * * *'
+    - cron: '30 17 * * *'
+    - cron: '35 17 * * *'
+    - cron: '5 18 * * *'
+    - cron: '5 19 * * *'
+    - cron: '5 20 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install yahoofantasy lxml requests-oauthlib
+
+      - name: Run Fantasy Auto Pilot
+        env:
+          YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
+          YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
+          YAHOO_TOKEN: ${{ secrets.YAHOO_TOKEN }}
+        run: |
+          CURRENT_DATE=$(date +%Y-%m-%d)
+          python Fantasy_Auto_Pilot_Main.py --league 469.l.23321 --team "Zegster" --date "$CURRENT_DATE"
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add .
+          git commit -m "Auto-update roster for $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git push
