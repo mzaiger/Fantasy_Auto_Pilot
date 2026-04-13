@@ -101,9 +101,19 @@
             padding: 8px 0;
             border-bottom: 1px solid var(--border);
             font-family: monospace;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
         .log-entry:last-child { border-bottom: none; }
-        .pos-label { font-weight: bold; color: var(--primary); width: 50px; display: inline-block; }
+        
+        /* Updated to handle the "Pos -> Pos" length */
+        .pos-label { 
+            font-weight: bold; 
+            color: var(--primary); 
+            min-width: 100px; 
+            display: inline-block; 
+        }
     </style>
 </head>
 <body>
@@ -118,164 +128,3 @@
     <div class="grid">
         <section>
             <h2>Active Lineup</h2>
-            <table id="active-roster">
-                <thead>
-                    <tr>
-                        <th>Pos</th>
-                        <th>Player</th>
-                        <th>Team</th>
-                        <th>Rank (Pre/Cur)</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-
-            <h2>Bench & Inactive</h2>
-            <table id="bench-roster">
-                <thead>
-                    <tr>
-                        <th>Pos</th>
-                        <th>Player</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-        </section>
-
-        <section>
-            <h2>Today's MLB Games</h2>
-            <div id="game-list"></div>
-        </section>
-    </div>
-
-    <section class="log-container">
-        <h2>Position Change Log</h2>
-        <div id="change-log">
-            <p style="color: var(--secondary);">No changes detected in current update.</p>
-        </div>
-    </section>
-</div>
-
-<script>
-    async function loadDashboard() {
-        const cacheBuster = `?t=${new Date().getTime()}`;
-        const lastUpdatedEl = document.getElementById('last-updated');
-        const rosterDateEl = document.getElementById('roster-date');
-        
-        lastUpdatedEl.innerHTML = `<strong>Refreshing data: ${new Date().toLocaleTimeString()}</strong>`;
-
-        try {
-            const [rosterRes, gamesRes, updateRes] = await Promise.all([
-                fetch(`current_roster.json${cacheBuster}`).then(r => r.json()),
-                fetch(`mlb_games.json${cacheBuster}`).then(r => r.json()),
-                fetch(`roster_update.xml${cacheBuster}`).then(r => r.text())
-            ]);
-
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(updateRes, "text/xml");
-            
-            const xmlDate = xmlDoc.getElementsByTagName("date")[0]?.textContent;
-            if (xmlDate) {
-                rosterDateEl.innerHTML = `<strong>Roster Date: ${xmlDate}</strong>`;
-            }
-
-            const playerUpdates = {};
-            const playerNodes = xmlDoc.getElementsByTagName("player");
-            
-            for (let node of playerNodes) {
-                const key = node.getElementsByTagName("player_key")[0].textContent;
-                const pos = node.getElementsByTagName("position")[0].textContent;
-                playerUpdates[key] = pos;
-            }
-
-            renderRoster(rosterRes, playerUpdates);
-            renderGames(gamesRes);
-            renderChangeLog(rosterRes, playerUpdates);
-
-        } catch (error) {
-            console.error("Error loading fantasy data:", error);
-        }
-    }
-
-    function renderRoster(roster, updates) {
-        const activeTable = document.querySelector("#active-roster tbody");
-        const benchTable = document.querySelector("#bench-roster tbody");
-        activeTable.innerHTML = "";
-        benchTable.innerHTML = "";
-
-        roster.forEach(player => {
-            const currentPos = updates[player.player_key] || player.selected_position;
-            const isBench = ["BN", "IL", "NA"].includes(currentPos);
-
-            const row = `
-                <tr>
-                    <td><strong>${currentPos}</strong></td>
-                    <td>${player.name}</td>
-                    ${!isBench ? `<td>${player.team}</td>` : ''}
-                    ${!isBench ? `<td>${player.preseason_rank} / ${player.current_rank}</td>` : ''}
-                    <td><span class="status-badge status-${player.status.substring(0,2)}">${player.status}</span></td>
-                </tr>
-            `;
-
-            if (isBench) {
-                benchTable.innerHTML += row;
-            } else {
-                activeTable.innerHTML += row;
-            }
-        });
-    }
-
-    function renderGames(data) {
-        const gameList = document.getElementById("game-list");
-        gameList.innerHTML = "";
-
-        if (!data.mlb_games || data.mlb_games.length === 0) {
-            gameList.innerHTML = "<p>No games scheduled for today.</p>";
-            return;
-        }
-
-        data.mlb_games.forEach(game => {
-            const startTime = new Date(game.start_time_utc).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-            gameList.innerHTML += `
-                <div class="game-card">
-                    <strong>${game.away_team.name}</strong> @ <strong>${game.home_team.name}</strong><br>
-                    <small>${startTime} - ${game.venue}</small>
-                </div>
-            `;
-        });
-    }
-
-function renderChangeLog(roster, updates) {
-        const logContainer = document.getElementById("change-log");
-        let changesHtml = "";
-
-        // Iterate through each player in current_roster
-        roster.forEach(player => {
-            const oldPos = player.selected_position;
-            const newPos = updates[player.player_key];
-
-            // Only proceed if a position change actually occurred
-            if (newPos && oldPos !== newPos) {
-                changesHtml += `
-                    <div class="log-entry">
-                        <span class="pos-label">${oldPos} &rarr; ${newPos}:</span> ${player.name}
-                    </div>
-                `;
-            }
-        });
-
-        if (changesHtml !== "") {
-            logContainer.innerHTML = changesHtml;
-        } else {
-            logContainer.innerHTML = `<p style="color: var(--secondary);">No position changes detected.</p>`;
-        }
-    }
-
-    loadDashboard();
-    setInterval(loadDashboard, 300000);
-</script>
-
-</body>
-</html>
