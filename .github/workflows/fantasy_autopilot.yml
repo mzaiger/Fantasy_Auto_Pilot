@@ -39,6 +39,16 @@ jobs:
           CURRENT_DATE=$(date +%Y-%m-%d)
           python Fantasy_Auto_Pilot_Main.py --league 469.l.23321 --team "Zegster" --date "$CURRENT_DATE"
 
+      - name: Debug PAT Token
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          if [ -z "${PAT_TOKEN}" ]; then
+            echo "PAT_TOKEN is EMPTY - secret not loaded"
+          else
+            echo "PAT_TOKEN is loaded (length: ${#PAT_TOKEN})"
+          fi
+
       - name: Commit and Push changes
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
