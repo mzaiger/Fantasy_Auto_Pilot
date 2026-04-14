@@ -25,12 +25,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests requests-oauthlib
 
-      - name: 1. Generate JSON, Set Schedule
+      - name: 1. Run Fantasy Auto Pilot
         env:
           YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
           YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
           YAHOO_TOKEN: ${{ secrets.YAHOO_TOKEN }}
-        run: python Fantasy_Auto_Pilot_Main.py
+        run: |
+          CURRENT_DATE=$(TZ="America/Chicago" date +%Y-%m-%d)
+          python Fantasy_Auto_Pilot_Main.py --league 469.l.23321 --team "Zegster" --date "$CURRENT_DATE"
 
       - name: 2. Send to Make.com
         run: python Fantasy_Auto_Pilot_Schedule_Make.py
