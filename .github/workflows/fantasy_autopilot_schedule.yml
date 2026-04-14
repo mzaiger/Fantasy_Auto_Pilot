@@ -41,6 +41,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add mlb_games.json
+          git add .
           git diff-index --quiet HEAD || git commit -m "Update MLB data: $(date +'%Y-%m-%d')"
           git push
