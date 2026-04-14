@@ -26,17 +26,17 @@
     "percent_started": 92
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.12100",
+    "name": "Otto Lopez",
+    "team": "Miami Marlins",
+    "position": "2B,SS",
     "selected_position": "2B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "167",
-    "current_rank": "514",
-    "percent_started": 64
+    "preseason_rank": "163",
+    "current_rank": "475",
+    "percent_started": 51
   },
   {
     "player_key": "469.p.9507",
@@ -104,17 +104,17 @@
     "percent_started": 85
   },
   {
-    "player_key": "469.p.12100",
-    "name": "Otto Lopez",
-    "team": "Miami Marlins",
-    "position": "2B,SS",
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
     "selected_position": "Util",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "163",
-    "current_rank": "475",
-    "percent_started": 51
+    "preseason_rank": "167",
+    "current_rank": "514",
+    "percent_started": 64
   },
   {
     "player_key": "469.p.9571",
@@ -166,7 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "153",
     "current_rank": "543",
-    "percent_started": 46
+    "percent_started": 45
   },
   {
     "player_key": "469.p.11365",
@@ -382,7 +382,7 @@
     "team": "Atlanta Braves",
     "position": "SP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "200",
@@ -395,7 +395,7 @@
     "team": "Atlanta Braves",
     "position": "SP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "395",
