@@ -1,4 +1,4 @@
-name: Daily MLB Sync to Make.com
+name: Daily MLB Sync
 
 on:
   schedule:
@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # Allows the bot to save the JSON to your repo
 
     steps:
       - name: Checkout code
@@ -21,25 +21,21 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests requests-oauthlib
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests requests-oauthlib
 
-      - name: 1. Generate JSON (Get Games)
+      - name: 1. Generate JSON
         env:
           YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
           YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
           YAHOO_TOKEN: ${{ secrets.YAHOO_TOKEN }}
         run: python Fantasy_Auto_Pilot_Get_Games.py
 
-      - name: 2. Process Schedule (Schedule Make)
+      - name: 2. Send to Make.com
         run: python Fantasy_Auto_Pilot_Schedule_Make.py
 
-      - name: 3. Send to Make.com
-        run: |
-          curl -X POST -H "Content-Type: application/json" \
-          -d @mlb_games.json \
-          ${{ secrets.MAKE_WEBHOOK_URL }}
-
-      - name: 4. Save Copy to Repo
+      - name: 3. Commit and Push JSON
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
