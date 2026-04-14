@@ -56,6 +56,11 @@ def main():
     #    "python", "Fantasy_Auto_Pilot_Update_YAML.py"
     #])
 
+    5. Update YAML
+    run_command([
+        "python", "Create Fantasy_Auto_Pilot_Schedule_Make.py"
+    ])
+    
     print(f"\n✅ All tasks completed for {team} on {target_date}!")
 
 if __name__ == "__main__":
