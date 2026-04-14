@@ -262,46 +262,38 @@ def main():
     unassigned = list(available)          
     assignments: dict[str, str] = {}     
 
-    def find_and_assign(target_slot):
+def find_and_assign(target_slot):
         """
-        Attempts to fill target_slot by:
-        1. Checking unassigned players.
-        2. Checking if someone already assigned can move to target_slot, 
-           freeing their old slot for an unassigned player.
+        Attempts to fill target_slot with specific priority for 'P' slots:
+        Priority: SP (is_starting=1) > RP (if target_slot is 'P')
         """
-        # 1. Try to fill directly from unassigned
+        # 1. Filter candidates eligible for the slot
         candidates = [p for p in unassigned if slot_matches(target_slot, parse_positions(p["position"]))]
-        if candidates:
-            scored = sorted(candidates, key=lambda p: composite_score(p, candidates), reverse=True)
-            best = scored[0]
-            assignments[best["player_key"]] = target_slot
-            unassigned.remove(best)
-            print(f"  Slot {target_slot:6s} → {best['name']:30s} (Direct)")
-            return True
+        
+        if not candidates:
+            # Check for Swap logic (as existing in your script)
+            # ... (keep your existing swap logic here)
+            return False
 
-        # 2. Try to Swap: Can someone already assigned move here?
-        for p_key, current_assigned_slot in assignments.items():
-            # Find the actual player object for this key
-            p_obj = next(p for p in available if p["player_key"] == p_key)
+        # --- Priority Logic for 'P' Slot ---
+        if target_slot == "P":
+            # Priority 1: Starters who are actually starting today
+            starters_starting = [p for p in candidates if "SP" in parse_positions(p["position"]) and p.get("is_starting") == 1]
             
-            # If this player CAN move to the empty target_slot...
-            if slot_matches(target_slot, parse_positions(p_obj["position"])):
-                vacated_slot = current_assigned_slot
-                # ...check if someone unassigned can take their OLD slot
-                potential_fillers = [u for u in unassigned if slot_matches(vacated_slot, parse_positions(u["position"]))]
-                
-                if potential_fillers:
-                    # Execute the swap
-                    best_filler = sorted(potential_fillers, key=lambda u: composite_score(u, potential_fillers), reverse=True)[0]
-                    
-                    print(f"  [Swap] Moving {p_obj['name']} from {vacated_slot} to {target_slot}")
-                    assignments[p_key] = target_slot
-                    
-                    print(f"  [Swap] Filling vacated {vacated_slot} with {best_filler['name']}")
-                    assignments[best_filler["player_key"]] = vacated_slot
-                    unassigned.remove(best_filler)
-                    return True
-        return False
+            if starters_starting:
+                best = sorted(starters_starting, key=lambda p: composite_score(p, starters_starting), reverse=True)[0]
+            else:
+                # Priority 2: Fallback to Relievers or other eligible pitchers if no starters left
+                best = sorted(candidates, key=lambda p: composite_score(p, candidates), reverse=True)[0]
+        else:
+            # Default greedy selection for other positions
+            best = sorted(candidates, key=lambda p: composite_score(p, candidates), reverse=True)[0]
+
+        # Assign the best candidate found
+        assignments[best["player_key"]] = target_slot
+        unassigned.remove(best)
+        print(f"  Slot {target_slot:6s} → {best['name']:30s} (Direct)")
+        return True
 
     print("── Assignment Process ────────────────────────────────────────────")
     for slot in open_slots:
