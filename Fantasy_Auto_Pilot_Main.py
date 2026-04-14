@@ -56,7 +56,7 @@ def main():
     #    "python", "Fantasy_Auto_Pilot_Update_YAML.py"
     #])
 
-    5. Update YAML
+    #5. Send Schedule to Make.com
     run_command([
         "python", "Create Fantasy_Auto_Pilot_Schedule_Make.py"
     ])
