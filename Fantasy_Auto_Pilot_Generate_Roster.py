@@ -95,6 +95,7 @@ def safe_pct(val):
 def composite_score(player: dict, pool: list) -> float:
     """
     Higher score = better player.
+    Prioritizes confirmed starters (is_starting == 1) for Pitchers.
     """
     pre_ranks = [safe_rank(p["preseason_rank"])   for p in pool]
     cur_ranks = [safe_rank(p["current_rank"])      for p in pool]
@@ -116,7 +117,14 @@ def composite_score(player: dict, pool: list) -> float:
     cur_score = norm_low(safe_rank(player["current_rank"]),     cur_ranks)
     pct_score = norm_high(safe_pct(player["percent_started"]),  pcts)
 
-    return W_PRESEASON * pre_score + W_CURRENT * cur_score + W_PCT_STARTED * pct_score
+    base_score = W_PRESEASON * pre_score + W_CURRENT * cur_score + W_PCT_STARTED * pct_score
+
+    # Priority boost for confirmed starters (is_starting == 1)
+    # This ensures they are moved to the top of the list for SP/P slots.
+    if player.get("is_starting") == 1:
+        return base_score + 10.0
+    
+    return base_score
 
 
 def slot_matches(slot: str, player_positions: set) -> bool:
