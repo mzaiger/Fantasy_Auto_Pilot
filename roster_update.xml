@@ -77,6 +77,18 @@
         <position>BN</position>
       </player>
       <player>
+        <player_key>469.p.11014</player_key>
+        <position>SP</position>
+      </player>
+      <player>
+        <player_key>469.p.12345</player_key>
+        <position>SP</position>
+      </player>
+      <player>
+        <player_key>469.p.9334</player_key>
+        <position>SP</position>
+      </player>
+      <player>
         <player_key>469.p.10214</player_key>
         <position>RP</position>
       </player>
@@ -99,18 +111,6 @@
       <player>
         <player_key>469.p.11479</player_key>
         <position>P</position>
-      </player>
-      <player>
-        <player_key>469.p.11014</player_key>
-        <position>SP</position>
-      </player>
-      <player>
-        <player_key>469.p.12345</player_key>
-        <position>SP</position>
-      </player>
-      <player>
-        <player_key>469.p.9334</player_key>
-        <position>SP</position>
       </player>
       <player>
         <player_key>469.p.11704</player_key>
