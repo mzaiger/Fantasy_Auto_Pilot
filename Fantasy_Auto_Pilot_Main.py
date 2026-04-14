@@ -57,9 +57,9 @@ def main():
     #])
 
     # 5. Schedule External Triggers via Make.com
-    run_command([
-        "python", "Fantasy_Auto_Pilot_Schedule_Make.py"
-    ])
+    #run_command([
+    #    "python", "Fantasy_Auto_Pilot_Schedule_Make.py"
+    #])
     
     print(f"\n✅ All tasks completed for {team} on {target_date}!")
 
