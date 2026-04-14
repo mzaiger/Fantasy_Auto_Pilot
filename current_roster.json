@@ -36,7 +36,7 @@
     "status": "Healthy",
     "preseason_rank": "167",
     "current_rank": "514",
-    "percent_started": 65
+    "percent_started": 64
   },
   {
     "player_key": "469.p.9507",
@@ -192,7 +192,7 @@
     "status": "Healthy",
     "preseason_rank": "222",
     "current_rank": "667",
-    "percent_started": 26
+    "percent_started": 25
   },
   {
     "player_key": "469.p.11529",
@@ -232,45 +232,6 @@
     "preseason_rank": "203",
     "current_rank": "294",
     "percent_started": 31
-  },
-  {
-    "player_key": "469.p.11014",
-    "name": "Freddy Peralta",
-    "team": "New York Mets",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "51",
-    "current_rank": "249",
-    "percent_started": 78
-  },
-  {
-    "player_key": "469.p.12345",
-    "name": "Kyle Bradish",
-    "team": "Baltimore Orioles",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "70",
-    "current_rank": "524",
-    "percent_started": 73
-  },
-  {
-    "player_key": "469.p.9334",
-    "name": "Kevin Gausman",
-    "team": "Toronto Blue Jays",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "58",
-    "current_rank": "37",
-    "percent_started": 88
   },
   {
     "player_key": "469.p.10214",
@@ -349,6 +310,45 @@
     "preseason_rank": "410",
     "current_rank": "143",
     "percent_started": 2
+  },
+  {
+    "player_key": "469.p.11014",
+    "name": "Freddy Peralta",
+    "team": "New York Mets",
+    "position": "SP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "51",
+    "current_rank": "249",
+    "percent_started": 78
+  },
+  {
+    "player_key": "469.p.12345",
+    "name": "Kyle Bradish",
+    "team": "Baltimore Orioles",
+    "position": "SP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "70",
+    "current_rank": "524",
+    "percent_started": 73
+  },
+  {
+    "player_key": "469.p.9334",
+    "name": "Kevin Gausman",
+    "team": "Toronto Blue Jays",
+    "position": "SP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "58",
+    "current_rank": "37",
+    "percent_started": 88
   },
   {
     "player_key": "469.p.11704",
