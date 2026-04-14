@@ -127,8 +127,8 @@
       "game_date": "2026-04-13",
       "start_time_utc": "2026-04-13T23:15:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Player challenge",
-      "status_code": "MJ",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
