@@ -31,8 +31,8 @@
       "game_date": "2026-04-15",
       "start_time_utc": "2026-04-15T17:15:00Z",
       "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "status_detailed": "Manager challenge",
+      "status_code": "MI",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {

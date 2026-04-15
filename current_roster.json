@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "153",
     "current_rank": "572",
-    "percent_started": 46
+    "percent_started": 45
   },
   {
     "player_key": "469.p.10236",
@@ -205,7 +205,7 @@
     "status": "Healthy",
     "preseason_rank": "252",
     "current_rank": "737",
-    "percent_started": 18
+    "percent_started": 17
   },
   {
     "player_key": "469.p.10964",
@@ -333,7 +333,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "457",
+    "preseason_rank": "462",
     "current_rank": "886",
     "percent_started": 2
   },
