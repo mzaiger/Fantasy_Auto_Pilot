@@ -23,20 +23,20 @@
     "status": "Healthy",
     "preseason_rank": "17",
     "current_rank": "136",
-    "percent_started": 91
+    "percent_started": 92
   },
   {
-    "player_key": "469.p.10236",
-    "name": "Gleyber Torres",
-    "team": "Detroit Tigers",
-    "position": "2B",
+    "player_key": "469.p.12100",
+    "name": "Otto Lopez",
+    "team": "Miami Marlins",
+    "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "192",
-    "current_rank": "515",
-    "percent_started": 35
+    "preseason_rank": "163",
+    "current_rank": "365",
+    "percent_started": 52
   },
   {
     "player_key": "469.p.9507",
@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "67",
     "current_rank": "674",
-    "percent_started": 81
+    "percent_started": 80
   },
   {
     "player_key": "469.p.12005",
@@ -78,19 +78,6 @@
     "percent_started": 85
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "167",
-    "current_rank": "530",
-    "percent_started": 64
-  },
-  {
     "player_key": "469.p.12314",
     "name": "Steven Kwan",
     "team": "Cleveland Guardians",
@@ -101,40 +88,40 @@
     "status": "Healthy",
     "preseason_rank": "134",
     "current_rank": "467",
-    "percent_started": 60
-  },
-  {
-    "player_key": "469.p.9571",
-    "name": "Trevor Story",
-    "team": "Boston Red Sox",
-    "position": "SS",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "152",
-    "current_rank": "865",
     "percent_started": 59
   },
   {
-    "player_key": "469.p.12309",
-    "name": "Jonathan Aranda",
-    "team": "Tampa Bay Rays",
-    "position": "1B",
+    "player_key": "469.p.62119",
+    "name": "Jakob Marsee",
+    "team": "Miami Marlins",
+    "position": "OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "117",
+    "current_rank": "139",
+    "percent_started": 61
+  },
+  {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
     "selected_position": "Util",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "203",
-    "current_rank": "248",
-    "percent_started": 36
+    "preseason_rank": "167",
+    "current_rank": "530",
+    "percent_started": 63
   },
   {
     "player_key": "469.p.12435",
     "name": "Yainer Diaz",
     "team": "Houston Astros",
     "position": "C",
-    "selected_position": "BN",
+    "selected_position": "Util",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -143,17 +130,43 @@
     "percent_started": 46
   },
   {
-    "player_key": "469.p.12100",
-    "name": "Otto Lopez",
-    "team": "Miami Marlins",
-    "position": "2B,SS",
+    "player_key": "469.p.10236",
+    "name": "Gleyber Torres",
+    "team": "Detroit Tigers",
+    "position": "2B",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "163",
-    "current_rank": "365",
-    "percent_started": 52
+    "preseason_rank": "192",
+    "current_rank": "515",
+    "percent_started": 34
+  },
+  {
+    "player_key": "469.p.9571",
+    "name": "Trevor Story",
+    "team": "Boston Red Sox",
+    "position": "SS",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "152",
+    "current_rank": "865",
+    "percent_started": 58
+  },
+  {
+    "player_key": "469.p.12309",
+    "name": "Jonathan Aranda",
+    "team": "Tampa Bay Rays",
+    "position": "1B",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "203",
+    "current_rank": "248",
+    "percent_started": 37
   },
   {
     "player_key": "469.p.60776",
@@ -166,7 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "264",
     "current_rank": "731",
-    "percent_started": 40
+    "percent_started": 39
   },
   {
     "player_key": "469.p.11365",
@@ -179,7 +192,7 @@
     "status": "Healthy",
     "preseason_rank": "182",
     "current_rank": "708",
-    "percent_started": 22
+    "percent_started": 21
   },
   {
     "player_key": "469.p.11817",
@@ -192,7 +205,7 @@
     "status": "Healthy",
     "preseason_rank": "252",
     "current_rank": "737",
-    "percent_started": 19
+    "percent_started": 18
   },
   {
     "player_key": "469.p.10964",
@@ -205,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "222",
     "current_rank": "621",
-    "percent_started": 24
+    "percent_started": 23
   },
   {
     "player_key": "469.p.10944",
@@ -221,19 +234,6 @@
     "percent_started": 14
   },
   {
-    "player_key": "469.p.62119",
-    "name": "Jakob Marsee",
-    "team": "Miami Marlins",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "117",
-    "current_rank": "139",
-    "percent_started": 60
-  },
-  {
     "player_key": "469.p.11014",
     "name": "Freddy Peralta",
     "team": "New York Mets",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "51",
     "current_rank": "250",
-    "percent_started": 72
+    "percent_started": 71
   },
   {
     "player_key": "469.p.12345",
@@ -257,7 +257,7 @@
     "status": "Healthy",
     "preseason_rank": "70",
     "current_rank": "524",
-    "percent_started": 81
+    "percent_started": 89
   },
   {
     "player_key": "469.p.9334",
@@ -270,7 +270,7 @@
     "status": "Healthy",
     "preseason_rank": "58",
     "current_rank": "56",
-    "percent_started": 89
+    "percent_started": 86
   },
   {
     "player_key": "469.p.10214",
