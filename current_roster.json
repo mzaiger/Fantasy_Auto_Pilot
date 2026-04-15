@@ -114,7 +114,7 @@
     "status": "Healthy",
     "preseason_rank": "167",
     "current_rank": "530",
-    "percent_started": 63
+    "percent_started": 62
   },
   {
     "player_key": "469.p.12435",
@@ -179,7 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "264",
     "current_rank": "731",
-    "percent_started": 39
+    "percent_started": 38
   },
   {
     "player_key": "469.p.11365",
@@ -252,7 +252,7 @@
     "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "70",
@@ -270,7 +270,7 @@
     "status": "Healthy",
     "preseason_rank": "58",
     "current_rank": "56",
-    "percent_started": 86
+    "percent_started": 85
   },
   {
     "player_key": "469.p.10214",
@@ -333,7 +333,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "457",
+    "preseason_rank": "462",
     "current_rank": "886",
     "percent_started": 2
   },
