@@ -6,9 +6,9 @@
       "game_pk": 824853,
       "game_date": "2026-04-14",
       "start_time_utc": "2026-04-14T22:35:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "status_abstract": "Final",
+      "status_detailed": "Final",
+      "status_code": "F",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
