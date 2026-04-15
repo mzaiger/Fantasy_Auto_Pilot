@@ -79,8 +79,8 @@
       "game_date": "2026-04-15",
       "start_time_utc": "2026-04-15T22:40:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Manager challenge",
-      "status_code": "MA",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
