@@ -52,17 +52,17 @@
     "percent_started": 98
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.10766",
+    "name": "Bo Bichette",
+    "team": "New York Mets",
+    "position": "3B,SS",
     "selected_position": "SS",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "167",
-    "current_rank": "530",
-    "percent_started": 63
+    "preseason_rank": "67",
+    "current_rank": "674",
+    "percent_started": 79
   },
   {
     "player_key": "469.p.12314",
@@ -88,20 +88,33 @@
     "status": "Healthy",
     "preseason_rank": "117",
     "current_rank": "139",
-    "percent_started": 61
+    "percent_started": 62
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
     "selected_position": "OF",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "264",
-    "current_rank": "731",
-    "percent_started": 39
+    "preseason_rank": "83",
+    "current_rank": "210",
+    "percent_started": 85
+  },
+  {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "167",
+    "current_rank": "530",
+    "percent_started": 63
   },
   {
     "player_key": "469.p.12435",
@@ -114,46 +127,33 @@
     "status": "Healthy",
     "preseason_rank": "153",
     "current_rank": "572",
-    "percent_started": 46
+    "percent_started": 47
+  },
+  {
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
+    "is_editable": false,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "264",
+    "current_rank": "731",
+    "percent_started": 39
   },
   {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
     "position": "1B",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "203",
     "current_rank": "248",
     "percent_started": 38
-  },
-  {
-    "player_key": "469.p.10766",
-    "name": "Bo Bichette",
-    "team": "New York Mets",
-    "position": "3B,SS",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "67",
-    "current_rank": "674",
-    "percent_started": 79
-  },
-  {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "83",
-    "current_rank": "210",
-    "percent_started": 84
   },
   {
     "player_key": "469.p.10236",
