@@ -127,14 +127,23 @@ def composite_score(player: dict, pool: list) -> float:
     return base_score
 
 
-def slot_matches(slot: str, player_positions: set) -> bool:
+def slot_matches(slot: str, player_positions: set, player_obj: dict) -> bool:
     """Return True when the player can legally play the requested slot."""
     if slot in ("IL", "NA", "BN"):
         return True                        
     if slot == "Util":
         return bool(player_positions & UTIL_ELIGIBLE)
+    
+    # Updated Logic for 'P' Slot
     if slot == "P":
-        return bool(player_positions & P_ELIGIBLE)
+        # Check if they have RP eligibility (always allowed in P)
+        if "RP" in player_positions:
+            return True
+        # Check if they have SP eligibility (only allowed if starting today)
+        if "SP" in player_positions:
+            return player_obj.get("is_starting") == 1
+        return False
+
     return slot in player_positions
 
 
@@ -270,7 +279,7 @@ def main():
            freeing their old slot for an unassigned player.
         """
         # 1. Try to fill directly from unassigned
-        candidates = [p for p in unassigned if slot_matches(target_slot, parse_positions(p["position"]))]
+        candidates = [p for p in unassigned if slot_matches(target_slot, parse_positions(p["position"]), p)]
         if candidates:
             scored = sorted(candidates, key=lambda p: composite_score(p, candidates), reverse=True)
             best = scored[0]
@@ -285,10 +294,10 @@ def main():
             p_obj = next(p for p in available if p["player_key"] == p_key)
             
             # If this player CAN move to the empty target_slot...
-            if slot_matches(target_slot, parse_positions(p_obj["position"])):
+            if slot_matches(target_slot, parse_positions(p_obj["position"]), p_obj):
                 vacated_slot = current_assigned_slot
                 # ...check if someone unassigned can take their OLD slot
-                potential_fillers = [u for u in unassigned if slot_matches(vacated_slot, parse_positions(u["position"]))]
+                potential_fillers = [u for u in unassigned if slot_matches(vacated_slot, parse_positions(u["position"]), u)]
                 
                 if potential_fillers:
                     # Execute the swap
