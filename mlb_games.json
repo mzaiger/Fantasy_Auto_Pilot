@@ -30,9 +30,9 @@
       "game_pk": 823071,
       "game_date": "2026-04-15",
       "start_time_utc": "2026-04-15T17:15:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Delayed Start",
-      "status_code": "PI",
+      "status_abstract": "Live",
+      "status_detailed": "Warmup",
+      "status_code": "PW",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
