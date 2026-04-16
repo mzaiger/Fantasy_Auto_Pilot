@@ -31,7 +31,7 @@
     "team": "Detroit Tigers",
     "position": "2B",
     "selected_position": "2B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "192",
