@@ -55,8 +55,8 @@
       "game_date": "2026-04-16",
       "start_time_utc": "2026-04-16T17:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Pre-Game",
-      "status_code": "P",
+      "status_detailed": "Delayed Start",
+      "status_code": "PI",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
