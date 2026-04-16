@@ -45,7 +45,7 @@
     "position": "3B",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "8",
     "current_rank": "62",
@@ -58,11 +58,11 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "167",
     "current_rank": "483",
-    "percent_started": 75
+    "percent_started": 76
   },
   {
     "player_key": "469.p.60776",
@@ -84,7 +84,7 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "134",
     "current_rank": "479",
@@ -96,7 +96,7 @@
     "team": " Athletics",
     "position": "1B,OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "83",
@@ -110,11 +110,11 @@
     "position": "C",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "153",
     "current_rank": "614",
-    "percent_started": 55
+    "percent_started": 56
   },
   {
     "player_key": "469.p.10964",
