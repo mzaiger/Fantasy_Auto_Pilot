@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "134",
     "current_rank": "479",
-    "percent_started": 67
+    "percent_started": 68
   },
   {
     "player_key": "469.p.12005",
@@ -148,7 +148,7 @@
     "team": "Tampa Bay Rays",
     "position": "1B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "203",
@@ -356,7 +356,7 @@
     "team": "Tampa Bay Rays",
     "position": "RP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "413",
