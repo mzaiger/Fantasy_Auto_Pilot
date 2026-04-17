@@ -78,6 +78,19 @@
     "percent_started": 61
   },
   {
+    "player_key": "469.p.62119",
+    "name": "Jakob Marsee",
+    "team": "Miami Marlins",
+    "position": "OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "117",
+    "current_rank": "186",
+    "percent_started": 54
+  },
+  {
     "player_key": "469.p.60776",
     "name": "José Caballero",
     "team": "New York Yankees",
@@ -89,19 +102,6 @@
     "preseason_rank": "264",
     "current_rank": "555",
     "percent_started": 41
-  },
-  {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "83",
-    "current_rank": "148",
-    "percent_started": 86
   },
   {
     "player_key": "469.p.9507",
@@ -130,17 +130,17 @@
     "percent_started": 44
   },
   {
-    "player_key": "469.p.62119",
-    "name": "Jakob Marsee",
-    "team": "Miami Marlins",
-    "position": "OF",
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "117",
-    "current_rank": "186",
-    "percent_started": 54
+    "preseason_rank": "83",
+    "current_rank": "148",
+    "percent_started": 86
   },
   {
     "player_key": "469.p.12309",
