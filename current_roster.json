@@ -149,7 +149,7 @@
     "position": "1B,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "83",
     "current_rank": "148",
