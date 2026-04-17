@@ -109,7 +109,7 @@
     "team": "Houston Astros",
     "position": "C",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "153",
