@@ -156,7 +156,8 @@ def pretty_xml(element: Element) -> str:
 
 def load_playing_teams(games_path: str) -> set:
     """
-    Parse mlb_games_today.json and return a set of team names.
+    Parse mlb_games.json and return a set of team names.
+    Ignores the date field to include all games present in the file.
     """
     try:
         with open(games_path) as fh:
@@ -169,9 +170,11 @@ def load_playing_teams(games_path: str) -> set:
     playing = set()
     postponed_teams = set()
 
+    # Iterate through all games regardless of the internal "game_date"
     for game in data.get("mlb_games", []):
         away = game["away_team"]["name"].strip().lower()
         home = game["home_team"]["name"].strip().lower()
+        
         if game.get("postponed", False):
             postponed_teams.add(away)
             postponed_teams.add(home)
@@ -182,6 +185,8 @@ def load_playing_teams(games_path: str) -> set:
             playing.add(away)
             playing.add(home)
 
+    # Teams in postponed games are removed only if they don't have another 
+    # valid game (like a doubleheader) in the same file.
     playing -= postponed_teams   
     return playing
 
