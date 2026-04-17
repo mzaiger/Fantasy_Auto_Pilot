@@ -121,7 +121,8 @@ def composite_score(player: dict, pool: list) -> float:
 
     # Priority boost for confirmed starters (is_starting == 1)
     # This ensures they are moved to the top of the list for SP/P slots.
-    if player.get("is_starting") == 1:
+    if player.get("is_starting") == 1 and "SP" in parse_positions(player.get("position", "")):
+
         return base_score + 10.0
     
     return base_score
