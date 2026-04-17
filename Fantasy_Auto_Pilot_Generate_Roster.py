@@ -97,10 +97,14 @@ def generate_roster(target_date):
         if not assigned:
             final_assignments[p["player_key"]] = "BN"
 
-    # --- EXACT XML STRUCTURE REQUESTED ---
+    # --- XML STRUCTURE WITH COVERAGE TYPE ---
     root = Element("fantasy_content")
     roster_el = SubElement(root, "roster")
+    
+    # Coverage type added here
+    SubElement(roster_el, "coverage_type").text = "date"
     SubElement(roster_el, "date").text = target_date
+    
     players_el = SubElement(roster_el, "players")
 
     for p in roster:
@@ -108,13 +112,18 @@ def generate_roster(target_date):
         SubElement(p_el, "player_key").text = p["player_key"]
         SubElement(p_el, "position").text = final_assignments.get(p["player_key"], "BN")
 
-    # Generate pretty XML with <?xml version="1.0" ?> header
+    # Generate pretty XML with header
     xml_str = minidom.parseString(tostring(root)).toprettyxml(indent="  ")
     
+    # minidom.toprettyxml often adds an extra line break at the start; 
+    # this ensures it starts cleanly with the XML declaration.
+    if xml_str.startswith('<?xml version="1.0" ?>\n\n'):
+        xml_str = xml_str.replace('\n\n', '\n', 1)
+
     with open(OUTPUT_XML, "w", encoding='utf-8') as f:
         f.write(xml_str)
     
-    print(f"Generated XML for {target_date}")
+    print(f"Generated XML for {target_date} with <coverage_type>")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
