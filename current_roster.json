@@ -39,30 +39,30 @@
     "percent_started": 65
   },
   {
-    "player_key": "469.p.9507",
-    "name": "José Ramírez",
-    "team": "Cleveland Guardians",
-    "position": "3B",
-    "selected_position": "3B",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "8",
-    "current_rank": "27",
-    "percent_started": 99
-  },
-  {
     "player_key": "469.p.10766",
     "name": "Bo Bichette",
     "team": "New York Mets",
     "position": "3B,SS",
-    "selected_position": "SS",
+    "selected_position": "3B",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "67",
     "current_rank": "685",
-    "percent_started": 72
+    "percent_started": 73
+  },
+  {
+    "player_key": "469.p.12100",
+    "name": "Otto Lopez",
+    "team": "Miami Marlins",
+    "position": "2B,SS",
+    "selected_position": "SS",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "163",
+    "current_rank": "334",
+    "percent_started": 46
   },
   {
     "player_key": "469.p.12314",
@@ -104,6 +104,19 @@
     "percent_started": 52
   },
   {
+    "player_key": "469.p.9507",
+    "name": "José Ramírez",
+    "team": "Cleveland Guardians",
+    "position": "3B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "8",
+    "current_rank": "27",
+    "percent_started": 99
+  },
+  {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
@@ -115,19 +128,6 @@
     "preseason_rank": "203",
     "current_rank": "171",
     "percent_started": 40
-  },
-  {
-    "player_key": "469.p.12100",
-    "name": "Otto Lopez",
-    "team": "Miami Marlins",
-    "position": "2B,SS",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "163",
-    "current_rank": "334",
-    "percent_started": 45
   },
   {
     "player_key": "469.p.10236",
@@ -179,7 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "222",
     "current_rank": "593",
-    "percent_started": 24
+    "percent_started": 23
   },
   {
     "player_key": "469.p.10944",
