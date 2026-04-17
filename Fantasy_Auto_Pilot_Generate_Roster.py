@@ -1,121 +1,145 @@
 """
 Fantasy Baseball Roster Optimizer
 ----------------------------------
-Reads current_roster.json and mlb_games.json to generate a roster_update.xml 
-with optimal position assignments for all editable slots.
-
-Algorithm:
-  1. Load mlb_games.json and build the set of teams with active games.
-     *Updated: Ignores specific 'game_date' to account for UTC offsets.*
-  2. Lock non-editable players in their current selected_position.
-  3. Players with status IL/NA keep those positions regardless of editability.
-  4. Players with is_starting == 0 (Confirmed Benched) are forced to BN.
-  5. Editable players whose team has NO game in the games file are forced to BN.
-  6. Remaining editable players are ranked using a composite score:
-     (33% preseason_rank↑ + 33% current_rank↑ + 33% percent_started↓)
-  7. Priority Balancing:
-     *Pitchers* (SP/RP) with is_starting == 1 get a +10.0 score boost.
-     *Hitters* with is_starting == 1 get a +0.1 tie-breaker boost.
-     This ensures stars (like Vlad Jr.) aren't benched for replacement players
-     simply because their official lineup wasn't posted yet.
-  8. Positions are filled in order: C, 1B, 2B, 3B, SS, OF (3), Util (2), 
-     SP (3), RP (3), P (3).
-  9. Any editable players not placed in an active slot are marked BN.
+Documentation:
+  1. Date Agnostic: Includes all games in mlb_games.json regardless of UTC date.
+  2. PPD Handling: Automatically benches players if their game is postponed.
+  3. Strict Benching:
+     - Benches any player with is_starting == 0.
+     - Benches Starting Pitchers (SP) who are not confirmed starters (is_starting != 1), 
+       unless they also have RP eligibility.
+  4. Scoring: Ranks available players by Preseason Rank, Current Rank, and % Started.
 """
 
 import json
-import math
-import copy
-import argparse
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
-from datetime import date
 
-# Configuration
-ROSTER_JSON  = "current_roster.json"
-GAMES_JSON   = "mlb_games.json"
+# Files
+ROSTER_JSON  = "current_roster (1).json"
+GAMES_JSON   = "mlb_games (1).json"
 OUTPUT_XML   = "roster_update.xml"
 ROSTER_DATE  = "2026-04-17" 
 
+# Filling Order
 ACTIVE_SLOTS = [
     "C", "1B", "2B", "3B", "SS", "OF", "OF", "OF", "Util", "Util",
     "SP", "SP", "SP", "RP", "RP", "RP", "P", "P", "P"
 ]
 
-def load_playing_teams(games_path: str) -> set:
-    """
-    Parse mlb_games.json and return a set of team names.
-    Ignores the date field to include all games present in the file.
-    """
+def load_playing_teams(games_path):
     try:
-        with open(games_path) as fh:
-            data = json.load(fh)
-    except FileNotFoundError:
-        print(f"  WARNING: Games file not found at '{games_path}'.")
-        return None          
+        with open(games_path) as f:
+            data = json.load(f)
+        playing = set()
+        for game in data.get("mlb_games", []):
+            # If game is NOT postponed, add teams to playing set
+            if not game.get("postponed"):
+                playing.add(game["away_team"]["name"].strip().lower())
+                playing.add(game["home_team"]["name"].strip().lower())
+        return playing
+    except:
+        return None
 
-    playing = set()
-    postponed_teams = set()
-
-    for game in data.get("mlb_games", []):
-        # .strip() handles the leading space found in some roster entries (e.g. " Athletics")
-        away = game["away_team"]["name"].strip().lower()
-        home = game["home_team"]["name"].strip().lower()
-        
-        if game.get("postponed", False):
-            postponed_teams.add(away)
-            postponed_teams.add(home)
-        else:
-            playing.add(away)
-            playing.add(home)
-
-    playing -= postponed_teams   
-    return playing
-
-def team_has_game(player: dict, playing_teams: set) -> bool:
-    if playing_teams is None:
-        return True            
-    raw = player.get("team", "").strip().lower()
-    return raw in playing_teams
-
-def composite_score(player: dict, pool: list) -> float:
-    """
-    Ranks players based on Preseason Rank, Current Rank, and % Started.
-    """
-    def safe_int(val, default=9999):
-        try: return int(val)
-        except: return default
-    def safe_float(val, default=0.0):
-        try: return float(val)
-        except: return default
-
-    pre_ranks = [safe_int(p["preseason_rank"]) for p in pool]
-    cur_ranks = [safe_int(p["current_rank"]) for p in pool]
-    pct_stats = [safe_float(p["percent_started"]) for p in pool]
-
-    def normalize_low(val, vals):
-        mn, mx = min(vals), max(vals)
-        return 1.0 - (val - mn) / (mx - mn) if mx != mn else 1.0
-    def normalize_high(val, vals):
-        mn, mx = min(vals), max(vals)
-        return (val - mn) / (mx - mn) if mx != mn else 1.0
-
-    s1 = normalize_low(safe_int(player["preseason_rank"]), pre_ranks)
-    s2 = normalize_low(safe_int(player["current_rank"]), cur_ranks)
-    s3 = normalize_high(safe_float(player["percent_started"]), pct_stats)
+def get_composite_score(player, pool):
+    def s_int(v):
+        try: return int(v)
+        except: return 9999
     
-    base_score = (s1/3.0) + (s2/3.0) + (s3/3.0)
-
-    # Priority logic to ensure stars start even if 'is_starting' is null (pending lineup)
-    pos_list = player.get("position", "").split(",")
-    is_pitcher = any(pos in ["SP", "RP", "P"] for pos in pos_list)
+    # Normalization (0.0 to 1.0, where 1.0 is best)
+    pre_ranks = [s_int(p["preseason_rank"]) for p in pool]
+    cur_ranks = [s_int(p["current_rank"]) for p in pool]
     
+    s1 = 1.0 - (s_int(player["preseason_rank"]) - min(pre_ranks)) / (max(pre_ranks) - min(pre_ranks)) if max(pre_ranks) != min(pre_ranks) else 1.0
+    s2 = 1.0 - (s_int(player["current_rank"]) - min(cur_ranks)) / (max(cur_ranks) - min(cur_ranks)) if max(cur_ranks) != min(cur_ranks) else 1.0
+    
+    score = (s1 * 0.5) + (s2 * 0.5)
+
+    # Massive boost for any confirmed starter (Hitters or Pitchers)
     if player.get("is_starting") == 1:
-        if is_pitcher:
-            return base_score + 10.0 
-        else:
-            return base_score + 0.1 
-            
-    return base_score
+        score += 10.0
+        
+    return score
 
-# ... [Remaining assignment logic from the previous script] ...
+def generate_roster():
+    with open(ROSTER_JSON) as f:
+        roster = json.load(f)
+    playing_teams = load_playing_teams(GAMES_JSON)
+
+    available_pool = []
+    final_assignments = {}
+
+    for p in roster:
+        # 1. Keep IL/NA players locked
+        if p["selected_position"] in ["IL", "IL15", "IL60", "NA"]:
+            final_assignments[p["player_key"]] = p["selected_position"]
+            continue
+        
+        # 2. Basic Filtering (Not Editable, Confirmed Benched, or Postponed/No Game)
+        team_name = p.get("team", "").strip().lower()
+        if not p.get("is_editable") or p.get("is_starting") == 0 or team_name not in playing_teams:
+            final_assignments[p["player_key"]] = "BN"
+            continue
+        
+        # 3. Strict SP Benching:
+        # Bench SPs who aren't the confirmed starter for today (unless they are also RPs)
+        pos_list = p["position"].split(",")
+        if "SP" in pos_list and "RP" not in pos_list and p.get("is_starting") != 1:
+            final_assignments[p["player_key"]] = "BN"
+            continue
+
+        available_pool.append(p)
+
+    # Score and Sort
+    for p in available_pool:
+        p["score"] = get_composite_score(p, available_pool)
+    
+    available_pool.sort(key=lambda x: x["score"], reverse=True)
+
+    # Assign Positions
+    remaining_slots = list(ACTIVE_SLOTS)
+    for p in available_pool:
+        player_positions = p["position"].split(",")
+        assigned = False
+        
+        # Try Primary Positions
+        for pos in player_positions:
+            if pos in remaining_slots:
+                final_assignments[p["player_key"]] = pos
+                remaining_slots.remove(pos)
+                assigned = True
+                break
+        
+        # Try Utility/Generic P slots
+        if not assigned:
+            is_hitter = any(pos in ["C", "1B", "2B", "3B", "SS", "OF"] for pos in player_positions)
+            if is_hitter and "Util" in remaining_slots:
+                final_assignments[p["player_key"]] = "Util"
+                remaining_slots.remove("Util")
+                assigned = True
+            elif not is_hitter and "P" in remaining_slots:
+                final_assignments[p["player_key"]] = "P"
+                remaining_slots.remove("P")
+                assigned = True
+
+        if not assigned:
+            final_assignments[p["player_key"]] = "BN"
+
+    # XML Output
+    root = Element("fantasy_content")
+    roster_el = SubElement(root, "roster")
+    SubElement(roster_el, "date").text = ROSTER_DATE
+    players_el = SubElement(roster_el, "players")
+
+    for p in roster:
+        p_el = SubElement(players_el, "player")
+        SubElement(p_el, "player_key").text = p["player_key"]
+        SubElement(p_el, "position").text = final_assignments.get(p["player_key"], "BN")
+
+    xml_str = minidom.parseString(tostring(root)).toprettyxml(indent="  ")
+    with open(OUTPUT_XML, "w") as f:
+        f.write(xml_str)
+    print(f"Generated {OUTPUT_XML}")
+
+if __name__ == "__main__":
+    generate_roster()
