@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
-<fantasy_content>
+<fantasy_content xmlns="http://fantasysports.yahooapis.com/fantasy/v2/base.rng">
   <roster>
+    <coverage_type>date</coverage_type>
     <date>2026-04-17</date>
     <players>
       <player>
