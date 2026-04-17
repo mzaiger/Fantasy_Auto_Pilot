@@ -13,17 +13,17 @@
     "percent_started": 95
   },
   {
-    "player_key": "469.p.10621",
-    "name": "Vladimir Guerrero Jr.",
-    "team": "Toronto Blue Jays",
+    "player_key": "469.p.12309",
+    "name": "Jonathan Aranda",
+    "team": "Tampa Bay Rays",
     "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "17",
-    "current_rank": "167",
-    "percent_started": 97
+    "preseason_rank": "203",
+    "current_rank": "171",
+    "percent_started": 40
   },
   {
     "player_key": "469.p.12100",
@@ -130,6 +130,19 @@
     "percent_started": 44
   },
   {
+    "player_key": "469.p.10621",
+    "name": "Vladimir Guerrero Jr.",
+    "team": "Toronto Blue Jays",
+    "position": "1B",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "17",
+    "current_rank": "167",
+    "percent_started": 97
+  },
+  {
     "player_key": "469.p.12005",
     "name": "Tyler Soderstrom",
     "team": " Athletics",
@@ -141,19 +154,6 @@
     "preseason_rank": "83",
     "current_rank": "148",
     "percent_started": 86
-  },
-  {
-    "player_key": "469.p.12309",
-    "name": "Jonathan Aranda",
-    "team": "Tampa Bay Rays",
-    "position": "1B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "203",
-    "current_rank": "171",
-    "percent_started": 40
   },
   {
     "player_key": "469.p.12351",
