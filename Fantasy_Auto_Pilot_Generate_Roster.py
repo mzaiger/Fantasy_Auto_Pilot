@@ -2,15 +2,15 @@
 Fantasy Baseball Roster Optimizer
 ----------------------------------
 Fixes: 
- - Validates XML structure for Yahoo API PUT requests.
- - Corrects tag order and adds required xmlns attributes.
+ - Force-formats XML to match Yahoo API's rigid requirements.
+ - Ensures the 'xmlns' attribute is present in the root tag.
+ - Removes extra whitespace that can cause 'Invalid XML' errors.
 """
 
 import json
 import argparse
 import sys
-from xml.etree.ElementTree import Element, SubElement, tostring
-from xml.dom import minidom
+import xml.etree.ElementTree as ET
 
 # Default File Paths
 ROSTER_JSON  = "current_roster.json"
@@ -105,26 +105,39 @@ def generate_roster(target_date):
         if not assigned:
             final_assignments[p["player_key"]] = "BN"
 
-    # --- YAHOO COMPLIANT XML GENERATION ---
-    root = Element("fantasy_content")
-    root.set("xmlns", "http://fantasysports.yahooapis.com/fantasy/v2/base.rng")
-    roster_el = SubElement(root, "roster")
+    # --- UPDATED YAHOO COMPLIANT XML GENERATION ---
+    # We use a manual string template to ensure no extra whitespace/formatting 
+    # interferes with the Yahoo API's strict parser.
+    xml_header = '<?xml version="1.0" encoding="UTF-8"?>'
+    root_open = '<fantasy_content xmlns="http://fantasysports.yahooapis.com/fantasy/v2/base.rng">'
+    roster_open = '<roster>'
+    cov_type = f'<coverage_type>date</coverage_type>'
+    date_tag = f'<date>{target_date}</date>'
+    players_open = '<players>'
     
-    # Order matters: coverage_type -> date -> players
-    SubElement(roster_el, "coverage_type").text = "date"
-    SubElement(roster_el, "date").text = target_date
-    
-    players_el = SubElement(roster_el, "players")
+    player_entries = []
     for p in roster:
-        p_el = SubElement(players_el, "player")
-        SubElement(p_el, "player_key").text = p["player_key"]
-        SubElement(p_el, "position").text = final_assignments.get(p["player_key"], "BN")
+        pos = final_assignments.get(p['player_key'], 'BN')
+        entry = (
+            f"<player>"
+            f"<player_key>{p['player_key']}</player_key>"
+            f"<position>{pos}</position>"
+            f"</player>"
+        )
+        player_entries.append(entry)
+    
+    players_close = '</players>'
+    roster_close = '</roster>'
+    root_close = '</fantasy_content>'
 
-    xml_str = tostring(root, encoding='utf-8', method='xml')
-    pretty_xml = minidom.parseString(xml_str).toprettyxml(indent="  ")
+    full_xml = (
+        xml_header + root_open + roster_open + cov_type + 
+        date_tag + players_open + "".join(player_entries) + 
+        players_close + roster_close + root_close
+    )
     
     with open(OUTPUT_XML, "w", encoding='utf-8') as f:
-        f.write(pretty_xml)
+        f.write(full_xml)
     
     print(f"Successfully generated Yahoo-compliant {OUTPUT_XML} for {target_date}")
 
