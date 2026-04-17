@@ -13,30 +13,30 @@
     "percent_started": 95
   },
   {
-    "player_key": "469.p.12309",
-    "name": "Jonathan Aranda",
-    "team": "Tampa Bay Rays",
+    "player_key": "469.p.10621",
+    "name": "Vladimir Guerrero Jr.",
+    "team": "Toronto Blue Jays",
     "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "203",
-    "current_rank": "171",
-    "percent_started": 40
+    "preseason_rank": "17",
+    "current_rank": "167",
+    "percent_started": 97
   },
   {
-    "player_key": "469.p.12100",
-    "name": "Otto Lopez",
-    "team": "Miami Marlins",
-    "position": "2B,SS",
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "163",
-    "current_rank": "334",
-    "percent_started": 47
+    "preseason_rank": "167",
+    "current_rank": "413",
+    "percent_started": 64
   },
   {
     "player_key": "469.p.10766",
@@ -88,20 +88,20 @@
     "status": "Healthy",
     "preseason_rank": "117",
     "current_rank": "186",
-    "percent_started": 53
+    "percent_started": 54
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "264",
-    "current_rank": "555",
-    "percent_started": 41
+    "preseason_rank": "83",
+    "current_rank": "148",
+    "percent_started": 86
   },
   {
     "player_key": "469.p.9507",
@@ -130,43 +130,43 @@
     "percent_started": 44
   },
   {
-    "player_key": "469.p.10621",
-    "name": "Vladimir Guerrero Jr.",
-    "team": "Toronto Blue Jays",
-    "position": "1B",
+    "player_key": "469.p.12100",
+    "name": "Otto Lopez",
+    "team": "Miami Marlins",
+    "position": "2B,SS",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "17",
-    "current_rank": "167",
-    "percent_started": 97
+    "preseason_rank": "163",
+    "current_rank": "334",
+    "percent_started": 47
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "167",
-    "current_rank": "413",
-    "percent_started": 64
+    "preseason_rank": "264",
+    "current_rank": "555",
+    "percent_started": 41
   },
   {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
+    "player_key": "469.p.12309",
+    "name": "Jonathan Aranda",
+    "team": "Tampa Bay Rays",
+    "position": "1B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "83",
-    "current_rank": "148",
-    "percent_started": 86
+    "preseason_rank": "203",
+    "current_rank": "171",
+    "percent_started": 40
   },
   {
     "player_key": "469.p.12435",
