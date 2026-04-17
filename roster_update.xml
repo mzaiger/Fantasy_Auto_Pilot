@@ -97,12 +97,12 @@
         <position>RP</position>
       </player>
       <player>
-        <player_key>469.p.11479</player_key>
-        <position>P</position>
-      </player>
-      <player>
         <player_key>469.p.11644</player_key>
         <position>RP</position>
+      </player>
+      <player>
+        <player_key>469.p.11479</player_key>
+        <position>P</position>
       </player>
       <player>
         <player_key>469.p.10047</player_key>
