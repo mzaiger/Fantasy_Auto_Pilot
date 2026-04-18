@@ -199,8 +199,8 @@
       "game_date": "2026-04-18",
       "start_time_utc": "2026-04-18T22:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
