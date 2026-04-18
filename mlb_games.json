@@ -6,9 +6,9 @@
       "game_pk": 823558,
       "game_date": "2026-04-18",
       "start_time_utc": "2026-04-18T17:35:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Pre-Game",
-      "status_code": "P",
+      "status_abstract": "Live",
+      "status_detailed": "Warmup",
+      "status_code": "PW",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -75,6 +75,30 @@
       "game_number": 1
     },
     {
+      "game_pk": 823394,
+      "game_date": "2026-04-18",
+      "start_time_utc": "2026-04-18T19:30:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 139,
+        "name": "Tampa Bay Rays",
+        "abbreviation": "TB"
+      },
+      "home_team": {
+        "id": 134,
+        "name": "Pittsburgh Pirates",
+        "abbreviation": "PIT"
+      },
+      "venue": "PNC Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
       "game_pk": 822751,
       "game_date": "2026-04-18",
       "start_time_utc": "2026-04-18T20:05:00Z",
@@ -94,30 +118,6 @@
         "abbreviation": "WSH"
       },
       "venue": "Nationals Park",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
-      "game_pk": 823394,
-      "game_date": "2026-04-18",
-      "start_time_utc": "2026-04-18T20:05:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Pre-Game",
-      "status_code": "P",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 139,
-        "name": "Tampa Bay Rays",
-        "abbreviation": "TB"
-      },
-      "home_team": {
-        "id": 134,
-        "name": "Pittsburgh Pirates",
-        "abbreviation": "PIT"
-      },
-      "venue": "PNC Park",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
