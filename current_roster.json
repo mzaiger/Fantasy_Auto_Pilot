@@ -5,7 +5,7 @@
     "team": "Milwaukee Brewers",
     "position": "C",
     "selected_position": "C",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "65",
@@ -19,7 +19,7 @@
     "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "17",
     "current_rank": "312",
@@ -31,7 +31,7 @@
     "team": "Miami Marlins",
     "position": "2B,SS",
     "selected_position": "2B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "163",
@@ -96,7 +96,7 @@
     "team": "Miami Marlins",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "117",
@@ -117,12 +117,25 @@
     "percent_started": 36
   },
   {
+    "player_key": "469.p.9571",
+    "name": "Trevor Story",
+    "team": "Boston Red Sox",
+    "position": "SS",
+    "selected_position": "Util",
+    "is_editable": false,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "152",
+    "current_rank": "781",
+    "percent_started": 55
+  },
+  {
     "player_key": "469.p.10236",
     "name": "Gleyber Torres",
     "team": "Detroit Tigers",
     "position": "2B",
-    "selected_position": "Util",
-    "is_editable": true,
+    "selected_position": "BN",
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "192",
@@ -140,7 +153,7 @@
     "status": "DTD",
     "preseason_rank": "167",
     "current_rank": "522",
-    "percent_started": 33
+    "percent_started": 32
   },
   {
     "player_key": "469.p.60776",
@@ -154,19 +167,6 @@
     "preseason_rank": "264",
     "current_rank": "562",
     "percent_started": 44
-  },
-  {
-    "player_key": "469.p.9571",
-    "name": "Trevor Story",
-    "team": "Boston Red Sox",
-    "position": "SS",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "152",
-    "current_rank": "781",
-    "percent_started": 55
   },
   {
     "player_key": "469.p.12435",
@@ -296,7 +296,7 @@
     "status": "IL15",
     "preseason_rank": "100",
     "current_rank": "47",
-    "percent_started": 85
+    "percent_started": 80
   },
   {
     "player_key": "469.p.11644",
