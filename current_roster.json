@@ -10,7 +10,7 @@
     "status": "Healthy",
     "preseason_rank": "153",
     "current_rank": "692",
-    "percent_started": 44
+    "percent_started": 45
   },
   {
     "player_key": "469.p.10621",
@@ -31,7 +31,7 @@
     "team": "Miami Marlins",
     "position": "2B,SS",
     "selected_position": "2B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "163",
@@ -44,7 +44,7 @@
     "team": "Cleveland Guardians",
     "position": "3B",
     "selected_position": "3B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "8",
@@ -83,7 +83,7 @@
     "team": "Cleveland Guardians",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "134",
@@ -96,7 +96,7 @@
     "team": "Miami Marlins",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "117",
@@ -117,11 +117,24 @@
     "percent_started": 41
   },
   {
+    "player_key": "469.p.10236",
+    "name": "Gleyber Torres",
+    "team": "Detroit Tigers",
+    "position": "2B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "192",
+    "current_rank": "475",
+    "percent_started": 42
+  },
+  {
     "player_key": "469.p.9571",
     "name": "Trevor Story",
     "team": "Boston Red Sox",
     "position": "SS",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
@@ -135,25 +148,12 @@
     "team": "Milwaukee Brewers",
     "position": "C",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "65",
     "current_rank": "117",
-    "percent_started": 84
-  },
-  {
-    "player_key": "469.p.10236",
-    "name": "Gleyber Torres",
-    "team": "Detroit Tigers",
-    "position": "2B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "192",
-    "current_rank": "475",
-    "percent_started": 42
+    "percent_started": 83
   },
   {
     "player_key": "469.p.12351",
@@ -239,7 +239,7 @@
     "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "70",
@@ -296,7 +296,7 @@
     "status": "IL15",
     "preseason_rank": "100",
     "current_rank": "55",
-    "percent_started": 52
+    "percent_started": 51
   },
   {
     "player_key": "469.p.11644",
@@ -320,7 +320,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "408",
+    "preseason_rank": "410",
     "current_rank": "142",
     "percent_started": 2
   },
@@ -330,7 +330,7 @@
     "team": "Cleveland Guardians",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "400",
@@ -346,7 +346,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "473",
+    "preseason_rank": "458",
     "current_rank": "911",
     "percent_started": 2
   },
