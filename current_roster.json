@@ -109,7 +109,7 @@
     "team": "Tampa Bay Rays",
     "position": "1B",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "203",
@@ -153,7 +153,7 @@
     "status": "Healthy",
     "preseason_rank": "192",
     "current_rank": "475",
-    "percent_started": 41
+    "percent_started": 42
   },
   {
     "player_key": "469.p.12351",
@@ -166,7 +166,7 @@
     "status": "DTD",
     "preseason_rank": "167",
     "current_rank": "517",
-    "percent_started": 31
+    "percent_started": 30
   },
   {
     "player_key": "469.p.60776",
@@ -174,7 +174,7 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "264",
@@ -187,7 +187,7 @@
     "team": "Washington Nationals",
     "position": "1B,2B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "222",
@@ -200,7 +200,7 @@
     "team": "San Francisco Giants",
     "position": "OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "185",
@@ -356,7 +356,7 @@
     "team": "Tampa Bay Rays",
     "position": "RP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "413",
@@ -408,7 +408,7 @@
     "team": "Washington Nationals",
     "position": "OF",
     "selected_position": "NA",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "NA",
     "preseason_rank": "349",
