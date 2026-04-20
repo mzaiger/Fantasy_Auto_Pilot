@@ -52,17 +52,17 @@
     "percent_started": 99
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.11817",
+    "name": "Bryson Stott",
+    "team": "Philadelphia Phillies",
+    "position": "2B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "167",
-    "current_rank": "532",
-    "percent_started": 41
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "252",
+    "current_rank": "794",
+    "percent_started": 22
   },
   {
     "player_key": "469.p.12005",
@@ -128,6 +128,19 @@
     "preseason_rank": "152",
     "current_rank": "755",
     "percent_started": 64
+  },
+  {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "167",
+    "current_rank": "532",
+    "percent_started": 40
   },
   {
     "player_key": "469.p.10236",
@@ -221,19 +234,6 @@
     "percent_started": 26
   },
   {
-    "player_key": "469.p.11817",
-    "name": "Bryson Stott",
-    "team": "Philadelphia Phillies",
-    "position": "2B,SS",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "252",
-    "current_rank": "794",
-    "percent_started": 22
-  },
-  {
     "player_key": "469.p.12345",
     "name": "Kyle Bradish",
     "team": "Baltimore Orioles",
@@ -257,7 +257,7 @@
     "status": "Healthy",
     "preseason_rank": "58",
     "current_rank": "58",
-    "percent_started": 89
+    "percent_started": 88
   },
   {
     "player_key": "469.p.11644",
@@ -277,13 +277,26 @@
     "name": "Braydon Fisher",
     "team": "Toronto Blue Jays",
     "position": "RP",
-    "selected_position": "P",
+    "selected_position": "RP",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "409",
     "current_rank": "155",
     "percent_started": 3
+  },
+  {
+    "player_key": "469.p.10214",
+    "name": "Edwin Díaz",
+    "team": "Los Angeles Dodgers",
+    "position": "RP",
+    "selected_position": "RP",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "IL15",
+    "preseason_rank": "68",
+    "current_rank": "323",
+    "percent_started": 83
   },
   {
     "player_key": "469.p.10047",
@@ -323,19 +336,6 @@
     "preseason_rank": "51",
     "current_rank": "318",
     "percent_started": 66
-  },
-  {
-    "player_key": "469.p.10214",
-    "name": "Edwin Díaz",
-    "team": "Los Angeles Dodgers",
-    "position": "RP",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL15",
-    "preseason_rank": "68",
-    "current_rank": "323",
-    "percent_started": 85
   },
   {
     "player_key": "469.p.11495",
