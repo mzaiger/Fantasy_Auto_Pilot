@@ -22,7 +22,7 @@
       </player>
       <player>
         <player_key>469.p.12351</player_key>
-        <position>SS</position>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.12005</player_key>
@@ -74,7 +74,7 @@
       </player>
       <player>
         <player_key>469.p.11817</player_key>
-        <position>BN</position>
+        <position>SS</position>
       </player>
       <player>
         <player_key>469.p.12345</player_key>
@@ -85,20 +85,12 @@
         <position>SP</position>
       </player>
       <player>
-        <player_key>469.p.10214</player_key>
-        <position>RP</position>
-      </player>
-      <player>
-        <player_key>469.p.11495</player_key>
-        <position>RP</position>
-      </player>
-      <player>
         <player_key>469.p.11644</player_key>
         <position>RP</position>
       </player>
       <player>
         <player_key>469.p.11479</player_key>
-        <position>P</position>
+        <position>RP</position>
       </player>
       <player>
         <player_key>469.p.10047</player_key>
@@ -113,7 +105,11 @@
         <position>BN</position>
       </player>
       <player>
-        <player_key>469.p.11704</player_key>
+        <player_key>469.p.10214</player_key>
+        <position>RP</position>
+      </player>
+      <player>
+        <player_key>469.p.11495</player_key>
         <position>IL</position>
       </player>
       <player>

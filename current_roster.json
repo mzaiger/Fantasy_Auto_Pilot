@@ -5,7 +5,7 @@
     "team": "Houston Astros",
     "position": "C",
     "selected_position": "C",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "153",
@@ -44,7 +44,7 @@
     "team": "Cleveland Guardians",
     "position": "3B",
     "selected_position": "3B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "8",
@@ -58,11 +58,11 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "167",
     "current_rank": "532",
-    "percent_started": 42
+    "percent_started": 41
   },
   {
     "player_key": "469.p.12005",
@@ -71,7 +71,7 @@
     "position": "1B,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "83",
     "current_rank": "204",
@@ -83,7 +83,7 @@
     "team": "Cleveland Guardians",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "134",
@@ -101,7 +101,7 @@
     "status": "Healthy",
     "preseason_rank": "117",
     "current_rank": "241",
-    "percent_started": 63
+    "percent_started": 64
   },
   {
     "player_key": "469.p.12309",
@@ -260,32 +260,6 @@
     "percent_started": 89
   },
   {
-    "player_key": "469.p.10214",
-    "name": "Edwin Díaz",
-    "team": "Los Angeles Dodgers",
-    "position": "RP",
-    "selected_position": "RP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL15",
-    "preseason_rank": "68",
-    "current_rank": "323",
-    "percent_started": 89
-  },
-  {
-    "player_key": "469.p.11495",
-    "name": "Jhoan Duran",
-    "team": "Philadelphia Phillies",
-    "position": "RP",
-    "selected_position": "RP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL15",
-    "preseason_rank": "100",
-    "current_rank": "59",
-    "percent_started": 40
-  },
-  {
     "player_key": "469.p.11644",
     "name": "Tyler Rogers",
     "team": "Toronto Blue Jays",
@@ -317,7 +291,7 @@
     "team": "Cleveland Guardians",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "399",
@@ -351,17 +325,30 @@
     "percent_started": 66
   },
   {
-    "player_key": "469.p.11704",
-    "name": "Garrett Cleavinger",
-    "team": "Tampa Bay Rays",
+    "player_key": "469.p.10214",
+    "name": "Edwin Díaz",
+    "team": "Los Angeles Dodgers",
+    "position": "RP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "IL15",
+    "preseason_rank": "68",
+    "current_rank": "323",
+    "percent_started": 85
+  },
+  {
+    "player_key": "469.p.11495",
+    "name": "Jhoan Duran",
+    "team": "Philadelphia Phillies",
     "position": "RP",
     "selected_position": "IL",
     "is_editable": true,
     "is_starting": null,
     "status": "IL15",
-    "preseason_rank": "414",
-    "current_rank": "370",
-    "percent_started": 1
+    "preseason_rank": "100",
+    "current_rank": "59",
+    "percent_started": 40
   },
   {
     "player_key": "469.p.10185",
