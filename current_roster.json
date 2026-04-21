@@ -57,7 +57,7 @@
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
     "selected_position": "SS",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "252",
@@ -140,7 +140,7 @@
     "status": "IL10",
     "preseason_rank": "167",
     "current_rank": "532",
-    "percent_started": 38
+    "percent_started": 37
   },
   {
     "player_key": "469.p.10236",
@@ -226,7 +226,7 @@
     "team": "Philadelphia Phillies",
     "position": "1B,3B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "182",
@@ -239,7 +239,7 @@
     "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "70",
@@ -296,7 +296,7 @@
     "status": "IL15",
     "preseason_rank": "68",
     "current_rank": "323",
-    "percent_started": 76
+    "percent_started": 73
   },
   {
     "player_key": "469.p.10047",
@@ -343,7 +343,7 @@
     "team": "Philadelphia Phillies",
     "position": "RP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "100",
