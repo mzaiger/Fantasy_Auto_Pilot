@@ -10,7 +10,7 @@
     "status": "Healthy",
     "preseason_rank": "65",
     "current_rank": "170",
-    "percent_started": 89
+    "percent_started": 90
   },
   {
     "player_key": "469.p.10621",
@@ -44,7 +44,7 @@
     "team": "Cleveland Guardians",
     "position": "3B",
     "selected_position": "3B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "6",
@@ -83,7 +83,7 @@
     "team": "Cleveland Guardians",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "138",
@@ -135,7 +135,7 @@
     "team": "Houston Astros",
     "position": "C",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "150",
@@ -192,7 +192,7 @@
     "status": "Healthy",
     "preseason_rank": "268",
     "current_rank": "510",
-    "percent_started": 41
+    "percent_started": 42
   },
   {
     "player_key": "469.p.10964",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "188",
     "current_rank": "802",
-    "percent_started": 20
+    "percent_started": 19
   },
   {
     "player_key": "469.p.12345",
@@ -330,7 +330,7 @@
     "team": "Cleveland Guardians",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "399",
