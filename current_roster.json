@@ -140,7 +140,7 @@
     "status": "IL10",
     "preseason_rank": "167",
     "current_rank": "532",
-    "percent_started": 36
+    "percent_started": 35
   },
   {
     "player_key": "469.p.10236",
@@ -291,12 +291,12 @@
     "team": "Los Angeles Dodgers",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "68",
     "current_rank": "323",
-    "percent_started": 72
+    "percent_started": 71
   },
   {
     "player_key": "469.p.10047",
