@@ -10,7 +10,7 @@
     "status": "Healthy",
     "preseason_rank": "65",
     "current_rank": "143",
-    "percent_started": 89
+    "percent_started": 90
   },
   {
     "player_key": "469.p.10621",
@@ -31,7 +31,7 @@
     "team": "Miami Marlins",
     "position": "2B,SS",
     "selected_position": "2B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "143",
@@ -96,7 +96,7 @@
     "team": "Miami Marlins",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "116",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "150",
     "current_rank": "691",
-    "percent_started": 38
+    "percent_started": 37
   },
   {
     "player_key": "469.p.11817",
@@ -281,7 +281,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "400",
+    "preseason_rank": "402",
     "current_rank": "227",
     "percent_started": 18
   },
@@ -304,7 +304,7 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "369",
@@ -320,7 +320,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "405",
+    "preseason_rank": "407",
     "current_rank": "167",
     "percent_started": 3
   },
@@ -343,10 +343,10 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "476",
+    "preseason_rank": "477",
     "current_rank": "916",
     "percent_started": 2
   },
