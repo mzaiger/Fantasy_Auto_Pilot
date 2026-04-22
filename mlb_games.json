@@ -54,9 +54,9 @@
       "game_pk": 822993,
       "game_date": "2026-04-22",
       "start_time_utc": "2026-04-22T17:10:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "status_abstract": "Final",
+      "status_detailed": "Final",
+      "status_code": "F",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -103,8 +103,8 @@
       "game_date": "2026-04-22",
       "start_time_utc": "2026-04-22T19:07:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
