@@ -49,7 +49,7 @@
     "status": "Healthy",
     "preseason_rank": "66",
     "current_rank": "743",
-    "percent_started": 84
+    "percent_started": 85
   },
   {
     "player_key": "469.p.9571",
@@ -57,7 +57,7 @@
     "team": "Boston Red Sox",
     "position": "SS",
     "selected_position": "SS",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "156",
@@ -70,7 +70,7 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "268",
@@ -166,7 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "91",
     "current_rank": "154",
-    "percent_started": 65
+    "percent_started": 64
   },
   {
     "player_key": "469.p.12314",
