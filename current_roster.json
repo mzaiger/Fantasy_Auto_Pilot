@@ -5,7 +5,7 @@
     "team": "Milwaukee Brewers",
     "position": "C",
     "selected_position": "C",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "65",
@@ -31,7 +31,7 @@
     "team": "Detroit Tigers",
     "position": "2B",
     "selected_position": "2B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "190",
@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "156",
     "current_rank": "727",
-    "percent_started": 65
+    "percent_started": 66
   },
   {
     "player_key": "469.p.60776",
@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "29",
     "current_rank": "180",
-    "percent_started": 79
+    "percent_started": 78
   },
   {
     "player_key": "469.p.12100",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "143",
     "current_rank": "185",
-    "percent_started": 46
+    "percent_started": 45
   },
   {
     "player_key": "469.p.9507",
@@ -283,7 +283,7 @@
     "status": "Healthy",
     "preseason_rank": "55",
     "current_rank": "58",
-    "percent_started": 67
+    "percent_started": 66
   },
   {
     "player_key": "469.p.11644",
