@@ -44,7 +44,7 @@
     "team": "New York Mets",
     "position": "3B,SS",
     "selected_position": "3B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "66",
@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "29",
     "current_rank": "180",
-    "percent_started": 78
+    "percent_started": 77
   },
   {
     "player_key": "469.p.12100",
@@ -239,7 +239,7 @@
     "team": "New York Mets",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "48",
