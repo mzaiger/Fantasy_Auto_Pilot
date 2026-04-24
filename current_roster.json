@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "116",
     "current_rank": "132",
-    "percent_started": 57
+    "percent_started": 58
   },
   {
     "player_key": "469.p.10944",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "138",
     "current_rank": "560",
-    "percent_started": 41
+    "percent_started": 40
   },
   {
     "player_key": "469.p.10964",
@@ -161,7 +161,7 @@
     "team": "Boston Red Sox",
     "position": "SS",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "156",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "48",
     "current_rank": "329",
-    "percent_started": 95
+    "percent_started": 96
   },
   {
     "player_key": "469.p.12345",
@@ -252,7 +252,7 @@
     "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "71",
