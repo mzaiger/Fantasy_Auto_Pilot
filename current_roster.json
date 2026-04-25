@@ -78,30 +78,30 @@
     "percent_started": 79
   },
   {
-    "player_key": "469.p.62119",
-    "name": "Jakob Marsee",
-    "team": "Miami Marlins",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "116",
-    "current_rank": "136",
-    "percent_started": 57
-  },
-  {
     "player_key": "469.p.12314",
     "name": "Steven Kwan",
     "team": "Cleveland Guardians",
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": 0,
     "status": "DTD",
     "preseason_rank": "138",
     "current_rank": "587",
-    "percent_started": 44
+    "percent_started": 42
+  },
+  {
+    "player_key": "469.p.10944",
+    "name": "Heliot Ramos",
+    "team": "San Francisco Giants",
+    "position": "OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "220",
+    "current_rank": "425",
+    "percent_started": 23
   },
   {
     "player_key": "469.p.10236",
@@ -130,6 +130,19 @@
     "percent_started": 44
   },
   {
+    "player_key": "469.p.62119",
+    "name": "Jakob Marsee",
+    "team": "Miami Marlins",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "116",
+    "current_rank": "136",
+    "percent_started": 56
+  },
+  {
     "player_key": "469.p.10766",
     "name": "Bo Bichette",
     "team": "New York Mets",
@@ -140,20 +153,7 @@
     "status": "Healthy",
     "preseason_rank": "66",
     "current_rank": "674",
-    "percent_started": 64
-  },
-  {
-    "player_key": "469.p.10944",
-    "name": "Heliot Ramos",
-    "team": "San Francisco Giants",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "220",
-    "current_rank": "425",
-    "percent_started": 23
+    "percent_started": 63
   },
   {
     "player_key": "469.p.10964",
@@ -281,7 +281,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "401",
+    "preseason_rank": "400",
     "current_rank": "237",
     "percent_started": 18
   },
@@ -307,7 +307,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "411",
+    "preseason_rank": "412",
     "current_rank": "285",
     "percent_started": 3
   },
@@ -333,7 +333,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "474",
+    "preseason_rank": "472",
     "current_rank": "867",
     "percent_started": 2
   },
