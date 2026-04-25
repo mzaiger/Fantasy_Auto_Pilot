@@ -78,19 +78,6 @@
     "percent_started": 79
   },
   {
-    "player_key": "469.p.12314",
-    "name": "Steven Kwan",
-    "team": "Cleveland Guardians",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "DTD",
-    "preseason_rank": "138",
-    "current_rank": "587",
-    "percent_started": 42
-  },
-  {
     "player_key": "469.p.10944",
     "name": "Heliot Ramos",
     "team": "San Francisco Giants",
@@ -102,6 +89,19 @@
     "preseason_rank": "220",
     "current_rank": "425",
     "percent_started": 23
+  },
+  {
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "268",
+    "current_rank": "476",
+    "percent_started": 50
   },
   {
     "player_key": "469.p.10236",
@@ -127,7 +127,20 @@
     "status": "Healthy",
     "preseason_rank": "200",
     "current_rank": "56",
-    "percent_started": 44
+    "percent_started": 45
+  },
+  {
+    "player_key": "469.p.12314",
+    "name": "Steven Kwan",
+    "team": "Cleveland Guardians",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "DTD",
+    "preseason_rank": "138",
+    "current_rank": "587",
+    "percent_started": 40
   },
   {
     "player_key": "469.p.62119",
@@ -140,7 +153,7 @@
     "status": "Healthy",
     "preseason_rank": "116",
     "current_rank": "136",
-    "percent_started": 56
+    "percent_started": 54
   },
   {
     "player_key": "469.p.10766",
@@ -153,7 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "66",
     "current_rank": "674",
-    "percent_started": 63
+    "percent_started": 62
   },
   {
     "player_key": "469.p.10964",
@@ -169,19 +182,6 @@
     "percent_started": 22
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "268",
-    "current_rank": "476",
-    "percent_started": 50
-  },
-  {
     "player_key": "469.p.11817",
     "name": "Bryson Stott",
     "team": "Philadelphia Phillies",
@@ -192,7 +192,7 @@
     "status": "Healthy",
     "preseason_rank": "251",
     "current_rank": "808",
-    "percent_started": 16
+    "percent_started": 17
   },
   {
     "player_key": "469.p.11365",
@@ -226,7 +226,7 @@
     "team": "Seattle Mariners",
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "166",
@@ -257,7 +257,7 @@
     "status": "Healthy",
     "preseason_rank": "55",
     "current_rank": "64",
-    "percent_started": 94
+    "percent_started": 95
   },
   {
     "player_key": "469.p.10214",
@@ -281,7 +281,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "400",
+    "preseason_rank": "401",
     "current_rank": "237",
     "percent_started": 18
   },
@@ -291,7 +291,7 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "369",
@@ -307,7 +307,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "412",
+    "preseason_rank": "411",
     "current_rank": "285",
     "percent_started": 3
   },
@@ -330,10 +330,10 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "472",
+    "preseason_rank": "474",
     "current_rank": "867",
     "percent_started": 2
   },
