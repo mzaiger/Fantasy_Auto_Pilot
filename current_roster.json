@@ -36,7 +36,7 @@
     "status": "Healthy",
     "preseason_rank": "143",
     "current_rank": "182",
-    "percent_started": 58
+    "percent_started": 59
   },
   {
     "player_key": "469.p.9507",
@@ -52,17 +52,17 @@
     "percent_started": 97
   },
   {
-    "player_key": "469.p.10766",
-    "name": "Bo Bichette",
-    "team": "New York Mets",
-    "position": "3B,SS",
+    "player_key": "469.p.9571",
+    "name": "Trevor Story",
+    "team": "Boston Red Sox",
+    "position": "SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "66",
-    "current_rank": "674",
-    "percent_started": 71
+    "preseason_rank": "156",
+    "current_rank": "731",
+    "percent_started": 59
   },
   {
     "player_key": "469.p.12005",
@@ -101,7 +101,7 @@
     "status": "Healthy",
     "preseason_rank": "138",
     "current_rank": "587",
-    "percent_started": 42
+    "percent_started": 43
   },
   {
     "player_key": "469.p.10236",
@@ -130,6 +130,19 @@
     "percent_started": 43
   },
   {
+    "player_key": "469.p.10766",
+    "name": "Bo Bichette",
+    "team": "New York Mets",
+    "position": "3B,SS",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "66",
+    "current_rank": "674",
+    "percent_started": 69
+  },
+  {
     "player_key": "469.p.10944",
     "name": "Heliot Ramos",
     "team": "San Francisco Giants",
@@ -154,19 +167,6 @@
     "preseason_rank": "219",
     "current_rank": "533",
     "percent_started": 23
-  },
-  {
-    "player_key": "469.p.9571",
-    "name": "Trevor Story",
-    "team": "Boston Red Sox",
-    "position": "SS",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "156",
-    "current_rank": "731",
-    "percent_started": 59
   },
   {
     "player_key": "469.p.60776",
@@ -234,19 +234,6 @@
     "percent_started": 8
   },
   {
-    "player_key": "469.p.11014",
-    "name": "Freddy Peralta",
-    "team": "New York Mets",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "48",
-    "current_rank": "376",
-    "percent_started": 81
-  },
-  {
     "player_key": "469.p.12345",
     "name": "Kyle Bradish",
     "team": "Baltimore Orioles",
@@ -270,7 +257,7 @@
     "status": "Healthy",
     "preseason_rank": "55",
     "current_rank": "64",
-    "percent_started": 92
+    "percent_started": 93
   },
   {
     "player_key": "469.p.10214",
@@ -349,6 +336,19 @@
     "preseason_rank": "472",
     "current_rank": "867",
     "percent_started": 2
+  },
+  {
+    "player_key": "469.p.11014",
+    "name": "Freddy Peralta",
+    "team": "New York Mets",
+    "position": "SP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "48",
+    "current_rank": "376",
+    "percent_started": 81
   },
   {
     "player_key": "469.p.11495",
