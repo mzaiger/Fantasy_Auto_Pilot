@@ -319,8 +319,8 @@
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T20:05:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "Player challenge",
+      "status_code": "MJ",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
