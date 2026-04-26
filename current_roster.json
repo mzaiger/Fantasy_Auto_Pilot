@@ -278,7 +278,7 @@
     "team": "Los Angeles Dodgers",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "56",
