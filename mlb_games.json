@@ -7,8 +7,8 @@
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T17:35:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -30,9 +30,9 @@
       "game_pk": 824934,
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T17:35:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_abstract": "Live",
+      "status_detailed": "Warmup",
+      "status_code": "PW",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -55,8 +55,8 @@
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T17:37:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -79,8 +79,8 @@
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T17:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -103,8 +103,8 @@
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T17:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -127,8 +127,8 @@
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T17:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -175,8 +175,8 @@
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T18:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -199,8 +199,8 @@
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T18:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -223,8 +223,8 @@
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T18:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -247,8 +247,8 @@
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T18:15:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -271,8 +271,8 @@
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T18:35:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -295,8 +295,8 @@
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T20:05:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -319,8 +319,8 @@
       "game_date": "2026-04-26",
       "start_time_utc": "2026-04-26T20:05:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -334,6 +334,30 @@
         "abbreviation": "SF"
       },
       "venue": "Oracle Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 824122,
+      "game_date": "2026-04-26",
+      "start_time_utc": "2026-04-26T20:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 108,
+        "name": "Los Angeles Angels",
+        "abbreviation": "LAA"
+      },
+      "home_team": {
+        "id": 118,
+        "name": "Kansas City Royals",
+        "abbreviation": "KC"
+      },
+      "venue": "Kauffman Stadium",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
@@ -358,30 +382,6 @@
         "abbreviation": "LAD"
       },
       "venue": "UNIQLO Field at Dodger Stadium",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
-      "game_pk": 824122,
-      "game_date": "2026-04-26",
-      "start_time_utc": "2026-04-26T23:20:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 108,
-        "name": "Los Angeles Angels",
-        "abbreviation": "LAA"
-      },
-      "home_team": {
-        "id": 118,
-        "name": "Kansas City Royals",
-        "abbreviation": "KC"
-      },
-      "venue": "Kauffman Stadium",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
