@@ -175,8 +175,8 @@
       "game_date": "2026-04-28",
       "start_time_utc": "2026-04-28T02:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
