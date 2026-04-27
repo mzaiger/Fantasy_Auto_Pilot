@@ -1,25 +1,12 @@
 [
   {
-    "player_key": "469.p.11268",
-    "name": "William Contreras",
-    "team": "Milwaukee Brewers",
-    "position": "C",
-    "selected_position": "C",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "65",
-    "current_rank": "310",
-    "percent_started": 88
-  },
-  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
     "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "29",
     "current_rank": "148",
@@ -36,7 +23,7 @@
     "status": "Healthy",
     "preseason_rank": "143",
     "current_rank": "403",
-    "percent_started": 64
+    "percent_started": 68
   },
   {
     "player_key": "469.p.9507",
@@ -45,50 +32,24 @@
     "position": "3B",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "6",
     "current_rank": "42",
     "percent_started": 98
   },
   {
-    "player_key": "469.p.10766",
-    "name": "Bo Bichette",
-    "team": "New York Mets",
-    "position": "3B,SS",
-    "selected_position": "SS",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "66",
-    "current_rank": "707",
-    "percent_started": 74
-  },
-  {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "91",
-    "current_rank": "146",
-    "percent_started": 73
-  },
-  {
     "player_key": "469.p.60776",
     "name": "José Caballero",
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
-    "selected_position": "OF",
+    "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "268",
     "current_rank": "331",
-    "percent_started": 61
+    "percent_started": 66
   },
   {
     "player_key": "469.p.62119",
@@ -101,7 +62,33 @@
     "status": "Healthy",
     "preseason_rank": "116",
     "current_rank": "187",
-    "percent_started": 61
+    "percent_started": 65
+  },
+  {
+    "player_key": "469.p.12314",
+    "name": "Steven Kwan",
+    "team": "Cleveland Guardians",
+    "position": "OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "138",
+    "current_rank": "644",
+    "percent_started": 56
+  },
+  {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "166",
+    "current_rank": "685",
+    "percent_started": 10
   },
   {
     "player_key": "469.p.12309",
@@ -110,37 +97,63 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "200",
     "current_rank": "100",
-    "percent_started": 49
-  },
-  {
-    "player_key": "469.p.12314",
-    "name": "Steven Kwan",
-    "team": "Cleveland Guardians",
-    "position": "OF",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "138",
-    "current_rank": "644",
-    "percent_started": 47
+    "percent_started": 53
   },
   {
     "player_key": "469.p.9571",
     "name": "Trevor Story",
     "team": "Boston Red Sox",
     "position": "SS",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "156",
+    "current_rank": "752",
+    "percent_started": 64
+  },
+  {
+    "player_key": "469.p.11268",
+    "name": "William Contreras",
+    "team": "Milwaukee Brewers",
+    "position": "C",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "156",
-    "current_rank": "752",
-    "percent_started": 57
+    "preseason_rank": "65",
+    "current_rank": "310",
+    "percent_started": 83
+  },
+  {
+    "player_key": "469.p.10766",
+    "name": "Bo Bichette",
+    "team": "New York Mets",
+    "position": "3B,SS",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "66",
+    "current_rank": "707",
+    "percent_started": 67
+  },
+  {
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "91",
+    "current_rank": "146",
+    "percent_started": 65
   },
   {
     "player_key": "469.p.10944",
@@ -153,7 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "220",
     "current_rank": "394",
-    "percent_started": 21
+    "percent_started": 18
   },
   {
     "player_key": "469.p.12435",
@@ -166,7 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "150",
     "current_rank": "684",
-    "percent_started": 33
+    "percent_started": 32
   },
   {
     "player_key": "469.p.10236",
@@ -179,7 +192,7 @@
     "status": "Healthy",
     "preseason_rank": "190",
     "current_rank": "264",
-    "percent_started": 38
+    "percent_started": 35
   },
   {
     "player_key": "469.p.10964",
@@ -192,7 +205,7 @@
     "status": "Healthy",
     "preseason_rank": "219",
     "current_rank": "579",
-    "percent_started": 21
+    "percent_started": 19
   },
   {
     "player_key": "469.p.11817",
@@ -218,33 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "188",
     "current_rank": "830",
-    "percent_started": 17
-  },
-  {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
-    "preseason_rank": "166",
-    "current_rank": "685",
-    "percent_started": 9
-  },
-  {
-    "player_key": "469.p.12345",
-    "name": "Kyle Bradish",
-    "team": "Baltimore Orioles",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "71",
-    "current_rank": "656",
-    "percent_started": 79
+    "percent_started": 16
   },
   {
     "player_key": "469.p.9334",
@@ -260,19 +247,6 @@
     "percent_started": 85
   },
   {
-    "player_key": "469.p.11014",
-    "name": "Freddy Peralta",
-    "team": "New York Mets",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "48",
-    "current_rank": "354",
-    "percent_started": 69
-  },
-  {
     "player_key": "469.p.10214",
     "name": "Edwin Díaz",
     "team": "Los Angeles Dodgers",
@@ -283,7 +257,7 @@
     "status": "IL15",
     "preseason_rank": "56",
     "current_rank": "323",
-    "percent_started": 28
+    "percent_started": 27
   },
   {
     "player_key": "469.p.11644",
@@ -299,11 +273,24 @@
     "percent_started": 19
   },
   {
+    "player_key": "469.p.10494",
+    "name": "Jakob Junis",
+    "team": "Texas Rangers",
+    "position": "RP",
+    "selected_position": "RP",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "237",
+    "current_rank": "214",
+    "percent_started": 25
+  },
+  {
     "player_key": "469.p.10931",
     "name": "JoJo Romero",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "RP",
+    "selected_position": "P",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -338,17 +325,30 @@
     "percent_started": 2
   },
   {
-    "player_key": "469.p.10494",
-    "name": "Jakob Junis",
-    "team": "Texas Rangers",
-    "position": "RP",
+    "player_key": "469.p.12345",
+    "name": "Kyle Bradish",
+    "team": "Baltimore Orioles",
+    "position": "SP",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "237",
-    "current_rank": "214",
-    "percent_started": 25
+    "preseason_rank": "71",
+    "current_rank": "656",
+    "percent_started": 74
+  },
+  {
+    "player_key": "469.p.11014",
+    "name": "Freddy Peralta",
+    "team": "New York Mets",
+    "position": "SP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "48",
+    "current_rank": "354",
+    "percent_started": 65
   },
   {
     "player_key": "469.p.11495",
