@@ -39,11 +39,24 @@
     "percent_started": 98
   },
   {
+    "player_key": "469.p.9571",
+    "name": "Trevor Story",
+    "team": "Boston Red Sox",
+    "position": "SS",
+    "selected_position": "SS",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "156",
+    "current_rank": "752",
+    "percent_started": 64
+  },
+  {
     "player_key": "469.p.60776",
     "name": "José Caballero",
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
-    "selected_position": "SS",
+    "selected_position": "OF",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
@@ -78,19 +91,6 @@
     "percent_started": 56
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "166",
-    "current_rank": "685",
-    "percent_started": 10
-  },
-  {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
@@ -104,17 +104,17 @@
     "percent_started": 53
   },
   {
-    "player_key": "469.p.9571",
-    "name": "Trevor Story",
-    "team": "Boston Red Sox",
-    "position": "SS",
-    "selected_position": "Util",
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
     "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "156",
-    "current_rank": "752",
-    "percent_started": 64
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "166",
+    "current_rank": "685",
+    "percent_started": 10
   },
   {
     "player_key": "469.p.11268",
