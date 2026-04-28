@@ -104,19 +104,6 @@
     "percent_started": 71
   },
   {
-    "player_key": "469.p.12314",
-    "name": "Steven Kwan",
-    "team": "Cleveland Guardians",
-    "position": "OF",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "137",
-    "current_rank": "668",
-    "percent_started": 45
-  },
-  {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
@@ -128,6 +115,32 @@
     "preseason_rank": "198",
     "current_rank": "77",
     "percent_started": 51
+  },
+  {
+    "player_key": "469.p.10236",
+    "name": "Gleyber Torres",
+    "team": "Detroit Tigers",
+    "position": "2B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "186",
+    "current_rank": "292",
+    "percent_started": 42
+  },
+  {
+    "player_key": "469.p.12314",
+    "name": "Steven Kwan",
+    "team": "Cleveland Guardians",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "137",
+    "current_rank": "668",
+    "percent_started": 44
   },
   {
     "player_key": "469.p.9571",
@@ -180,19 +193,6 @@
     "preseason_rank": "150",
     "current_rank": "688",
     "percent_started": 34
-  },
-  {
-    "player_key": "469.p.10236",
-    "name": "Gleyber Torres",
-    "team": "Detroit Tigers",
-    "position": "2B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "186",
-    "current_rank": "292",
-    "percent_started": 42
   },
   {
     "player_key": "469.p.10964",
