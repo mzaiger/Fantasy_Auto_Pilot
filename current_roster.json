@@ -5,11 +5,11 @@
     "team": "Toronto Blue Jays",
     "position": "1B",
     "selected_position": "1B",
-    "is_editable": false,
-    "is_starting": 1,
+    "is_editable": true,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "29",
-    "current_rank": "148",
+    "current_rank": "177",
     "percent_started": 97
   },
   {
@@ -19,11 +19,11 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "143",
-    "current_rank": "403",
-    "percent_started": 68
+    "current_rank": "379",
+    "percent_started": 64
   },
   {
     "player_key": "469.p.9507",
@@ -31,11 +31,11 @@
     "team": "Cleveland Guardians",
     "position": "3B",
     "selected_position": "3B",
-    "is_editable": false,
-    "is_starting": 1,
+    "is_editable": true,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "6",
-    "current_rank": "42",
+    "current_rank": "49",
     "percent_started": 98
   },
   {
@@ -44,12 +44,12 @@
     "team": "Boston Red Sox",
     "position": "SS",
     "selected_position": "SS",
-    "is_editable": false,
-    "is_starting": 1,
+    "is_editable": true,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "156",
-    "current_rank": "752",
-    "percent_started": 65
+    "current_rank": "770",
+    "percent_started": 58
   },
   {
     "player_key": "469.p.60776",
@@ -57,12 +57,12 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "OF",
-    "is_editable": false,
-    "is_starting": 1,
+    "is_editable": true,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "268",
-    "current_rank": "331",
-    "percent_started": 67
+    "current_rank": "318",
+    "percent_started": 62
   },
   {
     "player_key": "469.p.62119",
@@ -71,11 +71,11 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "116",
-    "current_rank": "187",
-    "percent_started": 66
+    "current_rank": "143",
+    "percent_started": 62
   },
   {
     "player_key": "469.p.12314",
@@ -83,12 +83,12 @@
     "team": "Cleveland Guardians",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": false,
-    "is_starting": 1,
+    "is_editable": true,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "138",
-    "current_rank": "644",
-    "percent_started": 56
+    "current_rank": "668",
+    "percent_started": 50
   },
   {
     "player_key": "469.p.12309",
@@ -96,12 +96,12 @@
     "team": "Tampa Bay Rays",
     "position": "1B",
     "selected_position": "Util",
-    "is_editable": false,
-    "is_starting": 1,
+    "is_editable": true,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "200",
-    "current_rank": "100",
-    "percent_started": 53
+    "current_rank": "77",
+    "percent_started": 51
   },
   {
     "player_key": "469.p.12351",
@@ -109,12 +109,12 @@
     "team": "Seattle Mariners",
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
-    "is_editable": false,
-    "is_starting": 0,
+    "is_editable": true,
+    "is_starting": null,
     "status": "IL10",
     "preseason_rank": "166",
-    "current_rank": "685",
-    "percent_started": 10
+    "current_rank": "689",
+    "percent_started": 9
   },
   {
     "player_key": "469.p.11268",
@@ -126,8 +126,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "65",
-    "current_rank": "310",
-    "percent_started": 83
+    "current_rank": "336",
+    "percent_started": 85
   },
   {
     "player_key": "469.p.10766",
@@ -139,8 +139,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "66",
-    "current_rank": "707",
-    "percent_started": 67
+    "current_rank": "711",
+    "percent_started": 69
   },
   {
     "player_key": "469.p.12005",
@@ -152,8 +152,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "91",
-    "current_rank": "146",
-    "percent_started": 64
+    "current_rank": "162",
+    "percent_started": 68
   },
   {
     "player_key": "469.p.10944",
@@ -165,8 +165,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "220",
-    "current_rank": "394",
-    "percent_started": 18
+    "current_rank": "410",
+    "percent_started": 19
   },
   {
     "player_key": "469.p.12435",
@@ -178,7 +178,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "150",
-    "current_rank": "684",
+    "current_rank": "688",
     "percent_started": 32
   },
   {
@@ -191,8 +191,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "190",
-    "current_rank": "264",
-    "percent_started": 35
+    "current_rank": "292",
+    "percent_started": 38
   },
   {
     "player_key": "469.p.10964",
@@ -204,7 +204,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "219",
-    "current_rank": "579",
+    "current_rank": "585",
     "percent_started": 19
   },
   {
@@ -218,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "251",
     "current_rank": "805",
-    "percent_started": 11
+    "percent_started": 12
   },
   {
     "player_key": "469.p.11365",
@@ -230,7 +230,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "188",
-    "current_rank": "830",
+    "current_rank": "833",
     "percent_started": 16
   },
   {
@@ -239,12 +239,12 @@
     "team": "Toronto Blue Jays",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": false,
+    "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "55",
     "current_rank": "38",
-    "percent_started": 85
+    "percent_started": 80
   },
   {
     "player_key": "469.p.10214",
@@ -256,8 +256,8 @@
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "56",
-    "current_rank": "323",
-    "percent_started": 27
+    "current_rank": "338",
+    "percent_started": 26
   },
   {
     "player_key": "469.p.11644",
@@ -265,11 +265,11 @@
     "team": "Toronto Blue Jays",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": false,
+    "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "399",
-    "current_rank": "194",
+    "current_rank": "193",
     "percent_started": 19
   },
   {
@@ -278,12 +278,12 @@
     "team": "Texas Rangers",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": false,
+    "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "237",
-    "current_rank": "214",
-    "percent_started": 25
+    "current_rank": "218",
+    "percent_started": 24
   },
   {
     "player_key": "469.p.10931",
@@ -291,12 +291,12 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": false,
+    "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "369",
-    "current_rank": "527",
-    "percent_started": 13
+    "current_rank": "522",
+    "percent_started": 12
   },
   {
     "player_key": "469.p.11479",
@@ -304,11 +304,11 @@
     "team": "Toronto Blue Jays",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": false,
+    "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "407",
-    "current_rank": "210",
+    "current_rank": "212",
     "percent_started": 3
   },
   {
@@ -317,11 +317,11 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": false,
+    "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "486",
-    "current_rank": "859",
+    "current_rank": "868",
     "percent_started": 2
   },
   {
@@ -334,8 +334,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "71",
-    "current_rank": "656",
-    "percent_started": 73
+    "current_rank": "655",
+    "percent_started": 69
   },
   {
     "player_key": "469.p.11014",
@@ -347,8 +347,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "48",
-    "current_rank": "354",
-    "percent_started": 65
+    "current_rank": "359",
+    "percent_started": 64
   },
   {
     "player_key": "469.p.11495",
@@ -360,8 +360,8 @@
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "127",
-    "current_rank": "76",
-    "percent_started": 28
+    "current_rank": "74",
+    "percent_started": 27
   },
   {
     "player_key": "469.p.10185",
@@ -369,11 +369,11 @@
     "team": "San Diego Padres",
     "position": "SP",
     "selected_position": "IL",
-    "is_editable": false,
+    "is_editable": true,
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "283",
-    "current_rank": "2007",
+    "current_rank": "2009",
     "percent_started": 2
   },
   {
@@ -399,7 +399,7 @@
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "396",
-    "current_rank": "1710",
+    "current_rank": "1713",
     "percent_started": 2
   },
   {
@@ -412,7 +412,7 @@
     "is_starting": null,
     "status": "NA",
     "preseason_rank": "350",
-    "current_rank": "1246",
+    "current_rank": "1251",
     "percent_started": 2
   }
 ]
