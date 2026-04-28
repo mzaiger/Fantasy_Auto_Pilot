@@ -10,7 +10,7 @@
     "status": "Healthy",
     "preseason_rank": "64",
     "current_rank": "336",
-    "percent_started": 87
+    "percent_started": 88
   },
   {
     "player_key": "469.p.10621",
@@ -36,7 +36,7 @@
     "status": "Healthy",
     "preseason_rank": "123",
     "current_rank": "379",
-    "percent_started": 58
+    "percent_started": 57
   },
   {
     "player_key": "469.p.9507",
@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "114",
     "current_rank": "143",
-    "percent_started": 59
+    "percent_started": 58
   },
   {
     "player_key": "469.p.12005",
@@ -174,7 +174,7 @@
     "team": "San Francisco Giants",
     "position": "OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "223",
@@ -213,7 +213,7 @@
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "267",
@@ -226,7 +226,7 @@
     "team": "Philadelphia Phillies",
     "position": "1B,3B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "256",
@@ -270,7 +270,7 @@
     "status": "Healthy",
     "preseason_rank": "49",
     "current_rank": "359",
-    "percent_started": 63
+    "percent_started": 62
   },
   {
     "player_key": "469.p.10214",
@@ -317,7 +317,7 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "363",
@@ -343,7 +343,7 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "490",
@@ -356,7 +356,7 @@
     "team": "Philadelphia Phillies",
     "position": "RP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "116",
