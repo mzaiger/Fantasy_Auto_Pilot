@@ -187,7 +187,7 @@
     "team": "Houston Astros",
     "position": "C",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "150",
@@ -205,7 +205,7 @@
     "status": "Healthy",
     "preseason_rank": "225",
     "current_rank": "585",
-    "percent_started": 20
+    "percent_started": 21
   },
   {
     "player_key": "469.p.11817",
@@ -252,7 +252,7 @@
     "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "68",
