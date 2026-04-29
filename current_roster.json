@@ -6,7 +6,7 @@
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "64",
     "current_rank": "227",
@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "613",
-    "percent_started": 79
+    "percent_started": 80
   },
   {
     "player_key": "469.p.60776",
@@ -97,11 +97,11 @@
     "position": "1B,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "DTD",
     "preseason_rank": "89",
     "current_rank": "181",
-    "percent_started": 54
+    "percent_started": 55
   },
   {
     "player_key": "469.p.12309",
@@ -123,11 +123,11 @@
     "position": "2B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "186",
     "current_rank": "305",
-    "percent_started": 42
+    "percent_started": 43
   },
   {
     "player_key": "469.p.12314",
@@ -175,7 +175,7 @@
     "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "223",
     "current_rank": "414",
@@ -214,7 +214,7 @@
     "position": "2B,SS",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "267",
     "current_rank": "811",
@@ -227,7 +227,7 @@
     "position": "1B,3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "256",
     "current_rank": "803",
@@ -369,7 +369,7 @@
     "team": "San Diego Padres",
     "position": "SP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "286",
@@ -387,7 +387,7 @@
     "status": "IL15",
     "preseason_rank": "196",
     "current_rank": "2399",
-    "percent_started": 10
+    "percent_started": 11
   },
   {
     "player_key": "469.p.12363",
