@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "613",
-    "percent_started": 78
+    "percent_started": 79
   },
   {
     "player_key": "469.p.60776",
@@ -70,7 +70,7 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "285",
@@ -304,7 +304,7 @@
     "team": "Texas Rangers",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "228",

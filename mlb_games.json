@@ -7,8 +7,8 @@
       "game_date": "2026-04-29",
       "start_time_utc": "2026-04-29T17:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -79,8 +79,8 @@
       "game_date": "2026-04-29",
       "start_time_utc": "2026-04-29T18:35:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -171,25 +171,25 @@
       "game_number": 1
     },
     {
-      "game_pk": 824850,
+      "game_pk": 823471,
       "game_date": "2026-04-29",
-      "start_time_utc": "2026-04-29T22:35:00Z",
+      "start_time_utc": "2026-04-29T22:10:00Z",
       "status_abstract": "Preview",
       "status_detailed": "Scheduled",
       "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
-        "id": 117,
-        "name": "Houston Astros",
-        "abbreviation": "HOU"
+        "id": 137,
+        "name": "San Francisco Giants",
+        "abbreviation": "SF"
       },
       "home_team": {
-        "id": 110,
-        "name": "Baltimore Orioles",
-        "abbreviation": "BAL"
+        "id": 143,
+        "name": "Philadelphia Phillies",
+        "abbreviation": "PHI"
       },
-      "venue": "Oriole Park at Camden Yards",
+      "venue": "Citizens Bank Park",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
@@ -238,30 +238,6 @@
         "abbreviation": "PIT"
       },
       "venue": "PNC Park",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
-      "game_pk": 823471,
-      "game_date": "2026-04-29",
-      "start_time_utc": "2026-04-29T22:40:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 137,
-        "name": "San Francisco Giants",
-        "abbreviation": "SF"
-      },
-      "home_team": {
-        "id": 143,
-        "name": "Philadelphia Phillies",
-        "abbreviation": "PHI"
-      },
-      "venue": "Citizens Bank Park",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
@@ -358,6 +334,30 @@
         "abbreviation": "ATH"
       },
       "venue": "Sutter Health Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 824850,
+      "game_date": "2026-04-29",
+      "start_time_utc": "2026-04-29T22:35:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DR",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "abbreviation": "HOU"
+      },
+      "home_team": {
+        "id": 110,
+        "name": "Baltimore Orioles",
+        "abbreviation": "BAL"
+      },
+      "venue": "Oriole Park at Camden Yards",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
