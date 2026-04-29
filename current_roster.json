@@ -101,7 +101,7 @@
     "status": "DTD",
     "preseason_rank": "89",
     "current_rank": "181",
-    "percent_started": 53
+    "percent_started": 52
   },
   {
     "player_key": "469.p.12309",
@@ -161,7 +161,7 @@
     "team": "Seattle Mariners",
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "200",
