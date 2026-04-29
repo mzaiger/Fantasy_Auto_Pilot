@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "114",
     "current_rank": "169",
-    "percent_started": 58
+    "percent_started": 59
   },
   {
     "player_key": "469.p.12005",
@@ -101,7 +101,7 @@
     "status": "DTD",
     "preseason_rank": "89",
     "current_rank": "181",
-    "percent_started": 52
+    "percent_started": 53
   },
   {
     "player_key": "469.p.12309",
@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "186",
     "current_rank": "305",
-    "percent_started": 41
+    "percent_started": 42
   },
   {
     "player_key": "469.p.12314",
@@ -153,7 +153,7 @@
     "status": "Healthy",
     "preseason_rank": "154",
     "current_rank": "777",
-    "percent_started": 52
+    "percent_started": 53
   },
   {
     "player_key": "469.p.12351",
@@ -175,7 +175,7 @@
     "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "223",
     "current_rank": "414",
@@ -205,7 +205,7 @@
     "status": "Healthy",
     "preseason_rank": "225",
     "current_rank": "622",
-    "percent_started": 19
+    "percent_started": 20
   },
   {
     "player_key": "469.p.11817",
@@ -214,7 +214,7 @@
     "position": "2B,SS",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "267",
     "current_rank": "811",
@@ -227,7 +227,7 @@
     "position": "1B,3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "256",
     "current_rank": "803",
@@ -245,19 +245,6 @@
     "preseason_rank": "54",
     "current_rank": "42",
     "percent_started": 73
-  },
-  {
-    "player_key": "469.p.12345",
-    "name": "Kyle Bradish",
-    "team": "Baltimore Orioles",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "68",
-    "current_rank": "655",
-    "percent_started": 63
   },
   {
     "player_key": "469.p.11014",
@@ -349,6 +336,19 @@
     "preseason_rank": "490",
     "current_rank": "852",
     "percent_started": 2
+  },
+  {
+    "player_key": "469.p.12345",
+    "name": "Kyle Bradish",
+    "team": "Baltimore Orioles",
+    "position": "SP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "68",
+    "current_rank": "655",
+    "percent_started": 63
   },
   {
     "player_key": "469.p.11495",
