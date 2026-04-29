@@ -91,19 +91,6 @@
     "percent_started": 59
   },
   {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "DTD",
-    "preseason_rank": "89",
-    "current_rank": "181",
-    "percent_started": 55
-  },
-  {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
@@ -128,6 +115,19 @@
     "preseason_rank": "186",
     "current_rank": "305",
     "percent_started": 43
+  },
+  {
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "DTD",
+    "preseason_rank": "89",
+    "current_rank": "181",
+    "percent_started": 55
   },
   {
     "player_key": "469.p.12314",
@@ -179,7 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "223",
     "current_rank": "414",
-    "percent_started": 21
+    "percent_started": 20
   },
   {
     "player_key": "469.p.12435",
