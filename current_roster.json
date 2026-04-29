@@ -127,7 +127,7 @@
     "status": "DTD",
     "preseason_rank": "89",
     "current_rank": "181",
-    "percent_started": 55
+    "percent_started": 54
   },
   {
     "player_key": "469.p.12314",
@@ -304,7 +304,7 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "363",
@@ -330,7 +330,7 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "490",
