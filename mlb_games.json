@@ -223,8 +223,8 @@
       "game_date": "2026-04-30",
       "start_time_utc": "2026-04-30T21:35:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Delayed",
-      "status_code": "IR",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
