@@ -2,7 +2,7 @@
 <fantasy_content>
   <roster>
     <coverage_type>date</coverage_type>
-    <date>2026-04-30</date>
+    <date>2026-05-01</date>
     <players>
       <player>
         <player_key>469.p.11268</player_key>
@@ -14,15 +14,15 @@
       </player>
       <player>
         <player_key>469.p.10236</player_key>
-        <position>2B</position>
+        <position>Util</position>
       </player>
       <player>
         <player_key>469.p.10766</player_key>
-        <position>3B</position>
+        <position>SS</position>
       </player>
       <player>
         <player_key>469.p.11817</player_key>
-        <position>SS</position>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.10944</player_key>
@@ -30,23 +30,23 @@
       </player>
       <player>
         <player_key>469.p.12435</player_key>
-        <position>Util</position>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.10964</player_key>
-        <position>Util</position>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.12005</player_key>
-        <position>BN</position>
+        <position>OF</position>
       </player>
       <player>
         <player_key>469.p.12100</player_key>
-        <position>BN</position>
+        <position>2B</position>
       </player>
       <player>
         <player_key>469.p.9507</player_key>
-        <position>BN</position>
+        <position>3B</position>
       </player>
       <player>
         <player_key>469.p.60776</player_key>
@@ -54,11 +54,11 @@
       </player>
       <player>
         <player_key>469.p.62119</player_key>
-        <position>BN</position>
+        <position>OF</position>
       </player>
       <player>
         <player_key>469.p.12309</player_key>
-        <position>BN</position>
+        <position>Util</position>
       </player>
       <player>
         <player_key>469.p.12314</player_key>
@@ -94,11 +94,11 @@
       </player>
       <player>
         <player_key>469.p.10931</player_key>
-        <position>RP</position>
+        <position>P</position>
       </player>
       <player>
         <player_key>469.p.11479</player_key>
-        <position>RP</position>
+        <position>P</position>
       </player>
       <player>
         <player_key>469.p.63308</player_key>
@@ -106,11 +106,11 @@
       </player>
       <player>
         <player_key>469.p.10214</player_key>
-        <position>BN</position>
+        <position>RP</position>
       </player>
       <player>
         <player_key>469.p.10494</player_key>
-        <position>BN</position>
+        <position>RP</position>
       </player>
       <player>
         <player_key>469.p.11495</player_key>
