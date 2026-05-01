@@ -65,19 +65,6 @@
     "percent_started": 81
   },
   {
-    "player_key": "469.p.10944",
-    "name": "Heliot Ramos",
-    "team": "San Francisco Giants",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "223",
-    "current_rank": "318",
-    "percent_started": 26
-  },
-  {
     "player_key": "469.p.12005",
     "name": "Tyler Soderstrom",
     "team": " Athletics",
@@ -104,6 +91,19 @@
     "percent_started": 51
   },
   {
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "285",
+    "current_rank": "375",
+    "percent_started": 54
+  },
+  {
     "player_key": "469.p.10236",
     "name": "Gleyber Torres",
     "team": "Detroit Tigers",
@@ -128,6 +128,19 @@
     "preseason_rank": "198",
     "current_rank": "150",
     "percent_started": 42
+  },
+  {
+    "player_key": "469.p.10944",
+    "name": "Heliot Ramos",
+    "team": "San Francisco Giants",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "223",
+    "current_rank": "318",
+    "percent_started": 26
   },
   {
     "player_key": "469.p.11817",
@@ -167,19 +180,6 @@
     "preseason_rank": "225",
     "current_rank": "617",
     "percent_started": 22
-  },
-  {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "285",
-    "current_rank": "375",
-    "percent_started": 54
   },
   {
     "player_key": "469.p.12314",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "54",
     "current_rank": "73",
-    "percent_started": 85
+    "percent_started": 84
   },
   {
     "player_key": "469.p.11014",
