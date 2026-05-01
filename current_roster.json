@@ -5,7 +5,7 @@
     "team": "Milwaukee Brewers",
     "position": "C",
     "selected_position": "C",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "64",
@@ -75,7 +75,7 @@
     "status": "Healthy",
     "preseason_rank": "89",
     "current_rank": "220",
-    "percent_started": 52
+    "percent_started": 53
   },
   {
     "player_key": "469.p.62119",
@@ -109,7 +109,7 @@
     "team": "Detroit Tigers",
     "position": "2B",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "186",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "198",
     "current_rank": "150",
-    "percent_started": 31
+    "percent_started": 30
   },
   {
     "player_key": "469.p.10944",
@@ -187,7 +187,7 @@
     "team": "Washington Nationals",
     "position": "1B,2B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "225",
@@ -257,7 +257,7 @@
     "status": "Healthy",
     "preseason_rank": "49",
     "current_rank": "258",
-    "percent_started": 81
+    "percent_started": 80
   },
   {
     "player_key": "469.p.12345",
@@ -304,7 +304,7 @@
     "team": "Texas Rangers",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "228",
@@ -408,7 +408,7 @@
     "team": "Washington Nationals",
     "position": "OF",
     "selected_position": "NA",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "NA",
     "preseason_rank": "354",
