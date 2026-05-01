@@ -103,8 +103,8 @@
       "game_date": "2026-05-01",
       "start_time_utc": "2026-05-01T23:05:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -127,8 +127,8 @@
       "game_date": "2026-05-01",
       "start_time_utc": "2026-05-01T23:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -151,8 +151,8 @@
       "game_date": "2026-05-01",
       "start_time_utc": "2026-05-01T23:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -175,8 +175,8 @@
       "game_date": "2026-05-01",
       "start_time_utc": "2026-05-01T23:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
