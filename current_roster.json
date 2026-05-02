@@ -75,7 +75,7 @@
     "status": "Healthy",
     "preseason_rank": "89",
     "current_rank": "199",
-    "percent_started": 65
+    "percent_started": 66
   },
   {
     "player_key": "469.p.62119",
@@ -281,7 +281,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "400",
+    "preseason_rank": "402",
     "current_rank": "160",
     "percent_started": 21
   },
@@ -346,7 +346,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "507",
+    "preseason_rank": "500",
     "current_rank": "875",
     "percent_started": 2
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "404",
+    "preseason_rank": "403",
     "current_rank": "1729",
     "percent_started": 2
   },
