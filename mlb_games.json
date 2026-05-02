@@ -54,9 +54,9 @@
       "game_pk": 823389,
       "game_date": "2026-05-01",
       "start_time_utc": "2026-05-01T22:45:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Delayed Start",
-      "status_code": "PR",
+      "status_abstract": "Live",
+      "status_detailed": "Warmup",
+      "status_code": "PW",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
