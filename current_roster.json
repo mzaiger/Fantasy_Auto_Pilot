@@ -214,11 +214,11 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "200",
     "current_rank": "746",
-    "percent_started": 7
+    "percent_started": 6
   },
   {
     "player_key": "469.p.11365",
