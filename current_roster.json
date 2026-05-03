@@ -6,7 +6,7 @@
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "64",
     "current_rank": "82",
@@ -19,7 +19,7 @@
     "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "27",
     "current_rank": "179",
@@ -32,11 +32,11 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "123",
     "current_rank": "291",
-    "percent_started": 60
+    "percent_started": 61
   },
   {
     "player_key": "469.p.9507",
@@ -49,7 +49,7 @@
     "status": "Healthy",
     "preseason_rank": "6",
     "current_rank": "65",
-    "percent_started": 95
+    "percent_started": 96
   },
   {
     "player_key": "469.p.10766",
@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "621",
-    "percent_started": 79
+    "percent_started": 78
   },
   {
     "player_key": "469.p.12005",
@@ -75,7 +75,7 @@
     "status": "Healthy",
     "preseason_rank": "89",
     "current_rank": "261",
-    "percent_started": 66
+    "percent_started": 65
   },
   {
     "player_key": "469.p.62119",
@@ -84,24 +84,24 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "114",
     "current_rank": "222",
-    "percent_started": 52
+    "percent_started": 46
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.12314",
+    "name": "Steven Kwan",
+    "team": "Cleveland Guardians",
+    "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "285",
-    "current_rank": "262",
-    "percent_started": 57
+    "preseason_rank": "137",
+    "current_rank": "569",
+    "percent_started": 42
   },
   {
     "player_key": "469.p.10236",
@@ -114,7 +114,7 @@
     "status": "DTD",
     "preseason_rank": "186",
     "current_rank": "268",
-    "percent_started": 40
+    "percent_started": 31
   },
   {
     "player_key": "469.p.12309",
@@ -123,24 +123,24 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "198",
     "current_rank": "145",
-    "percent_started": 40
+    "percent_started": 43
   },
   {
-    "player_key": "469.p.12314",
-    "name": "Steven Kwan",
-    "team": "Cleveland Guardians",
-    "position": "OF",
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "137",
-    "current_rank": "569",
-    "percent_started": 40
+    "preseason_rank": "285",
+    "current_rank": "262",
+    "percent_started": 58
   },
   {
     "player_key": "469.p.10944",
@@ -149,7 +149,7 @@
     "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "223",
     "current_rank": "417",
@@ -162,7 +162,7 @@
     "position": "2B,SS",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "267",
     "current_rank": "729",
@@ -175,11 +175,11 @@
     "position": "C",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "150",
     "current_rank": "677",
-    "percent_started": 37
+    "percent_started": 35
   },
   {
     "player_key": "469.p.10964",
@@ -188,7 +188,7 @@
     "position": "1B,2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "225",
     "current_rank": "675",
@@ -201,11 +201,11 @@
     "position": "SS",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "154",
     "current_rank": "774",
-    "percent_started": 45
+    "percent_started": 40
   },
   {
     "player_key": "469.p.12351",
@@ -227,7 +227,7 @@
     "position": "1B,3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "256",
     "current_rank": "818",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "54",
     "current_rank": "88",
-    "percent_started": 74
+    "percent_started": 72
   },
   {
     "player_key": "469.p.11014",
@@ -257,7 +257,7 @@
     "status": "Healthy",
     "preseason_rank": "49",
     "current_rank": "256",
-    "percent_started": 69
+    "percent_started": 68
   },
   {
     "player_key": "469.p.12345",
@@ -270,7 +270,7 @@
     "status": "Healthy",
     "preseason_rank": "68",
     "current_rank": "775",
-    "percent_started": 77
+    "percent_started": 74
   },
   {
     "player_key": "469.p.11644",
@@ -284,19 +284,6 @@
     "preseason_rank": "400",
     "current_rank": "157",
     "percent_started": 21
-  },
-  {
-    "player_key": "469.p.10214",
-    "name": "Edwin Díaz",
-    "team": "Los Angeles Dodgers",
-    "position": "RP",
-    "selected_position": "RP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL15",
-    "preseason_rank": "266",
-    "current_rank": "343",
-    "percent_started": 23
   },
   {
     "player_key": "469.p.10494",
@@ -316,7 +303,7 @@
     "name": "JoJo Romero",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "P",
+    "selected_position": "RP",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -351,6 +338,32 @@
     "percent_started": 2
   },
   {
+    "player_key": "469.p.12281",
+    "name": "Spencer Strider",
+    "team": "Atlanta Braves",
+    "position": "SP",
+    "selected_position": "P",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "196",
+    "current_rank": "2403",
+    "percent_started": 55
+  },
+  {
+    "player_key": "469.p.10214",
+    "name": "Edwin Díaz",
+    "team": "Los Angeles Dodgers",
+    "position": "RP",
+    "selected_position": "IL",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "IL15",
+    "preseason_rank": "266",
+    "current_rank": "343",
+    "percent_started": 23
+  },
+  {
     "player_key": "469.p.11495",
     "name": "Jhoan Duran",
     "team": "Philadelphia Phillies",
@@ -377,19 +390,6 @@
     "percent_started": 2
   },
   {
-    "player_key": "469.p.12281",
-    "name": "Spencer Strider",
-    "team": "Atlanta Braves",
-    "position": "SP",
-    "selected_position": "IL",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "IL15",
-    "preseason_rank": "196",
-    "current_rank": "2403",
-    "percent_started": 33
-  },
-  {
     "player_key": "469.p.12363",
     "name": "Spencer Schwellenbach",
     "team": "Atlanta Braves",
@@ -409,7 +409,7 @@
     "position": "OF",
     "selected_position": "NA",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "NA",
     "preseason_rank": "354",
     "current_rank": "1274",
