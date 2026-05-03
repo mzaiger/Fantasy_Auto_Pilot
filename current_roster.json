@@ -5,7 +5,7 @@
     "team": "Milwaukee Brewers",
     "position": "C",
     "selected_position": "C",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "64",
@@ -58,7 +58,7 @@
     "position": "3B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "621",
@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "137",
     "current_rank": "569",
-    "percent_started": 42
+    "percent_started": 43
   },
   {
     "player_key": "469.p.60776",
@@ -96,7 +96,7 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "285",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "114",
     "current_rank": "222",
-    "percent_started": 43
+    "percent_started": 42
   },
   {
     "player_key": "469.p.10944",
@@ -174,7 +174,7 @@
     "team": "Houston Astros",
     "position": "C",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "150",
@@ -187,7 +187,7 @@
     "team": "Washington Nationals",
     "position": "1B,2B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "225",
@@ -200,12 +200,12 @@
     "team": "Boston Red Sox",
     "position": "SS",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "154",
     "current_rank": "774",
-    "percent_started": 39
+    "percent_started": 38
   },
   {
     "player_key": "469.p.12351",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "256",
     "current_rank": "818",
-    "percent_started": 17
+    "percent_started": 18
   },
   {
     "player_key": "469.p.9334",
@@ -265,7 +265,7 @@
     "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "68",
@@ -408,7 +408,7 @@
     "team": "Washington Nationals",
     "position": "OF",
     "selected_position": "NA",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "NA",
     "preseason_rank": "354",
