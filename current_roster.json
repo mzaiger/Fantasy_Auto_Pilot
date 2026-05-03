@@ -78,19 +78,6 @@
     "percent_started": 65
   },
   {
-    "player_key": "469.p.62119",
-    "name": "Jakob Marsee",
-    "team": "Miami Marlins",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "114",
-    "current_rank": "222",
-    "percent_started": 46
-  },
-  {
     "player_key": "469.p.12314",
     "name": "Steven Kwan",
     "team": "Cleveland Guardians",
@@ -102,6 +89,19 @@
     "preseason_rank": "137",
     "current_rank": "569",
     "percent_started": 42
+  },
+  {
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "285",
+    "current_rank": "262",
+    "percent_started": 58
   },
   {
     "player_key": "469.p.10236",
@@ -130,17 +130,17 @@
     "percent_started": 43
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.62119",
+    "name": "Jakob Marsee",
+    "team": "Miami Marlins",
+    "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": 0,
     "status": "Healthy",
-    "preseason_rank": "285",
-    "current_rank": "262",
-    "percent_started": 58
+    "preseason_rank": "114",
+    "current_rank": "222",
+    "percent_started": 45
   },
   {
     "player_key": "469.p.10944",
@@ -270,7 +270,7 @@
     "status": "Healthy",
     "preseason_rank": "68",
     "current_rank": "775",
-    "percent_started": 74
+    "percent_started": 73
   },
   {
     "player_key": "469.p.11644",
@@ -348,7 +348,7 @@
     "status": "Healthy",
     "preseason_rank": "196",
     "current_rank": "2403",
-    "percent_started": 55
+    "percent_started": 56
   },
   {
     "player_key": "469.p.10214",
