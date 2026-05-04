@@ -114,20 +114,33 @@
     "status": "Healthy",
     "preseason_rank": "198",
     "current_rank": "130",
-    "percent_started": 50
+    "percent_started": 51
+  },
+  {
+    "player_key": "469.p.12435",
+    "name": "Yainer Diaz",
+    "team": "Houston Astros",
+    "position": "C",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "150",
+    "current_rank": "695",
+    "percent_started": 39
   },
   {
     "player_key": "469.p.10236",
     "name": "Gleyber Torres",
     "team": "Detroit Tigers",
     "position": "2B",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 0,
     "status": "DTD",
     "preseason_rank": "186",
     "current_rank": "295",
-    "percent_started": 31
+    "percent_started": 30
   },
   {
     "player_key": "469.p.12005",
@@ -140,7 +153,7 @@
     "status": "Healthy",
     "preseason_rank": "89",
     "current_rank": "164",
-    "percent_started": 49
+    "percent_started": 48
   },
   {
     "player_key": "469.p.10944",
@@ -167,19 +180,6 @@
     "preseason_rank": "267",
     "current_rank": "672",
     "percent_started": 20
-  },
-  {
-    "player_key": "469.p.12435",
-    "name": "Yainer Diaz",
-    "team": "Houston Astros",
-    "position": "C",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "150",
-    "current_rank": "695",
-    "percent_started": 38
   },
   {
     "player_key": "469.p.10964",
