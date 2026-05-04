@@ -101,7 +101,7 @@
     "status": "Healthy",
     "preseason_rank": "114",
     "current_rank": "240",
-    "percent_started": 56
+    "percent_started": 57
   },
   {
     "player_key": "469.p.12309",
@@ -117,11 +117,24 @@
     "percent_started": 51
   },
   {
+    "player_key": "469.p.9571",
+    "name": "Trevor Story",
+    "team": "Boston Red Sox",
+    "position": "SS",
+    "selected_position": "Util",
+    "is_editable": false,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "154",
+    "current_rank": "788",
+    "percent_started": 50
+  },
+  {
     "player_key": "469.p.12435",
     "name": "Yainer Diaz",
     "team": "Houston Astros",
     "position": "C",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
@@ -135,7 +148,7 @@
     "team": "Detroit Tigers",
     "position": "2B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "DTD",
     "preseason_rank": "186",
@@ -193,19 +206,6 @@
     "preseason_rank": "225",
     "current_rank": "699",
     "percent_started": 13
-  },
-  {
-    "player_key": "469.p.9571",
-    "name": "Trevor Story",
-    "team": "Boston Red Sox",
-    "position": "SS",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "154",
-    "current_rank": "788",
-    "percent_started": 49
   },
   {
     "player_key": "469.p.12351",
@@ -335,7 +335,7 @@
     "status": "Healthy",
     "preseason_rank": "228",
     "current_rank": "197",
-    "percent_started": 17
+    "percent_started": 16
   },
   {
     "player_key": "469.p.12281",
