@@ -6,7 +6,7 @@
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "64",
     "current_rank": "95",
@@ -19,7 +19,7 @@
     "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "27",
     "current_rank": "173",
@@ -32,11 +32,11 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "123",
     "current_rank": "289",
-    "percent_started": 64
+    "percent_started": 67
   },
   {
     "player_key": "469.p.9507",
@@ -45,11 +45,11 @@
     "position": "3B",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "6",
     "current_rank": "69",
-    "percent_started": 96
+    "percent_started": 97
   },
   {
     "player_key": "469.p.10766",
@@ -58,24 +58,11 @@
     "position": "3B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "684",
-    "percent_started": 81
-  },
-  {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "89",
-    "current_rank": "164",
-    "percent_started": 57
+    "percent_started": 85
   },
   {
     "player_key": "469.p.12314",
@@ -84,11 +71,11 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "137",
     "current_rank": "612",
-    "percent_started": 46
+    "percent_started": 49
   },
   {
     "player_key": "469.p.60776",
@@ -97,11 +84,24 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "285",
     "current_rank": "238",
-    "percent_started": 62
+    "percent_started": 66
+  },
+  {
+    "player_key": "469.p.62119",
+    "name": "Jakob Marsee",
+    "team": "Miami Marlins",
+    "position": "OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "114",
+    "current_rank": "240",
+    "percent_started": 56
   },
   {
     "player_key": "469.p.12309",
@@ -110,36 +110,36 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "198",
     "current_rank": "130",
-    "percent_started": 47
+    "percent_started": 50
   },
   {
     "player_key": "469.p.10236",
     "name": "Gleyber Torres",
     "team": "Detroit Tigers",
     "position": "2B",
-    "selected_position": "BN",
+    "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "DTD",
     "preseason_rank": "186",
     "current_rank": "295",
     "percent_started": 31
   },
   {
-    "player_key": "469.p.62119",
-    "name": "Jakob Marsee",
-    "team": "Miami Marlins",
-    "position": "OF",
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "114",
-    "current_rank": "240",
+    "preseason_rank": "89",
+    "current_rank": "164",
     "percent_started": 49
   },
   {
@@ -162,11 +162,11 @@
     "position": "2B,SS",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "267",
     "current_rank": "672",
-    "percent_started": 18
+    "percent_started": 20
   },
   {
     "player_key": "469.p.12435",
@@ -175,11 +175,11 @@
     "position": "C",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "150",
     "current_rank": "695",
-    "percent_started": 35
+    "percent_started": 38
   },
   {
     "player_key": "469.p.10964",
@@ -192,7 +192,7 @@
     "status": "DTD",
     "preseason_rank": "225",
     "current_rank": "699",
-    "percent_started": 16
+    "percent_started": 13
   },
   {
     "player_key": "469.p.9571",
@@ -201,11 +201,11 @@
     "position": "SS",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "154",
     "current_rank": "788",
-    "percent_started": 43
+    "percent_started": 49
   },
   {
     "player_key": "469.p.12351",
@@ -218,7 +218,7 @@
     "status": "IL10",
     "preseason_rank": "200",
     "current_rank": "752",
-    "percent_started": 7
+    "percent_started": 8
   },
   {
     "player_key": "469.p.11365",
@@ -227,11 +227,11 @@
     "position": "1B,3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "256",
     "current_rank": "817",
-    "percent_started": 18
+    "percent_started": 19
   },
   {
     "player_key": "469.p.9334",
@@ -257,7 +257,7 @@
     "status": "Healthy",
     "preseason_rank": "49",
     "current_rank": "270",
-    "percent_started": 68
+    "percent_started": 69
   },
   {
     "player_key": "469.p.12345",
@@ -270,7 +270,7 @@
     "status": "Healthy",
     "preseason_rank": "68",
     "current_rank": "783",
-    "percent_started": 70
+    "percent_started": 69
   },
   {
     "player_key": "469.p.11644",
@@ -284,19 +284,6 @@
     "preseason_rank": "401",
     "current_rank": "159",
     "percent_started": 21
-  },
-  {
-    "player_key": "469.p.10494",
-    "name": "Jakob Junis",
-    "team": "Texas Rangers",
-    "position": "RP",
-    "selected_position": "RP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "228",
-    "current_rank": "197",
-    "percent_started": 18
   },
   {
     "player_key": "469.p.10931",
@@ -316,7 +303,7 @@
     "name": "Braydon Fisher",
     "team": "Toronto Blue Jays",
     "position": "RP",
-    "selected_position": "P",
+    "selected_position": "RP",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -338,17 +325,30 @@
     "percent_started": 2
   },
   {
+    "player_key": "469.p.10494",
+    "name": "Jakob Junis",
+    "team": "Texas Rangers",
+    "position": "RP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "228",
+    "current_rank": "197",
+    "percent_started": 17
+  },
+  {
     "player_key": "469.p.12281",
     "name": "Spencer Strider",
     "team": "Atlanta Braves",
     "position": "SP",
-    "selected_position": "P",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "196",
     "current_rank": "495",
-    "percent_started": 55
+    "percent_started": 52
   },
   {
     "player_key": "469.p.10214",
@@ -374,7 +374,7 @@
     "status": "IL15",
     "preseason_rank": "116",
     "current_rank": "92",
-    "percent_started": 30
+    "percent_started": 32
   },
   {
     "player_key": "469.p.10185",
