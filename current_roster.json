@@ -135,7 +135,7 @@
     "team": "Houston Astros",
     "position": "C",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "DTD",
     "preseason_rank": "150",
@@ -179,7 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "223",
     "current_rank": "432",
-    "percent_started": 26
+    "percent_started": 27
   },
   {
     "player_key": "469.p.11817",
@@ -356,7 +356,7 @@
     "team": "Los Angeles Dodgers",
     "position": "RP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "266",
