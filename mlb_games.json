@@ -7,8 +7,8 @@
       "game_date": "2026-05-05",
       "start_time_utc": "2026-05-05T22:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -31,8 +31,8 @@
       "game_date": "2026-05-05",
       "start_time_utc": "2026-05-05T22:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -55,8 +55,8 @@
       "game_date": "2026-05-05",
       "start_time_utc": "2026-05-05T22:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -79,8 +79,8 @@
       "game_date": "2026-05-05",
       "start_time_utc": "2026-05-05T22:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -103,8 +103,8 @@
       "game_date": "2026-05-05",
       "start_time_utc": "2026-05-05T22:45:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -127,8 +127,8 @@
       "game_date": "2026-05-05",
       "start_time_utc": "2026-05-05T23:05:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -151,8 +151,8 @@
       "game_date": "2026-05-05",
       "start_time_utc": "2026-05-05T23:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -175,8 +175,8 @@
       "game_date": "2026-05-05",
       "start_time_utc": "2026-05-05T23:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -195,36 +195,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 823062,
-      "game_date": "2026-05-05",
-      "start_time_utc": "2026-05-05T23:45:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 158,
-        "name": "Milwaukee Brewers",
-        "abbreviation": "MIL"
-      },
-      "home_team": {
-        "id": 138,
-        "name": "St. Louis Cardinals",
-        "abbreviation": "STL"
-      },
-      "venue": "Busch Stadium",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
       "game_pk": 824200,
       "game_date": "2026-05-06",
       "start_time_utc": "2026-05-06T00:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -243,36 +219,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 824362,
-      "game_date": "2026-05-06",
-      "start_time_utc": "2026-05-06T00:40:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 121,
-        "name": "New York Mets",
-        "abbreviation": "NYM"
-      },
-      "home_team": {
-        "id": 115,
-        "name": "Colorado Rockies",
-        "abbreviation": "COL"
-      },
-      "venue": "Coors Field",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
       "game_pk": 824040,
       "game_date": "2026-05-06",
       "start_time_utc": "2026-05-06T01:38:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -295,8 +247,8 @@
       "game_date": "2026-05-06",
       "start_time_utc": "2026-05-06T01:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -319,8 +271,8 @@
       "game_date": "2026-05-06",
       "start_time_utc": "2026-05-06T01:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -343,8 +295,8 @@
       "game_date": "2026-05-06",
       "start_time_utc": "2026-05-06T01:45:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -358,6 +310,54 @@
         "abbreviation": "SF"
       },
       "venue": "Oracle Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823062,
+      "game_date": "2026-05-05",
+      "start_time_utc": "2026-05-05T23:45:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DI",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 158,
+        "name": "Milwaukee Brewers",
+        "abbreviation": "MIL"
+      },
+      "home_team": {
+        "id": 138,
+        "name": "St. Louis Cardinals",
+        "abbreviation": "STL"
+      },
+      "venue": "Busch Stadium",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 824362,
+      "game_date": "2026-05-06",
+      "start_time_utc": "2026-05-06T00:40:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DI",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 121,
+        "name": "New York Mets",
+        "abbreviation": "NYM"
+      },
+      "home_team": {
+        "id": 115,
+        "name": "Colorado Rockies",
+        "abbreviation": "COL"
+      },
+      "venue": "Coors Field",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
