@@ -6,9 +6,9 @@
       "game_pk": 822985,
       "game_date": "2026-05-06",
       "start_time_utc": "2026-05-06T17:10:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "status_abstract": "Final",
+      "status_detailed": "Final",
+      "status_code": "F",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -247,8 +247,8 @@
       "game_date": "2026-05-06",
       "start_time_utc": "2026-05-06T23:05:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
