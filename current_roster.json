@@ -58,7 +58,7 @@
     "position": "3B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "70",
     "current_rank": "724",
@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "115",
     "current_rank": "414",
-    "percent_started": 58
+    "percent_started": 57
   },
   {
     "player_key": "469.p.12314",
@@ -179,7 +179,7 @@
     "status": "IL10",
     "preseason_rank": "176",
     "current_rank": "349",
-    "percent_started": 18
+    "percent_started": 17
   },
   {
     "player_key": "469.p.11817",
