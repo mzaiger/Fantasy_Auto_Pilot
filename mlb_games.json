@@ -7,8 +7,8 @@
       "game_date": "2026-05-06",
       "start_time_utc": "2026-05-06T17:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -31,8 +31,8 @@
       "game_date": "2026-05-06",
       "start_time_utc": "2026-05-06T17:15:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
