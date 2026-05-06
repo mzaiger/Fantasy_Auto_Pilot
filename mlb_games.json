@@ -7,8 +7,8 @@
       "game_date": "2026-05-06",
       "start_time_utc": "2026-05-06T17:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "status_detailed": "Umpire review",
+      "status_code": "NH",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
