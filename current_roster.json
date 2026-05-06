@@ -26,17 +26,17 @@
     "percent_started": 94
   },
   {
-    "player_key": "469.p.12100",
-    "name": "Otto Lopez",
-    "team": "Miami Marlins",
-    "position": "2B,SS",
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": 0,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "115",
-    "current_rank": "414",
-    "percent_started": 58
+    "preseason_rank": "300",
+    "current_rank": "217",
+    "percent_started": 61
   },
   {
     "player_key": "469.p.9507",
@@ -78,19 +78,6 @@
     "percent_started": 66
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "300",
-    "current_rank": "217",
-    "percent_started": 61
-  },
-  {
     "player_key": "469.p.62119",
     "name": "Jakob Marsee",
     "team": "Miami Marlins",
@@ -102,19 +89,6 @@
     "preseason_rank": "114",
     "current_rank": "283",
     "percent_started": 50
-  },
-  {
-    "player_key": "469.p.12314",
-    "name": "Steven Kwan",
-    "team": "Cleveland Guardians",
-    "position": "OF",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "141",
-    "current_rank": "657",
-    "percent_started": 38
   },
   {
     "player_key": "469.p.12309",
@@ -130,6 +104,45 @@
     "percent_started": 50
   },
   {
+    "player_key": "469.p.9571",
+    "name": "Trevor Story",
+    "team": "Boston Red Sox",
+    "position": "SS",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "253",
+    "current_rank": "774",
+    "percent_started": 46
+  },
+  {
+    "player_key": "469.p.12100",
+    "name": "Otto Lopez",
+    "team": "Miami Marlins",
+    "position": "2B,SS",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "115",
+    "current_rank": "414",
+    "percent_started": 58
+  },
+  {
+    "player_key": "469.p.12314",
+    "name": "Steven Kwan",
+    "team": "Cleveland Guardians",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "141",
+    "current_rank": "657",
+    "percent_started": 38
+  },
+  {
     "player_key": "469.p.10944",
     "name": "Heliot Ramos",
     "team": "San Francisco Giants",
@@ -141,19 +154,6 @@
     "preseason_rank": "222",
     "current_rank": "463",
     "percent_started": 23
-  },
-  {
-    "player_key": "469.p.9571",
-    "name": "Trevor Story",
-    "team": "Boston Red Sox",
-    "position": "SS",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "253",
-    "current_rank": "774",
-    "percent_started": 46
   },
   {
     "player_key": "469.p.12435",
