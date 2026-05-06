@@ -161,7 +161,7 @@
     "team": "Houston Astros",
     "position": "C",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "127",
@@ -176,7 +176,7 @@
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
-    "status": "DTD",
+    "status": "IL10",
     "preseason_rank": "176",
     "current_rank": "349",
     "percent_started": 20
@@ -201,11 +201,11 @@
     "position": "1B,2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "DTD",
     "preseason_rank": "224",
     "current_rank": "712",
-    "percent_started": 11
+    "percent_started": 10
   },
   {
     "player_key": "469.p.11365",
@@ -283,7 +283,7 @@
     "status": "Healthy",
     "preseason_rank": "128",
     "current_rank": "122",
-    "percent_started": 69
+    "percent_started": 70
   },
   {
     "player_key": "469.p.10494",
@@ -369,7 +369,7 @@
     "team": "Los Angeles Dodgers",
     "position": "RP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "282",
@@ -409,7 +409,7 @@
     "position": "OF",
     "selected_position": "NA",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "NA",
     "preseason_rank": "366",
     "current_rank": "1295",
