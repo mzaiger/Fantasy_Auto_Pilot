@@ -49,7 +49,7 @@
     "status": "Healthy",
     "preseason_rank": "70",
     "current_rank": "718",
-    "percent_started": 82
+    "percent_started": 83
   },
   {
     "player_key": "469.p.12005",
@@ -200,7 +200,7 @@
     "team": "Washington Nationals",
     "position": "1B,2B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "DTD",
     "preseason_rank": "224",
@@ -294,7 +294,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "523",
+    "preseason_rank": "535",
     "current_rank": "912",
     "percent_started": 2
   },
@@ -333,7 +333,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "415",
+    "preseason_rank": "414",
     "current_rank": "194",
     "percent_started": 3
   },
@@ -408,7 +408,7 @@
     "team": "Washington Nationals",
     "position": "OF",
     "selected_position": "NA",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "NA",
     "preseason_rank": "366",
