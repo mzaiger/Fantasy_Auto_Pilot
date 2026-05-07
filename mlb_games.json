@@ -318,9 +318,9 @@
       "game_pk": 824361,
       "game_date": "2026-05-07",
       "start_time_utc": "2026-05-07T01:20:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Pre-Game",
-      "status_code": "P",
+      "status_abstract": "Live",
+      "status_detailed": "Warmup",
+      "status_code": "PW",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
