@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "114",
     "current_rank": "288",
-    "percent_started": 44
+    "percent_started": 43
   },
   {
     "player_key": "469.p.9571",
@@ -182,19 +182,6 @@
     "percent_started": 19
   },
   {
-    "player_key": "469.p.10236",
-    "name": "Gleyber Torres",
-    "team": "Detroit Tigers",
-    "position": "2B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "176",
-    "current_rank": "412",
-    "percent_started": 10
-  },
-  {
     "player_key": "469.p.10964",
     "name": "Luis García Jr.",
     "team": "Washington Nationals",
@@ -219,6 +206,19 @@
     "preseason_rank": "270",
     "current_rank": "845",
     "percent_started": 15
+  },
+  {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "210",
+    "current_rank": "810",
+    "percent_started": 28
   },
   {
     "player_key": "469.p.12345",
@@ -351,17 +351,17 @@
     "percent_started": 35
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.10236",
+    "name": "Gleyber Torres",
+    "team": "Detroit Tigers",
+    "position": "2B",
     "selected_position": "IL",
     "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "210",
-    "current_rank": "810",
-    "percent_started": 27
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "176",
+    "current_rank": "412",
+    "percent_started": 10
   },
   {
     "player_key": "469.p.10214",
