@@ -18,7 +18,7 @@
     "team": " Athletics",
     "position": "1B,OF",
     "selected_position": "1B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "87",
@@ -101,7 +101,7 @@
     "status": "Healthy",
     "preseason_rank": "210",
     "current_rank": "810",
-    "percent_started": 28
+    "percent_started": 29
   },
   {
     "player_key": "469.p.10621",
@@ -226,7 +226,7 @@
     "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "72",
