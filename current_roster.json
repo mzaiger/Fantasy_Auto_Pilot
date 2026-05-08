@@ -5,7 +5,7 @@
     "team": "Tampa Bay Rays",
     "position": "1B",
     "selected_position": "1B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "189",
@@ -96,7 +96,7 @@
     "team": "Boston Red Sox",
     "position": "SS",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "253",
@@ -192,7 +192,7 @@
     "status": "IL10",
     "preseason_rank": "176",
     "current_rank": "384",
-    "percent_started": 13
+    "percent_started": 12
   },
   {
     "player_key": "469.p.10964",
@@ -294,7 +294,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "535",
+    "preseason_rank": "523",
     "current_rank": "912",
     "percent_started": 2
   },
@@ -333,7 +333,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "414",
+    "preseason_rank": "415",
     "current_rank": "194",
     "percent_started": 3
   },
