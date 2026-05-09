@@ -13,17 +13,17 @@
     "percent_started": 89
   },
   {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
+    "player_key": "469.p.10621",
+    "name": "Vladimir Guerrero Jr.",
+    "team": "Toronto Blue Jays",
+    "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "87",
-    "current_rank": "141",
-    "percent_started": 80
+    "preseason_rank": "24",
+    "current_rank": "258",
+    "percent_started": 92
   },
   {
     "player_key": "469.p.12100",
@@ -32,7 +32,7 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "115",
     "current_rank": "343",
@@ -45,7 +45,7 @@
     "position": "3B",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "5",
     "current_rank": "78",
@@ -62,20 +62,20 @@
     "status": "Healthy",
     "preseason_rank": "70",
     "current_rank": "765",
-    "percent_started": 74
+    "percent_started": 71
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "300",
-    "current_rank": "271",
-    "percent_started": 53
+    "preseason_rank": "87",
+    "current_rank": "141",
+    "percent_started": 79
   },
   {
     "player_key": "469.p.12314",
@@ -84,37 +84,37 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "141",
     "current_rank": "640",
-    "percent_started": 42
+    "percent_started": 41
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.62119",
+    "name": "Jakob Marsee",
+    "team": "Miami Marlins",
+    "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "210",
-    "current_rank": "813",
-    "percent_started": 29
+    "preseason_rank": "114",
+    "current_rank": "311",
+    "percent_started": 44
   },
   {
-    "player_key": "469.p.10621",
-    "name": "Vladimir Guerrero Jr.",
-    "team": "Toronto Blue Jays",
-    "position": "1B",
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
     "selected_position": "Util",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "24",
-    "current_rank": "258",
-    "percent_started": 91
+    "preseason_rank": "300",
+    "current_rank": "271",
+    "percent_started": 56
   },
   {
     "player_key": "469.p.12309",
@@ -123,11 +123,24 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "189",
     "current_rank": "127",
-    "percent_started": 51
+    "percent_started": 44
+  },
+  {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "210",
+    "current_rank": "813",
+    "percent_started": 35
   },
   {
     "player_key": "469.p.10944",
@@ -143,30 +156,17 @@
     "percent_started": 16
   },
   {
-    "player_key": "469.p.62119",
-    "name": "Jakob Marsee",
-    "team": "Miami Marlins",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "114",
-    "current_rank": "311",
-    "percent_started": 44
-  },
-  {
     "player_key": "469.p.9571",
     "name": "Trevor Story",
     "team": "Boston Red Sox",
     "position": "SS",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "253",
     "current_rank": "803",
-    "percent_started": 47
+    "percent_started": 45
   },
   {
     "player_key": "469.p.11817",
@@ -179,7 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "284",
     "current_rank": "634",
-    "percent_started": 23
+    "percent_started": 21
   },
   {
     "player_key": "469.p.12435",
@@ -188,7 +188,7 @@
     "position": "C",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "127",
     "current_rank": "759",
@@ -201,11 +201,11 @@
     "position": "1B,2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
-    "status": "DTD",
+    "is_starting": 1,
+    "status": "Healthy",
     "preseason_rank": "224",
     "current_rank": "764",
-    "percent_started": 11
+    "percent_started": 12
   },
   {
     "player_key": "469.p.11365",
@@ -218,20 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "270",
     "current_rank": "860",
-    "percent_started": 16
-  },
-  {
-    "player_key": "469.p.12345",
-    "name": "Kyle Bradish",
-    "team": "Baltimore Orioles",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "72",
-    "current_rank": "740",
-    "percent_started": 74
+    "percent_started": 15
   },
   {
     "player_key": "469.p.11014",
@@ -244,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "37",
     "current_rank": "222",
-    "percent_started": 70
+    "percent_started": 67
   },
   {
     "player_key": "469.p.9334",
@@ -257,7 +244,20 @@
     "status": "Healthy",
     "preseason_rank": "50",
     "current_rank": "108",
-    "percent_started": 67
+    "percent_started": 66
+  },
+  {
+    "player_key": "469.p.12281",
+    "name": "Spencer Strider",
+    "team": "Atlanta Braves",
+    "position": "SP",
+    "selected_position": "SP",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "186",
+    "current_rank": "492",
+    "percent_started": 68
   },
   {
     "player_key": "469.p.11495",
@@ -270,7 +270,7 @@
     "status": "Healthy",
     "preseason_rank": "128",
     "current_rank": "123",
-    "percent_started": 81
+    "percent_started": 83
   },
   {
     "player_key": "469.p.10494",
@@ -338,17 +338,17 @@
     "percent_started": 3
   },
   {
-    "player_key": "469.p.12281",
-    "name": "Spencer Strider",
-    "team": "Atlanta Braves",
+    "player_key": "469.p.12345",
+    "name": "Kyle Bradish",
+    "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "186",
-    "current_rank": "492",
-    "percent_started": 55
+    "preseason_rank": "72",
+    "current_rank": "740",
+    "percent_started": 70
   },
   {
     "player_key": "469.p.10236",
@@ -409,7 +409,7 @@
     "position": "OF",
     "selected_position": "NA",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "NA",
     "preseason_rank": "366",
     "current_rank": "1318",
