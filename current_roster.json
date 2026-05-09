@@ -278,7 +278,7 @@
     "team": "Texas Rangers",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "208",
@@ -320,7 +320,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "551",
+    "preseason_rank": "543",
     "current_rank": "890",
     "percent_started": 2
   },
@@ -333,7 +333,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "413",
+    "preseason_rank": "414",
     "current_rank": "197",
     "percent_started": 3
   },
