@@ -31,8 +31,8 @@
       "game_date": "2026-05-09",
       "start_time_utc": "2026-05-09T20:05:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -70,30 +70,6 @@
         "abbreviation": "CIN"
       },
       "venue": "Great American Ball Park",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
-      "game_pk": 824766,
-      "game_date": "2026-05-09",
-      "start_time_utc": "2026-05-09T20:10:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Pre-Game",
-      "status_code": "P",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 139,
-        "name": "Tampa Bay Rays",
-        "abbreviation": "TB"
-      },
-      "home_team": {
-        "id": 111,
-        "name": "Boston Red Sox",
-        "abbreviation": "BOS"
-      },
-      "venue": "Fenway Park",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
@@ -247,8 +223,8 @@
       "game_date": "2026-05-09",
       "start_time_utc": "2026-05-09T23:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -358,6 +334,30 @@
         "abbreviation": "LAD"
       },
       "venue": "UNIQLO Field at Dodger Stadium",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 824766,
+      "game_date": "2026-05-09",
+      "start_time_utc": "2026-05-09T20:10:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DR",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 139,
+        "name": "Tampa Bay Rays",
+        "abbreviation": "TB"
+      },
+      "home_team": {
+        "id": 111,
+        "name": "Boston Red Sox",
+        "abbreviation": "BOS"
+      },
+      "venue": "Fenway Park",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
