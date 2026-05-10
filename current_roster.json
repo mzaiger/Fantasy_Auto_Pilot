@@ -10,7 +10,7 @@
     "status": "Healthy",
     "preseason_rank": "63",
     "current_rank": "125",
-    "percent_started": 90
+    "percent_started": 91
   },
   {
     "player_key": "469.p.10621",
@@ -70,7 +70,7 @@
     "team": " Athletics",
     "position": "1B,OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "87",
@@ -101,7 +101,7 @@
     "status": "Healthy",
     "preseason_rank": "300",
     "current_rank": "275",
-    "percent_started": 56
+    "percent_started": 57
   },
   {
     "player_key": "469.p.12314",
@@ -135,12 +135,12 @@
     "team": "Tampa Bay Rays",
     "position": "1B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "189",
     "current_rank": "128",
-    "percent_started": 31
+    "percent_started": 30
   },
   {
     "player_key": "469.p.12351",
@@ -153,7 +153,7 @@
     "status": "Healthy",
     "preseason_rank": "210",
     "current_rank": "805",
-    "percent_started": 36
+    "percent_started": 37
   },
   {
     "player_key": "469.p.9571",
@@ -161,7 +161,7 @@
     "team": "Boston Red Sox",
     "position": "SS",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "253",
@@ -174,7 +174,7 @@
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "284",
@@ -213,7 +213,7 @@
     "team": "Philadelphia Phillies",
     "position": "1B,3B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "270",
@@ -252,7 +252,7 @@
     "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "72",
@@ -265,7 +265,7 @@
     "team": "Philadelphia Phillies",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "128",
