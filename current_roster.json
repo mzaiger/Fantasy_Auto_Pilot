@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "37",
     "current_rank": "227",
-    "percent_started": 65
+    "percent_started": 64
   },
   {
     "player_key": "469.p.9334",
@@ -278,7 +278,7 @@
     "team": "Texas Rangers",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "208",
@@ -371,7 +371,7 @@
     "selected_position": "IL",
     "is_editable": true,
     "is_starting": null,
-    "status": "IL15",
+    "status": "IL60",
     "preseason_rank": "282",
     "current_rank": "366",
     "percent_started": 21
