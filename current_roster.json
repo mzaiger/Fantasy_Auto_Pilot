@@ -1,18 +1,5 @@
 [
   {
-    "player_key": "469.p.12435",
-    "name": "Yainer Diaz",
-    "team": "Houston Astros",
-    "position": "C",
-    "selected_position": "C",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "127",
-    "current_rank": "790",
-    "percent_started": 18
-  },
-  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
@@ -23,20 +10,20 @@
     "status": "Healthy",
     "preseason_rank": "24",
     "current_rank": "253",
-    "percent_started": 96
+    "percent_started": 97
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
     "position": "2B,3B,SS,OF",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": 0,
-    "status": "DTD",
-    "preseason_rank": "300",
-    "current_rank": "269",
-    "percent_started": 67
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "210",
+    "current_rank": "836",
+    "percent_started": 58
   },
   {
     "player_key": "469.p.9507",
@@ -50,19 +37,6 @@
     "preseason_rank": "5",
     "current_rank": "56",
     "percent_started": 98
-  },
-  {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "SS",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "210",
-    "current_rank": "836",
-    "percent_started": 57
   },
   {
     "player_key": "469.p.12314",
@@ -102,6 +76,32 @@
     "preseason_rank": "189",
     "current_rank": "134",
     "percent_started": 55
+  },
+  {
+    "player_key": "469.p.12435",
+    "name": "Yainer Diaz",
+    "team": "Houston Astros",
+    "position": "C",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "127",
+    "current_rank": "790",
+    "percent_started": 18
+  },
+  {
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "DTD",
+    "preseason_rank": "300",
+    "current_rank": "269",
+    "percent_started": 67
   },
   {
     "player_key": "469.p.11268",
@@ -253,7 +253,7 @@
     "position": "RP",
     "selected_position": "RP",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "208",
     "current_rank": "217",
