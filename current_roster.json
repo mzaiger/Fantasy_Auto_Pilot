@@ -31,7 +31,7 @@
     "team": "Cleveland Guardians",
     "position": "3B",
     "selected_position": "3B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "5",
@@ -44,7 +44,7 @@
     "team": "Cleveland Guardians",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "141",
@@ -218,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "270",
     "current_rank": "743",
-    "percent_started": 16
+    "percent_started": 15
   },
   {
     "player_key": "469.p.9334",
