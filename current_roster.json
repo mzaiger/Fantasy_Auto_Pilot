@@ -84,7 +84,7 @@
     "position": "1B,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "85",
     "current_rank": "168",
@@ -117,17 +117,30 @@
     "percent_started": 54
   },
   {
+    "player_key": "469.p.10944",
+    "name": "Heliot Ramos",
+    "team": "San Francisco Giants",
+    "position": "OF",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "215",
+    "current_rank": "204",
+    "percent_started": 24
+  },
+  {
     "player_key": "469.p.60776",
     "name": "José Caballero",
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "298",
     "current_rank": "281",
-    "percent_started": 29
+    "percent_started": 28
   },
   {
     "player_key": "469.p.12351",
@@ -141,19 +154,6 @@
     "preseason_rank": "209",
     "current_rank": "851",
     "percent_started": 45
-  },
-  {
-    "player_key": "469.p.10944",
-    "name": "Heliot Ramos",
-    "team": "San Francisco Giants",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "215",
-    "current_rank": "204",
-    "percent_started": 24
   },
   {
     "player_key": "469.p.12435",
@@ -205,7 +205,7 @@
     "status": "Healthy",
     "preseason_rank": "221",
     "current_rank": "696",
-    "percent_started": 14
+    "percent_started": 15
   },
   {
     "player_key": "469.p.11365",
