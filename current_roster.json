@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "143",
     "current_rank": "699",
-    "percent_started": 39
+    "percent_started": 38
   },
   {
     "player_key": "469.p.60776",
@@ -148,7 +148,7 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "298",
@@ -239,7 +239,7 @@
     "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "76",
@@ -307,7 +307,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "413",
+    "preseason_rank": "416",
     "current_rank": "269",
     "percent_started": 3
   },
@@ -333,7 +333,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "581",
+    "preseason_rank": "585",
     "current_rank": "899",
     "percent_started": 1
   },
