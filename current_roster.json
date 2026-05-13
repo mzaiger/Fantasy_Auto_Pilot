@@ -71,11 +71,11 @@
     "position": "1B,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "85",
     "current_rank": "187",
-    "percent_started": 70
+    "percent_started": 69
   },
   {
     "player_key": "469.p.62119",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "209",
     "current_rank": "855",
-    "percent_started": 37
+    "percent_started": 36
   },
   {
     "player_key": "469.p.12314",
@@ -257,7 +257,7 @@
     "status": "Healthy",
     "preseason_rank": "36",
     "current_rank": "172",
-    "percent_started": 80
+    "percent_started": 79
   },
   {
     "player_key": "469.p.10494",
