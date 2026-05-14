@@ -44,7 +44,7 @@
     "team": "New York Mets",
     "position": "3B,SS",
     "selected_position": "3B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "78",
@@ -114,7 +114,7 @@
     "status": "Healthy",
     "preseason_rank": "250",
     "current_rank": "770",
-    "percent_started": 47
+    "percent_started": 48
   },
   {
     "player_key": "469.p.11817",
@@ -226,7 +226,7 @@
     "team": "New York Mets",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "36",
@@ -356,7 +356,7 @@
     "team": "Detroit Tigers",
     "position": "2B",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "197",
