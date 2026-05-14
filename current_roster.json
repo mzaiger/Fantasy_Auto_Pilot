@@ -84,7 +84,7 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "215",
     "current_rank": "229",
@@ -96,7 +96,7 @@
     "team": " Athletics",
     "position": "1B,OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "85",
@@ -110,7 +110,7 @@
     "position": "SS",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "250",
     "current_rank": "770",
@@ -123,11 +123,11 @@
     "position": "2B,SS",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "283",
     "current_rank": "602",
-    "percent_started": 27
+    "percent_started": 26
   },
   {
     "player_key": "469.p.10621",
@@ -166,7 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "185",
     "current_rank": "64",
-    "percent_started": 33
+    "percent_started": 32
   },
   {
     "player_key": "469.p.12314",
@@ -179,7 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "143",
     "current_rank": "716",
-    "percent_started": 29
+    "percent_started": 28
   },
   {
     "player_key": "469.p.60776",
@@ -214,7 +214,7 @@
     "position": "1B,3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "269",
     "current_rank": "756",
@@ -257,7 +257,7 @@
     "status": "Healthy",
     "preseason_rank": "122",
     "current_rank": "105",
-    "percent_started": 90
+    "percent_started": 91
   },
   {
     "player_key": "469.p.10931",
@@ -265,7 +265,7 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "385",
@@ -278,7 +278,7 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "579",
