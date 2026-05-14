@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "85",
     "current_rank": "187",
-    "percent_started": 66
+    "percent_started": 65
   },
   {
     "player_key": "469.p.12351",
@@ -135,7 +135,7 @@
     "team": "Seattle Mariners",
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "209",
@@ -174,7 +174,7 @@
     "team": "Houston Astros",
     "position": "C",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "125",
