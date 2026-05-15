@@ -104,19 +104,6 @@
     "percent_started": 32
   },
   {
-    "player_key": "469.p.10944",
-    "name": "Heliot Ramos",
-    "team": "San Francisco Giants",
-    "position": "OF",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "215",
-    "current_rank": "251",
-    "percent_started": 26
-  },
-  {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
@@ -128,6 +115,32 @@
     "preseason_rank": "185",
     "current_rank": "69",
     "percent_started": 52
+  },
+  {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "209",
+    "current_rank": "832",
+    "percent_started": 48
+  },
+  {
+    "player_key": "469.p.10944",
+    "name": "Heliot Ramos",
+    "team": "San Francisco Giants",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "215",
+    "current_rank": "251",
+    "percent_started": 26
   },
   {
     "player_key": "469.p.10964",
@@ -143,19 +156,6 @@
     "percent_started": 21
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "209",
-    "current_rank": "832",
-    "percent_started": 48
-  },
-  {
     "player_key": "469.p.9571",
     "name": "Trevor Story",
     "team": "Boston Red Sox",
@@ -166,7 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "250",
     "current_rank": "825",
-    "percent_started": 38
+    "percent_started": 37
   },
   {
     "player_key": "469.p.11365",
