@@ -162,7 +162,7 @@
     "position": "SS",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "250",
     "current_rank": "867",
