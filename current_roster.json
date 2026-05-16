@@ -6,7 +6,7 @@
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "60",
     "current_rank": "126",
@@ -31,7 +31,7 @@
     "team": "Miami Marlins",
     "position": "2B,SS",
     "selected_position": "2B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "109",
@@ -58,11 +58,11 @@
     "position": "3B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "78",
     "current_rank": "792",
-    "percent_started": 65
+    "percent_started": 66
   },
   {
     "player_key": "469.p.62119",
@@ -70,7 +70,7 @@
     "team": "Miami Marlins",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "113",
@@ -122,7 +122,7 @@
     "team": "Tampa Bay Rays",
     "position": "1B",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "185",
@@ -136,8 +136,8 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
+    "is_starting": 0,
+    "status": "DTD",
     "preseason_rank": "209",
     "current_rank": "842",
     "percent_started": 48
@@ -166,7 +166,7 @@
     "status": "IL10",
     "preseason_rank": "250",
     "current_rank": "867",
-    "percent_started": 33
+    "percent_started": 32
   },
   {
     "player_key": "469.p.11365",
@@ -201,7 +201,7 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "298",
     "current_rank": "412",
