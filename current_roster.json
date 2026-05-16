@@ -104,19 +104,6 @@
     "percent_started": 33
   },
   {
-    "player_key": "469.p.10944",
-    "name": "Heliot Ramos",
-    "team": "San Francisco Giants",
-    "position": "OF",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "DTD",
-    "preseason_rank": "215",
-    "current_rank": "287",
-    "percent_started": 16
-  },
-  {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
@@ -130,6 +117,19 @@
     "percent_started": 52
   },
   {
+    "player_key": "469.p.10944",
+    "name": "Heliot Ramos",
+    "team": "San Francisco Giants",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "DTD",
+    "preseason_rank": "215",
+    "current_rank": "287",
+    "percent_started": 16
+  },
+  {
     "player_key": "469.p.12351",
     "name": "Brendan Donovan",
     "team": "Seattle Mariners",
@@ -140,7 +140,7 @@
     "status": "DTD",
     "preseason_rank": "209",
     "current_rank": "842",
-    "percent_started": 42
+    "percent_started": 41
   },
   {
     "player_key": "469.p.10964",
@@ -294,7 +294,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "410",
+    "preseason_rank": "411",
     "current_rank": "354",
     "percent_started": 18
   },
@@ -320,7 +320,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "547",
+    "preseason_rank": "530",
     "current_rank": "846",
     "percent_started": 1
   },
