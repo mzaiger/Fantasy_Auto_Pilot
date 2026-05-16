@@ -10,7 +10,7 @@
     "status": "Healthy",
     "preseason_rank": "60",
     "current_rank": "126",
-    "percent_started": 93
+    "percent_started": 92
   },
   {
     "player_key": "469.p.10621",
@@ -91,30 +91,30 @@
     "percent_started": 69
   },
   {
-    "player_key": "469.p.10944",
-    "name": "Heliot Ramos",
-    "team": "San Francisco Giants",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "DTD",
-    "preseason_rank": "215",
-    "current_rank": "287",
-    "percent_started": 19
-  },
-  {
     "player_key": "469.p.12314",
     "name": "Steven Kwan",
     "team": "Cleveland Guardians",
     "position": "OF",
-    "selected_position": "Util",
+    "selected_position": "OF",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "143",
     "current_rank": "723",
     "percent_started": 32
+  },
+  {
+    "player_key": "469.p.10944",
+    "name": "Heliot Ramos",
+    "team": "San Francisco Giants",
+    "position": "OF",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "DTD",
+    "preseason_rank": "215",
+    "current_rank": "287",
+    "percent_started": 18
   },
   {
     "player_key": "469.p.12309",
@@ -166,7 +166,7 @@
     "status": "IL10",
     "preseason_rank": "250",
     "current_rank": "867",
-    "percent_started": 37
+    "percent_started": 36
   },
   {
     "player_key": "469.p.11365",
@@ -294,7 +294,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "410",
+    "preseason_rank": "411",
     "current_rank": "354",
     "percent_started": 18
   },
@@ -320,7 +320,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "547",
+    "preseason_rank": "530",
     "current_rank": "846",
     "percent_started": 1
   },
