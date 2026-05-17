@@ -121,7 +121,7 @@
     "name": "Brendan Donovan",
     "team": "Seattle Mariners",
     "position": "2B,3B,SS,OF",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 0,
     "status": "IL10",
@@ -294,7 +294,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "409",
+    "preseason_rank": "410",
     "current_rank": "337",
     "percent_started": 18
   },
@@ -320,7 +320,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "549",
+    "preseason_rank": "547",
     "current_rank": "852",
     "percent_started": 1
   },
@@ -333,7 +333,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "416",
+    "preseason_rank": "415",
     "current_rank": "260",
     "percent_started": 2
   },
