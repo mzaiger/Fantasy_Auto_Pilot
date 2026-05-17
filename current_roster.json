@@ -123,11 +123,11 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
-    "status": "DTD",
+    "is_starting": 0,
+    "status": "IL10",
     "preseason_rank": "209",
     "current_rank": "842",
-    "percent_started": 29
+    "percent_started": 27
   },
   {
     "player_key": "469.p.10944",
@@ -294,7 +294,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "410",
+    "preseason_rank": "409",
     "current_rank": "337",
     "percent_started": 18
   },
@@ -320,7 +320,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "547",
+    "preseason_rank": "549",
     "current_rank": "852",
     "percent_started": 1
   },
@@ -333,7 +333,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "415",
+    "preseason_rank": "416",
     "current_rank": "260",
     "percent_started": 2
   },
@@ -369,7 +369,7 @@
     "team": "Los Angeles Dodgers",
     "position": "RP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "281",
