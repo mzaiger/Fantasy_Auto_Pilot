@@ -31,7 +31,7 @@
     "team": "Miami Marlins",
     "position": "2B,SS",
     "selected_position": "2B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "109",
@@ -70,7 +70,7 @@
     "team": "Miami Marlins",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "113",
@@ -109,7 +109,7 @@
     "team": "Tampa Bay Rays",
     "position": "1B",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "185",
@@ -127,7 +127,7 @@
     "status": "DTD",
     "preseason_rank": "209",
     "current_rank": "842",
-    "percent_started": 30
+    "percent_started": 29
   },
   {
     "player_key": "469.p.10944",
@@ -166,7 +166,7 @@
     "status": "IL10",
     "preseason_rank": "250",
     "current_rank": "871",
-    "percent_started": 28
+    "percent_started": 27
   },
   {
     "player_key": "469.p.11365",
@@ -179,7 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "269",
     "current_rank": "776",
-    "percent_started": 19
+    "percent_started": 20
   },
   {
     "player_key": "469.p.11817",
@@ -192,7 +192,7 @@
     "status": "Healthy",
     "preseason_rank": "283",
     "current_rank": "558",
-    "percent_started": 24
+    "percent_started": 25
   },
   {
     "player_key": "469.p.60776",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "36",
     "current_rank": "186",
-    "percent_started": 91
+    "percent_started": 92
   },
   {
     "player_key": "469.p.12281",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "182",
     "current_rank": "204",
-    "percent_started": 58
+    "percent_started": 57
   },
   {
     "player_key": "469.p.9334",
@@ -257,7 +257,7 @@
     "status": "Healthy",
     "preseason_rank": "53",
     "current_rank": "201",
-    "percent_started": 90
+    "percent_started": 91
   },
   {
     "player_key": "469.p.11495",
