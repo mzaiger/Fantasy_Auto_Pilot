@@ -2,7 +2,7 @@
 <fantasy_content>
   <roster>
     <coverage_type>date</coverage_type>
-    <date>2026-05-16</date>
+    <date>2026-05-17</date>
     <players>
       <player>
         <player_key>469.p.11268</player_key>
@@ -42,7 +42,7 @@
       </player>
       <player>
         <player_key>469.p.10944</player_key>
-        <position>BN</position>
+        <position>Util</position>
       </player>
       <player>
         <player_key>469.p.12351</player_key>
