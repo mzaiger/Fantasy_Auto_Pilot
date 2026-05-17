@@ -234,19 +234,6 @@
     "percent_started": 92
   },
   {
-    "player_key": "469.p.12281",
-    "name": "Spencer Strider",
-    "team": "Atlanta Braves",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "182",
-    "current_rank": "204",
-    "percent_started": 57
-  },
-  {
     "player_key": "469.p.9334",
     "name": "Kevin Gausman",
     "team": "Toronto Blue Jays",
@@ -257,7 +244,20 @@
     "status": "Healthy",
     "preseason_rank": "53",
     "current_rank": "201",
-    "percent_started": 91
+    "percent_started": 92
+  },
+  {
+    "player_key": "469.p.12345",
+    "name": "Kyle Bradish",
+    "team": "Baltimore Orioles",
+    "position": "SP",
+    "selected_position": "SP",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "76",
+    "current_rank": "603",
+    "percent_started": 58
   },
   {
     "player_key": "469.p.11495",
@@ -338,17 +338,17 @@
     "percent_started": 2
   },
   {
-    "player_key": "469.p.12345",
-    "name": "Kyle Bradish",
-    "team": "Baltimore Orioles",
+    "player_key": "469.p.12281",
+    "name": "Spencer Strider",
+    "team": "Atlanta Braves",
     "position": "SP",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "76",
-    "current_rank": "603",
-    "percent_started": 58
+    "preseason_rank": "182",
+    "current_rank": "204",
+    "percent_started": 57
   },
   {
     "player_key": "469.p.10236",
