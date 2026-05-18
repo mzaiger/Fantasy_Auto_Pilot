@@ -2,7 +2,7 @@
 <fantasy_content>
   <roster>
     <coverage_type>date</coverage_type>
-    <date>2026-05-17</date>
+    <date>2026-05-18</date>
     <players>
       <player>
         <player_key>469.p.11268</player_key>
@@ -62,7 +62,7 @@
       </player>
       <player>
         <player_key>469.p.11817</player_key>
-        <position>BN</position>
+        <position>Util</position>
       </player>
       <player>
         <player_key>469.p.60776</player_key>
@@ -98,11 +98,11 @@
       </player>
       <player>
         <player_key>469.p.10931</player_key>
-        <position>P</position>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.63308</player_key>
-        <position>P</position>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.11479</player_key>
