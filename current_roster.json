@@ -75,7 +75,7 @@
     "status": "Healthy",
     "preseason_rank": "113",
     "current_rank": "124",
-    "percent_started": 57
+    "percent_started": 58
   },
   {
     "player_key": "469.p.12005",
@@ -117,11 +117,24 @@
     "percent_started": 54
   },
   {
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "221",
+    "current_rank": "566",
+    "percent_started": 23
+  },
+  {
     "player_key": "469.p.11817",
     "name": "Bryson Stott",
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
@@ -156,19 +169,6 @@
     "percent_started": 9
   },
   {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "221",
-    "current_rank": "566",
-    "percent_started": 23
-  },
-  {
     "player_key": "469.p.9571",
     "name": "Trevor Story",
     "team": "Boston Red Sox",
@@ -179,7 +179,7 @@
     "status": "IL10",
     "preseason_rank": "250",
     "current_rank": "873",
-    "percent_started": 24
+    "percent_started": 23
   },
   {
     "player_key": "469.p.11365",
