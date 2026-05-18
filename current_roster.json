@@ -153,7 +153,7 @@
     "status": "IL10",
     "preseason_rank": "209",
     "current_rank": "844",
-    "percent_started": 13
+    "percent_started": 12
   },
   {
     "player_key": "469.p.10944",
@@ -174,7 +174,7 @@
     "team": "Boston Red Sox",
     "position": "SS",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "250",
