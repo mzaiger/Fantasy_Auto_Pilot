@@ -6,7 +6,7 @@
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "60",
     "current_rank": "149",
@@ -31,7 +31,7 @@
     "team": "Miami Marlins",
     "position": "2B,SS",
     "selected_position": "2B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "109",
@@ -58,7 +58,7 @@
     "position": "3B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "78",
     "current_rank": "748",
@@ -71,11 +71,11 @@
     "position": "1B,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "85",
     "current_rank": "376",
-    "percent_started": 65
+    "percent_started": 64
   },
   {
     "player_key": "469.p.12314",
@@ -91,17 +91,17 @@
     "percent_started": 34
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
-    "preseason_rank": "209",
-    "current_rank": "844",
-    "percent_started": 9
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "365",
+    "current_rank": "1359",
+    "percent_started": 4
   },
   {
     "player_key": "469.p.12309",
@@ -110,7 +110,7 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "185",
     "current_rank": "86",
@@ -127,7 +127,20 @@
     "status": "Healthy",
     "preseason_rank": "283",
     "current_rank": "309",
-    "percent_started": 33
+    "percent_started": 34
+  },
+  {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "209",
+    "current_rank": "844",
+    "percent_started": 9
   },
   {
     "player_key": "469.p.62119",
@@ -135,12 +148,12 @@
     "team": "Miami Marlins",
     "position": "OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "113",
     "current_rank": "108",
-    "percent_started": 50
+    "percent_started": 49
   },
   {
     "player_key": "469.p.10964",
@@ -149,7 +162,7 @@
     "position": "1B,2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "221",
     "current_rank": "650",
@@ -162,7 +175,7 @@
     "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "215",
     "current_rank": "396",
@@ -175,24 +188,11 @@
     "position": "SS",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "250",
     "current_rank": "854",
     "percent_started": 22
-  },
-  {
-    "player_key": "469.p.11365",
-    "name": "Alec Bohm",
-    "team": "Philadelphia Phillies",
-    "position": "1B,3B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "269",
-    "current_rank": "720",
-    "percent_started": 23
   },
   {
     "player_key": "469.p.60776",
@@ -214,7 +214,7 @@
     "position": "C",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "125",
     "current_rank": "839",
@@ -257,7 +257,7 @@
     "status": "Healthy",
     "preseason_rank": "76",
     "current_rank": "587",
-    "percent_started": 85
+    "percent_started": 86
   },
   {
     "player_key": "469.p.11495",
@@ -343,7 +343,7 @@
     "team": "Atlanta Braves",
     "position": "SP",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "182",
@@ -395,24 +395,11 @@
     "team": "Atlanta Braves",
     "position": "SP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "409",
     "current_rank": "1801",
     "percent_started": 2
-  },
-  {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "NA",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "365",
-    "current_rank": "1359",
-    "percent_started": 3
   }
 ]
