@@ -91,17 +91,17 @@
     "percent_started": 61
   },
   {
-    "player_key": "469.p.62119",
-    "name": "Jakob Marsee",
-    "team": "Miami Marlins",
-    "position": "OF",
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "113",
-    "current_rank": "116",
-    "percent_started": 51
+    "is_starting": null,
+    "status": "IL10",
+    "preseason_rank": "298",
+    "current_rank": "487",
+    "percent_started": 9
   },
   {
     "player_key": "469.p.12309",
@@ -128,6 +128,19 @@
     "preseason_rank": "283",
     "current_rank": "333",
     "percent_started": 34
+  },
+  {
+    "player_key": "469.p.62119",
+    "name": "Jakob Marsee",
+    "team": "Miami Marlins",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "113",
+    "current_rank": "116",
+    "percent_started": 50
   },
   {
     "player_key": "469.p.62971",
@@ -180,19 +193,6 @@
     "preseason_rank": "250",
     "current_rank": "866",
     "percent_started": 21
-  },
-  {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
-    "preseason_rank": "298",
-    "current_rank": "487",
-    "percent_started": 9
   },
   {
     "player_key": "469.p.12435",
