@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "365",
     "current_rank": "1061",
-    "percent_started": 5
+    "percent_started": 6
   },
   {
     "player_key": "469.p.10964",
@@ -206,19 +206,6 @@
     "preseason_rank": "125",
     "current_rank": "843",
     "percent_started": 16
-  },
-  {
-    "player_key": "469.p.64897",
-    "name": "Jesús Made",
-    "team": "Milwaukee Brewers",
-    "position": "2B,3B,SS",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "NA",
-    "preseason_rank": "1970",
-    "current_rank": "1682",
-    "percent_started": null
   },
   {
     "player_key": "469.p.11014",
@@ -401,5 +388,18 @@
     "preseason_rank": "409",
     "current_rank": "1803",
     "percent_started": 2
+  },
+  {
+    "player_key": "469.p.64897",
+    "name": "Jesús Made",
+    "team": "Milwaukee Brewers",
+    "position": "2B,3B,SS",
+    "selected_position": "NA",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "NA",
+    "preseason_rank": "1970",
+    "current_rank": "1682",
+    "percent_started": null
   }
 ]
