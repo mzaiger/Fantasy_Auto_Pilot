@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "113",
     "current_rank": "128",
-    "percent_started": 61
+    "percent_started": 62
   },
   {
     "player_key": "469.p.10964",
@@ -104,30 +104,30 @@
     "percent_started": 23
   },
   {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "365",
-    "current_rank": "1055",
-    "percent_started": 12
-  },
-  {
     "player_key": "469.p.60776",
     "name": "José Caballero",
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
-    "selected_position": "BN",
+    "selected_position": "Util",
     "is_editable": true,
     "is_starting": null,
     "status": "IL10",
     "preseason_rank": "298",
     "current_rank": "529",
     "percent_started": 13
+  },
+  {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "365",
+    "current_rank": "1055",
+    "percent_started": 12
   },
   {
     "player_key": "469.p.11268",
