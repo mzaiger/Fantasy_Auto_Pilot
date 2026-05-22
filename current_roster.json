@@ -1,5 +1,18 @@
 [
   {
+    "player_key": "469.p.11268",
+    "name": "William Contreras",
+    "team": "Milwaukee Brewers",
+    "position": "C",
+    "selected_position": "C",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "60",
+    "current_rank": "133",
+    "percent_started": 94
+  },
+  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
@@ -62,7 +75,7 @@
     "status": "Healthy",
     "preseason_rank": "143",
     "current_rank": "634",
-    "percent_started": 35
+    "percent_started": 33
   },
   {
     "player_key": "469.p.12005",
@@ -75,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "85",
     "current_rank": "362",
-    "percent_started": 64
+    "percent_started": 60
   },
   {
     "player_key": "469.p.62119",
@@ -88,20 +101,46 @@
     "status": "Healthy",
     "preseason_rank": "113",
     "current_rank": "128",
-    "percent_started": 50
+    "percent_started": 48
+  },
+  {
+    "player_key": "469.p.12309",
+    "name": "Jonathan Aranda",
+    "team": "Tampa Bay Rays",
+    "position": "1B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "185",
+    "current_rank": "76",
+    "percent_started": 53
+  },
+  {
+    "player_key": "469.p.11817",
+    "name": "Bryson Stott",
+    "team": "Philadelphia Phillies",
+    "position": "2B,SS",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "283",
+    "current_rank": "374",
+    "percent_started": 35
   },
   {
     "player_key": "469.p.62971",
     "name": "Dylan Crews",
     "team": "Washington Nationals",
     "position": "OF",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "365",
     "current_rank": "1055",
-    "percent_started": 6
+    "percent_started": 5
   },
   {
     "player_key": "469.p.60776",
@@ -114,7 +153,7 @@
     "status": "IL10",
     "preseason_rank": "298",
     "current_rank": "529",
-    "percent_started": 13
+    "percent_started": 14
   },
   {
     "player_key": "469.p.10964",
@@ -127,46 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "221",
     "current_rank": "707",
-    "percent_started": 19
-  },
-  {
-    "player_key": "469.p.11268",
-    "name": "William Contreras",
-    "team": "Milwaukee Brewers",
-    "position": "C",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "60",
-    "current_rank": "133",
-    "percent_started": 93
-  },
-  {
-    "player_key": "469.p.12309",
-    "name": "Jonathan Aranda",
-    "team": "Tampa Bay Rays",
-    "position": "1B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "185",
-    "current_rank": "76",
-    "percent_started": 52
-  },
-  {
-    "player_key": "469.p.11817",
-    "name": "Bryson Stott",
-    "team": "Philadelphia Phillies",
-    "position": "2B,SS",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "283",
-    "current_rank": "374",
-    "percent_started": 34
+    "percent_started": 18
   },
   {
     "player_key": "469.p.12351",
@@ -201,7 +201,7 @@
     "position": "C",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "125",
     "current_rank": "845",
@@ -218,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "36",
     "current_rank": "247",
-    "percent_started": 81
+    "percent_started": 79
   },
   {
     "player_key": "469.p.9334",
@@ -231,20 +231,20 @@
     "status": "Healthy",
     "preseason_rank": "53",
     "current_rank": "132",
-    "percent_started": 87
+    "percent_started": 92
   },
   {
-    "player_key": "469.p.12281",
-    "name": "Spencer Strider",
-    "team": "Atlanta Braves",
+    "player_key": "469.p.12345",
+    "name": "Kyle Bradish",
+    "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "182",
-    "current_rank": "210",
-    "percent_started": 54
+    "preseason_rank": "76",
+    "current_rank": "627",
+    "percent_started": 67
   },
   {
     "player_key": "469.p.11644",
@@ -260,11 +260,37 @@
     "percent_started": 18
   },
   {
+    "player_key": "469.p.11495",
+    "name": "Jhoan Duran",
+    "team": "Philadelphia Phillies",
+    "position": "RP",
+    "selected_position": "RP",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "122",
+    "current_rank": "84",
+    "percent_started": 94
+  },
+  {
+    "player_key": "469.p.10494",
+    "name": "Jakob Junis",
+    "team": "Texas Rangers",
+    "position": "RP",
+    "selected_position": "RP",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "207",
+    "current_rank": "212",
+    "percent_started": 12
+  },
+  {
     "player_key": "469.p.11479",
     "name": "Braydon Fisher",
     "team": "Toronto Blue Jays",
     "position": "RP",
-    "selected_position": "RP",
+    "selected_position": "P",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -277,7 +303,7 @@
     "name": "JoJo Romero",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "RP",
+    "selected_position": "P",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -299,43 +325,17 @@
     "percent_started": 1
   },
   {
-    "player_key": "469.p.12345",
-    "name": "Kyle Bradish",
-    "team": "Baltimore Orioles",
+    "player_key": "469.p.12281",
+    "name": "Spencer Strider",
+    "team": "Atlanta Braves",
     "position": "SP",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "76",
-    "current_rank": "627",
-    "percent_started": 68
-  },
-  {
-    "player_key": "469.p.11495",
-    "name": "Jhoan Duran",
-    "team": "Philadelphia Phillies",
-    "position": "RP",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "122",
-    "current_rank": "84",
-    "percent_started": 94
-  },
-  {
-    "player_key": "469.p.10494",
-    "name": "Jakob Junis",
-    "team": "Texas Rangers",
-    "position": "RP",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "207",
-    "current_rank": "212",
-    "percent_started": 12
+    "preseason_rank": "182",
+    "current_rank": "210",
+    "percent_started": 49
   },
   {
     "player_key": "469.p.10236",
