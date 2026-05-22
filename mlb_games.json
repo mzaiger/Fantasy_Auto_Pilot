@@ -6,9 +6,9 @@
       "game_pk": 824679,
       "game_date": "2026-05-22",
       "start_time_utc": "2026-05-22T18:20:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Pre-Game",
-      "status_code": "P",
+      "status_abstract": "Live",
+      "status_detailed": "Warmup",
+      "status_code": "PW",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -22,30 +22,6 @@
         "abbreviation": "CHC"
       },
       "venue": "Wrigley Field",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
-      "game_pk": 824518,
-      "game_date": "2026-05-22",
-      "start_time_utc": "2026-05-22T22:40:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 138,
-        "name": "St. Louis Cardinals",
-        "abbreviation": "STL"
-      },
-      "home_team": {
-        "id": 113,
-        "name": "Cincinnati Reds",
-        "abbreviation": "CIN"
-      },
-      "venue": "Great American Ball Park",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
@@ -358,6 +334,30 @@
         "abbreviation": "SF"
       },
       "venue": "Oracle Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 824518,
+      "game_date": "2026-05-22",
+      "start_time_utc": "2026-05-22T22:40:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DR",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 138,
+        "name": "St. Louis Cardinals",
+        "abbreviation": "STL"
+      },
+      "home_team": {
+        "id": 113,
+        "name": "Cincinnati Reds",
+        "abbreviation": "CIN"
+      },
+      "venue": "Great American Ball Park",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
