@@ -109,7 +109,7 @@
     "team": "Tampa Bay Rays",
     "position": "1B",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "185",
@@ -122,12 +122,12 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "298",
     "current_rank": "529",
-    "percent_started": 22
+    "percent_started": 23
   },
   {
     "player_key": "469.p.10964",
@@ -296,7 +296,7 @@
     "status": "Healthy",
     "preseason_rank": "53",
     "current_rank": "132",
-    "percent_started": 93
+    "percent_started": 94
   },
   {
     "player_key": "469.p.11479",
