@@ -6,11 +6,11 @@
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "60",
     "current_rank": "133",
-    "percent_started": 94
+    "percent_started": 95
   },
   {
     "player_key": "469.p.10621",
@@ -19,7 +19,7 @@
     "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "21",
     "current_rank": "255",
@@ -32,11 +32,11 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "109",
     "current_rank": "174",
-    "percent_started": 69
+    "percent_started": 57
   },
   {
     "player_key": "469.p.9507",
@@ -45,7 +45,7 @@
     "position": "3B",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "4",
     "current_rank": "30",
@@ -58,11 +58,11 @@
     "position": "3B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "78",
     "current_rank": "632",
-    "percent_started": 79
+    "percent_started": 80
   },
   {
     "player_key": "469.p.12314",
@@ -71,7 +71,7 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "143",
     "current_rank": "634",
@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "85",
     "current_rank": "362",
-    "percent_started": 60
+    "percent_started": 61
   },
   {
     "player_key": "469.p.62119",
@@ -97,11 +97,11 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "113",
     "current_rank": "128",
-    "percent_started": 48
+    "percent_started": 50
   },
   {
     "player_key": "469.p.12309",
@@ -110,11 +110,11 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "185",
     "current_rank": "76",
-    "percent_started": 54
+    "percent_started": 55
   },
   {
     "player_key": "469.p.11817",
@@ -123,11 +123,11 @@
     "position": "2B,SS",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "283",
     "current_rank": "374",
-    "percent_started": 35
+    "percent_started": 37
   },
   {
     "player_key": "469.p.62971",
@@ -136,7 +136,7 @@
     "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "365",
     "current_rank": "1055",
@@ -149,11 +149,11 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
+    "is_starting": 1,
+    "status": "Healthy",
     "preseason_rank": "298",
     "current_rank": "529",
-    "percent_started": 14
+    "percent_started": 21
   },
   {
     "player_key": "469.p.10964",
@@ -162,7 +162,7 @@
     "position": "1B,2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "221",
     "current_rank": "707",
@@ -175,7 +175,7 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "209",
     "current_rank": "861",
@@ -188,7 +188,7 @@
     "position": "SS",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "250",
     "current_rank": "874",
@@ -200,7 +200,7 @@
     "team": "Houston Astros",
     "position": "C",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "125",
@@ -221,19 +221,6 @@
     "percent_started": 79
   },
   {
-    "player_key": "469.p.9334",
-    "name": "Kevin Gausman",
-    "team": "Toronto Blue Jays",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "53",
-    "current_rank": "132",
-    "percent_started": 92
-  },
-  {
     "player_key": "469.p.12345",
     "name": "Kyle Bradish",
     "team": "Baltimore Orioles",
@@ -244,7 +231,20 @@
     "status": "Healthy",
     "preseason_rank": "76",
     "current_rank": "627",
-    "percent_started": 67
+    "percent_started": 66
+  },
+  {
+    "player_key": "469.p.12281",
+    "name": "Spencer Strider",
+    "team": "Atlanta Braves",
+    "position": "SP",
+    "selected_position": "SP",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "182",
+    "current_rank": "210",
+    "percent_started": 48
   },
   {
     "player_key": "469.p.11644",
@@ -255,7 +255,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "407",
+    "preseason_rank": "406",
     "current_rank": "261",
     "percent_started": 18
   },
@@ -283,7 +283,20 @@
     "status": "Healthy",
     "preseason_rank": "207",
     "current_rank": "212",
-    "percent_started": 12
+    "percent_started": 13
+  },
+  {
+    "player_key": "469.p.9334",
+    "name": "Kevin Gausman",
+    "team": "Toronto Blue Jays",
+    "position": "SP",
+    "selected_position": "P",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "53",
+    "current_rank": "132",
+    "percent_started": 93
   },
   {
     "player_key": "469.p.11479",
@@ -294,7 +307,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "415",
+    "preseason_rank": "412",
     "current_rank": "252",
     "percent_started": 2
   },
@@ -303,39 +316,26 @@
     "name": "JoJo Romero",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "P",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "385",
     "current_rank": "492",
-    "percent_started": 15
+    "percent_started": 14
   },
   {
     "player_key": "469.p.63308",
     "name": "Matt Svanson",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "P",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "1182",
-    "current_rank": "909",
-    "percent_started": 1
-  },
-  {
-    "player_key": "469.p.12281",
-    "name": "Spencer Strider",
-    "team": "Atlanta Braves",
-    "position": "SP",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "182",
-    "current_rank": "210",
-    "percent_started": 49
+    "preseason_rank": "1194",
+    "current_rank": "909",
+    "percent_started": 1
   },
   {
     "player_key": "469.p.10236",
@@ -344,7 +344,7 @@
     "position": "2B",
     "selected_position": "IL",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "197",
     "current_rank": "674",
@@ -396,9 +396,9 @@
     "position": "2B,3B,SS",
     "selected_position": "NA",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "NA",
-    "preseason_rank": "1973",
+    "preseason_rank": "1974",
     "current_rank": "1687",
     "percent_started": null
   }
