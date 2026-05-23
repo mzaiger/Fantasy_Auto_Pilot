@@ -2,7 +2,7 @@
 <fantasy_content>
   <roster>
     <coverage_type>date</coverage_type>
-    <date>2026-05-22</date>
+    <date>2026-05-23</date>
     <players>
       <player>
         <player_key>469.p.11268</player_key>
@@ -14,7 +14,7 @@
       </player>
       <player>
         <player_key>469.p.11817</player_key>
-        <position>2B</position>
+        <position>Util</position>
       </player>
       <player>
         <player_key>469.p.9507</player_key>
@@ -42,7 +42,7 @@
       </player>
       <player>
         <player_key>469.p.60776</player_key>
-        <position>Util</position>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.10964</player_key>
@@ -50,7 +50,7 @@
       </player>
       <player>
         <player_key>469.p.12100</player_key>
-        <position>BN</position>
+        <position>2B</position>
       </player>
       <player>
         <player_key>469.p.62971</player_key>
@@ -78,7 +78,7 @@
       </player>
       <player>
         <player_key>469.p.12281</player_key>
-        <position>SP</position>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.11644</player_key>
@@ -94,7 +94,7 @@
       </player>
       <player>
         <player_key>469.p.9334</player_key>
-        <position>P</position>
+        <position>SP</position>
       </player>
       <player>
         <player_key>469.p.11479</player_key>
@@ -102,11 +102,11 @@
       </player>
       <player>
         <player_key>469.p.10931</player_key>
-        <position>BN</position>
+        <position>P</position>
       </player>
       <player>
         <player_key>469.p.63308</player_key>
-        <position>BN</position>
+        <position>P</position>
       </player>
       <player>
         <player_key>469.p.10236</player_key>
