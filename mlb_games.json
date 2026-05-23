@@ -6,9 +6,9 @@
       "game_pk": 824518,
       "game_date": "2026-05-23",
       "start_time_utc": "2026-05-23T17:10:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Pre-Game",
-      "status_code": "P",
+      "status_abstract": "Live",
+      "status_detailed": "Warmup",
+      "status_code": "PW",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -75,30 +75,6 @@
       "game_number": 1
     },
     {
-      "game_pk": 824840,
-      "game_date": "2026-05-23",
-      "start_time_utc": "2026-05-23T20:05:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 116,
-        "name": "Detroit Tigers",
-        "abbreviation": "DET"
-      },
-      "home_team": {
-        "id": 110,
-        "name": "Baltimore Orioles",
-        "abbreviation": "BAL"
-      },
-      "venue": "Oriole Park at Camden Yards",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
       "game_pk": 823458,
       "game_date": "2026-05-23",
       "start_time_utc": "2026-05-23T20:05:00Z",
@@ -127,8 +103,8 @@
       "game_date": "2026-05-23",
       "start_time_utc": "2026-05-23T20:05:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -199,8 +175,8 @@
       "game_date": "2026-05-23",
       "start_time_utc": "2026-05-23T20:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -382,6 +358,30 @@
         "abbreviation": "NYY"
       },
       "venue": "Yankee Stadium",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 824840,
+      "game_date": "2026-05-23",
+      "start_time_utc": "2026-05-23T20:05:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DR",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 116,
+        "name": "Detroit Tigers",
+        "abbreviation": "DET"
+      },
+      "home_team": {
+        "id": 110,
+        "name": "Baltimore Orioles",
+        "abbreviation": "BAL"
+      },
+      "venue": "Oriole Park at Camden Yards",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
