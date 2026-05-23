@@ -10,7 +10,7 @@
     "status": "Healthy",
     "preseason_rank": "60",
     "current_rank": "96",
-    "percent_started": 93
+    "percent_started": 94
   },
   {
     "player_key": "469.p.10621",
@@ -19,24 +19,24 @@
     "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "21",
     "current_rank": "190",
     "percent_started": 94
   },
   {
-    "player_key": "469.p.11817",
-    "name": "Bryson Stott",
-    "team": "Philadelphia Phillies",
+    "player_key": "469.p.12100",
+    "name": "Otto Lopez",
+    "team": "Miami Marlins",
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "283",
-    "current_rank": "365",
-    "percent_started": 34
+    "preseason_rank": "109",
+    "current_rank": "183",
+    "percent_started": 66
   },
   {
     "player_key": "469.p.9507",
@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "78",
     "current_rank": "678",
-    "percent_started": 82
+    "percent_started": 81
   },
   {
     "player_key": "469.p.12314",
@@ -75,7 +75,7 @@
     "status": "Healthy",
     "preseason_rank": "143",
     "current_rank": "690",
-    "percent_started": 37
+    "percent_started": 36
   },
   {
     "player_key": "469.p.12005",
@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "85",
     "current_rank": "364",
-    "percent_started": 70
+    "percent_started": 69
   },
   {
     "player_key": "469.p.62119",
@@ -101,33 +101,59 @@
     "status": "Healthy",
     "preseason_rank": "113",
     "current_rank": "149",
-    "percent_started": 58
+    "percent_started": 57
+  },
+  {
+    "player_key": "469.p.11817",
+    "name": "Bryson Stott",
+    "team": "Philadelphia Phillies",
+    "position": "2B,SS",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "283",
+    "current_rank": "365",
+    "percent_started": 34
+  },
+  {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "365",
+    "current_rank": "1097",
+    "percent_started": 8
   },
   {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
     "position": "1B",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "185",
     "current_rank": "71",
-    "percent_started": 50
+    "percent_started": 36
   },
   {
     "player_key": "469.p.60776",
     "name": "José Caballero",
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "298",
     "current_rank": "585",
-    "percent_started": 25
+    "percent_started": 20
   },
   {
     "player_key": "469.p.10964",
@@ -140,33 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "221",
     "current_rank": "686",
-    "percent_started": 20
-  },
-  {
-    "player_key": "469.p.12100",
-    "name": "Otto Lopez",
-    "team": "Miami Marlins",
-    "position": "2B,SS",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "109",
-    "current_rank": "183",
-    "percent_started": 61
-  },
-  {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "365",
-    "current_rank": "1097",
-    "percent_started": 8
+    "percent_started": 19
   },
   {
     "player_key": "469.p.12351",
@@ -179,7 +179,7 @@
     "status": "IL10",
     "preseason_rank": "209",
     "current_rank": "865",
-    "percent_started": 7
+    "percent_started": 6
   },
   {
     "player_key": "469.p.9571",
@@ -188,7 +188,7 @@
     "position": "SS",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "250",
     "current_rank": "875",
@@ -201,7 +201,7 @@
     "position": "C",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "125",
     "current_rank": "856",
@@ -218,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "36",
     "current_rank": "253",
-    "percent_started": 83
+    "percent_started": 92
   },
   {
     "player_key": "469.p.12345",
@@ -234,17 +234,17 @@
     "percent_started": 63
   },
   {
-    "player_key": "469.p.12281",
-    "name": "Spencer Strider",
-    "team": "Atlanta Braves",
+    "player_key": "469.p.9334",
+    "name": "Kevin Gausman",
+    "team": "Toronto Blue Jays",
     "position": "SP",
     "selected_position": "SP",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "182",
-    "current_rank": "154",
-    "percent_started": 60
+    "preseason_rank": "53",
+    "current_rank": "92",
+    "percent_started": 84
   },
   {
     "player_key": "469.p.11644",
@@ -286,19 +286,6 @@
     "percent_started": 12
   },
   {
-    "player_key": "469.p.9334",
-    "name": "Kevin Gausman",
-    "team": "Toronto Blue Jays",
-    "position": "SP",
-    "selected_position": "P",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "53",
-    "current_rank": "92",
-    "percent_started": 88
-  },
-  {
     "player_key": "469.p.11479",
     "name": "Braydon Fisher",
     "team": "Toronto Blue Jays",
@@ -316,7 +303,7 @@
     "name": "JoJo Romero",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "BN",
+    "selected_position": "P",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -329,13 +316,26 @@
     "name": "Matt Svanson",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "BN",
+    "selected_position": "P",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "1216",
     "current_rank": "901",
     "percent_started": 1
+  },
+  {
+    "player_key": "469.p.12281",
+    "name": "Spencer Strider",
+    "team": "Atlanta Braves",
+    "position": "SP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "182",
+    "current_rank": "154",
+    "percent_started": 58
   },
   {
     "player_key": "469.p.10236",

@@ -7,8 +7,8 @@
       "game_date": "2026-05-23",
       "start_time_utc": "2026-05-23T17:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -27,36 +27,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 823543,
-      "game_date": "2026-05-23",
-      "start_time_utc": "2026-05-23T17:35:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 139,
-        "name": "Tampa Bay Rays",
-        "abbreviation": "TB"
-      },
-      "home_team": {
-        "id": 147,
-        "name": "New York Yankees",
-        "abbreviation": "NYY"
-      },
-      "venue": "Yankee Stadium",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
       "game_pk": 824674,
       "game_date": "2026-05-23",
       "start_time_utc": "2026-05-23T18:20:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -79,8 +55,8 @@
       "game_date": "2026-05-23",
       "start_time_utc": "2026-05-23T19:07:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -127,8 +103,8 @@
       "game_date": "2026-05-23",
       "start_time_utc": "2026-05-23T20:05:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -175,8 +151,8 @@
       "game_date": "2026-05-23",
       "start_time_utc": "2026-05-23T20:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -199,8 +175,8 @@
       "game_date": "2026-05-23",
       "start_time_utc": "2026-05-23T20:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -247,8 +223,8 @@
       "game_date": "2026-05-23",
       "start_time_utc": "2026-05-23T20:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -382,6 +358,30 @@
         "abbreviation": "AZ"
       },
       "venue": "Chase Field",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823543,
+      "game_date": "2026-05-23",
+      "start_time_utc": "2026-05-23T17:35:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DR",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 139,
+        "name": "Tampa Bay Rays",
+        "abbreviation": "TB"
+      },
+      "home_team": {
+        "id": 147,
+        "name": "New York Yankees",
+        "abbreviation": "NYY"
+      },
+      "venue": "Yankee Stadium",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
