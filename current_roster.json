@@ -122,7 +122,7 @@
     "team": "Milwaukee Brewers",
     "position": "C",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "60",
@@ -153,7 +153,7 @@
     "status": "Healthy",
     "preseason_rank": "185",
     "current_rank": "71",
-    "percent_started": 31
+    "percent_started": 30
   },
   {
     "player_key": "469.p.60776",
@@ -356,7 +356,7 @@
     "team": "Los Angeles Dodgers",
     "position": "RP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "281",
@@ -395,7 +395,7 @@
     "team": "Milwaukee Brewers",
     "position": "2B,3B,SS",
     "selected_position": "NA",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "NA",
     "preseason_rank": "1976",
