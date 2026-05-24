@@ -166,7 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "298",
     "current_rank": "587",
-    "percent_started": 27
+    "percent_started": 28
   },
   {
     "player_key": "469.p.12351",
@@ -179,7 +179,7 @@
     "status": "IL10",
     "preseason_rank": "209",
     "current_rank": "868",
-    "percent_started": 10
+    "percent_started": 9
   },
   {
     "player_key": "469.p.12435",
@@ -239,7 +239,7 @@
     "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "76",
@@ -335,7 +335,7 @@
     "status": "Healthy",
     "preseason_rank": "182",
     "current_rank": "159",
-    "percent_started": 53
+    "percent_started": 52
   },
   {
     "player_key": "469.p.10236",
@@ -343,7 +343,7 @@
     "team": "Detroit Tigers",
     "position": "2B",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "197",
