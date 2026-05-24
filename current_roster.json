@@ -84,7 +84,7 @@
     "position": "1B,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "85",
     "current_rank": "377",
@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "185",
     "current_rank": "80",
-    "percent_started": 36
+    "percent_started": 37
   },
   {
     "player_key": "469.p.10964",
