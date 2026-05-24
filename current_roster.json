@@ -1,12 +1,25 @@
 [
   {
+    "player_key": "469.p.11268",
+    "name": "William Contreras",
+    "team": "Milwaukee Brewers",
+    "position": "C",
+    "selected_position": "C",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "60",
+    "current_rank": "102",
+    "percent_started": 92
+  },
+  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
     "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "21",
     "current_rank": "181",
@@ -19,7 +32,7 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "109",
     "current_rank": "201",
@@ -32,7 +45,7 @@
     "position": "3B",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "4",
     "current_rank": "40",
@@ -45,11 +58,11 @@
     "position": "3B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "78",
     "current_rank": "703",
-    "percent_started": 81
+    "percent_started": 79
   },
   {
     "player_key": "469.p.12314",
@@ -58,11 +71,11 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "143",
     "current_rank": "701",
-    "percent_started": 37
+    "percent_started": 36
   },
   {
     "player_key": "469.p.12005",
@@ -75,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "85",
     "current_rank": "377",
-    "percent_started": 73
+    "percent_started": 71
   },
   {
     "player_key": "469.p.62119",
@@ -84,7 +97,7 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "113",
     "current_rank": "151",
@@ -97,37 +110,37 @@
     "position": "2B,SS",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "283",
     "current_rank": "301",
     "percent_started": 26
   },
   {
+    "player_key": "469.p.12309",
+    "name": "Jonathan Aranda",
+    "team": "Tampa Bay Rays",
+    "position": "1B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "185",
+    "current_rank": "80",
+    "percent_started": 35
+  },
+  {
     "player_key": "469.p.10964",
     "name": "Luis García Jr.",
     "team": "Washington Nationals",
     "position": "1B,2B",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "221",
     "current_rank": "691",
     "percent_started": 14
-  },
-  {
-    "player_key": "469.p.11268",
-    "name": "William Contreras",
-    "team": "Milwaukee Brewers",
-    "position": "C",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "60",
-    "current_rank": "102",
-    "percent_started": 92
   },
   {
     "player_key": "469.p.62971",
@@ -143,30 +156,17 @@
     "percent_started": 3
   },
   {
-    "player_key": "469.p.12309",
-    "name": "Jonathan Aranda",
-    "team": "Tampa Bay Rays",
-    "position": "1B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "185",
-    "current_rank": "80",
-    "percent_started": 31
-  },
-  {
     "player_key": "469.p.60776",
     "name": "José Caballero",
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "298",
     "current_rank": "587",
-    "percent_started": 21
+    "percent_started": 26
   },
   {
     "player_key": "469.p.12351",
@@ -175,7 +175,7 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "209",
     "current_rank": "868",
@@ -188,7 +188,7 @@
     "position": "C",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "125",
     "current_rank": "860",
@@ -201,7 +201,7 @@
     "position": "2B,3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "1841",
     "current_rank": "1084",
@@ -218,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "36",
     "current_rank": "310",
-    "percent_started": 88
+    "percent_started": 85
   },
   {
     "player_key": "469.p.9334",
@@ -231,20 +231,20 @@
     "status": "Healthy",
     "preseason_rank": "53",
     "current_rank": "97",
-    "percent_started": 84
+    "percent_started": 82
   },
   {
-    "player_key": "469.p.12281",
-    "name": "Spencer Strider",
-    "team": "Atlanta Braves",
+    "player_key": "469.p.12345",
+    "name": "Kyle Bradish",
+    "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "182",
-    "current_rank": "159",
-    "percent_started": 54
+    "preseason_rank": "76",
+    "current_rank": "631",
+    "percent_started": 73
   },
   {
     "player_key": "469.p.11644",
@@ -319,23 +319,23 @@
     "selected_position": "P",
     "is_editable": true,
     "is_starting": null,
-    "status": "Healthy",
+    "status": "NA",
     "preseason_rank": "1216",
     "current_rank": "900",
     "percent_started": 1
   },
   {
-    "player_key": "469.p.12345",
-    "name": "Kyle Bradish",
-    "team": "Baltimore Orioles",
+    "player_key": "469.p.12281",
+    "name": "Spencer Strider",
+    "team": "Atlanta Braves",
     "position": "SP",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "76",
-    "current_rank": "631",
-    "percent_started": 73
+    "preseason_rank": "182",
+    "current_rank": "159",
+    "percent_started": 53
   },
   {
     "player_key": "469.p.10236",
@@ -344,11 +344,11 @@
     "position": "2B",
     "selected_position": "IL",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "197",
     "current_rank": "695",
-    "percent_started": 10
+    "percent_started": 9
   },
   {
     "player_key": "469.p.10214",
