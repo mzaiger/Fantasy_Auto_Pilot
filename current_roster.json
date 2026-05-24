@@ -18,7 +18,7 @@
     "team": "Toronto Blue Jays",
     "position": "1B",
     "selected_position": "1B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "21",
@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "185",
     "current_rank": "80",
-    "percent_started": 35
+    "percent_started": 36
   },
   {
     "player_key": "469.p.10964",
@@ -166,7 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "298",
     "current_rank": "587",
-    "percent_started": 26
+    "percent_started": 27
   },
   {
     "player_key": "469.p.12351",
@@ -226,7 +226,7 @@
     "team": "Toronto Blue Jays",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "53",
@@ -252,7 +252,7 @@
     "team": "Toronto Blue Jays",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "407",
@@ -291,7 +291,7 @@
     "team": "Toronto Blue Jays",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "414",
