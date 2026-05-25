@@ -91,17 +91,17 @@
     "percent_started": 57
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "209",
-    "current_rank": "878",
-    "percent_started": 6
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "365",
+    "current_rank": "1050",
+    "percent_started": 11
   },
   {
     "player_key": "469.p.11817",
@@ -130,6 +130,19 @@
     "percent_started": 53
   },
   {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "209",
+    "current_rank": "878",
+    "percent_started": 6
+  },
+  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
@@ -154,19 +167,6 @@
     "preseason_rank": "221",
     "current_rank": "691",
     "percent_started": 19
-  },
-  {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "365",
-    "current_rank": "1050",
-    "percent_started": 11
   },
   {
     "player_key": "469.p.60776",
