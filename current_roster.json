@@ -6,11 +6,11 @@
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "60",
     "current_rank": "109",
-    "percent_started": 94
+    "percent_started": 95
   },
   {
     "player_key": "469.p.10621",
@@ -23,7 +23,7 @@
     "status": "DTD",
     "preseason_rank": "21",
     "current_rank": "172",
-    "percent_started": 87
+    "percent_started": 79
   },
   {
     "player_key": "469.p.12100",
@@ -58,11 +58,11 @@
     "position": "3B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "78",
     "current_rank": "726",
-    "percent_started": 81
+    "percent_started": 82
   },
   {
     "player_key": "469.p.12314",
@@ -75,7 +75,7 @@
     "status": "Healthy",
     "preseason_rank": "143",
     "current_rank": "683",
-    "percent_started": 37
+    "percent_started": 38
   },
   {
     "player_key": "469.p.12005",
@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "85",
     "current_rank": "383",
-    "percent_started": 70
+    "percent_started": 72
   },
   {
     "player_key": "469.p.62119",
@@ -114,7 +114,7 @@
     "status": "Healthy",
     "preseason_rank": "283",
     "current_rank": "321",
-    "percent_started": 38
+    "percent_started": 40
   },
   {
     "player_key": "469.p.12309",
@@ -123,11 +123,11 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "185",
     "current_rank": "92",
-    "percent_started": 50
+    "percent_started": 53
   },
   {
     "player_key": "469.p.10964",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "221",
     "current_rank": "691",
-    "percent_started": 18
+    "percent_started": 19
   },
   {
     "player_key": "469.p.62971",
@@ -162,11 +162,11 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "298",
     "current_rank": "633",
-    "percent_started": 37
+    "percent_started": 41
   },
   {
     "player_key": "469.p.12351",
@@ -201,7 +201,7 @@
     "position": "2B,3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "1815",
     "current_rank": "1044",
@@ -218,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "36",
     "current_rank": "300",
-    "percent_started": 75
+    "percent_started": 73
   },
   {
     "player_key": "469.p.9334",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "53",
     "current_rank": "94",
-    "percent_started": 74
+    "percent_started": 73
   },
   {
     "player_key": "469.p.12345",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "76",
     "current_rank": "619",
-    "percent_started": 76
+    "percent_started": 84
   },
   {
     "player_key": "469.p.11644",
@@ -303,7 +303,7 @@
     "name": "JoJo Romero",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "BN",
+    "selected_position": "P",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -316,7 +316,7 @@
     "name": "Matt Svanson",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "BN",
+    "selected_position": "P",
     "is_editable": true,
     "is_starting": null,
     "status": "NA",
@@ -335,7 +335,7 @@
     "status": "Healthy",
     "preseason_rank": "182",
     "current_rank": "155",
-    "percent_started": 43
+    "percent_started": 41
   },
   {
     "player_key": "469.p.10236",
@@ -396,7 +396,7 @@
     "position": "2B,3B,SS",
     "selected_position": "NA",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "NA",
     "preseason_rank": "1979",
     "current_rank": "1698",
