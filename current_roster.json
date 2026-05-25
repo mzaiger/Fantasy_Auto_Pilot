@@ -13,17 +13,17 @@
     "percent_started": 95
   },
   {
-    "player_key": "469.p.10621",
-    "name": "Vladimir Guerrero Jr.",
-    "team": "Toronto Blue Jays",
-    "position": "1B",
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": 0,
-    "status": "DTD",
-    "preseason_rank": "21",
-    "current_rank": "172",
-    "percent_started": 78
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "85",
+    "current_rank": "383",
+    "percent_started": 72
   },
   {
     "player_key": "469.p.12100",
@@ -36,7 +36,7 @@
     "status": "Healthy",
     "preseason_rank": "109",
     "current_rank": "209",
-    "percent_started": 69
+    "percent_started": 70
   },
   {
     "player_key": "469.p.9507",
@@ -57,7 +57,7 @@
     "team": "New York Mets",
     "position": "3B,SS",
     "selected_position": "SS",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "78",
@@ -78,19 +78,6 @@
     "percent_started": 39
   },
   {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "85",
-    "current_rank": "383",
-    "percent_started": 72
-  },
-  {
     "player_key": "469.p.62119",
     "name": "Jakob Marsee",
     "team": "Miami Marlins",
@@ -104,6 +91,19 @@
     "percent_started": 57
   },
   {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "IL10",
+    "preseason_rank": "209",
+    "current_rank": "878",
+    "percent_started": 6
+  },
+  {
     "player_key": "469.p.11817",
     "name": "Bryson Stott",
     "team": "Philadelphia Phillies",
@@ -114,7 +114,7 @@
     "status": "Healthy",
     "preseason_rank": "283",
     "current_rank": "321",
-    "percent_started": 40
+    "percent_started": 41
   },
   {
     "player_key": "469.p.12309",
@@ -128,6 +128,19 @@
     "preseason_rank": "185",
     "current_rank": "92",
     "percent_started": 53
+  },
+  {
+    "player_key": "469.p.10621",
+    "name": "Vladimir Guerrero Jr.",
+    "team": "Toronto Blue Jays",
+    "position": "1B",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "DTD",
+    "preseason_rank": "21",
+    "current_rank": "172",
+    "percent_started": 76
   },
   {
     "player_key": "469.p.10964",
@@ -169,26 +182,13 @@
     "percent_started": 43
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
-    "preseason_rank": "209",
-    "current_rank": "878",
-    "percent_started": 6
-  },
-  {
     "player_key": "469.p.12435",
     "name": "Yainer Diaz",
     "team": "Houston Astros",
     "position": "C",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "125",
     "current_rank": "871",
@@ -213,7 +213,7 @@
     "team": "New York Mets",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "36",
