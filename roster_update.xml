@@ -77,8 +77,8 @@
         <position>SP</position>
       </player>
       <player>
-        <player_key>469.p.12281</player_key>
-        <position>BN</position>
+        <player_key>469.p.12345</player_key>
+        <position>SP</position>
       </player>
       <player>
         <player_key>469.p.11644</player_key>
@@ -105,8 +105,8 @@
         <position>P</position>
       </player>
       <player>
-        <player_key>469.p.12345</player_key>
-        <position>SP</position>
+        <player_key>469.p.12281</player_key>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.10236</player_key>
