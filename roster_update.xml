@@ -5,16 +5,16 @@
     <date>2026-05-28</date>
     <players>
       <player>
-        <player_key>469.p.12435</player_key>
-        <position>BN</position>
-      </player>
-      <player>
         <player_key>469.p.10621</player_key>
         <position>1B</position>
       </player>
       <player>
         <player_key>469.p.64285</player_key>
-        <position>2B</position>
+        <position>BN</position>
+      </player>
+      <player>
+        <player_key>469.p.12435</player_key>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.11268</player_key>
