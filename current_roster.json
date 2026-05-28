@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "71",
     "current_rank": "783",
-    "percent_started": 72
+    "percent_started": 71
   },
   {
     "player_key": "469.p.12005",
@@ -343,7 +343,7 @@
     "team": "Detroit Tigers",
     "position": "2B",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "298",
