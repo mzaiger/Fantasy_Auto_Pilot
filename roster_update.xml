@@ -5,12 +5,20 @@
     <date>2026-05-28</date>
     <players>
       <player>
-        <player_key>469.p.11268</player_key>
-        <position>BN</position>
+        <player_key>469.p.12435</player_key>
+        <position>C</position>
       </player>
       <player>
         <player_key>469.p.10621</player_key>
         <position>1B</position>
+      </player>
+      <player>
+        <player_key>469.p.64285</player_key>
+        <position>2B</position>
+      </player>
+      <player>
+        <player_key>469.p.11268</player_key>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.12100</player_key>
@@ -61,18 +69,6 @@
         <position>BN</position>
       </player>
       <player>
-        <player_key>469.p.12435</player_key>
-        <position>C</position>
-      </player>
-      <player>
-        <player_key>469.p.64285</player_key>
-        <position>2B</position>
-      </player>
-      <player>
-        <player_key>469.p.11014</player_key>
-        <position>BN</position>
-      </player>
-      <player>
         <player_key>469.p.9334</player_key>
         <position>SP</position>
       </player>
@@ -81,12 +77,12 @@
         <position>SP</position>
       </player>
       <player>
-        <player_key>469.p.11644</player_key>
-        <position>RP</position>
+        <player_key>469.p.12281</player_key>
+        <position>SP</position>
       </player>
       <player>
-        <player_key>469.p.11495</player_key>
-        <position>BN</position>
+        <player_key>469.p.11644</player_key>
+        <position>RP</position>
       </player>
       <player>
         <player_key>469.p.10494</player_key>
@@ -97,16 +93,20 @@
         <position>RP</position>
       </player>
       <player>
+        <player_key>469.p.11014</player_key>
+        <position>BN</position>
+      </player>
+      <player>
+        <player_key>469.p.11495</player_key>
+        <position>BN</position>
+      </player>
+      <player>
         <player_key>469.p.10931</player_key>
         <position>BN</position>
       </player>
       <player>
         <player_key>469.p.63308</player_key>
         <position>BN</position>
-      </player>
-      <player>
-        <player_key>469.p.12281</player_key>
-        <position>SP</position>
       </player>
       <player>
         <player_key>469.p.10236</player_key>
