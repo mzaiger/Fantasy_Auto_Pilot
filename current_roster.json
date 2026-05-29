@@ -36,7 +36,7 @@
     "status": "Healthy",
     "preseason_rank": "98",
     "current_rank": "199",
-    "percent_started": 65
+    "percent_started": 66
   },
   {
     "player_key": "469.p.9507",
@@ -78,19 +78,6 @@
     "percent_started": 62
   },
   {
-    "player_key": "469.p.12314",
-    "name": "Steven Kwan",
-    "team": "Cleveland Guardians",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "NA",
-    "preseason_rank": "268",
-    "current_rank": "715",
-    "percent_started": 23
-  },
-  {
     "player_key": "469.p.62119",
     "name": "Jakob Marsee",
     "team": "Miami Marlins",
@@ -102,6 +89,19 @@
     "preseason_rank": "130",
     "current_rank": "147",
     "percent_started": 46
+  },
+  {
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "351",
+    "current_rank": "697",
+    "percent_started": 34
   },
   {
     "player_key": "469.p.11817",
@@ -128,6 +128,19 @@
     "preseason_rank": "184",
     "current_rank": "62",
     "percent_started": 57
+  },
+  {
+    "player_key": "469.p.12314",
+    "name": "Steven Kwan",
+    "team": "Cleveland Guardians",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "NA",
+    "preseason_rank": "268",
+    "current_rank": "715",
+    "percent_started": 23
   },
   {
     "player_key": "469.p.64285",
@@ -195,19 +208,6 @@
     "percent_started": 18
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "351",
-    "current_rank": "697",
-    "percent_started": 34
-  },
-  {
     "player_key": "469.p.9334",
     "name": "Kevin Gausman",
     "team": "Toronto Blue Jays",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "72",
     "current_rank": "346",
-    "percent_started": 93
+    "percent_started": 94
   },
   {
     "player_key": "469.p.11644",
