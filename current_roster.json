@@ -19,7 +19,7 @@
     "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "25",
     "current_rank": "209",
@@ -140,7 +140,7 @@
     "status": "NA",
     "preseason_rank": "268",
     "current_rank": "732",
-    "percent_started": 21
+    "percent_started": 20
   },
   {
     "player_key": "469.p.64285",
@@ -205,7 +205,7 @@
     "status": "Healthy",
     "preseason_rank": "206",
     "current_rank": "659",
-    "percent_started": 17
+    "percent_started": 18
   },
   {
     "player_key": "469.p.9334",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "72",
     "current_rank": "406",
-    "percent_started": 80
+    "percent_started": 79
   },
   {
     "player_key": "469.p.11644",
@@ -343,7 +343,7 @@
     "team": "Detroit Tigers",
     "position": "2B",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "298",
