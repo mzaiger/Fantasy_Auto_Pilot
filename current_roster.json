@@ -91,19 +91,6 @@
     "percent_started": 47
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "351",
-    "current_rank": "689",
-    "percent_started": 34
-  },
-  {
     "player_key": "469.p.11817",
     "name": "Bryson Stott",
     "team": "Philadelphia Phillies",
@@ -128,6 +115,19 @@
     "preseason_rank": "184",
     "current_rank": "47",
     "percent_started": 58
+  },
+  {
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "351",
+    "current_rank": "689",
+    "percent_started": 34
   },
   {
     "player_key": "469.p.12314",
