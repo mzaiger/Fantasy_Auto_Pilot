@@ -5,7 +5,7 @@
     "team": "Toronto Blue Jays",
     "position": "1B",
     "selected_position": "1B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "25",
@@ -19,7 +19,7 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "98",
     "current_rank": "207",
@@ -45,7 +45,7 @@
     "position": "3B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "71",
     "current_rank": "779",
@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "74",
     "current_rank": "202",
-    "percent_started": 69
+    "percent_started": 70
   },
   {
     "player_key": "469.p.62119",
@@ -71,11 +71,11 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "130",
     "current_rank": "155",
-    "percent_started": 46
+    "percent_started": 47
   },
   {
     "player_key": "469.p.60776",
@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "351",
     "current_rank": "717",
-    "percent_started": 36
+    "percent_started": 37
   },
   {
     "player_key": "469.p.11817",
@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "57",
     "current_rank": "121",
-    "percent_started": 91
+    "percent_started": 88
   },
   {
     "player_key": "469.p.12314",
@@ -140,7 +140,7 @@
     "status": "NA",
     "preseason_rank": "268",
     "current_rank": "747",
-    "percent_started": 20
+    "percent_started": 19
   },
   {
     "player_key": "469.p.64285",
@@ -151,7 +151,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "1823",
+    "preseason_rank": "1820",
     "current_rank": "1124",
     "percent_started": 1
   },
@@ -179,7 +179,7 @@
     "status": "DTD",
     "preseason_rank": "336",
     "current_rank": "1044",
-    "percent_started": 9
+    "percent_started": 7
   },
   {
     "player_key": "469.p.12351",
@@ -190,7 +190,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL10",
-    "preseason_rank": "544",
+    "preseason_rank": "539",
     "current_rank": "928",
     "percent_started": 5
   },
@@ -213,7 +213,7 @@
     "team": "Toronto Blue Jays",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "44",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "173",
     "current_rank": "149",
-    "percent_started": 79
+    "percent_started": 80
   },
   {
     "player_key": "469.p.12345",
@@ -239,7 +239,7 @@
     "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "56",
@@ -252,10 +252,10 @@
     "team": "Toronto Blue Jays",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "409",
+    "preseason_rank": "411",
     "current_rank": "371",
     "percent_started": 18
   },
@@ -291,7 +291,7 @@
     "team": "Toronto Blue Jays",
     "position": "SP,RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "405",
@@ -320,7 +320,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "NA",
-    "preseason_rank": "1244",
+    "preseason_rank": "1215",
     "current_rank": "865",
     "percent_started": 1
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": 0,
     "status": "NA",
-    "preseason_rank": "1986",
+    "preseason_rank": "1989",
     "current_rank": "1721",
     "percent_started": null
   }
