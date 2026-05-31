@@ -96,7 +96,7 @@
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "307",
@@ -149,9 +149,9 @@
     "position": "2B,3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
-    "preseason_rank": "1820",
+    "preseason_rank": "1823",
     "current_rank": "1124",
     "percent_started": 1
   },
@@ -187,10 +187,10 @@
     "team": "Seattle Mariners",
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
-    "preseason_rank": "539",
+    "preseason_rank": "544",
     "current_rank": "928",
     "percent_started": 5
   },
@@ -255,7 +255,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "411",
+    "preseason_rank": "409",
     "current_rank": "371",
     "percent_started": 18
   },
@@ -278,12 +278,12 @@
     "team": "Philadelphia Phillies",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "118",
     "current_rank": "65",
-    "percent_started": 94
+    "percent_started": 93
   },
   {
     "player_key": "469.p.11479",
@@ -320,7 +320,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "NA",
-    "preseason_rank": "1215",
+    "preseason_rank": "1244",
     "current_rank": "865",
     "percent_started": 1
   },
@@ -356,7 +356,7 @@
     "team": "Los Angeles Dodgers",
     "position": "RP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "309",
@@ -398,7 +398,7 @@
     "is_editable": false,
     "is_starting": 0,
     "status": "NA",
-    "preseason_rank": "1989",
+    "preseason_rank": "1986",
     "current_rank": "1721",
     "percent_started": null
   }
