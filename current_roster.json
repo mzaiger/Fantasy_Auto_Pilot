@@ -1,18 +1,5 @@
 [
   {
-    "player_key": "469.p.11268",
-    "name": "William Contreras",
-    "team": "Milwaukee Brewers",
-    "position": "C",
-    "selected_position": "C",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "57",
-    "current_rank": "121",
-    "percent_started": 92
-  },
-  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
@@ -127,7 +114,20 @@
     "status": "Healthy",
     "preseason_rank": "184",
     "current_rank": "46",
-    "percent_started": 59
+    "percent_started": 60
+  },
+  {
+    "player_key": "469.p.11268",
+    "name": "William Contreras",
+    "team": "Milwaukee Brewers",
+    "position": "C",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "57",
+    "current_rank": "121",
+    "percent_started": 91
   },
   {
     "player_key": "469.p.12314",
@@ -151,7 +151,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "1820",
+    "preseason_rank": "1823",
     "current_rank": "1124",
     "percent_started": 1
   },
@@ -175,8 +175,8 @@
     "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
+    "is_starting": 0,
+    "status": "DTD",
     "preseason_rank": "336",
     "current_rank": "1044",
     "percent_started": 9
@@ -190,7 +190,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL10",
-    "preseason_rank": "539",
+    "preseason_rank": "544",
     "current_rank": "928",
     "percent_started": 5
   },
@@ -205,7 +205,7 @@
     "status": "Healthy",
     "preseason_rank": "206",
     "current_rank": "649",
-    "percent_started": 18
+    "percent_started": 19
   },
   {
     "player_key": "469.p.9334",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "173",
     "current_rank": "149",
-    "percent_started": 78
+    "percent_started": 79
   },
   {
     "player_key": "469.p.12345",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "580",
-    "percent_started": 84
+    "percent_started": 85
   },
   {
     "player_key": "469.p.11644",
@@ -255,7 +255,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "411",
+    "preseason_rank": "409",
     "current_rank": "371",
     "percent_started": 18
   },
@@ -320,7 +320,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "NA",
-    "preseason_rank": "1215",
+    "preseason_rank": "1244",
     "current_rank": "865",
     "percent_started": 1
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": 0,
     "status": "NA",
-    "preseason_rank": "1989",
+    "preseason_rank": "1986",
     "current_rank": "1721",
     "percent_started": null
   }
