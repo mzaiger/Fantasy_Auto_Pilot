@@ -26,17 +26,17 @@
     "percent_started": 65
   },
   {
-    "player_key": "469.p.12100",
-    "name": "Otto Lopez",
-    "team": "Miami Marlins",
-    "position": "2B,SS",
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
     "selected_position": "2B",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "98",
-    "current_rank": "221",
-    "percent_started": 73
+    "preseason_rank": "206",
+    "current_rank": "587",
+    "percent_started": 23
   },
   {
     "player_key": "469.p.10766",
@@ -52,17 +52,17 @@
     "percent_started": 83
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.12100",
+    "name": "Otto Lopez",
+    "team": "Miami Marlins",
+    "position": "2B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "556",
-    "current_rank": "931",
-    "percent_started": 7
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "98",
+    "current_rank": "221",
+    "percent_started": 73
   },
   {
     "player_key": "469.p.62119",
@@ -78,30 +78,30 @@
     "percent_started": 58
   },
   {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "556",
+    "current_rank": "931",
+    "percent_started": 7
+  },
+  {
     "player_key": "469.p.62971",
     "name": "Dylan Crews",
     "team": "Washington Nationals",
     "position": "OF",
-    "selected_position": "OF",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 0,
     "status": "DTD",
     "preseason_rank": "336",
     "current_rank": "1048",
     "percent_started": 10
-  },
-  {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "206",
-    "current_rank": "587",
-    "percent_started": 23
   },
   {
     "player_key": "469.p.10621",
@@ -270,7 +270,7 @@
     "status": "Healthy",
     "preseason_rank": "44",
     "current_rank": "105",
-    "percent_started": 65
+    "percent_started": 64
   },
   {
     "player_key": "469.p.12281",
