@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "68",
     "current_rank": "812",
-    "percent_started": 71
+    "percent_started": 72
   },
   {
     "player_key": "469.p.62119",
@@ -200,7 +200,7 @@
     "team": "Houston Astros",
     "position": "C",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "136",
