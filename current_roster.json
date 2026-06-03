@@ -123,7 +123,7 @@
     "position": "2B,SS",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "309",
     "current_rank": "572",
