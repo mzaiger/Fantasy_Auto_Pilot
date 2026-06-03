@@ -31,7 +31,7 @@
     "team": "Miami Marlins",
     "position": "2B,SS",
     "selected_position": "2B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "97",
@@ -49,7 +49,7 @@
     "status": "Healthy",
     "preseason_rank": "4",
     "current_rank": "52",
-    "percent_started": 95
+    "percent_started": 96
   },
   {
     "player_key": "469.p.10766",
@@ -135,12 +135,12 @@
     "team": "Miami Marlins",
     "position": "OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "233",
     "current_rank": "173",
-    "percent_started": 44
+    "percent_started": 43
   },
   {
     "player_key": "469.p.10964",
@@ -148,7 +148,7 @@
     "team": "Washington Nationals",
     "position": "1B,2B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "205",
@@ -174,7 +174,7 @@
     "team": "Washington Nationals",
     "position": "OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "339",
