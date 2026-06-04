@@ -57,7 +57,7 @@
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
     "selected_position": "SS",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "309",
@@ -265,7 +265,7 @@
     "team": "Philadelphia Phillies",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "118",
@@ -348,7 +348,7 @@
     "status": "Healthy",
     "preseason_rank": "299",
     "current_rank": "755",
-    "percent_started": 14
+    "percent_started": 13
   },
   {
     "player_key": "469.p.10214",
@@ -369,7 +369,7 @@
     "team": "San Diego Padres",
     "position": "SP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "331",
