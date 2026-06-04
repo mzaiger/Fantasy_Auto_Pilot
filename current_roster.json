@@ -34,7 +34,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "1830",
+    "preseason_rank": "1851",
     "current_rank": "1146",
     "percent_started": 1
   },
@@ -44,7 +44,7 @@
     "team": "Cleveland Guardians",
     "position": "3B",
     "selected_position": "3B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "4",
@@ -83,7 +83,7 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "353",
@@ -96,7 +96,7 @@
     "team": "Cleveland Guardians",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "273",
@@ -179,7 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "205",
     "current_rank": "643",
-    "percent_started": 17
+    "percent_started": 16
   },
   {
     "player_key": "469.p.12351",
@@ -190,7 +190,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL10",
-    "preseason_rank": "567",
+    "preseason_rank": "572",
     "current_rank": "942",
     "percent_started": 5
   },
@@ -239,7 +239,7 @@
     "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "56",
@@ -255,7 +255,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "409",
+    "preseason_rank": "408",
     "current_rank": "355",
     "percent_started": 19
   },
@@ -333,7 +333,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "NA",
-    "preseason_rank": "1246",
+    "preseason_rank": "1237",
     "current_rank": "854",
     "percent_started": 1
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": 0,
     "status": "NA",
-    "preseason_rank": "1994",
+    "preseason_rank": "1998",
     "current_rank": "1733",
     "percent_started": null
   }
