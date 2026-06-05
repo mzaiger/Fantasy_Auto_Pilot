@@ -127,8 +127,8 @@
       "game_date": "2026-06-04",
       "start_time_utc": "2026-06-04T23:40:00Z",
       "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "status_detailed": "Delayed",
+      "status_code": "IR",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
