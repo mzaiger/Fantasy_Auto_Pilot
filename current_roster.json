@@ -31,7 +31,7 @@
     "team": "Chicago Cubs",
     "position": "2B,3B",
     "selected_position": "2B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "1851",
@@ -70,7 +70,7 @@
     "team": " Athletics",
     "position": "1B,OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "71",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "68",
     "current_rank": "788",
-    "percent_started": 61
+    "percent_started": 60
   },
   {
     "player_key": "469.p.12309",
