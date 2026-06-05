@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "205",
     "current_rank": "657",
-    "percent_started": 17
+    "percent_started": 18
   },
   {
     "player_key": "469.p.60776",
@@ -135,7 +135,7 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "353",
