@@ -91,11 +91,24 @@
     "percent_started": 41
   },
   {
+    "player_key": "469.p.12314",
+    "name": "Steven Kwan",
+    "team": "Cleveland Guardians",
+    "position": "OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "273",
+    "current_rank": "773",
+    "percent_started": 27
+  },
+  {
     "player_key": "469.p.60776",
     "name": "José Caballero",
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
-    "selected_position": "OF",
+    "selected_position": "Util",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -121,26 +134,13 @@
     "name": "Bryson Stott",
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "309",
     "current_rank": "574",
     "percent_started": 26
-  },
-  {
-    "player_key": "469.p.12314",
-    "name": "Steven Kwan",
-    "team": "Cleveland Guardians",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "273",
-    "current_rank": "773",
-    "percent_started": 27
   },
   {
     "player_key": "469.p.10964",
