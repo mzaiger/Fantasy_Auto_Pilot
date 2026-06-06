@@ -10,7 +10,7 @@
     "status": "Healthy",
     "preseason_rank": "57",
     "current_rank": "136",
-    "percent_started": 94
+    "percent_started": 93
   },
   {
     "player_key": "469.p.10621",
@@ -19,7 +19,7 @@
     "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "27",
     "current_rank": "247",
@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "68",
     "current_rank": "791",
-    "percent_started": 69
+    "percent_started": 71
   },
   {
     "player_key": "469.p.12005",
@@ -75,7 +75,7 @@
     "status": "Healthy",
     "preseason_rank": "71",
     "current_rank": "170",
-    "percent_started": 81
+    "percent_started": 80
   },
   {
     "player_key": "469.p.62119",
@@ -91,17 +91,17 @@
     "percent_started": 41
   },
   {
-    "player_key": "469.p.12314",
-    "name": "Steven Kwan",
-    "team": "Cleveland Guardians",
-    "position": "OF",
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
     "selected_position": "OF",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "273",
-    "current_rank": "773",
-    "percent_started": 27
+    "preseason_rank": "353",
+    "current_rank": "673",
+    "percent_started": 39
   },
   {
     "player_key": "469.p.12309",
@@ -117,37 +117,11 @@
     "percent_started": 57
   },
   {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "205",
-    "current_rank": "401",
-    "percent_started": 17
-  },
-  {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "353",
-    "current_rank": "673",
-    "percent_started": 38
-  },
-  {
     "player_key": "469.p.11817",
     "name": "Bryson Stott",
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
-    "selected_position": "BN",
+    "selected_position": "Util",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -156,13 +130,39 @@
     "percent_started": 26
   },
   {
+    "player_key": "469.p.12314",
+    "name": "Steven Kwan",
+    "team": "Cleveland Guardians",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "273",
+    "current_rank": "773",
+    "percent_started": 27
+  },
+  {
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "205",
+    "current_rank": "401",
+    "percent_started": 18
+  },
+  {
     "player_key": "469.p.64285",
     "name": "Pedro Ramirez",
     "team": "Chicago Cubs",
     "position": "2B,3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "1831",
     "current_rank": "1138",
@@ -188,7 +188,7 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "598",
     "current_rank": "955",
@@ -218,33 +218,33 @@
     "status": "Healthy",
     "preseason_rank": "45",
     "current_rank": "112",
-    "percent_started": 70
+    "percent_started": 69
   },
   {
-    "player_key": "469.p.12281",
-    "name": "Spencer Strider",
-    "team": "Atlanta Braves",
+    "player_key": "469.p.11479",
+    "name": "Braydon Fisher",
+    "team": "Toronto Blue Jays",
+    "position": "SP,RP",
+    "selected_position": "SP",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "406",
+    "current_rank": "152",
+    "percent_started": 5
+  },
+  {
+    "player_key": "469.p.12345",
+    "name": "Kyle Bradish",
+    "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "170",
-    "current_rank": "162",
-    "percent_started": 70
-  },
-  {
-    "player_key": "469.p.11014",
-    "name": "Freddy Peralta",
-    "team": "New York Mets",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "69",
-    "current_rank": "261",
-    "percent_started": 64
+    "preseason_rank": "56",
+    "current_rank": "367",
+    "percent_started": 86
   },
   {
     "player_key": "469.p.11644",
@@ -286,17 +286,17 @@
     "percent_started": 11
   },
   {
-    "player_key": "469.p.11479",
-    "name": "Braydon Fisher",
-    "team": "Toronto Blue Jays",
-    "position": "SP,RP",
+    "player_key": "469.p.12281",
+    "name": "Spencer Strider",
+    "team": "Atlanta Braves",
+    "position": "SP",
     "selected_position": "P",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "406",
-    "current_rank": "152",
-    "percent_started": 4
+    "preseason_rank": "170",
+    "current_rank": "162",
+    "percent_started": 80
   },
   {
     "player_key": "469.p.10931",
@@ -325,17 +325,17 @@
     "percent_started": 1
   },
   {
-    "player_key": "469.p.12345",
-    "name": "Kyle Bradish",
-    "team": "Baltimore Orioles",
+    "player_key": "469.p.11014",
+    "name": "Freddy Peralta",
+    "team": "New York Mets",
     "position": "SP",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "56",
-    "current_rank": "367",
-    "percent_started": 79
+    "preseason_rank": "69",
+    "current_rank": "261",
+    "percent_started": 62
   },
   {
     "player_key": "469.p.10236",
@@ -344,11 +344,11 @@
     "position": "2B",
     "selected_position": "IL",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "299",
     "current_rank": "730",
-    "percent_started": 22
+    "percent_started": 25
   },
   {
     "player_key": "469.p.10214",
