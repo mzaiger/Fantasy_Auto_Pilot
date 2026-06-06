@@ -45,7 +45,7 @@
     "position": "3B",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "4",
     "current_rank": "42",
@@ -84,7 +84,7 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "273",
     "current_rank": "773",
@@ -122,7 +122,7 @@
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "309",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "233",
     "current_rank": "159",
-    "percent_started": 39
+    "percent_started": 38
   },
   {
     "player_key": "469.p.10964",
@@ -164,7 +164,7 @@
     "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "2428",
+    "preseason_rank": "1831",
     "current_rank": "1138",
     "percent_started": 1
   },
@@ -190,7 +190,7 @@
     "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
-    "preseason_rank": "603",
+    "preseason_rank": "598",
     "current_rank": "955",
     "percent_started": 5
   },
@@ -265,7 +265,7 @@
     "team": "Philadelphia Phillies",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "118",
@@ -320,7 +320,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "1243",
+    "preseason_rank": "1248",
     "current_rank": "863",
     "percent_started": 1
   },
@@ -385,7 +385,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "414",
+    "preseason_rank": "415",
     "current_rank": "1861",
     "percent_started": 2
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "NA",
-    "preseason_rank": "2000",
+    "preseason_rank": "2002",
     "current_rank": "1743",
     "percent_started": null
   }
