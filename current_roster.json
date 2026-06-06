@@ -32,7 +32,7 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "97",
     "current_rank": "245",
@@ -84,7 +84,7 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "233",
     "current_rank": "159",
@@ -123,7 +123,7 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "180",
     "current_rank": "54",
@@ -149,7 +149,7 @@
     "position": "1B,2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "205",
     "current_rank": "401",
@@ -164,9 +164,9 @@
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "2428",
+    "preseason_rank": "1831",
     "current_rank": "1138",
-    "percent_started": null
+    "percent_started": 1
   },
   {
     "player_key": "469.p.12435",
@@ -187,10 +187,10 @@
     "team": "Seattle Mariners",
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
-    "preseason_rank": "603",
+    "preseason_rank": "598",
     "current_rank": "955",
     "percent_started": 5
   },
@@ -201,7 +201,7 @@
     "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "339",
     "current_rank": "1063",
@@ -320,7 +320,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "1243",
+    "preseason_rank": "1248",
     "current_rank": "863",
     "percent_started": 1
   },
@@ -343,12 +343,12 @@
     "team": "Detroit Tigers",
     "position": "2B",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "299",
     "current_rank": "730",
-    "percent_started": 25
+    "percent_started": 26
   },
   {
     "player_key": "469.p.10214",
@@ -385,7 +385,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "414",
+    "preseason_rank": "415",
     "current_rank": "1861",
     "percent_started": 2
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "NA",
-    "preseason_rank": "2000",
+    "preseason_rank": "2002",
     "current_rank": "1743",
     "percent_started": null
   }
