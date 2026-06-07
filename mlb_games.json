@@ -247,8 +247,8 @@
       "game_date": "2026-06-06",
       "start_time_utc": "2026-06-06T23:35:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -262,30 +262,6 @@
         "abbreviation": "TEX"
       },
       "venue": "Globe Life Field",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
-      "game_pk": 823539,
-      "game_date": "2026-06-06",
-      "start_time_utc": "2026-06-06T23:35:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Delayed Start",
-      "status_code": "PI",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 111,
-        "name": "Boston Red Sox",
-        "abbreviation": "BOS"
-      },
-      "home_team": {
-        "id": 147,
-        "name": "New York Yankees",
-        "abbreviation": "NYY"
-      },
-      "venue": "Yankee Stadium",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
@@ -358,6 +334,30 @@
         "abbreviation": "SD"
       },
       "venue": "Petco Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823539,
+      "game_date": "2026-06-06",
+      "start_time_utc": "2026-06-06T23:35:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DR",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 111,
+        "name": "Boston Red Sox",
+        "abbreviation": "BOS"
+      },
+      "home_team": {
+        "id": 147,
+        "name": "New York Yankees",
+        "abbreviation": "NYY"
+      },
+      "venue": "Yankee Stadium",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
