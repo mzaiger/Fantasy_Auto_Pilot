@@ -271,8 +271,8 @@
       "game_date": "2026-06-07",
       "start_time_utc": "2026-06-07T01:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -318,9 +318,9 @@
       "game_pk": 823292,
       "game_date": "2026-06-07",
       "start_time_utc": "2026-06-07T02:10:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Pre-Game",
-      "status_code": "P",
+      "status_abstract": "Live",
+      "status_detailed": "Warmup",
+      "status_code": "PW",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
