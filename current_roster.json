@@ -75,7 +75,7 @@
     "status": "Healthy",
     "preseason_rank": "71",
     "current_rank": "164",
-    "percent_started": 81
+    "percent_started": 82
   },
   {
     "player_key": "469.p.62119",
@@ -101,7 +101,7 @@
     "status": "Healthy",
     "preseason_rank": "273",
     "current_rank": "777",
-    "percent_started": 27
+    "percent_started": 28
   },
   {
     "player_key": "469.p.60776",
@@ -109,7 +109,7 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "353",
@@ -135,7 +135,7 @@
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "309",
@@ -226,7 +226,7 @@
     "team": "Atlanta Braves",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "170",
@@ -265,7 +265,7 @@
     "team": "Philadelphia Phillies",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "118",
@@ -335,7 +335,7 @@
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "637",
-    "percent_started": 76
+    "percent_started": 75
   },
   {
     "player_key": "469.p.10236",
@@ -382,7 +382,7 @@
     "team": "Atlanta Braves",
     "position": "SP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "415",
