@@ -36,7 +36,7 @@
     "status": "Healthy",
     "preseason_rank": "205",
     "current_rank": "491",
-    "percent_started": 23
+    "percent_started": 24
   },
   {
     "player_key": "469.p.9507",
@@ -52,11 +52,24 @@
     "percent_started": 98
   },
   {
+    "player_key": "469.p.11817",
+    "name": "Bryson Stott",
+    "team": "Philadelphia Phillies",
+    "position": "2B,SS",
+    "selected_position": "SS",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "309",
+    "current_rank": "587",
+    "percent_started": 33
+  },
+  {
     "player_key": "469.p.60776",
     "name": "José Caballero",
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
-    "selected_position": "SS",
+    "selected_position": "OF",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
@@ -91,19 +104,6 @@
     "percent_started": 35
   },
   {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "339",
-    "current_rank": "1033",
-    "percent_started": 10
-  },
-  {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
@@ -117,17 +117,30 @@
     "percent_started": 64
   },
   {
-    "player_key": "469.p.11817",
-    "name": "Bryson Stott",
-    "team": "Philadelphia Phillies",
-    "position": "2B,SS",
+    "player_key": "469.p.12435",
+    "name": "Yainer Diaz",
+    "team": "Houston Astros",
+    "position": "C",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
+    "status": "IL10",
+    "preseason_rank": "136",
+    "current_rank": "965",
+    "percent_started": 15
+  },
+  {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "309",
-    "current_rank": "587",
-    "percent_started": 33
+    "preseason_rank": "339",
+    "current_rank": "1033",
+    "percent_started": 10
   },
   {
     "player_key": "469.p.12100",
@@ -180,19 +193,6 @@
     "preseason_rank": "1848",
     "current_rank": "1136",
     "percent_started": null
-  },
-  {
-    "player_key": "469.p.12435",
-    "name": "Yainer Diaz",
-    "team": "Houston Astros",
-    "position": "C",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
-    "preseason_rank": "136",
-    "current_rank": "965",
-    "percent_started": 15
   },
   {
     "player_key": "469.p.12351",
@@ -283,7 +283,7 @@
     "status": "Healthy",
     "preseason_rank": "170",
     "current_rank": "176",
-    "percent_started": 55
+    "percent_started": 54
   },
   {
     "player_key": "469.p.11014",
