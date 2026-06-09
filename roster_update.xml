@@ -9,8 +9,8 @@
         <position>C</position>
       </player>
       <player>
-        <player_key>469.p.12005</player_key>
-        <position>OF</position>
+        <player_key>469.p.10621</player_key>
+        <position>1B</position>
       </player>
       <player>
         <player_key>469.p.12100</player_key>
@@ -25,8 +25,8 @@
         <position>SS</position>
       </player>
       <player>
-        <player_key>469.p.60776</player_key>
-        <position>BN</position>
+        <player_key>469.p.12005</player_key>
+        <position>OF</position>
       </player>
       <player>
         <player_key>469.p.12314</player_key>
@@ -37,20 +37,20 @@
         <position>OF</position>
       </player>
       <player>
-        <player_key>469.p.10621</player_key>
-        <position>1B</position>
-      </player>
-      <player>
-        <player_key>469.p.12309</player_key>
-        <position>BN</position>
-      </player>
-      <player>
         <player_key>469.p.10964</player_key>
         <position>Util</position>
       </player>
       <player>
         <player_key>469.p.11817</player_key>
         <position>Util</position>
+      </player>
+      <player>
+        <player_key>469.p.60776</player_key>
+        <position>BN</position>
+      </player>
+      <player>
+        <player_key>469.p.12309</player_key>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.62971</player_key>
