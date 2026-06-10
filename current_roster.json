@@ -65,19 +65,6 @@
     "percent_started": 71
   },
   {
-    "player_key": "469.p.12314",
-    "name": "Steven Kwan",
-    "team": "Cleveland Guardians",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "289",
-    "current_rank": "790",
-    "percent_started": 27
-  },
-  {
     "player_key": "469.p.62119",
     "name": "Jakob Marsee",
     "team": "Miami Marlins",
@@ -104,6 +91,19 @@
     "percent_started": 38
   },
   {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "355",
+    "current_rank": "1047",
+    "percent_started": 6
+  },
+  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
@@ -114,7 +114,7 @@
     "status": "Healthy",
     "preseason_rank": "40",
     "current_rank": "345",
-    "percent_started": 93
+    "percent_started": 92
   },
   {
     "player_key": "469.p.12309",
@@ -128,6 +128,19 @@
     "preseason_rank": "179",
     "current_rank": "72",
     "percent_started": 49
+  },
+  {
+    "player_key": "469.p.12314",
+    "name": "Steven Kwan",
+    "team": "Cleveland Guardians",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "289",
+    "current_rank": "790",
+    "percent_started": 27
   },
   {
     "player_key": "469.p.10964",
@@ -154,19 +167,6 @@
     "preseason_rank": "317",
     "current_rank": "483",
     "percent_started": 28
-  },
-  {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "355",
-    "current_rank": "1047",
-    "percent_started": 6
   },
   {
     "player_key": "469.p.12435",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "89",
     "current_rank": "404",
-    "percent_started": 80
+    "percent_started": 79
   },
   {
     "player_key": "469.p.11644",
