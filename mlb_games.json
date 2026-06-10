@@ -79,8 +79,8 @@
       "game_date": "2026-06-10",
       "start_time_utc": "2026-06-10T20:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -319,8 +319,8 @@
       "game_date": "2026-06-11",
       "start_time_utc": "2026-06-11T01:05:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -343,8 +343,8 @@
       "game_date": "2026-06-11",
       "start_time_utc": "2026-06-11T01:38:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
