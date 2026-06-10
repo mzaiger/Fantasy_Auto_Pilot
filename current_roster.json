@@ -13,17 +13,17 @@
     "percent_started": 95
   },
   {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
+    "player_key": "469.p.10621",
+    "name": "Vladimir Guerrero Jr.",
+    "team": "Toronto Blue Jays",
+    "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "70",
-    "current_rank": "100",
-    "percent_started": 85
+    "preseason_rank": "40",
+    "current_rank": "345",
+    "percent_started": 92
   },
   {
     "player_key": "469.p.12100",
@@ -65,6 +65,19 @@
     "percent_started": 71
   },
   {
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "70",
+    "current_rank": "100",
+    "percent_started": 85
+  },
+  {
     "player_key": "469.p.62119",
     "name": "Jakob Marsee",
     "team": "Miami Marlins",
@@ -91,32 +104,6 @@
     "percent_started": 38
   },
   {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "355",
-    "current_rank": "1047",
-    "percent_started": 6
-  },
-  {
-    "player_key": "469.p.10621",
-    "name": "Vladimir Guerrero Jr.",
-    "team": "Toronto Blue Jays",
-    "position": "1B",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "40",
-    "current_rank": "345",
-    "percent_started": 92
-  },
-  {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
@@ -128,6 +115,32 @@
     "preseason_rank": "179",
     "current_rank": "72",
     "percent_started": 50
+  },
+  {
+    "player_key": "469.p.11817",
+    "name": "Bryson Stott",
+    "team": "Philadelphia Phillies",
+    "position": "2B,SS",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "317",
+    "current_rank": "483",
+    "percent_started": 28
+  },
+  {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "355",
+    "current_rank": "1047",
+    "percent_started": 7
   },
   {
     "player_key": "469.p.12314",
@@ -154,19 +167,6 @@
     "preseason_rank": "213",
     "current_rank": "324",
     "percent_started": 20
-  },
-  {
-    "player_key": "469.p.11817",
-    "name": "Bryson Stott",
-    "team": "Philadelphia Phillies",
-    "position": "2B,SS",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "317",
-    "current_rank": "483",
-    "percent_started": 28
   },
   {
     "player_key": "469.p.12435",
@@ -344,7 +344,7 @@
     "position": "2B",
     "selected_position": "IL",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "318",
     "current_rank": "749",
