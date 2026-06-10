@@ -1,16 +1,16 @@
 [
   {
-    "player_key": "469.p.11268",
-    "name": "William Contreras",
-    "team": "Milwaukee Brewers",
+    "player_key": "469.p.12435",
+    "name": "Yainer Diaz",
+    "team": "Houston Astros",
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "58",
-    "current_rank": "99",
-    "percent_started": 94
+    "is_starting": null,
+    "status": "IL10",
+    "preseason_rank": "140",
+    "current_rank": "961",
+    "percent_started": 15
   },
   {
     "player_key": "469.p.10621",
@@ -36,7 +36,7 @@
     "status": "Healthy",
     "preseason_rank": "90",
     "current_rank": "156",
-    "percent_started": 69
+    "percent_started": 70
   },
   {
     "player_key": "469.p.9507",
@@ -130,6 +130,19 @@
     "percent_started": 28
   },
   {
+    "player_key": "469.p.11268",
+    "name": "William Contreras",
+    "team": "Milwaukee Brewers",
+    "position": "C",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "58",
+    "current_rank": "99",
+    "percent_started": 94
+  },
+  {
     "player_key": "469.p.62971",
     "name": "Dylan Crews",
     "team": "Washington Nationals",
@@ -167,19 +180,6 @@
     "preseason_rank": "213",
     "current_rank": "324",
     "percent_started": 20
-  },
-  {
-    "player_key": "469.p.12435",
-    "name": "Yainer Diaz",
-    "team": "Houston Astros",
-    "position": "C",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
-    "preseason_rank": "140",
-    "current_rank": "961",
-    "percent_started": 15
   },
   {
     "player_key": "469.p.64285",
