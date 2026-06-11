@@ -101,7 +101,7 @@
     "status": "Healthy",
     "preseason_rank": "70",
     "current_rank": "107",
-    "percent_started": 73
+    "percent_started": 72
   },
   {
     "player_key": "469.p.60776",
@@ -356,7 +356,7 @@
     "team": "Los Angeles Dodgers",
     "position": "RP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "331",
