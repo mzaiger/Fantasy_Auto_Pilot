@@ -26,19 +26,6 @@
     "percent_started": 81
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "SS",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "677",
-    "current_rank": "971",
-    "percent_started": 6
-  },
-  {
     "player_key": "469.p.62119",
     "name": "Jakob Marsee",
     "team": "Miami Marlins",
@@ -52,6 +39,19 @@
     "percent_started": 52
   },
   {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "652",
+    "current_rank": "971",
+    "percent_started": 6
+  },
+  {
     "player_key": "469.p.64285",
     "name": "Pedro Ramirez",
     "team": "Chicago Cubs",
@@ -60,7 +60,7 @@
     "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
-    "preseason_rank": "1859",
+    "preseason_rank": "1858",
     "current_rank": "1157",
     "percent_started": 1
   },
@@ -281,7 +281,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "1158",
+    "preseason_rank": "1239",
     "current_rank": "848",
     "percent_started": 1
   },
@@ -307,7 +307,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "405",
+    "preseason_rank": "406",
     "current_rank": "296",
     "percent_started": 18
   },
@@ -333,7 +333,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "407",
+    "preseason_rank": "403",
     "current_rank": "178",
     "percent_started": 4
   },
@@ -372,7 +372,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "669",
+    "preseason_rank": "673",
     "current_rank": "2131",
     "percent_started": 2
   },
@@ -385,7 +385,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "422",
+    "preseason_rank": "421",
     "current_rank": "1872",
     "percent_started": 2
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "NA",
-    "preseason_rank": "2011",
+    "preseason_rank": "2009",
     "current_rank": "1755",
     "percent_started": null
   }

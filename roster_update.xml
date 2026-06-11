@@ -13,12 +13,12 @@
         <position>3B</position>
       </player>
       <player>
-        <player_key>469.p.12351</player_key>
-        <position>BN</position>
-      </player>
-      <player>
         <player_key>469.p.62119</player_key>
         <position>OF</position>
+      </player>
+      <player>
+        <player_key>469.p.12351</player_key>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.64285</player_key>
