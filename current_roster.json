@@ -32,7 +32,7 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "90",
     "current_rank": "128",
@@ -71,7 +71,7 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "235",
     "current_rank": "178",
@@ -104,19 +104,6 @@
     "percent_started": 25
   },
   {
-    "player_key": "469.p.10621",
-    "name": "Vladimir Guerrero Jr.",
-    "team": "Toronto Blue Jays",
-    "position": "1B",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "40",
-    "current_rank": "331",
-    "percent_started": 76
-  },
-  {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
@@ -128,6 +115,32 @@
     "preseason_rank": "179",
     "current_rank": "73",
     "percent_started": 49
+  },
+  {
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "213",
+    "current_rank": "369",
+    "percent_started": 21
+  },
+  {
+    "player_key": "469.p.10621",
+    "name": "Vladimir Guerrero Jr.",
+    "team": "Toronto Blue Jays",
+    "position": "1B",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "40",
+    "current_rank": "331",
+    "percent_started": 75
   },
   {
     "player_key": "469.p.12351",
@@ -182,19 +195,6 @@
     "percent_started": 6
   },
   {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "213",
-    "current_rank": "369",
-    "percent_started": 21
-  },
-  {
     "player_key": "469.p.10236",
     "name": "Gleyber Torres",
     "team": "Detroit Tigers",
@@ -218,7 +218,7 @@
     "status": "IL15",
     "preseason_rank": "170",
     "current_rank": "342",
-    "percent_started": 48
+    "percent_started": 47
   },
   {
     "player_key": "469.p.11014",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "89",
     "current_rank": "402",
-    "percent_started": 66
+    "percent_started": 65
   },
   {
     "player_key": "469.p.9334",
