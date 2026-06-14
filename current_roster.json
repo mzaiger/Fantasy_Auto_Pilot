@@ -6,7 +6,7 @@
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "58",
     "current_rank": "102",
@@ -36,33 +36,33 @@
     "status": "Healthy",
     "preseason_rank": "90",
     "current_rank": "132",
-    "percent_started": 72
-  },
-  {
-    "player_key": "469.p.9507",
-    "name": "José Ramírez",
-    "team": "Cleveland Guardians",
-    "position": "3B",
-    "selected_position": "3B",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "3",
-    "current_rank": "41",
-    "percent_started": 60
+    "percent_started": 73
   },
   {
     "player_key": "469.p.10766",
     "name": "Bo Bichette",
     "team": "New York Mets",
     "position": "3B,SS",
-    "selected_position": "SS",
+    "selected_position": "3B",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "136",
     "current_rank": "632",
-    "percent_started": 81
+    "percent_started": 82
+  },
+  {
+    "player_key": "469.p.11817",
+    "name": "Bryson Stott",
+    "team": "Philadelphia Phillies",
+    "position": "2B,SS",
+    "selected_position": "SS",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "317",
+    "current_rank": "415",
+    "percent_started": 27
   },
   {
     "player_key": "469.p.62119",
@@ -117,17 +117,43 @@
     "percent_started": 51
   },
   {
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "213",
+    "current_rank": "264",
+    "percent_started": 23
+  },
+  {
+    "player_key": "469.p.9507",
+    "name": "José Ramírez",
+    "team": "Cleveland Guardians",
+    "position": "3B",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "3",
+    "current_rank": "41",
+    "percent_started": 59
+  },
+  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
     "position": "1B",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 0,
     "status": "DTD",
     "preseason_rank": "40",
     "current_rank": "356",
-    "percent_started": 61
+    "percent_started": 60
   },
   {
     "player_key": "469.p.62971",
@@ -141,32 +167,6 @@
     "preseason_rank": "355",
     "current_rank": "1005",
     "percent_started": 7
-  },
-  {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "213",
-    "current_rank": "264",
-    "percent_started": 23
-  },
-  {
-    "player_key": "469.p.11817",
-    "name": "Bryson Stott",
-    "team": "Philadelphia Phillies",
-    "position": "2B,SS",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "317",
-    "current_rank": "415",
-    "percent_started": 27
   },
   {
     "player_key": "469.p.12351",
@@ -396,7 +396,7 @@
     "position": "2B,3B,SS",
     "selected_position": "NA",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "NA",
     "preseason_rank": "2020",
     "current_rank": "1765",
