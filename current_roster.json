@@ -5,7 +5,7 @@
     "team": "Milwaukee Brewers",
     "position": "C",
     "selected_position": "C",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "58",
@@ -57,7 +57,7 @@
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
     "selected_position": "SS",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "317",
@@ -114,7 +114,7 @@
     "status": "Healthy",
     "preseason_rank": "179",
     "current_rank": "83",
-    "percent_started": 52
+    "percent_started": 53
   },
   {
     "player_key": "469.p.10964",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "289",
     "current_rank": "813",
-    "percent_started": 26
+    "percent_started": 25
   },
   {
     "player_key": "469.p.9507",
@@ -205,7 +205,7 @@
     "status": "Healthy",
     "preseason_rank": "318",
     "current_rank": "698",
-    "percent_started": 31
+    "percent_started": 30
   },
   {
     "player_key": "469.p.11014",
@@ -278,7 +278,7 @@
     "team": "Philadelphia Phillies",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "109",
@@ -291,7 +291,7 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "394",
@@ -304,7 +304,7 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "594",
@@ -343,7 +343,7 @@
     "team": "Houston Astros",
     "position": "C",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "140",
@@ -356,7 +356,7 @@
     "team": "Los Angeles Dodgers",
     "position": "RP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "331",
@@ -395,7 +395,7 @@
     "team": "Milwaukee Brewers",
     "position": "2B,3B,SS",
     "selected_position": "NA",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "NA",
     "preseason_rank": "2020",
