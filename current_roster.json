@@ -13,17 +13,17 @@
     "percent_started": 93
   },
   {
-    "player_key": "469.p.12309",
-    "name": "Jonathan Aranda",
-    "team": "Tampa Bay Rays",
-    "position": "1B",
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
     "selected_position": "1B",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "179",
-    "current_rank": "83",
-    "percent_started": 50
+    "preseason_rank": "70",
+    "current_rank": "115",
+    "percent_started": 83
   },
   {
     "player_key": "469.p.12100",
@@ -32,11 +32,11 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "90",
     "current_rank": "132",
-    "percent_started": 73
+    "percent_started": 72
   },
   {
     "player_key": "469.p.9507",
@@ -45,11 +45,11 @@
     "position": "3B",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
-    "status": "DTD",
+    "is_starting": 0,
+    "status": "IL10",
     "preseason_rank": "3",
     "current_rank": "41",
-    "percent_started": 81
+    "percent_started": 60
   },
   {
     "player_key": "469.p.10766",
@@ -58,7 +58,7 @@
     "position": "3B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "136",
     "current_rank": "632",
@@ -71,7 +71,7 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "235",
     "current_rank": "172",
@@ -84,89 +84,89 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "369",
     "current_rank": "684",
-    "percent_started": 40
-  },
-  {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "355",
-    "current_rank": "1005",
-    "percent_started": 6
-  },
-  {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "213",
-    "current_rank": "264",
-    "percent_started": 22
-  },
-  {
-    "player_key": "469.p.11817",
-    "name": "Bryson Stott",
-    "team": "Philadelphia Phillies",
-    "position": "2B,SS",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "317",
-    "current_rank": "415",
-    "percent_started": 26
-  },
-  {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "70",
-    "current_rank": "115",
-    "percent_started": 81
+    "percent_started": 42
   },
   {
     "player_key": "469.p.12314",
     "name": "Steven Kwan",
     "team": "Cleveland Guardians",
     "position": "OF",
-    "selected_position": "BN",
+    "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "289",
     "current_rank": "813",
-    "percent_started": 25
+    "percent_started": 26
+  },
+  {
+    "player_key": "469.p.12309",
+    "name": "Jonathan Aranda",
+    "team": "Tampa Bay Rays",
+    "position": "1B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "179",
+    "current_rank": "83",
+    "percent_started": 51
   },
   {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
     "position": "1B",
-    "selected_position": "BN",
+    "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "DTD",
     "preseason_rank": "40",
     "current_rank": "356",
-    "percent_started": 68
+    "percent_started": 61
+  },
+  {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "355",
+    "current_rank": "1005",
+    "percent_started": 7
+  },
+  {
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "213",
+    "current_rank": "264",
+    "percent_started": 23
+  },
+  {
+    "player_key": "469.p.11817",
+    "name": "Bryson Stott",
+    "team": "Philadelphia Phillies",
+    "position": "2B,SS",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "317",
+    "current_rank": "415",
+    "percent_started": 27
   },
   {
     "player_key": "469.p.12351",
@@ -175,9 +175,9 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
-    "preseason_rank": "699",
+    "preseason_rank": "733",
     "current_rank": "983",
     "percent_started": 5
   },
@@ -190,7 +190,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "1866",
+    "preseason_rank": "1802",
     "current_rank": "1106",
     "percent_started": null
   },
@@ -201,7 +201,7 @@
     "position": "2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "318",
     "current_rank": "698",
@@ -218,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "89",
     "current_rank": "408",
-    "percent_started": 81
+    "percent_started": 88
   },
   {
     "player_key": "469.p.9334",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "42",
     "current_rank": "99",
-    "percent_started": 82
+    "percent_started": 78
   },
   {
     "player_key": "469.p.12345",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "745",
-    "percent_started": 63
+    "percent_started": 62
   },
   {
     "player_key": "469.p.10494",
@@ -268,7 +268,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "404",
+    "preseason_rank": "405",
     "current_rank": "275",
     "percent_started": 20
   },
@@ -307,7 +307,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "1159",
+    "preseason_rank": "594",
     "current_rank": "806",
     "percent_started": 1
   },
@@ -335,7 +335,7 @@
     "status": "IL15",
     "preseason_rank": "170",
     "current_rank": "339",
-    "percent_started": 33
+    "percent_started": 29
   },
   {
     "player_key": "469.p.12435",
@@ -344,7 +344,7 @@
     "position": "C",
     "selected_position": "IL",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "140",
     "current_rank": "981",
@@ -372,7 +372,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "680",
+    "preseason_rank": "681",
     "current_rank": "2136",
     "percent_started": 2
   },
@@ -385,7 +385,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "427",
+    "preseason_rank": "429",
     "current_rank": "1880",
     "percent_started": 2
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "NA",
-    "preseason_rank": "2018",
+    "preseason_rank": "2020",
     "current_rank": "1765",
     "percent_started": null
   }
