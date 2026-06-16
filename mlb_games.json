@@ -1,14 +1,14 @@
 {
-  "dump_date": "2026-06-15",
-  "game_count": 10,
+  "dump_date": "2026-06-16",
+  "game_count": 15,
   "mlb_games": [
     {
-      "game_pk": 823452,
-      "game_date": "2026-06-15",
-      "start_time_utc": "2026-06-15T22:40:00Z",
-      "status_abstract": "Final",
-      "status_detailed": "Final",
-      "status_code": "F",
+      "game_pk": 823451,
+      "game_date": "2026-06-16",
+      "start_time_utc": "2026-06-16T22:40:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -27,12 +27,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 822724,
-      "game_date": "2026-06-15",
-      "start_time_utc": "2026-06-15T22:45:00Z",
-      "status_abstract": "Final",
-      "status_detailed": "Final",
-      "status_code": "F",
+      "game_pk": 822723,
+      "game_date": "2026-06-16",
+      "start_time_utc": "2026-06-16T22:45:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -51,12 +51,60 @@
       "game_number": 1
     },
     {
-      "game_pk": 824505,
-      "game_date": "2026-06-15",
-      "start_time_utc": "2026-06-15T23:10:00Z",
-      "status_abstract": "Final",
-      "status_detailed": "Game Over",
-      "status_code": "O",
+      "game_pk": 824750,
+      "game_date": "2026-06-16",
+      "start_time_utc": "2026-06-16T22:45:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 141,
+        "name": "Toronto Blue Jays",
+        "abbreviation": "TOR"
+      },
+      "home_team": {
+        "id": 111,
+        "name": "Boston Red Sox",
+        "abbreviation": "BOS"
+      },
+      "venue": "Fenway Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823535,
+      "game_date": "2026-06-16",
+      "start_time_utc": "2026-06-16T23:05:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 145,
+        "name": "Chicago White Sox",
+        "abbreviation": "CWS"
+      },
+      "home_team": {
+        "id": 147,
+        "name": "New York Yankees",
+        "abbreviation": "NYY"
+      },
+      "venue": "Yankee Stadium",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 824504,
+      "game_date": "2026-06-16",
+      "start_time_utc": "2026-06-16T23:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -75,12 +123,60 @@
       "game_number": 1
     },
     {
-      "game_pk": 823046,
-      "game_date": "2026-06-15",
-      "start_time_utc": "2026-06-15T23:45:00Z",
-      "status_abstract": "Final",
-      "status_detailed": "Final",
-      "status_code": "F",
+      "game_pk": 824912,
+      "game_date": "2026-06-16",
+      "start_time_utc": "2026-06-16T23:15:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 137,
+        "name": "San Francisco Giants",
+        "abbreviation": "SF"
+      },
+      "home_team": {
+        "id": 144,
+        "name": "Atlanta Braves",
+        "abbreviation": "ATL"
+      },
+      "venue": "Truist Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823775,
+      "game_date": "2026-06-16",
+      "start_time_utc": "2026-06-16T23:40:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 114,
+        "name": "Cleveland Guardians",
+        "abbreviation": "CLE"
+      },
+      "home_team": {
+        "id": 158,
+        "name": "Milwaukee Brewers",
+        "abbreviation": "MIL"
+      },
+      "venue": "American Family Field",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823045,
+      "game_date": "2026-06-16",
+      "start_time_utc": "2026-06-16T23:45:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -99,12 +195,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 824666,
-      "game_date": "2026-06-16",
-      "start_time_utc": "2026-06-16T00:05:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "game_pk": 824667,
+      "game_date": "2026-06-17",
+      "start_time_utc": "2026-06-17T00:05:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -123,12 +219,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 822887,
-      "game_date": "2026-06-16",
-      "start_time_utc": "2026-06-16T00:05:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "game_pk": 822888,
+      "game_date": "2026-06-17",
+      "start_time_utc": "2026-06-17T00:05:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -147,12 +243,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 824181,
-      "game_date": "2026-06-16",
-      "start_time_utc": "2026-06-16T00:10:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "game_pk": 824182,
+      "game_date": "2026-06-17",
+      "start_time_utc": "2026-06-17T00:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -171,12 +267,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 825071,
-      "game_date": "2026-06-16",
-      "start_time_utc": "2026-06-16T01:40:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "game_pk": 825070,
+      "game_date": "2026-06-17",
+      "start_time_utc": "2026-06-17T01:40:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -195,12 +291,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 824993,
-      "game_date": "2026-06-16",
-      "start_time_utc": "2026-06-16T01:40:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "game_pk": 824991,
+      "game_date": "2026-06-17",
+      "start_time_utc": "2026-06-17T01:40:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -219,12 +315,36 @@
       "game_number": 1
     },
     {
-      "game_pk": 823938,
-      "game_date": "2026-06-16",
-      "start_time_utc": "2026-06-16T02:10:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "game_pk": 823128,
+      "game_date": "2026-06-17",
+      "start_time_utc": "2026-06-17T01:40:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 110,
+        "name": "Baltimore Orioles",
+        "abbreviation": "BAL"
+      },
+      "home_team": {
+        "id": 136,
+        "name": "Seattle Mariners",
+        "abbreviation": "SEA"
+      },
+      "venue": "T-Mobile Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823939,
+      "game_date": "2026-06-17",
+      "start_time_utc": "2026-06-17T02:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
