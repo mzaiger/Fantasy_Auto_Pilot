@@ -32,7 +32,7 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "87",
     "current_rank": "154",
@@ -45,24 +45,24 @@
     "position": "3B,SS",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "133",
     "current_rank": "539",
     "percent_started": 87
   },
   {
-    "player_key": "469.p.11817",
-    "name": "Bryson Stott",
-    "team": "Philadelphia Phillies",
-    "position": "2B,SS",
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
     "selected_position": "SS",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "320",
-    "current_rank": "362",
-    "percent_started": 32
+    "preseason_rank": "376",
+    "current_rank": "493",
+    "percent_started": 47
   },
   {
     "player_key": "469.p.62119",
@@ -71,24 +71,11 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "234",
     "current_rank": "211",
-    "percent_started": 46
-  },
-  {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "376",
-    "current_rank": "493",
-    "percent_started": 45
+    "percent_started": 47
   },
   {
     "player_key": "469.p.12314",
@@ -102,6 +89,19 @@
     "preseason_rank": "331",
     "current_rank": "832",
     "percent_started": 26
+  },
+  {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "363",
+    "current_rank": "976",
+    "percent_started": 9
   },
   {
     "player_key": "469.p.12309",
@@ -127,20 +127,20 @@
     "status": "Healthy",
     "preseason_rank": "36",
     "current_rank": "437",
-    "percent_started": 77
+    "percent_started": 80
   },
   {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
+    "player_key": "469.p.11817",
+    "name": "Bryson Stott",
+    "team": "Philadelphia Phillies",
+    "position": "2B,SS",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "363",
-    "current_rank": "976",
-    "percent_started": 9
+    "preseason_rank": "320",
+    "current_rank": "362",
+    "percent_started": 32
   },
   {
     "player_key": "469.p.10964",
@@ -149,7 +149,7 @@
     "position": "1B,2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "215",
     "current_rank": "303",
@@ -162,11 +162,11 @@
     "position": "2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "DTD",
     "preseason_rank": "321",
     "current_rank": "736",
-    "percent_started": 20
+    "percent_started": 19
   },
   {
     "player_key": "469.p.9507",
@@ -218,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "91",
     "current_rank": "324",
-    "percent_started": 70
+    "percent_started": 69
   },
   {
     "player_key": "469.p.9334",
@@ -244,20 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "54",
     "current_rank": "742",
-    "percent_started": 74
-  },
-  {
-    "player_key": "469.p.10494",
-    "name": "Jakob Junis",
-    "team": "Texas Rangers",
-    "position": "RP",
-    "selected_position": "RP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "214",
-    "current_rank": "169",
-    "percent_started": 9
+    "percent_started": 78
   },
   {
     "player_key": "469.p.11495",
@@ -290,7 +277,7 @@
     "name": "JoJo Romero",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "P",
+    "selected_position": "RP",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -325,6 +312,19 @@
     "percent_started": 4
   },
   {
+    "player_key": "469.p.10494",
+    "name": "Jakob Junis",
+    "team": "Texas Rangers",
+    "position": "RP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "214",
+    "current_rank": "169",
+    "percent_started": 9
+  },
+  {
     "player_key": "469.p.12281",
     "name": "Spencer Strider",
     "team": "Atlanta Braves",
@@ -344,11 +344,11 @@
     "position": "C",
     "selected_position": "IL",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "125",
     "current_rank": "978",
-    "percent_started": 18
+    "percent_started": 19
   },
   {
     "player_key": "469.p.10214",
