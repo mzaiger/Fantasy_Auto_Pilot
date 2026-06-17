@@ -31,7 +31,7 @@
     "team": "Miami Marlins",
     "position": "2B,SS",
     "selected_position": "2B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "87",
@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "376",
     "current_rank": "493",
-    "percent_started": 47
+    "percent_started": 48
   },
   {
     "player_key": "469.p.62119",
@@ -70,7 +70,7 @@
     "team": "Miami Marlins",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "234",
@@ -96,7 +96,7 @@
     "team": "Washington Nationals",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "363",
@@ -110,7 +110,7 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "173",
     "current_rank": "80",
@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "36",
     "current_rank": "437",
-    "percent_started": 80
+    "percent_started": 81
   },
   {
     "player_key": "469.p.11817",
@@ -135,7 +135,7 @@
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "320",
@@ -148,7 +148,7 @@
     "team": "Washington Nationals",
     "position": "1B,2B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "215",
@@ -166,7 +166,7 @@
     "status": "IL10",
     "preseason_rank": "321",
     "current_rank": "736",
-    "percent_started": 19
+    "percent_started": 17
   },
   {
     "player_key": "469.p.9507",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "54",
     "current_rank": "742",
-    "percent_started": 78
+    "percent_started": 79
   },
   {
     "player_key": "469.p.11495",
@@ -252,7 +252,7 @@
     "team": "Philadelphia Phillies",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "105",
