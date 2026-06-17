@@ -109,7 +109,7 @@
     "team": "Tampa Bay Rays",
     "position": "1B",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "173",
@@ -179,7 +179,7 @@
     "status": "IL10",
     "preseason_rank": "61",
     "current_rank": "51",
-    "percent_started": 33
+    "percent_started": 32
   },
   {
     "player_key": "469.p.12351",
@@ -356,7 +356,7 @@
     "team": "Los Angeles Dodgers",
     "position": "RP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "335",
