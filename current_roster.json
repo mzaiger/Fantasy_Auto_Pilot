@@ -19,7 +19,7 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "320",
     "current_rank": "361",
@@ -32,7 +32,7 @@
     "position": "3B,SS",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "133",
     "current_rank": "445",
@@ -49,7 +49,7 @@
     "status": "Healthy",
     "preseason_rank": "376",
     "current_rank": "467",
-    "percent_started": 56
+    "percent_started": 57
   },
   {
     "player_key": "469.p.12005",
@@ -70,7 +70,7 @@
     "team": "Seattle Mariners",
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "1256",
@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "87",
     "current_rank": "170",
-    "percent_started": 60
+    "percent_started": 59
   },
   {
     "player_key": "469.p.62119",
@@ -239,7 +239,7 @@
     "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "54",
