@@ -36,7 +36,7 @@
     "status": "Healthy",
     "preseason_rank": "87",
     "current_rank": "170",
-    "percent_started": 72
+    "percent_started": 73
   },
   {
     "player_key": "469.p.10766",
@@ -49,7 +49,7 @@
     "status": "Healthy",
     "preseason_rank": "133",
     "current_rank": "496",
-    "percent_started": 79
+    "percent_started": 80
   },
   {
     "player_key": "469.p.60776",
@@ -57,7 +57,7 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "SS",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "376",
@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "36",
     "current_rank": "371",
-    "percent_started": 73
+    "percent_started": 76
   },
   {
     "player_key": "469.p.10964",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "215",
     "current_rank": "282",
-    "percent_started": 25
+    "percent_started": 24
   },
   {
     "player_key": "469.p.12351",
@@ -179,7 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "320",
     "current_rank": "329",
-    "percent_started": 29
+    "percent_started": 30
   },
   {
     "player_key": "469.p.10236",
@@ -218,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "43",
     "current_rank": "161",
-    "percent_started": 80
+    "percent_started": 79
   },
   {
     "player_key": "469.p.12345",
