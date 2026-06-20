@@ -71,7 +71,7 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "331",
     "current_rank": "856",
@@ -151,7 +151,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL10",
-    "preseason_rank": "1291",
+    "preseason_rank": "1277",
     "current_rank": "1001",
     "percent_started": 5
   },
@@ -162,7 +162,7 @@
     "position": "3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "61",
     "current_rank": "60",
@@ -203,7 +203,7 @@
     "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
-    "preseason_rank": "1772",
+    "preseason_rank": "1788",
     "current_rank": "1107",
     "percent_started": null
   },
@@ -255,7 +255,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "409",
+    "preseason_rank": "406",
     "current_rank": "339",
     "percent_started": 20
   },
@@ -294,7 +294,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "418",
+    "preseason_rank": "417",
     "current_rank": "276",
     "percent_started": 3
   },
@@ -333,7 +333,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "576",
+    "preseason_rank": "602",
     "current_rank": "792",
     "percent_started": 1
   },
@@ -344,7 +344,7 @@
     "position": "C",
     "selected_position": "IL",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "125",
     "current_rank": "990",
@@ -385,7 +385,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "432",
+    "preseason_rank": "433",
     "current_rank": "1889",
     "percent_started": 2
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": 0,
     "status": "NA",
-    "preseason_rank": "2022",
+    "preseason_rank": "2021",
     "current_rank": "1776",
     "percent_started": null
   }
