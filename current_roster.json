@@ -39,19 +39,6 @@
     "percent_started": 26
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "3B",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "1277",
-    "current_rank": "999",
-    "percent_started": 5
-  },
-  {
     "player_key": "469.p.12100",
     "name": "Otto Lopez",
     "team": "Miami Marlins",
@@ -115,6 +102,19 @@
     "preseason_rank": "36",
     "current_rank": "338",
     "percent_started": 92
+  },
+  {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "1277",
+    "current_rank": "999",
+    "percent_started": 5
   },
   {
     "player_key": "469.p.9507",
