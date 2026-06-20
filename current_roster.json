@@ -6,7 +6,7 @@
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "55",
     "current_rank": "115",
@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "234",
     "current_rank": "190",
-    "percent_started": 47
+    "percent_started": 48
   },
   {
     "player_key": "469.p.62971",
@@ -114,7 +114,7 @@
     "status": "Healthy",
     "preseason_rank": "173",
     "current_rank": "75",
-    "percent_started": 58
+    "percent_started": 59
   },
   {
     "player_key": "469.p.10621",
@@ -122,7 +122,7 @@
     "team": "Toronto Blue Jays",
     "position": "1B",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "36",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "215",
     "current_rank": "282",
-    "percent_started": 24
+    "percent_started": 23
   },
   {
     "player_key": "469.p.12351",
@@ -200,7 +200,7 @@
     "team": "Chicago Cubs",
     "position": "2B,3B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "1772",
@@ -213,7 +213,7 @@
     "team": "Toronto Blue Jays",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "43",
@@ -252,7 +252,7 @@
     "team": "Toronto Blue Jays",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "409",
@@ -291,7 +291,7 @@
     "team": "Toronto Blue Jays",
     "position": "SP,RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "418",
@@ -396,7 +396,7 @@
     "position": "2B,3B,SS",
     "selected_position": "NA",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "NA",
     "preseason_rank": "2022",
     "current_rank": "1776",
