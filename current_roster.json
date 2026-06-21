@@ -32,7 +32,7 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "87",
     "current_rank": "165",
@@ -52,11 +52,24 @@
     "percent_started": 80
   },
   {
+    "player_key": "469.p.11817",
+    "name": "Bryson Stott",
+    "team": "Philadelphia Phillies",
+    "position": "2B,SS",
+    "selected_position": "SS",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "320",
+    "current_rank": "317",
+    "percent_started": 31
+  },
+  {
     "player_key": "469.p.60776",
     "name": "José Caballero",
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
-    "selected_position": "SS",
+    "selected_position": "OF",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
@@ -84,24 +97,11 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "234",
     "current_rank": "187",
     "percent_started": 47
-  },
-  {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "363",
-    "current_rank": "960",
-    "percent_started": 8
   },
   {
     "player_key": "469.p.12309",
@@ -117,30 +117,43 @@
     "percent_started": 56
   },
   {
-    "player_key": "469.p.10621",
-    "name": "Vladimir Guerrero Jr.",
-    "team": "Toronto Blue Jays",
-    "position": "1B",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "36",
-    "current_rank": "300",
-    "percent_started": 76
-  },
-  {
     "player_key": "469.p.10964",
     "name": "Luis García Jr.",
     "team": "Washington Nationals",
     "position": "1B,2B",
-    "selected_position": "BN",
+    "selected_position": "Util",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "215",
     "current_rank": "307",
-    "percent_started": 26
+    "percent_started": 27
+  },
+  {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "363",
+    "current_rank": "960",
+    "percent_started": 8
+  },
+  {
+    "player_key": "469.p.10621",
+    "name": "Vladimir Guerrero Jr.",
+    "team": "Toronto Blue Jays",
+    "position": "1B",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "36",
+    "current_rank": "300",
+    "percent_started": 75
   },
   {
     "player_key": "469.p.12351",
@@ -169,19 +182,6 @@
     "percent_started": 30
   },
   {
-    "player_key": "469.p.11817",
-    "name": "Bryson Stott",
-    "team": "Philadelphia Phillies",
-    "position": "2B,SS",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "320",
-    "current_rank": "317",
-    "percent_started": 31
-  },
-  {
     "player_key": "469.p.10236",
     "name": "Gleyber Torres",
     "team": "Detroit Tigers",
@@ -206,19 +206,6 @@
     "preseason_rank": "1773",
     "current_rank": "1113",
     "percent_started": null
-  },
-  {
-    "player_key": "469.p.9334",
-    "name": "Kevin Gausman",
-    "team": "Toronto Blue Jays",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "43",
-    "current_rank": "173",
-    "percent_started": 71
   },
   {
     "player_key": "469.p.12345",
@@ -247,17 +234,17 @@
     "percent_started": 75
   },
   {
-    "player_key": "469.p.11644",
-    "name": "Tyler Rogers",
-    "team": "Toronto Blue Jays",
-    "position": "RP",
-    "selected_position": "RP",
+    "player_key": "469.p.12281",
+    "name": "Spencer Strider",
+    "team": "Atlanta Braves",
+    "position": "SP",
+    "selected_position": "SP",
     "is_editable": true,
     "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "408",
-    "current_rank": "337",
-    "percent_started": 20
+    "status": "IL60",
+    "preseason_rank": "208",
+    "current_rank": "356",
+    "percent_started": 15
   },
   {
     "player_key": "469.p.10494",
@@ -286,24 +273,11 @@
     "percent_started": 94
   },
   {
-    "player_key": "469.p.11479",
-    "name": "Braydon Fisher",
-    "team": "Toronto Blue Jays",
-    "position": "SP,RP",
-    "selected_position": "P",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "420",
-    "current_rank": "279",
-    "percent_started": 3
-  },
-  {
     "player_key": "469.p.10931",
     "name": "JoJo Romero",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "P",
+    "selected_position": "RP",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -325,17 +299,43 @@
     "percent_started": 1
   },
   {
-    "player_key": "469.p.12281",
-    "name": "Spencer Strider",
-    "team": "Atlanta Braves",
+    "player_key": "469.p.9334",
+    "name": "Kevin Gausman",
+    "team": "Toronto Blue Jays",
     "position": "SP",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
-    "status": "IL60",
-    "preseason_rank": "208",
-    "current_rank": "356",
-    "percent_started": 15
+    "status": "Healthy",
+    "preseason_rank": "43",
+    "current_rank": "173",
+    "percent_started": 71
+  },
+  {
+    "player_key": "469.p.11644",
+    "name": "Tyler Rogers",
+    "team": "Toronto Blue Jays",
+    "position": "RP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "408",
+    "current_rank": "337",
+    "percent_started": 20
+  },
+  {
+    "player_key": "469.p.11479",
+    "name": "Braydon Fisher",
+    "team": "Toronto Blue Jays",
+    "position": "SP,RP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "420",
+    "current_rank": "279",
+    "percent_started": 3
   },
   {
     "player_key": "469.p.12435",
