@@ -5,7 +5,7 @@
     "team": "Milwaukee Brewers",
     "position": "C",
     "selected_position": "C",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "55",
@@ -70,7 +70,7 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "376",
@@ -114,7 +114,7 @@
     "status": "Healthy",
     "preseason_rank": "173",
     "current_rank": "68",
-    "percent_started": 56
+    "percent_started": 57
   },
   {
     "player_key": "469.p.10964",
@@ -153,7 +153,7 @@
     "status": "Healthy",
     "preseason_rank": "36",
     "current_rank": "300",
-    "percent_started": 75
+    "percent_started": 73
   },
   {
     "player_key": "469.p.12351",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "91",
     "current_rank": "703",
-    "percent_started": 75
+    "percent_started": 74
   },
   {
     "player_key": "469.p.12281",
@@ -239,7 +239,7 @@
     "team": "Atlanta Braves",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "208",
@@ -382,7 +382,7 @@
     "team": "Atlanta Braves",
     "position": "SP",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "436",
@@ -395,7 +395,7 @@
     "team": "Milwaukee Brewers",
     "position": "2B,3B,SS",
     "selected_position": "NA",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "NA",
     "preseason_rank": "2023",
