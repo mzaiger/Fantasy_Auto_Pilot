@@ -70,7 +70,7 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "376",
@@ -166,7 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "68",
     "current_rank": "71",
-    "percent_started": 62
+    "percent_started": 61
   },
   {
     "player_key": "469.p.12351",
@@ -187,7 +187,7 @@
     "team": "Detroit Tigers",
     "position": "2B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "321",
