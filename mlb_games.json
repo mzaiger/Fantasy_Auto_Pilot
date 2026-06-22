@@ -123,30 +123,6 @@
       "game_number": 1
     },
     {
-      "game_pk": 823613,
-      "game_date": "2026-06-22",
-      "start_time_utc": "2026-06-22T23:10:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Pre-Game",
-      "status_code": "P",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 112,
-        "name": "Chicago Cubs",
-        "abbreviation": "CHC"
-      },
-      "home_team": {
-        "id": 121,
-        "name": "New York Mets",
-        "abbreviation": "NYM"
-      },
-      "venue": "Citi Field",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
       "game_pk": 824502,
       "game_date": "2026-06-22",
       "start_time_utc": "2026-06-22T23:10:00Z",
@@ -310,6 +286,30 @@
         "abbreviation": "SD"
       },
       "venue": "Petco Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823613,
+      "game_date": "2026-06-22",
+      "start_time_utc": "2026-06-22T23:10:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DR",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 112,
+        "name": "Chicago Cubs",
+        "abbreviation": "CHC"
+      },
+      "home_team": {
+        "id": 121,
+        "name": "New York Mets",
+        "abbreviation": "NYM"
+      },
+      "venue": "Citi Field",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
