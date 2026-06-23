@@ -169,19 +169,6 @@
     "percent_started": 61
   },
   {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
-    "preseason_rank": "1351",
-    "current_rank": "1008",
-    "percent_started": 5
-  },
-  {
     "player_key": "469.p.10236",
     "name": "Gleyber Torres",
     "team": "Detroit Tigers",
@@ -206,6 +193,19 @@
     "preseason_rank": "1775",
     "current_rank": "1116",
     "percent_started": null
+  },
+  {
+    "player_key": "469.p.12435",
+    "name": "Yainer Diaz",
+    "team": "Houston Astros",
+    "position": "C",
+    "selected_position": "BN",
+    "is_editable": false,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "125",
+    "current_rank": "986",
+    "percent_started": 24
   },
   {
     "player_key": "469.p.12345",
@@ -338,17 +338,17 @@
     "percent_started": 68
   },
   {
-    "player_key": "469.p.12435",
-    "name": "Yainer Diaz",
-    "team": "Houston Astros",
-    "position": "C",
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
     "selected_position": "IL",
-    "is_editable": false,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "125",
-    "current_rank": "986",
-    "percent_started": 24
+    "is_editable": true,
+    "is_starting": null,
+    "status": "IL10",
+    "preseason_rank": "1351",
+    "current_rank": "1008",
+    "percent_started": 5
   },
   {
     "player_key": "469.p.10214",
