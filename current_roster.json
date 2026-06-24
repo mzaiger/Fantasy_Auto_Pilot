@@ -23,7 +23,7 @@
     "status": "Healthy",
     "preseason_rank": "63",
     "current_rank": "77",
-    "percent_started": 82
+    "percent_started": 83
   },
   {
     "player_key": "469.p.12100",
@@ -44,7 +44,7 @@
     "team": "New York Mets",
     "position": "3B,SS",
     "selected_position": "3B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "111",
@@ -187,7 +187,7 @@
     "team": "Chicago Cubs",
     "position": "2B,3B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "1777",
@@ -239,7 +239,7 @@
     "team": "New York Mets",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "136",
