@@ -13,17 +13,17 @@
     "percent_started": 95
   },
   {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
+    "player_key": "469.p.10621",
+    "name": "Vladimir Guerrero Jr.",
+    "team": "Toronto Blue Jays",
+    "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "63",
-    "current_rank": "77",
-    "percent_started": 83
+    "preseason_rank": "57",
+    "current_rank": "282",
+    "percent_started": 93
   },
   {
     "player_key": "469.p.12100",
@@ -104,17 +104,17 @@
     "percent_started": 26
   },
   {
-    "player_key": "469.p.10621",
-    "name": "Vladimir Guerrero Jr.",
-    "team": "Toronto Blue Jays",
-    "position": "1B",
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
     "selected_position": "Util",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "57",
-    "current_rank": "282",
-    "percent_started": 93
+    "preseason_rank": "63",
+    "current_rank": "77",
+    "percent_started": 83
   },
   {
     "player_key": "469.p.12309",
