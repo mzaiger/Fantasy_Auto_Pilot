@@ -96,7 +96,7 @@
     "team": "Tampa Bay Rays",
     "position": "1B",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "174",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "67",
     "current_rank": "114",
-    "percent_started": 60
+    "percent_started": 59
   },
   {
     "player_key": "469.p.62119",
@@ -203,7 +203,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "1777",
+    "preseason_rank": "1694",
     "current_rank": "1069",
     "percent_started": 1
   },
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "136",
     "current_rank": "695",
-    "percent_started": 83
+    "percent_started": 84
   },
   {
     "player_key": "469.p.11479",
@@ -242,7 +242,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "409",
+    "preseason_rank": "411",
     "current_rank": "254",
     "percent_started": 3
   },
@@ -281,7 +281,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "412",
+    "preseason_rank": "414",
     "current_rank": "460",
     "percent_started": 20
   },
@@ -307,7 +307,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "1205",
+    "preseason_rank": "1223",
     "current_rank": "852",
     "percent_started": 1
   },
@@ -346,7 +346,7 @@
     "is_editable": true,
     "is_starting": 0,
     "status": "IL10",
-    "preseason_rank": "1385",
+    "preseason_rank": "1405",
     "current_rank": "1021",
     "percent_started": 5
   },
@@ -372,7 +372,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "681",
+    "preseason_rank": "686",
     "current_rank": "2158",
     "percent_started": 2
   },
@@ -385,7 +385,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "437",
+    "preseason_rank": "436",
     "current_rank": "1902",
     "percent_started": 2
   },
