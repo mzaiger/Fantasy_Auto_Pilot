@@ -1,18 +1,5 @@
 [
   {
-    "player_key": "469.p.12435",
-    "name": "Yainer Diaz",
-    "team": "Houston Astros",
-    "position": "C",
-    "selected_position": "C",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "122",
-    "current_rank": "981",
-    "percent_started": 27
-  },
-  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
@@ -104,11 +91,37 @@
     "percent_started": 63
   },
   {
+    "player_key": "469.p.64285",
+    "name": "Pedro Ramirez",
+    "team": "Chicago Cubs",
+    "position": "2B,3B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "1694",
+    "current_rank": "1069",
+    "percent_started": 1
+  },
+  {
+    "player_key": "469.p.12435",
+    "name": "Yainer Diaz",
+    "team": "Houston Astros",
+    "position": "C",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "122",
+    "current_rank": "981",
+    "percent_started": 27
+  },
+  {
     "player_key": "469.p.10964",
     "name": "Luis García Jr.",
     "team": "Washington Nationals",
     "position": "1B,2B",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 0,
     "status": "Healthy",
@@ -193,19 +206,6 @@
     "preseason_rank": "238",
     "current_rank": "807",
     "percent_started": 8
-  },
-  {
-    "player_key": "469.p.64285",
-    "name": "Pedro Ramirez",
-    "team": "Chicago Cubs",
-    "position": "2B,3B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "1694",
-    "current_rank": "1069",
-    "percent_started": 1
   },
   {
     "player_key": "469.p.9334",
