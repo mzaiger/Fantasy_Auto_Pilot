@@ -23,7 +23,7 @@
     "status": "Healthy",
     "preseason_rank": "63",
     "current_rank": "84",
-    "percent_started": 86
+    "percent_started": 85
   },
   {
     "player_key": "469.p.12100",
@@ -45,11 +45,11 @@
     "position": "3B,SS",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "111",
     "current_rank": "471",
-    "percent_started": 84
+    "percent_started": 85
   },
   {
     "player_key": "469.p.11817",
@@ -58,7 +58,7 @@
     "position": "2B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "323",
     "current_rank": "201",
@@ -70,7 +70,7 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "380",
@@ -110,7 +110,7 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "57",
     "current_rank": "285",
@@ -123,7 +123,7 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "174",
     "current_rank": "55",
@@ -161,7 +161,7 @@
     "team": "Houston Astros",
     "position": "C",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "122",
@@ -179,7 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "210",
     "current_rank": "232",
-    "percent_started": 29
+    "percent_started": 30
   },
   {
     "player_key": "469.p.9507",
@@ -200,7 +200,7 @@
     "team": "Detroit Tigers",
     "position": "2B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "238",
