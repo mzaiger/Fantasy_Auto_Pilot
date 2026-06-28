@@ -148,12 +148,12 @@
     "team": " Athletics",
     "position": "1B,OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "DTD",
     "preseason_rank": "63",
     "current_rank": "86",
-    "percent_started": 63
+    "percent_started": 62
   },
   {
     "player_key": "469.p.62971",
