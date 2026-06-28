@@ -1,29 +1,29 @@
 [
   {
-    "player_key": "469.p.11268",
-    "name": "William Contreras",
-    "team": "Milwaukee Brewers",
+    "player_key": "469.p.12435",
+    "name": "Yainer Diaz",
+    "team": "Houston Astros",
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": 0,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "52",
-    "current_rank": "64",
-    "percent_started": 88
+    "preseason_rank": "122",
+    "current_rank": "990",
+    "percent_started": 26
   },
   {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
+    "player_key": "469.p.10621",
+    "name": "Vladimir Guerrero Jr.",
+    "team": "Toronto Blue Jays",
+    "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": 0,
-    "status": "DTD",
-    "preseason_rank": "63",
-    "current_rank": "86",
-    "percent_started": 66
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "57",
+    "current_rank": "321",
+    "percent_started": 91
   },
   {
     "player_key": "469.p.12100",
@@ -104,19 +104,6 @@
     "percent_started": 24
   },
   {
-    "player_key": "469.p.10621",
-    "name": "Vladimir Guerrero Jr.",
-    "team": "Toronto Blue Jays",
-    "position": "1B",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "57",
-    "current_rank": "321",
-    "percent_started": 91
-  },
-  {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
@@ -128,6 +115,45 @@
     "preseason_rank": "174",
     "current_rank": "45",
     "percent_started": 64
+  },
+  {
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "210",
+    "current_rank": "178",
+    "percent_started": 35
+  },
+  {
+    "player_key": "469.p.11268",
+    "name": "William Contreras",
+    "team": "Milwaukee Brewers",
+    "position": "C",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "52",
+    "current_rank": "64",
+    "percent_started": 88
+  },
+  {
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "DTD",
+    "preseason_rank": "63",
+    "current_rank": "86",
+    "percent_started": 65
   },
   {
     "player_key": "469.p.62971",
@@ -154,32 +180,6 @@
     "preseason_rank": "1710",
     "current_rank": "1082",
     "percent_started": null
-  },
-  {
-    "player_key": "469.p.12435",
-    "name": "Yainer Diaz",
-    "team": "Houston Astros",
-    "position": "C",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "122",
-    "current_rank": "990",
-    "percent_started": 26
-  },
-  {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "210",
-    "current_rank": "178",
-    "percent_started": 35
   },
   {
     "player_key": "469.p.9507",
