@@ -57,7 +57,7 @@
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
     "selected_position": "SS",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "323",
@@ -75,7 +75,7 @@
     "status": "Healthy",
     "preseason_rank": "380",
     "current_rank": "517",
-    "percent_started": 56
+    "percent_started": 57
   },
   {
     "player_key": "469.p.62119",
@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "255",
     "current_rank": "245",
-    "percent_started": 46
+    "percent_started": 47
   },
   {
     "player_key": "469.p.12314",
@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "368",
     "current_rank": "941",
-    "percent_started": 16
+    "percent_started": 17
   },
   {
     "player_key": "469.p.12005",
@@ -140,7 +140,7 @@
     "status": "IL10",
     "preseason_rank": "63",
     "current_rank": "87",
-    "percent_started": 55
+    "percent_started": 54
   },
   {
     "player_key": "469.p.12435",
@@ -265,7 +265,7 @@
     "team": "Philadelphia Phillies",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "96",
