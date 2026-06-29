@@ -13,17 +13,17 @@
     "percent_started": 95
   },
   {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
+    "player_key": "469.p.10621",
+    "name": "Vladimir Guerrero Jr.",
+    "team": "Toronto Blue Jays",
+    "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "63",
-    "current_rank": "87",
-    "percent_started": 57
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "57",
+    "current_rank": "359",
+    "percent_started": 92
   },
   {
     "player_key": "469.p.12100",
@@ -104,19 +104,6 @@
     "percent_started": 26
   },
   {
-    "player_key": "469.p.10621",
-    "name": "Vladimir Guerrero Jr.",
-    "team": "Toronto Blue Jays",
-    "position": "1B",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "57",
-    "current_rank": "359",
-    "percent_started": 92
-  },
-  {
     "player_key": "469.p.10964",
     "name": "Luis García Jr.",
     "team": "Washington Nationals",
@@ -128,6 +115,32 @@
     "preseason_rank": "210",
     "current_rank": "116",
     "percent_started": 46
+  },
+  {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "368",
+    "current_rank": "941",
+    "percent_started": 16
+  },
+  {
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "63",
+    "current_rank": "87",
+    "percent_started": 56
   },
   {
     "player_key": "469.p.12435",
@@ -153,20 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "174",
     "current_rank": "51",
-    "percent_started": 35
-  },
-  {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "368",
-    "current_rank": "941",
-    "percent_started": 16
+    "percent_started": 34
   },
   {
     "player_key": "469.p.64285",
