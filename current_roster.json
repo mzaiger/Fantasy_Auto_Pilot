@@ -31,7 +31,7 @@
     "team": "Miami Marlins",
     "position": "2B,SS",
     "selected_position": "2B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "67",
@@ -83,7 +83,7 @@
     "team": "Miami Marlins",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "255",
@@ -140,7 +140,7 @@
     "status": "IL10",
     "preseason_rank": "63",
     "current_rank": "87",
-    "percent_started": 52
+    "percent_started": 51
   },
   {
     "player_key": "469.p.12435",
