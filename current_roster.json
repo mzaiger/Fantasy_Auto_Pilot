@@ -78,32 +78,6 @@
     "percent_started": 52
   },
   {
-    "player_key": "469.p.62119",
-    "name": "Jakob Marsee",
-    "team": "Miami Marlins",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "258",
-    "current_rank": "339",
-    "percent_started": 45
-  },
-  {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "62",
-    "current_rank": "102",
-    "percent_started": 35
-  },
-  {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
@@ -128,6 +102,32 @@
     "preseason_rank": "121",
     "current_rank": "999",
     "percent_started": 25
+  },
+  {
+    "player_key": "469.p.62119",
+    "name": "Jakob Marsee",
+    "team": "Miami Marlins",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "258",
+    "current_rank": "339",
+    "percent_started": 44
+  },
+  {
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "62",
+    "current_rank": "102",
+    "percent_started": 35
   },
   {
     "player_key": "469.p.10964",
