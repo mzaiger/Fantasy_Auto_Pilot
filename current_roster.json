@@ -18,7 +18,7 @@
     "team": "Tampa Bay Rays",
     "position": "1B",
     "selected_position": "1B",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "174",
