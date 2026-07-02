@@ -17,10 +17,6 @@
         <position>2B</position>
       </player>
       <player>
-        <player_key>469.p.9507</player_key>
-        <position>BN</position>
-      </player>
-      <player>
         <player_key>469.p.11817</player_key>
         <position>SS</position>
       </player>
@@ -31,6 +27,10 @@
       <player>
         <player_key>469.p.12314</player_key>
         <position>OF</position>
+      </player>
+      <player>
+        <player_key>469.p.9507</player_key>
+        <position>BN</position>
       </player>
       <player>
         <player_key>469.p.10236</player_key>

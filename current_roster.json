@@ -39,19 +39,6 @@
     "percent_started": 76
   },
   {
-    "player_key": "469.p.9507",
-    "name": "José Ramírez",
-    "team": "Cleveland Guardians",
-    "position": "3B",
-    "selected_position": "3B",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "101",
-    "current_rank": "120",
-    "percent_started": 28
-  },
-  {
     "player_key": "469.p.11817",
     "name": "Bryson Stott",
     "team": "Philadelphia Phillies",
@@ -91,11 +78,24 @@
     "percent_started": 29
   },
   {
+    "player_key": "469.p.9507",
+    "name": "José Ramírez",
+    "team": "Cleveland Guardians",
+    "position": "3B",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "101",
+    "current_rank": "120",
+    "percent_started": 28
+  },
+  {
     "player_key": "469.p.10236",
     "name": "Gleyber Torres",
     "team": "Detroit Tigers",
     "position": "2B",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 0,
     "status": "IL10",
@@ -114,7 +114,7 @@
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "433",
-    "percent_started": 68
+    "percent_started": 67
   },
   {
     "player_key": "469.p.10766",
