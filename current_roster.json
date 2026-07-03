@@ -91,17 +91,17 @@
     "percent_started": 28
   },
   {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "62",
-    "current_rank": "113",
-    "percent_started": 33
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "370",
+    "current_rank": "935",
+    "percent_started": 15
   },
   {
     "player_key": "469.p.12309",
@@ -128,6 +128,19 @@
     "preseason_rank": "209",
     "current_rank": "119",
     "percent_started": 52
+  },
+  {
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "62",
+    "current_rank": "113",
+    "percent_started": 33
   },
   {
     "player_key": "469.p.11817",
@@ -180,19 +193,6 @@
     "preseason_rank": "121",
     "current_rank": "1009",
     "percent_started": 25
-  },
-  {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "370",
-    "current_rank": "935",
-    "percent_started": 15
   },
   {
     "player_key": "469.p.64285",
