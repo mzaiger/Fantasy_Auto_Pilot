@@ -23,7 +23,7 @@
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "403",
-    "percent_started": 84
+    "percent_started": 85
   },
   {
     "player_key": "469.p.12100",
@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "326",
     "current_rank": "237",
-    "percent_started": 31
+    "percent_started": 32
   },
   {
     "player_key": "469.p.62119",
@@ -122,7 +122,7 @@
     "team": "Washington Nationals",
     "position": "1B,2B",
     "selected_position": "Util",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "209",
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "382",
     "current_rank": "691",
-    "percent_started": 47
+    "percent_started": 40
   },
   {
     "player_key": "469.p.62971",
@@ -148,7 +148,7 @@
     "team": "Washington Nationals",
     "position": "OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "370",
@@ -175,7 +175,7 @@
     "position": "2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "243",
     "current_rank": "861",
@@ -218,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "71",
     "current_rank": "224",
-    "percent_started": 65
+    "percent_started": 64
   },
   {
     "player_key": "469.p.12345",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "353",
-    "percent_started": 62
+    "percent_started": 61
   },
   {
     "player_key": "469.p.11014",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "135",
     "current_rank": "744",
-    "percent_started": 60
+    "percent_started": 59
   },
   {
     "player_key": "469.p.11644",
@@ -283,7 +283,7 @@
     "status": "Healthy",
     "preseason_rank": "95",
     "current_rank": "54",
-    "percent_started": 93
+    "percent_started": 94
   },
   {
     "player_key": "469.p.10931",
