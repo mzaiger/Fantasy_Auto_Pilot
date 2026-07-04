@@ -19,7 +19,7 @@
     "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "403",
@@ -135,12 +135,12 @@
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "382",
     "current_rank": "691",
-    "percent_started": 40
+    "percent_started": 39
   },
   {
     "player_key": "469.p.62971",
@@ -203,7 +203,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "1715",
+    "preseason_rank": "1725",
     "current_rank": "1095",
     "percent_started": null
   },
@@ -255,7 +255,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "417",
+    "preseason_rank": "416",
     "current_rank": "459",
     "percent_started": 20
   },
@@ -267,10 +267,10 @@
     "selected_position": "RP",
     "is_editable": true,
     "is_starting": null,
-    "status": "Healthy",
+    "status": "IL15",
     "preseason_rank": "204",
     "current_rank": "257",
-    "percent_started": 11
+    "percent_started": 10
   },
   {
     "player_key": "469.p.11495",
@@ -307,7 +307,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "416",
+    "preseason_rank": "413",
     "current_rank": "278",
     "percent_started": 3
   },
@@ -320,7 +320,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "1207",
+    "preseason_rank": "1219",
     "current_rank": "841",
     "percent_started": 1
   },
@@ -344,9 +344,9 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "IL",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
-    "preseason_rank": "1453",
+    "preseason_rank": "1452",
     "current_rank": "1057",
     "percent_started": 5
   },
@@ -372,7 +372,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "685",
+    "preseason_rank": "680",
     "current_rank": "2170",
     "percent_started": 2
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "NA",
-    "preseason_rank": "2040",
+    "preseason_rank": "2039",
     "current_rank": "1805",
     "percent_started": null
   }
