@@ -247,19 +247,6 @@
     "percent_started": 56
   },
   {
-    "player_key": "469.p.11644",
-    "name": "Tyler Rogers",
-    "team": "Toronto Blue Jays",
-    "position": "RP",
-    "selected_position": "RP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "417",
-    "current_rank": "453",
-    "percent_started": 20
-  },
-  {
     "player_key": "469.p.10494",
     "name": "Jakob Junis",
     "team": "Texas Rangers",
@@ -286,6 +273,32 @@
     "percent_started": 95
   },
   {
+    "player_key": "469.p.11479",
+    "name": "Braydon Fisher",
+    "team": "Toronto Blue Jays",
+    "position": "SP,RP",
+    "selected_position": "RP",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "416",
+    "current_rank": "241",
+    "percent_started": 3
+  },
+  {
+    "player_key": "469.p.11644",
+    "name": "Tyler Rogers",
+    "team": "Toronto Blue Jays",
+    "position": "RP",
+    "selected_position": "P",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "417",
+    "current_rank": "453",
+    "percent_started": 20
+  },
+  {
     "player_key": "469.p.10931",
     "name": "JoJo Romero",
     "team": "St. Louis Cardinals",
@@ -297,19 +310,6 @@
     "preseason_rank": "499",
     "current_rank": "608",
     "percent_started": 12
-  },
-  {
-    "player_key": "469.p.11479",
-    "name": "Braydon Fisher",
-    "team": "Toronto Blue Jays",
-    "position": "SP,RP",
-    "selected_position": "P",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "416",
-    "current_rank": "241",
-    "percent_started": 3
   },
   {
     "player_key": "469.p.63308",
