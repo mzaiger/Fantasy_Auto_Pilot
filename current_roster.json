@@ -78,19 +78,6 @@
     "percent_started": 43
   },
   {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
-    "preseason_rank": "62",
-    "current_rank": "129",
-    "percent_started": 31
-  },
-  {
     "player_key": "469.p.60776",
     "name": "José Caballero",
     "team": "New York Yankees",
@@ -102,6 +89,19 @@
     "preseason_rank": "382",
     "current_rank": "720",
     "percent_started": 42
+  },
+  {
+    "player_key": "469.p.12314",
+    "name": "Steven Kwan",
+    "team": "Cleveland Guardians",
+    "position": "OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "343",
+    "current_rank": "891",
+    "percent_started": 26
   },
   {
     "player_key": "469.p.12309",
@@ -123,24 +123,24 @@
     "position": "1B,2B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "209",
     "current_rank": "93",
     "percent_started": 55
   },
   {
-    "player_key": "469.p.12314",
-    "name": "Steven Kwan",
-    "team": "Cleveland Guardians",
-    "position": "OF",
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "343",
-    "current_rank": "891",
-    "percent_started": 26
+    "is_starting": null,
+    "status": "IL10",
+    "preseason_rank": "62",
+    "current_rank": "129",
+    "percent_started": 31
   },
   {
     "player_key": "469.p.62971",
@@ -149,7 +149,7 @@
     "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "370",
     "current_rank": "941",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "362",
-    "percent_started": 83
+    "percent_started": 84
   },
   {
     "player_key": "469.p.11014",
