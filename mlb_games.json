@@ -103,8 +103,8 @@
       "game_date": "2026-07-05",
       "start_time_utc": "2026-07-05T18:00:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Pre-Game",
-      "status_code": "P",
+      "status_detailed": "Delayed Start",
+      "status_code": "PR",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -247,8 +247,8 @@
       "game_date": "2026-07-05",
       "start_time_utc": "2026-07-05T20:00:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -271,8 +271,8 @@
       "game_date": "2026-07-05",
       "start_time_utc": "2026-07-05T20:30:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
