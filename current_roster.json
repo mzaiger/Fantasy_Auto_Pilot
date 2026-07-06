@@ -1,5 +1,18 @@
 [
   {
+    "player_key": "469.p.11268",
+    "name": "William Contreras",
+    "team": "Milwaukee Brewers",
+    "position": "C",
+    "selected_position": "C",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "51",
+    "current_rank": "96",
+    "percent_started": 95
+  },
+  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
@@ -10,20 +23,20 @@
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "481",
-    "percent_started": 88
+    "percent_started": 91
   },
   {
-    "player_key": "469.p.12100",
-    "name": "Otto Lopez",
-    "team": "Miami Marlins",
-    "position": "2B,SS",
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
     "selected_position": "2B",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "63",
-    "current_rank": "71",
-    "percent_started": 68
+    "preseason_rank": "209",
+    "current_rank": "81",
+    "percent_started": 61
   },
   {
     "player_key": "469.p.10766",
@@ -36,7 +49,7 @@
     "status": "Healthy",
     "preseason_rank": "109",
     "current_rank": "461",
-    "percent_started": 84
+    "percent_started": 86
   },
   {
     "player_key": "469.p.11817",
@@ -45,24 +58,11 @@
     "position": "2B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "326",
     "current_rank": "224",
-    "percent_started": 40
-  },
-  {
-    "player_key": "469.p.62119",
-    "name": "Jakob Marsee",
-    "team": "Miami Marlins",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "DTD",
-    "preseason_rank": "258",
-    "current_rank": "274",
-    "percent_started": 40
+    "percent_started": 43
   },
   {
     "player_key": "469.p.60776",
@@ -75,7 +75,20 @@
     "status": "Healthy",
     "preseason_rank": "382",
     "current_rank": "742",
-    "percent_started": 50
+    "percent_started": 54
+  },
+  {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "370",
+    "current_rank": "917",
+    "percent_started": 16
   },
   {
     "player_key": "469.p.12309",
@@ -88,33 +101,46 @@
     "status": "Healthy",
     "preseason_rank": "174",
     "current_rank": "61",
-    "percent_started": 65
+    "percent_started": 66
   },
   {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
+    "player_key": "469.p.12435",
+    "name": "Yainer Diaz",
+    "team": "Houston Astros",
+    "position": "C",
     "selected_position": "Util",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "209",
-    "current_rank": "81",
-    "percent_started": 59
+    "preseason_rank": "121",
+    "current_rank": "1002",
+    "percent_started": 26
   },
   {
-    "player_key": "469.p.11268",
-    "name": "William Contreras",
-    "team": "Milwaukee Brewers",
-    "position": "C",
+    "player_key": "469.p.12100",
+    "name": "Otto Lopez",
+    "team": "Miami Marlins",
+    "position": "2B,SS",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "51",
-    "current_rank": "96",
-    "percent_started": 94
+    "preseason_rank": "63",
+    "current_rank": "71",
+    "percent_started": 64
+  },
+  {
+    "player_key": "469.p.62119",
+    "name": "Jakob Marsee",
+    "team": "Miami Marlins",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "DTD",
+    "preseason_rank": "258",
+    "current_rank": "274",
+    "percent_started": 38
   },
   {
     "player_key": "469.p.12005",
@@ -127,7 +153,7 @@
     "status": "IL10",
     "preseason_rank": "62",
     "current_rank": "135",
-    "percent_started": 30
+    "percent_started": 29
   },
   {
     "player_key": "469.p.12314",
@@ -141,19 +167,6 @@
     "preseason_rank": "343",
     "current_rank": "884",
     "percent_started": 25
-  },
-  {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "370",
-    "current_rank": "917",
-    "percent_started": 15
   },
   {
     "player_key": "469.p.9507",
@@ -182,19 +195,6 @@
     "percent_started": 6
   },
   {
-    "player_key": "469.p.12435",
-    "name": "Yainer Diaz",
-    "team": "Houston Astros",
-    "position": "C",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "121",
-    "current_rank": "1002",
-    "percent_started": 25
-  },
-  {
     "player_key": "469.p.64285",
     "name": "Pedro Ramirez",
     "team": "Chicago Cubs",
@@ -218,20 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "71",
     "current_rank": "230",
-    "percent_started": 80
-  },
-  {
-    "player_key": "469.p.12345",
-    "name": "Kyle Bradish",
-    "team": "Baltimore Orioles",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "73",
-    "current_rank": "328",
-    "percent_started": 77
+    "percent_started": 88
   },
   {
     "player_key": "469.p.11014",
@@ -244,20 +231,20 @@
     "status": "Healthy",
     "preseason_rank": "135",
     "current_rank": "759",
-    "percent_started": 72
+    "percent_started": 79
   },
   {
-    "player_key": "469.p.10494",
-    "name": "Jakob Junis",
-    "team": "Texas Rangers",
-    "position": "RP",
-    "selected_position": "RP",
+    "player_key": "469.p.12281",
+    "name": "Spencer Strider",
+    "team": "Atlanta Braves",
+    "position": "SP",
+    "selected_position": "SP",
     "is_editable": true,
     "is_starting": null,
-    "status": "IL15",
-    "preseason_rank": "204",
-    "current_rank": "248",
-    "percent_started": 4
+    "status": "IL60",
+    "preseason_rank": "344",
+    "current_rank": "365",
+    "percent_started": 12
   },
   {
     "player_key": "469.p.11495",
@@ -273,24 +260,11 @@
     "percent_started": 95
   },
   {
-    "player_key": "469.p.11479",
-    "name": "Braydon Fisher",
-    "team": "Toronto Blue Jays",
-    "position": "SP,RP",
-    "selected_position": "RP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "413",
-    "current_rank": "240",
-    "percent_started": 3
-  },
-  {
     "player_key": "469.p.11644",
     "name": "Tyler Rogers",
     "team": "Toronto Blue Jays",
     "position": "RP",
-    "selected_position": "P",
+    "selected_position": "RP",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -303,13 +277,26 @@
     "name": "JoJo Romero",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "P",
+    "selected_position": "RP",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "500",
     "current_rank": "610",
-    "percent_started": 12
+    "percent_started": 13
+  },
+  {
+    "player_key": "469.p.11479",
+    "name": "Braydon Fisher",
+    "team": "Toronto Blue Jays",
+    "position": "SP,RP",
+    "selected_position": "P",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "413",
+    "current_rank": "240",
+    "percent_started": 3
   },
   {
     "player_key": "469.p.63308",
@@ -325,17 +312,30 @@
     "percent_started": 1
   },
   {
-    "player_key": "469.p.12281",
-    "name": "Spencer Strider",
-    "team": "Atlanta Braves",
+    "player_key": "469.p.12345",
+    "name": "Kyle Bradish",
+    "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
-    "status": "IL60",
-    "preseason_rank": "344",
-    "current_rank": "365",
-    "percent_started": 12
+    "status": "Healthy",
+    "preseason_rank": "73",
+    "current_rank": "328",
+    "percent_started": 75
+  },
+  {
+    "player_key": "469.p.10494",
+    "name": "Jakob Junis",
+    "team": "Texas Rangers",
+    "position": "RP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "IL15",
+    "preseason_rank": "204",
+    "current_rank": "248",
+    "percent_started": 4
   },
   {
     "player_key": "469.p.12351",
