@@ -5,7 +5,7 @@
     "team": "Milwaukee Brewers",
     "position": "C",
     "selected_position": "C",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "51",
@@ -23,7 +23,7 @@
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "490",
-    "percent_started": 86
+    "percent_started": 85
   },
   {
     "player_key": "469.p.12100",
@@ -32,11 +32,11 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "63",
     "current_rank": "73",
-    "percent_started": 71
+    "percent_started": 73
   },
   {
     "player_key": "469.p.10766",
@@ -45,7 +45,7 @@
     "position": "3B,SS",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "109",
     "current_rank": "444",
@@ -58,7 +58,7 @@
     "position": "2B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "326",
     "current_rank": "217",
@@ -71,7 +71,7 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "382",
     "current_rank": "591",
@@ -84,11 +84,11 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
-    "status": "DTD",
+    "is_starting": 1,
+    "status": "Healthy",
     "preseason_rank": "258",
     "current_rank": "282",
-    "percent_started": 33
+    "percent_started": 34
   },
   {
     "player_key": "469.p.12005",
@@ -97,7 +97,7 @@
     "position": "1B,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "62",
     "current_rank": "139",
@@ -110,7 +110,7 @@
     "position": "1B,2B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "209",
     "current_rank": "76",
@@ -123,7 +123,7 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "174",
     "current_rank": "66",
@@ -136,11 +136,11 @@
     "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "370",
     "current_rank": "922",
-    "percent_started": 15
+    "percent_started": 12
   },
   {
     "player_key": "469.p.12435",
@@ -149,11 +149,11 @@
     "position": "C",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "121",
     "current_rank": "977",
-    "percent_started": 25
+    "percent_started": 24
   },
   {
     "player_key": "469.p.12314",
@@ -162,7 +162,7 @@
     "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "343",
     "current_rank": "888",
@@ -175,7 +175,7 @@
     "position": "3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "101",
     "current_rank": "150",
@@ -188,7 +188,7 @@
     "position": "2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "243",
     "current_rank": "873",
@@ -201,9 +201,9 @@
     "position": "2B,3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
-    "preseason_rank": "1718",
+    "preseason_rank": "1717",
     "current_rank": "1099",
     "percent_started": null
   },
@@ -218,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "71",
     "current_rank": "283",
-    "percent_started": 78
+    "percent_started": 77
   },
   {
     "player_key": "469.p.11014",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "135",
     "current_rank": "761",
-    "percent_started": 70
+    "percent_started": 69
   },
   {
     "player_key": "469.p.12345",
@@ -291,10 +291,10 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "500",
+    "preseason_rank": "499",
     "current_rank": "613",
     "percent_started": 13
   },
@@ -317,10 +317,10 @@
     "team": "St. Louis Cardinals",
     "position": "RP",
     "selected_position": "P",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "1208",
+    "preseason_rank": "1211",
     "current_rank": "845",
     "percent_started": 1
   },
@@ -344,7 +344,7 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "IL",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "1466",
     "current_rank": "1067",
@@ -372,7 +372,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "689",
+    "preseason_rank": "693",
     "current_rank": "2177",
     "percent_started": 2
   },
@@ -385,7 +385,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "442",
+    "preseason_rank": "444",
     "current_rank": "1924",
     "percent_started": 2
   },
@@ -395,7 +395,7 @@
     "team": "Milwaukee Brewers",
     "position": "2B,3B,SS",
     "selected_position": "NA",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "NA",
     "preseason_rank": "2040",
