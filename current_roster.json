@@ -260,19 +260,6 @@
     "percent_started": 95
   },
   {
-    "player_key": "469.p.11644",
-    "name": "Tyler Rogers",
-    "team": "Toronto Blue Jays",
-    "position": "RP",
-    "selected_position": "RP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "414",
-    "current_rank": "419",
-    "percent_started": 20
-  },
-  {
     "player_key": "469.p.10931",
     "name": "JoJo Romero",
     "team": "St. Louis Cardinals",
@@ -290,13 +277,26 @@
     "name": "Braydon Fisher",
     "team": "Toronto Blue Jays",
     "position": "SP,RP",
-    "selected_position": "P",
+    "selected_position": "RP",
     "is_editable": true,
     "is_starting": null,
     "status": "NA",
     "preseason_rank": "413",
     "current_rank": "240",
     "percent_started": 3
+  },
+  {
+    "player_key": "469.p.11644",
+    "name": "Tyler Rogers",
+    "team": "Toronto Blue Jays",
+    "position": "RP",
+    "selected_position": "P",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "414",
+    "current_rank": "419",
+    "percent_started": 20
   },
   {
     "player_key": "469.p.63308",
