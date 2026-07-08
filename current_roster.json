@@ -97,11 +97,11 @@
     "position": "1B,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "62",
     "current_rank": "139",
-    "percent_started": 31
+    "percent_started": 32
   },
   {
     "player_key": "469.p.10964",
@@ -188,7 +188,7 @@
     "position": "2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "243",
     "current_rank": "874",
