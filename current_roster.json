@@ -13,17 +13,17 @@
     "percent_started": 94
   },
   {
-    "player_key": "469.p.10621",
-    "name": "Vladimir Guerrero Jr.",
-    "team": "Toronto Blue Jays",
+    "player_key": "469.p.12309",
+    "name": "Jonathan Aranda",
+    "team": "Tampa Bay Rays",
     "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "56",
-    "current_rank": "362",
-    "percent_started": 68
+    "preseason_rank": "174",
+    "current_rank": "62",
+    "percent_started": 63
   },
   {
     "player_key": "469.p.12100",
@@ -36,7 +36,7 @@
     "status": "Healthy",
     "preseason_rank": "63",
     "current_rank": "76",
-    "percent_started": 75
+    "percent_started": 76
   },
   {
     "player_key": "469.p.10766",
@@ -45,11 +45,11 @@
     "position": "3B,SS",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "109",
     "current_rank": "468",
-    "percent_started": 85
+    "percent_started": 86
   },
   {
     "player_key": "469.p.11817",
@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "326",
     "current_rank": "219",
-    "percent_started": 41
+    "percent_started": 42
   },
   {
     "player_key": "469.p.60776",
@@ -71,11 +71,11 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "382",
     "current_rank": "597",
-    "percent_started": 52
+    "percent_started": 54
   },
   {
     "player_key": "469.p.62119",
@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "258",
     "current_rank": "255",
-    "percent_started": 39
+    "percent_started": 40
   },
   {
     "player_key": "469.p.12005",
@@ -101,46 +101,59 @@
     "status": "Healthy",
     "preseason_rank": "62",
     "current_rank": "136",
-    "percent_started": 49
-  },
-  {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "209",
-    "current_rank": "60",
-    "percent_started": 45
-  },
-  {
-    "player_key": "469.p.12309",
-    "name": "Jonathan Aranda",
-    "team": "Tampa Bay Rays",
-    "position": "1B",
-    "selected_position": "Util",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "174",
-    "current_rank": "62",
-    "percent_started": 62
+    "percent_started": 56
   },
   {
     "player_key": "469.p.12314",
     "name": "Steven Kwan",
     "team": "Cleveland Guardians",
     "position": "OF",
-    "selected_position": "BN",
+    "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "343",
     "current_rank": "890",
     "percent_started": 26
+  },
+  {
+    "player_key": "469.p.9507",
+    "name": "José Ramírez",
+    "team": "Cleveland Guardians",
+    "position": "3B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "101",
+    "current_rank": "149",
+    "percent_started": 27
+  },
+  {
+    "player_key": "469.p.10621",
+    "name": "Vladimir Guerrero Jr.",
+    "team": "Toronto Blue Jays",
+    "position": "1B",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "56",
+    "current_rank": "362",
+    "percent_started": 63
+  },
+  {
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "209",
+    "current_rank": "60",
+    "percent_started": 39
   },
   {
     "player_key": "469.p.62971",
@@ -153,7 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "370",
     "current_rank": "928",
-    "percent_started": 9
+    "percent_started": 8
   },
   {
     "player_key": "469.p.12435",
@@ -166,20 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "121",
     "current_rank": "986",
-    "percent_started": 22
-  },
-  {
-    "player_key": "469.p.9507",
-    "name": "José Ramírez",
-    "team": "Cleveland Guardians",
-    "position": "3B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
-    "preseason_rank": "101",
-    "current_rank": "149",
-    "percent_started": 27
+    "percent_started": 21
   },
   {
     "player_key": "469.p.10236",
@@ -201,24 +201,11 @@
     "position": "2B,3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "1724",
     "current_rank": "1108",
     "percent_started": null
-  },
-  {
-    "player_key": "469.p.9334",
-    "name": "Kevin Gausman",
-    "team": "Toronto Blue Jays",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "71",
-    "current_rank": "270",
-    "percent_started": 60
   },
   {
     "player_key": "469.p.11014",
@@ -244,7 +231,20 @@
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "315",
-    "percent_started": 66
+    "percent_started": 65
+  },
+  {
+    "player_key": "469.p.12281",
+    "name": "Spencer Strider",
+    "team": "Atlanta Braves",
+    "position": "SP",
+    "selected_position": "SP",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "IL60",
+    "preseason_rank": "344",
+    "current_rank": "369",
+    "percent_started": 11
   },
   {
     "player_key": "469.p.11495",
@@ -273,37 +273,11 @@
     "percent_started": 3
   },
   {
-    "player_key": "469.p.11644",
-    "name": "Tyler Rogers",
-    "team": "Toronto Blue Jays",
-    "position": "RP",
-    "selected_position": "RP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "410",
-    "current_rank": "408",
-    "percent_started": 17
-  },
-  {
-    "player_key": "469.p.11479",
-    "name": "Braydon Fisher",
-    "team": "Toronto Blue Jays",
-    "position": "SP,RP",
-    "selected_position": "P",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "NA",
-    "preseason_rank": "411",
-    "current_rank": "245",
-    "percent_started": 2
-  },
-  {
     "player_key": "469.p.10931",
     "name": "JoJo Romero",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "P",
+    "selected_position": "RP",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
@@ -325,17 +299,43 @@
     "percent_started": 1
   },
   {
-    "player_key": "469.p.12281",
-    "name": "Spencer Strider",
-    "team": "Atlanta Braves",
+    "player_key": "469.p.9334",
+    "name": "Kevin Gausman",
+    "team": "Toronto Blue Jays",
     "position": "SP",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
-    "status": "IL60",
-    "preseason_rank": "344",
-    "current_rank": "369",
-    "percent_started": 11
+    "status": "Healthy",
+    "preseason_rank": "71",
+    "current_rank": "270",
+    "percent_started": 58
+  },
+  {
+    "player_key": "469.p.11644",
+    "name": "Tyler Rogers",
+    "team": "Toronto Blue Jays",
+    "position": "RP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "410",
+    "current_rank": "408",
+    "percent_started": 17
+  },
+  {
+    "player_key": "469.p.11479",
+    "name": "Braydon Fisher",
+    "team": "Toronto Blue Jays",
+    "position": "SP,RP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "NA",
+    "preseason_rank": "411",
+    "current_rank": "245",
+    "percent_started": 1
   },
   {
     "player_key": "469.p.12351",
