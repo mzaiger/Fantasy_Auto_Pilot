@@ -117,11 +117,24 @@
     "percent_started": 26
   },
   {
+    "player_key": "469.p.10236",
+    "name": "Gleyber Torres",
+    "team": "Detroit Tigers",
+    "position": "2B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "IL10",
+    "preseason_rank": "243",
+    "current_rank": "878",
+    "percent_started": 6
+  },
+  {
     "player_key": "469.p.9507",
     "name": "José Ramírez",
     "team": "Cleveland Guardians",
     "position": "3B",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 0,
     "status": "IL10",
@@ -180,19 +193,6 @@
     "preseason_rank": "121",
     "current_rank": "986",
     "percent_started": 21
-  },
-  {
-    "player_key": "469.p.10236",
-    "name": "Gleyber Torres",
-    "team": "Detroit Tigers",
-    "position": "2B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
-    "preseason_rank": "243",
-    "current_rank": "878",
-    "percent_started": 6
   },
   {
     "player_key": "469.p.64285",
