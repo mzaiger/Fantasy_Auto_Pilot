@@ -13,17 +13,17 @@
     "percent_started": 92
   },
   {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
+    "player_key": "469.p.10621",
+    "name": "Vladimir Guerrero Jr.",
+    "team": "Toronto Blue Jays",
+    "position": "1B",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "62",
-    "current_rank": "143",
-    "percent_started": 60
+    "preseason_rank": "56",
+    "current_rank": "378",
+    "percent_started": 80
   },
   {
     "player_key": "469.p.12100",
@@ -39,17 +39,17 @@
     "percent_started": 75
   },
   {
-    "player_key": "469.p.10766",
-    "name": "Bo Bichette",
-    "team": "New York Mets",
-    "position": "3B,SS",
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": 0,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "109",
-    "current_rank": "481",
-    "percent_started": 78
+    "preseason_rank": "382",
+    "current_rank": "582",
+    "percent_started": 51
   },
   {
     "player_key": "469.p.11817",
@@ -65,17 +65,17 @@
     "percent_started": 39
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
     "selected_position": "OF",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "382",
-    "current_rank": "582",
-    "percent_started": 51
+    "preseason_rank": "62",
+    "current_rank": "143",
+    "percent_started": 60
   },
   {
     "player_key": "469.p.62119",
@@ -117,17 +117,30 @@
     "percent_started": 62
   },
   {
-    "player_key": "469.p.10621",
-    "name": "Vladimir Guerrero Jr.",
-    "team": "Toronto Blue Jays",
-    "position": "1B",
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "56",
-    "current_rank": "378",
-    "percent_started": 80
+    "preseason_rank": "209",
+    "current_rank": "62",
+    "percent_started": 56
+  },
+  {
+    "player_key": "469.p.10766",
+    "name": "Bo Bichette",
+    "team": "New York Mets",
+    "position": "3B,SS",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "109",
+    "current_rank": "481",
+    "percent_started": 77
   },
   {
     "player_key": "469.p.10236",
@@ -154,19 +167,6 @@
     "preseason_rank": "101",
     "current_rank": "158",
     "percent_started": 26
-  },
-  {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "209",
-    "current_rank": "62",
-    "percent_started": 56
   },
   {
     "player_key": "469.p.62971",
