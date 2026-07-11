@@ -5,7 +5,7 @@
     "team": "Milwaukee Brewers",
     "position": "C",
     "selected_position": "C",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "51",
@@ -23,7 +23,7 @@
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "338",
-    "percent_started": 81
+    "percent_started": 82
   },
   {
     "player_key": "469.p.12100",
@@ -32,7 +32,7 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "63",
     "current_rank": "76",
@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "326",
     "current_rank": "235",
-    "percent_started": 36
+    "percent_started": 35
   },
   {
     "player_key": "469.p.60776",
@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "62",
     "current_rank": "133",
-    "percent_started": 63
+    "percent_started": 65
   },
   {
     "player_key": "469.p.62119",
@@ -97,7 +97,7 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "258",
     "current_rank": "215",
@@ -110,11 +110,11 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "174",
     "current_rank": "58",
-    "percent_started": 61
+    "percent_started": 62
   },
   {
     "player_key": "469.p.10964",
@@ -127,7 +127,7 @@
     "status": "Healthy",
     "preseason_rank": "209",
     "current_rank": "65",
-    "percent_started": 57
+    "percent_started": 58
   },
   {
     "player_key": "469.p.12314",
@@ -136,7 +136,7 @@
     "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "343",
     "current_rank": "888",
@@ -162,7 +162,7 @@
     "position": "3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "101",
     "current_rank": "170",
@@ -218,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "135",
     "current_rank": "771",
-    "percent_started": 79
+    "percent_started": 81
   },
   {
     "player_key": "469.p.12345",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "336",
-    "percent_started": 84
+    "percent_started": 86
   },
   {
     "player_key": "469.p.9334",
@@ -344,7 +344,7 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "IL",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "1475",
     "current_rank": "1082",
@@ -395,7 +395,7 @@
     "team": "Milwaukee Brewers",
     "position": "2B,3B,SS",
     "selected_position": "NA",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "NA",
     "preseason_rank": "2051",
