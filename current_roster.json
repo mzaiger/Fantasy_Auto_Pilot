@@ -1,18 +1,5 @@
 [
   {
-    "player_key": "469.p.11268",
-    "name": "William Contreras",
-    "team": "Milwaukee Brewers",
-    "position": "C",
-    "selected_position": "C",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "51",
-    "current_rank": "116",
-    "percent_started": 92
-  },
-  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
@@ -128,6 +115,19 @@
     "preseason_rank": "209",
     "current_rank": "62",
     "percent_started": 56
+  },
+  {
+    "player_key": "469.p.11268",
+    "name": "William Contreras",
+    "team": "Milwaukee Brewers",
+    "position": "C",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "51",
+    "current_rank": "116",
+    "percent_started": 92
   },
   {
     "player_key": "469.p.10766",
