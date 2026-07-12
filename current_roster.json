@@ -1,18 +1,5 @@
 [
   {
-    "player_key": "469.p.12435",
-    "name": "Yainer Diaz",
-    "team": "Houston Astros",
-    "position": "C",
-    "selected_position": "C",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "121",
-    "current_rank": "971",
-    "percent_started": 24
-  },
-  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
@@ -49,7 +36,7 @@
     "status": "Healthy",
     "preseason_rank": "382",
     "current_rank": "587",
-    "percent_started": 48
+    "percent_started": 49
   },
   {
     "player_key": "469.p.11817",
@@ -88,7 +75,7 @@
     "status": "Healthy",
     "preseason_rank": "370",
     "current_rank": "941",
-    "percent_started": 9
+    "percent_started": 10
   },
   {
     "player_key": "469.p.12309",
@@ -117,17 +104,30 @@
     "percent_started": 61
   },
   {
-    "player_key": "469.p.11268",
-    "name": "William Contreras",
-    "team": "Milwaukee Brewers",
+    "player_key": "469.p.12435",
+    "name": "Yainer Diaz",
+    "team": "Houston Astros",
     "position": "C",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": 0,
     "status": "Healthy",
+    "preseason_rank": "121",
+    "current_rank": "971",
+    "percent_started": 23
+  },
+  {
+    "player_key": "469.p.11268",
+    "name": "William Contreras",
+    "team": "Milwaukee Brewers",
+    "position": "C",
+    "selected_position": "BN",
+    "is_editable": false,
+    "is_starting": 0,
+    "status": "Healthy",
     "preseason_rank": "51",
     "current_rank": "120",
-    "percent_started": 85
+    "percent_started": 84
   },
   {
     "player_key": "469.p.10766",
@@ -140,7 +140,7 @@
     "status": "DTD",
     "preseason_rank": "109",
     "current_rank": "508",
-    "percent_started": 59
+    "percent_started": 57
   },
   {
     "player_key": "469.p.12005",
@@ -153,7 +153,7 @@
     "status": "Healthy",
     "preseason_rank": "62",
     "current_rank": "144",
-    "percent_started": 60
+    "percent_started": 55
   },
   {
     "player_key": "469.p.62119",
@@ -166,7 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "258",
     "current_rank": "229",
-    "percent_started": 37
+    "percent_started": 35
   },
   {
     "player_key": "469.p.64285",
@@ -218,7 +218,7 @@
     "status": "Healthy",
     "preseason_rank": "135",
     "current_rank": "793",
-    "percent_started": 70
+    "percent_started": 69
   },
   {
     "player_key": "469.p.12345",
@@ -231,7 +231,7 @@
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "233",
-    "percent_started": 76
+    "percent_started": 75
   },
   {
     "player_key": "469.p.9334",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "71",
     "current_rank": "287",
-    "percent_started": 86
+    "percent_started": 87
   },
   {
     "player_key": "469.p.11495",
@@ -395,7 +395,7 @@
     "team": "Milwaukee Brewers",
     "position": "2B,3B,SS",
     "selected_position": "NA",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "NA",
     "preseason_rank": "2053",
