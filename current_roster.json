@@ -4,12 +4,12 @@
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
     "position": "1B",
-    "selected_position": "1B",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "56",
-    "current_rank": "271",
+    "current_rank": "183",
     "percent_started": 86
   },
   {
@@ -17,12 +17,12 @@
     "name": "Otto Lopez",
     "team": "Miami Marlins",
     "position": "2B,SS",
-    "selected_position": "2B",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "63",
-    "current_rank": "95",
+    "current_rank": "9",
     "percent_started": 75
   },
   {
@@ -30,12 +30,12 @@
     "name": "José Caballero",
     "team": "New York Yankees",
     "position": "2B,3B,SS,OF",
-    "selected_position": "3B",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "382",
-    "current_rank": "567",
+    "current_rank": "167",
     "percent_started": 49
   },
   {
@@ -43,12 +43,12 @@
     "name": "Bryson Stott",
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
-    "selected_position": "SS",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "326",
-    "current_rank": "219",
+    "current_rank": "202",
     "percent_started": 34
   },
   {
@@ -56,12 +56,12 @@
     "name": "Steven Kwan",
     "team": "Cleveland Guardians",
     "position": "OF",
-    "selected_position": "OF",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "343",
-    "current_rank": "876",
+    "current_rank": "917",
     "percent_started": 25
   },
   {
@@ -69,12 +69,12 @@
     "name": "Dylan Crews",
     "team": "Washington Nationals",
     "position": "OF",
-    "selected_position": "OF",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "370",
-    "current_rank": "949",
+    "current_rank": "930",
     "percent_started": 9
   },
   {
@@ -82,25 +82,25 @@
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
     "position": "1B",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "174",
-    "current_rank": "38",
-    "percent_started": 63
+    "current_rank": "54",
+    "percent_started": 64
   },
   {
     "player_key": "469.p.10964",
     "name": "Luis García Jr.",
     "team": "Washington Nationals",
     "position": "1B,2B",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "209",
-    "current_rank": "67",
+    "current_rank": "36",
     "percent_started": 61
   },
   {
@@ -113,7 +113,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "121",
-    "current_rank": "965",
+    "current_rank": "939",
     "percent_started": 23
   },
   {
@@ -126,7 +126,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "51",
-    "current_rank": "125",
+    "current_rank": "119",
     "percent_started": 85
   },
   {
@@ -139,7 +139,7 @@
     "is_starting": null,
     "status": "DTD",
     "preseason_rank": "109",
-    "current_rank": "511",
+    "current_rank": "185",
     "percent_started": 57
   },
   {
@@ -152,8 +152,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "62",
-    "current_rank": "143",
-    "percent_started": 54
+    "current_rank": "272",
+    "percent_started": 55
   },
   {
     "player_key": "469.p.62119",
@@ -165,7 +165,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "258",
-    "current_rank": "246",
+    "current_rank": "460",
     "percent_started": 35
   },
   {
@@ -178,7 +178,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "1735",
-    "current_rank": "1115",
+    "current_rank": "1093",
     "percent_started": null
   },
   {
@@ -191,7 +191,7 @@
     "is_starting": null,
     "status": "IL10",
     "preseason_rank": "243",
-    "current_rank": "899",
+    "current_rank": "879",
     "percent_started": 6
   },
   {
@@ -204,20 +204,46 @@
     "is_starting": null,
     "status": "IL10",
     "preseason_rank": "101",
-    "current_rank": "173",
+    "current_rank": "146",
     "percent_started": 26
+  },
+  {
+    "player_key": "469.p.12351",
+    "name": "Brendan Donovan",
+    "team": "Seattle Mariners",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "IL",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "IL10",
+    "preseason_rank": "1495",
+    "current_rank": "1061",
+    "percent_started": 5
+  },
+  {
+    "player_key": "469.p.64897",
+    "name": "Jesús Made",
+    "team": "Milwaukee Brewers",
+    "position": "2B,3B,SS",
+    "selected_position": "NA",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "NA",
+    "preseason_rank": "2056",
+    "current_rank": "1825",
+    "percent_started": null
   },
   {
     "player_key": "469.p.11014",
     "name": "Freddy Peralta",
     "team": "New York Mets",
     "position": "SP",
-    "selected_position": "SP",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "135",
-    "current_rank": "784",
+    "current_rank": "734",
     "percent_started": 68
   },
   {
@@ -225,25 +251,25 @@
     "name": "Kyle Bradish",
     "team": "Baltimore Orioles",
     "position": "SP",
-    "selected_position": "SP",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "73",
-    "current_rank": "229",
-    "percent_started": 75
+    "current_rank": "275",
+    "percent_started": 76
   },
   {
     "player_key": "469.p.9334",
     "name": "Kevin Gausman",
     "team": "Toronto Blue Jays",
     "position": "SP",
-    "selected_position": "SP",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "71",
-    "current_rank": "272",
+    "current_rank": "336",
     "percent_started": 87
   },
   {
@@ -251,12 +277,12 @@
     "name": "Jhoan Duran",
     "team": "Philadelphia Phillies",
     "position": "RP",
-    "selected_position": "RP",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "95",
-    "current_rank": "39",
+    "current_rank": "45",
     "percent_started": 95
   },
   {
@@ -264,12 +290,12 @@
     "name": "JoJo Romero",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "RP",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "461",
-    "current_rank": "517",
+    "current_rank": "410",
     "percent_started": 13
   },
   {
@@ -277,12 +303,12 @@
     "name": "Jakob Junis",
     "team": "Texas Rangers",
     "position": "RP",
-    "selected_position": "RP",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "IL15",
     "preseason_rank": "204",
-    "current_rank": "269",
+    "current_rank": "237",
     "percent_started": 2
   },
   {
@@ -290,12 +316,12 @@
     "name": "Tyler Rogers",
     "team": "Toronto Blue Jays",
     "position": "RP",
-    "selected_position": "P",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "407",
-    "current_rank": "368",
+    "current_rank": "232",
     "percent_started": 20
   },
   {
@@ -303,12 +329,12 @@
     "name": "Matt Svanson",
     "team": "St. Louis Cardinals",
     "position": "RP",
-    "selected_position": "P",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "1221",
-    "current_rank": "855",
+    "current_rank": "924",
     "percent_started": 1
   },
   {
@@ -316,12 +342,12 @@
     "name": "Braydon Fisher",
     "team": "Toronto Blue Jays",
     "position": "SP,RP",
-    "selected_position": "P",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "418",
-    "current_rank": "275",
+    "current_rank": "259",
     "percent_started": 2
   },
   {
@@ -334,21 +360,8 @@
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "344",
-    "current_rank": "372",
+    "current_rank": "491",
     "percent_started": 11
-  },
-  {
-    "player_key": "469.p.12351",
-    "name": "Brendan Donovan",
-    "team": "Seattle Mariners",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "IL",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
-    "preseason_rank": "1495",
-    "current_rank": "1088",
-    "percent_started": 5
   },
   {
     "player_key": "469.p.10214",
@@ -360,7 +373,7 @@
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "360",
-    "current_rank": "457",
+    "current_rank": "612",
     "percent_started": 18
   },
   {
@@ -385,21 +398,8 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "446",
+    "preseason_rank": "447",
     "current_rank": "1936",
     "percent_started": 2
-  },
-  {
-    "player_key": "469.p.64897",
-    "name": "Jesús Made",
-    "team": "Milwaukee Brewers",
-    "position": "2B,3B,SS",
-    "selected_position": "NA",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "NA",
-    "preseason_rank": "2056",
-    "current_rank": "1825",
-    "percent_started": null
   }
 ]
