@@ -1,30 +1,5 @@
 {
-  "dump_date": "2026-07-14",
-  "game_count": 1,
-  "mlb_games": [
-    {
-      "game_pk": 823443,
-      "game_date": "2026-07-15",
-      "start_time_utc": "2026-07-15T00:00:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Pre-Game",
-      "status_code": "P",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 159,
-        "name": "American League All-Stars",
-        "abbreviation": "AL"
-      },
-      "home_team": {
-        "id": 160,
-        "name": "National League All-Stars",
-        "abbreviation": "NL"
-      },
-      "venue": "Citizens Bank Park",
-      "series_desc": "MLB All-Star Game",
-      "doubleheader": "N",
-      "game_number": 1
-    }
-  ]
+  "dump_date": "2026-07-15",
+  "game_count": 0,
+  "mlb_games": []
 }
