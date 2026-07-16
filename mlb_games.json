@@ -5,10 +5,10 @@
     {
       "game_pk": 823440,
       "game_date": "2026-07-16",
-      "start_time_utc": "2026-07-16T23:10:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "start_time_utc": "2026-07-16T22:10:00Z",
+      "status_abstract": "Live",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
