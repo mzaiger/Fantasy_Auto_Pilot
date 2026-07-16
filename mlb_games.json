@@ -1,5 +1,30 @@
 {
-  "dump_date": "2026-07-15",
-  "game_count": 0,
-  "mlb_games": []
+  "dump_date": "2026-07-16",
+  "game_count": 1,
+  "mlb_games": [
+    {
+      "game_pk": 823440,
+      "game_date": "2026-07-16",
+      "start_time_utc": "2026-07-16T23:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 121,
+        "name": "New York Mets",
+        "abbreviation": "NYM"
+      },
+      "home_team": {
+        "id": 143,
+        "name": "Philadelphia Phillies",
+        "abbreviation": "PHI"
+      },
+      "venue": "Citizens Bank Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    }
+  ]
 }
