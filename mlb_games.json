@@ -6,9 +6,9 @@
       "game_pk": 824766,
       "game_date": "2026-07-17",
       "start_time_utc": "2026-07-17T17:35:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_abstract": "Final",
+      "status_detailed": "Final",
+      "status_code": "F",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -31,8 +31,8 @@
       "game_date": "2026-07-17",
       "start_time_utc": "2026-07-17T23:05:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -55,8 +55,8 @@
       "game_date": "2026-07-17",
       "start_time_utc": "2026-07-17T23:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -75,36 +75,12 @@
       "game_number": 2
     },
     {
-      "game_pk": 824414,
-      "game_date": "2026-07-17",
-      "start_time_utc": "2026-07-17T23:10:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 134,
-        "name": "Pittsburgh Pirates",
-        "abbreviation": "PIT"
-      },
-      "home_team": {
-        "id": 114,
-        "name": "Cleveland Guardians",
-        "abbreviation": "CLE"
-      },
-      "venue": "Progressive Field",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
       "game_pk": 824901,
       "game_date": "2026-07-17",
       "start_time_utc": "2026-07-17T23:15:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -127,8 +103,8 @@
       "game_date": "2026-07-17",
       "start_time_utc": "2026-07-17T23:15:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -151,8 +127,8 @@
       "game_date": "2026-07-17",
       "start_time_utc": "2026-07-17T23:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -175,8 +151,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T00:05:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -199,8 +175,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T00:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -223,8 +199,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T00:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -247,8 +223,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T00:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -271,8 +247,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T01:38:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -295,8 +271,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T01:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -319,8 +295,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T01:40:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -343,8 +319,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T02:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -358,6 +334,30 @@
         "abbreviation": "SEA"
       },
       "venue": "T-Mobile Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 824414,
+      "game_date": "2026-07-17",
+      "start_time_utc": "2026-07-17T23:10:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DD",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 134,
+        "name": "Pittsburgh Pirates",
+        "abbreviation": "PIT"
+      },
+      "home_team": {
+        "id": 114,
+        "name": "Cleveland Guardians",
+        "abbreviation": "CLE"
+      },
+      "venue": "Progressive Field",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
