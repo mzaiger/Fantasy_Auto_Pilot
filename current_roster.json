@@ -5,12 +5,12 @@
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
     "selected_position": "2B",
-    "is_editable": false,
-    "is_starting": 1,
+    "is_editable": true,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "326",
-    "current_rank": "219",
-    "percent_started": 41
+    "current_rank": "225",
+    "percent_started": 30
   },
   {
     "player_key": "469.p.10766",
@@ -18,12 +18,12 @@
     "team": "New York Mets",
     "position": "3B,SS",
     "selected_position": "3B",
-    "is_editable": false,
-    "is_starting": 1,
+    "is_editable": true,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "109",
-    "current_rank": "511",
-    "percent_started": 77
+    "current_rank": "537",
+    "percent_started": 60
   },
   {
     "player_key": "469.p.12435",
@@ -36,7 +36,7 @@
     "status": "Healthy",
     "preseason_rank": "121",
     "current_rank": "965",
-    "percent_started": 23
+    "percent_started": 24
   },
   {
     "player_key": "469.p.10621",
@@ -48,8 +48,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "56",
-    "current_rank": "271",
-    "percent_started": 85
+    "current_rank": "272",
+    "percent_started": 88
   },
   {
     "player_key": "469.p.10236",
@@ -87,8 +87,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "63",
-    "current_rank": "95",
-    "percent_started": 74
+    "current_rank": "96",
+    "percent_started": 75
   },
   {
     "player_key": "469.p.62971",
@@ -100,7 +100,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "370",
-    "current_rank": "949",
+    "current_rank": "948",
     "percent_started": 9
   },
   {
@@ -113,8 +113,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "258",
-    "current_rank": "246",
-    "percent_started": 35
+    "current_rank": "248",
+    "percent_started": 36
   },
   {
     "player_key": "469.p.60256",
@@ -126,7 +126,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "1854",
-    "current_rank": "1185",
+    "current_rank": "1184",
     "percent_started": 3
   },
   {
@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "174",
     "current_rank": "38",
-    "percent_started": 63
+    "percent_started": 65
   },
   {
     "player_key": "469.p.11268",
@@ -153,7 +153,7 @@
     "status": "Healthy",
     "preseason_rank": "51",
     "current_rank": "125",
-    "percent_started": 86
+    "percent_started": 88
   },
   {
     "player_key": "469.p.60776",
@@ -165,8 +165,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "382",
-    "current_rank": "567",
-    "percent_started": 48
+    "current_rank": "565",
+    "percent_started": 50
   },
   {
     "player_key": "469.p.12314",
@@ -191,7 +191,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "209",
-    "current_rank": "67",
+    "current_rank": "66",
     "percent_started": 60
   },
   {
@@ -204,8 +204,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "62",
-    "current_rank": "143",
-    "percent_started": 56
+    "current_rank": "142",
+    "percent_started": 62
   },
   {
     "player_key": "469.p.12351",
@@ -239,12 +239,12 @@
     "team": "New York Mets",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": false,
+    "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "135",
-    "current_rank": "784",
-    "percent_started": 73
+    "current_rank": "791",
+    "percent_started": 58
   },
   {
     "player_key": "469.p.11495",
@@ -252,12 +252,12 @@
     "team": "Philadelphia Phillies",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": false,
+    "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "95",
     "current_rank": "39",
-    "percent_started": 96
+    "percent_started": 83
   },
   {
     "player_key": "469.p.12281",
@@ -269,7 +269,7 @@
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "344",
-    "current_rank": "372",
+    "current_rank": "381",
     "percent_started": 11
   },
   {
@@ -308,7 +308,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "466",
-    "current_rank": "517",
+    "current_rank": "513",
     "percent_started": 13
   },
   {
@@ -321,7 +321,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "407",
-    "current_rank": "368",
+    "current_rank": "366",
     "percent_started": 20
   },
   {
@@ -334,8 +334,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "73",
-    "current_rank": "229",
-    "percent_started": 75
+    "current_rank": "234",
+    "percent_started": 76
   },
   {
     "player_key": "469.p.9334",
@@ -347,8 +347,8 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "71",
-    "current_rank": "272",
-    "percent_started": 86
+    "current_rank": "277",
+    "percent_started": 80
   },
   {
     "player_key": "469.p.11479",
@@ -360,7 +360,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "418",
-    "current_rank": "275",
+    "current_rank": "278",
     "percent_started": 2
   },
   {
@@ -373,7 +373,7 @@
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "432",
-    "current_rank": "521",
+    "current_rank": "518",
     "percent_started": 6
   },
   {
