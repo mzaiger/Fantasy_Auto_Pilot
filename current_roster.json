@@ -13,17 +13,17 @@
     "percent_started": 90
   },
   {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
     "selected_position": "1B",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "62",
-    "current_rank": "128",
-    "percent_started": 72
+    "preseason_rank": "209",
+    "current_rank": "71",
+    "percent_started": 59
   },
   {
     "player_key": "469.p.12100",
@@ -65,6 +65,19 @@
     "percent_started": 27
   },
   {
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "62",
+    "current_rank": "128",
+    "percent_started": 72
+  },
+  {
     "player_key": "469.p.12314",
     "name": "Steven Kwan",
     "team": "Cleveland Guardians",
@@ -91,19 +104,6 @@
     "percent_started": 9
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "382",
-    "current_rank": "587",
-    "percent_started": 45
-  },
-  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
@@ -117,17 +117,30 @@
     "percent_started": 89
   },
   {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
+    "player_key": "469.p.10236",
+    "name": "Gleyber Torres",
+    "team": "Detroit Tigers",
+    "position": "2B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
+    "status": "IL10",
+    "preseason_rank": "243",
+    "current_rank": "905",
+    "percent_started": 6
+  },
+  {
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "209",
-    "current_rank": "71",
-    "percent_started": 59
+    "preseason_rank": "382",
+    "current_rank": "587",
+    "percent_started": 45
   },
   {
     "player_key": "469.p.62119",
@@ -180,19 +193,6 @@
     "preseason_rank": "121",
     "current_rank": "970",
     "percent_started": 24
-  },
-  {
-    "player_key": "469.p.10236",
-    "name": "Gleyber Torres",
-    "team": "Detroit Tigers",
-    "position": "2B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
-    "preseason_rank": "243",
-    "current_rank": "905",
-    "percent_started": 6
   },
   {
     "player_key": "469.p.60256",
