@@ -30,9 +30,9 @@
       "game_pk": 824657,
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T18:20:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "status_abstract": "Final",
+      "status_detailed": "Final",
+      "status_code": "F",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -78,9 +78,9 @@
       "game_pk": 822790,
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T19:07:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "status_abstract": "Final",
+      "status_detailed": "Final",
+      "status_code": "F",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -102,9 +102,9 @@
       "game_pk": 824331,
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T19:10:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "status_abstract": "Final",
+      "status_detailed": "Final",
+      "status_code": "F",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -127,8 +127,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T20:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -151,8 +151,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T20:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -175,8 +175,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T20:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -198,9 +198,9 @@
       "game_pk": 824738,
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T20:10:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Delayed Start",
-      "status_code": "PI",
+      "status_abstract": "Live",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -223,8 +223,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T20:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -247,8 +247,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T20:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -271,8 +271,8 @@
       "game_date": "2026-07-18",
       "start_time_utc": "2026-07-18T23:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Delayed Start",
+      "status_code": "PI",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -315,36 +315,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 823523,
-      "game_date": "2026-07-19",
-      "start_time_utc": "2026-07-19T00:08:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 119,
-        "name": "Los Angeles Dodgers",
-        "abbreviation": "LAD"
-      },
-      "home_team": {
-        "id": 147,
-        "name": "New York Yankees",
-        "abbreviation": "NYY"
-      },
-      "venue": "Yankee Stadium",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
       "game_pk": 824979,
       "game_date": "2026-07-19",
       "start_time_utc": "2026-07-19T02:05:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -367,8 +343,8 @@
       "game_date": "2026-07-19",
       "start_time_utc": "2026-07-19T02:07:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -382,6 +358,30 @@
         "abbreviation": "LAA"
       },
       "venue": "Angel Stadium",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823523,
+      "game_date": "2026-07-19",
+      "start_time_utc": "2026-07-19T00:08:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DI",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 119,
+        "name": "Los Angeles Dodgers",
+        "abbreviation": "LAD"
+      },
+      "home_team": {
+        "id": 147,
+        "name": "New York Yankees",
+        "abbreviation": "NYY"
+      },
+      "venue": "Yankee Stadium",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
