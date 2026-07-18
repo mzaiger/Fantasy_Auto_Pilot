@@ -140,7 +140,7 @@
     "status": "Healthy",
     "preseason_rank": "209",
     "current_rank": "66",
-    "percent_started": 55
+    "percent_started": 54
   },
   {
     "player_key": "469.p.11817",
@@ -369,7 +369,7 @@
     "team": "Chicago Cubs",
     "position": "SP",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "609",
