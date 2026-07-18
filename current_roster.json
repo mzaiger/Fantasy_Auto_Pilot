@@ -123,7 +123,7 @@
     "position": "2B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "243",
     "current_rank": "905",
