@@ -13,17 +13,17 @@
     "percent_started": 90
   },
   {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
+    "player_key": "469.p.12005",
+    "name": "Tyler Soderstrom",
+    "team": " Athletics",
+    "position": "1B,OF",
     "selected_position": "1B",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "209",
-    "current_rank": "79",
-    "percent_started": 57
+    "preseason_rank": "62",
+    "current_rank": "100",
+    "percent_started": 73
   },
   {
     "player_key": "469.p.12100",
@@ -36,7 +36,7 @@
     "status": "DTD",
     "preseason_rank": "63",
     "current_rank": "106",
-    "percent_started": 67
+    "percent_started": 54
   },
   {
     "player_key": "469.p.10766",
@@ -45,11 +45,11 @@
     "position": "3B,SS",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "109",
     "current_rank": "580",
-    "percent_started": 61
+    "percent_started": 64
   },
   {
     "player_key": "469.p.11817",
@@ -58,24 +58,11 @@
     "position": "2B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "326",
     "current_rank": "230",
-    "percent_started": 27
-  },
-  {
-    "player_key": "469.p.12005",
-    "name": "Tyler Soderstrom",
-    "team": " Athletics",
-    "position": "1B,OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "62",
-    "current_rank": "100",
-    "percent_started": 72
+    "percent_started": 29
   },
   {
     "player_key": "469.p.12314",
@@ -84,24 +71,37 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "343",
     "current_rank": "850",
-    "percent_started": 25
+    "percent_started": 26
   },
   {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "382",
+    "current_rank": "616",
+    "percent_started": 43
+  },
+  {
+    "player_key": "469.p.62119",
+    "name": "Jakob Marsee",
+    "team": "Miami Marlins",
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "370",
-    "current_rank": "944",
-    "percent_started": 9
+    "preseason_rank": "258",
+    "current_rank": "277",
+    "percent_started": 34
   },
   {
     "player_key": "469.p.10621",
@@ -110,11 +110,50 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "249",
-    "percent_started": 89
+    "percent_started": 90
+  },
+  {
+    "player_key": "469.p.12309",
+    "name": "Jonathan Aranda",
+    "team": "Tampa Bay Rays",
+    "position": "1B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "174",
+    "current_rank": "45",
+    "percent_started": 59
+  },
+  {
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "209",
+    "current_rank": "79",
+    "percent_started": 55
+  },
+  {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "370",
+    "current_rank": "944",
+    "percent_started": 9
   },
   {
     "player_key": "469.p.10236",
@@ -130,52 +169,13 @@
     "percent_started": 6
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "382",
-    "current_rank": "616",
-    "percent_started": 47
-  },
-  {
-    "player_key": "469.p.62119",
-    "name": "Jakob Marsee",
-    "team": "Miami Marlins",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "258",
-    "current_rank": "277",
-    "percent_started": 35
-  },
-  {
-    "player_key": "469.p.12309",
-    "name": "Jonathan Aranda",
-    "team": "Tampa Bay Rays",
-    "position": "1B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "174",
-    "current_rank": "45",
-    "percent_started": 56
-  },
-  {
     "player_key": "469.p.9507",
     "name": "José Ramírez",
     "team": "Cleveland Guardians",
     "position": "3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "101",
     "current_rank": "191",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "239",
-    "percent_started": 74
+    "percent_started": 72
   },
   {
     "player_key": "469.p.9334",
@@ -257,7 +257,7 @@
     "status": "Healthy",
     "preseason_rank": "71",
     "current_rank": "274",
-    "percent_started": 68
+    "percent_started": 66
   },
   {
     "player_key": "469.p.11014",
@@ -270,7 +270,7 @@
     "status": "Healthy",
     "preseason_rank": "135",
     "current_rank": "803",
-    "percent_started": 52
+    "percent_started": 51
   },
   {
     "player_key": "469.p.11644",
@@ -309,7 +309,7 @@
     "status": "Healthy",
     "preseason_rank": "95",
     "current_rank": "41",
-    "percent_started": 94
+    "percent_started": 95
   },
   {
     "player_key": "469.p.10931",
