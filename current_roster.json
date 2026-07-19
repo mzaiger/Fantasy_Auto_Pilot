@@ -75,7 +75,7 @@
     "status": "Healthy",
     "preseason_rank": "62",
     "current_rank": "128",
-    "percent_started": 72
+    "percent_started": 73
   },
   {
     "player_key": "469.p.12314",
@@ -101,7 +101,7 @@
     "status": "Healthy",
     "preseason_rank": "370",
     "current_rank": "943",
-    "percent_started": 9
+    "percent_started": 10
   },
   {
     "player_key": "469.p.10621",
@@ -213,7 +213,7 @@
     "team": "Seattle Mariners",
     "position": "2B,3B,SS,OF",
     "selected_position": "IL",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "1498",
