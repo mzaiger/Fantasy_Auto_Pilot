@@ -1,16 +1,16 @@
 [
   {
-    "player_key": "469.p.12435",
-    "name": "Yainer Diaz",
-    "team": "Houston Astros",
+    "player_key": "469.p.11268",
+    "name": "William Contreras",
+    "team": "Milwaukee Brewers",
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "121",
-    "current_rank": "998",
-    "percent_started": 24
+    "preseason_rank": "51",
+    "current_rank": "108",
+    "percent_started": 90
   },
   {
     "player_key": "469.p.12005",
@@ -23,7 +23,20 @@
     "status": "Healthy",
     "preseason_rank": "62",
     "current_rank": "102",
-    "percent_started": 74
+    "percent_started": 75
+  },
+  {
+    "player_key": "469.p.12100",
+    "name": "Otto Lopez",
+    "team": "Miami Marlins",
+    "position": "2B,SS",
+    "selected_position": "2B",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "DTD",
+    "preseason_rank": "63",
+    "current_rank": "112",
+    "percent_started": 40
   },
   {
     "player_key": "469.p.10766",
@@ -32,7 +45,7 @@
     "position": "3B,SS",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "109",
     "current_rank": "554",
@@ -45,11 +58,11 @@
     "position": "2B,SS",
     "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "326",
     "current_rank": "241",
-    "percent_started": 29
+    "percent_started": 30
   },
   {
     "player_key": "469.p.12314",
@@ -58,11 +71,11 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "343",
     "current_rank": "848",
-    "percent_started": 27
+    "percent_started": 28
   },
   {
     "player_key": "469.p.62119",
@@ -71,24 +84,24 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "258",
     "current_rank": "297",
     "percent_started": 35
   },
   {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "370",
-    "current_rank": "927",
-    "percent_started": 9
+    "preseason_rank": "382",
+    "current_rank": "622",
+    "percent_started": 43
   },
   {
     "player_key": "469.p.10621",
@@ -97,7 +110,7 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "276",
@@ -110,11 +123,37 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "174",
     "current_rank": "48",
     "percent_started": 60
+  },
+  {
+    "player_key": "469.p.12435",
+    "name": "Yainer Diaz",
+    "team": "Houston Astros",
+    "position": "C",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "121",
+    "current_rank": "998",
+    "percent_started": 24
+  },
+  {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "370",
+    "current_rank": "927",
+    "percent_started": 10
   },
   {
     "player_key": "469.p.10964",
@@ -123,50 +162,11 @@
     "position": "1B,2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "209",
     "current_rank": "86",
     "percent_started": 53
-  },
-  {
-    "player_key": "469.p.11268",
-    "name": "William Contreras",
-    "team": "Milwaukee Brewers",
-    "position": "C",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "51",
-    "current_rank": "108",
-    "percent_started": 87
-  },
-  {
-    "player_key": "469.p.12100",
-    "name": "Otto Lopez",
-    "team": "Miami Marlins",
-    "position": "2B,SS",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "DTD",
-    "preseason_rank": "63",
-    "current_rank": "112",
-    "percent_started": 47
-  },
-  {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "382",
-    "current_rank": "622",
-    "percent_started": 42
   },
   {
     "player_key": "469.p.10236",
@@ -175,11 +175,11 @@
     "position": "2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
+    "is_starting": 1,
+    "status": "Healthy",
     "preseason_rank": "243",
     "current_rank": "915",
-    "percent_started": 6
+    "percent_started": 7
   },
   {
     "player_key": "469.p.9507",
@@ -188,7 +188,7 @@
     "position": "3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "101",
     "current_rank": "201",
@@ -201,9 +201,9 @@
     "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
-    "preseason_rank": "1831",
+    "preseason_rank": "1841",
     "current_rank": "1183",
     "percent_started": 2
   },
@@ -214,9 +214,9 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "IL",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
-    "preseason_rank": "1508",
+    "preseason_rank": "1516",
     "current_rank": "1095",
     "percent_started": 5
   },
@@ -227,7 +227,7 @@
     "position": "2B,3B,SS",
     "selected_position": "NA",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "NA",
     "preseason_rank": "2059",
     "current_rank": "1831",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "242",
-    "percent_started": 70
+    "percent_started": 69
   },
   {
     "player_key": "469.p.9334",
@@ -257,20 +257,20 @@
     "status": "Healthy",
     "preseason_rank": "71",
     "current_rank": "277",
-    "percent_started": 64
+    "percent_started": 63
   },
   {
-    "player_key": "469.p.11014",
-    "name": "Freddy Peralta",
-    "team": "New York Mets",
+    "player_key": "469.p.12281",
+    "name": "Spencer Strider",
+    "team": "Atlanta Braves",
     "position": "SP",
     "selected_position": "SP",
     "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "135",
-    "current_rank": "800",
-    "percent_started": 71
+    "is_starting": null,
+    "status": "IL60",
+    "preseason_rank": "344",
+    "current_rank": "384",
+    "percent_started": 11
   },
   {
     "player_key": "469.p.11644",
@@ -281,22 +281,9 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "410",
+    "preseason_rank": "409",
     "current_rank": "357",
     "percent_started": 20
-  },
-  {
-    "player_key": "469.p.11479",
-    "name": "Braydon Fisher",
-    "team": "Toronto Blue Jays",
-    "position": "SP,RP",
-    "selected_position": "RP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "421",
-    "current_rank": "287",
-    "percent_started": 2
   },
   {
     "player_key": "469.p.11495",
@@ -312,6 +299,45 @@
     "percent_started": 95
   },
   {
+    "player_key": "469.p.11358",
+    "name": "Garrett Whitlock",
+    "team": "Boston Red Sox",
+    "position": "RP",
+    "selected_position": "RP",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "401",
+    "current_rank": "138",
+    "percent_started": 22
+  },
+  {
+    "player_key": "469.p.11014",
+    "name": "Freddy Peralta",
+    "team": "New York Mets",
+    "position": "SP",
+    "selected_position": "P",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "135",
+    "current_rank": "800",
+    "percent_started": 80
+  },
+  {
+    "player_key": "469.p.11479",
+    "name": "Braydon Fisher",
+    "team": "Toronto Blue Jays",
+    "position": "SP,RP",
+    "selected_position": "P",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "423",
+    "current_rank": "287",
+    "percent_started": 2
+  },
+  {
     "player_key": "469.p.11709",
     "name": "Kyle Finnegan",
     "team": "Detroit Tigers",
@@ -323,19 +349,6 @@
     "preseason_rank": "435",
     "current_rank": "505",
     "percent_started": 6
-  },
-  {
-    "player_key": "469.p.12281",
-    "name": "Spencer Strider",
-    "team": "Atlanta Braves",
-    "position": "SP",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL60",
-    "preseason_rank": "344",
-    "current_rank": "384",
-    "percent_started": 11
   },
   {
     "player_key": "469.p.10910",
@@ -359,22 +372,9 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "608",
+    "preseason_rank": "606",
     "current_rank": "2341",
     "percent_started": null
-  },
-  {
-    "player_key": "469.p.11358",
-    "name": "Garrett Whitlock",
-    "team": "Boston Red Sox",
-    "position": "RP",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "401",
-    "current_rank": "138",
-    "percent_started": 22
   },
   {
     "player_key": "469.p.10185",
@@ -385,7 +385,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "693",
+    "preseason_rank": "684",
     "current_rank": "2194",
     "percent_started": 2
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "454",
+    "preseason_rank": "452",
     "current_rank": "1942",
     "percent_started": 2
   }
