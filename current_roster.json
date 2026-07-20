@@ -26,17 +26,17 @@
     "percent_started": 75
   },
   {
-    "player_key": "469.p.12100",
-    "name": "Otto Lopez",
-    "team": "Miami Marlins",
-    "position": "2B,SS",
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": 0,
-    "status": "DTD",
-    "preseason_rank": "63",
-    "current_rank": "112",
-    "percent_started": 40
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "209",
+    "current_rank": "86",
+    "percent_started": 53
   },
   {
     "player_key": "469.p.10766",
@@ -130,6 +130,19 @@
     "percent_started": 60
   },
   {
+    "player_key": "469.p.12100",
+    "name": "Otto Lopez",
+    "team": "Miami Marlins",
+    "position": "2B,SS",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "DTD",
+    "preseason_rank": "63",
+    "current_rank": "112",
+    "percent_started": 40
+  },
+  {
     "player_key": "469.p.12435",
     "name": "Yainer Diaz",
     "team": "Houston Astros",
@@ -154,19 +167,6 @@
     "preseason_rank": "370",
     "current_rank": "927",
     "percent_started": 10
-  },
-  {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "209",
-    "current_rank": "86",
-    "percent_started": 53
   },
   {
     "player_key": "469.p.10236",
