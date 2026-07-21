@@ -6,11 +6,11 @@
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "51",
     "current_rank": "118",
-    "percent_started": 91
+    "percent_started": 92
   },
   {
     "player_key": "469.p.12005",
@@ -23,7 +23,7 @@
     "status": "Healthy",
     "preseason_rank": "62",
     "current_rank": "103",
-    "percent_started": 76
+    "percent_started": 78
   },
   {
     "player_key": "469.p.12100",
@@ -32,37 +32,37 @@
     "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
-    "is_starting": null,
-    "status": "DTD",
+    "is_starting": 1,
+    "status": "Healthy",
     "preseason_rank": "63",
     "current_rank": "121",
-    "percent_started": 38
+    "percent_started": 50
+  },
+  {
+    "player_key": "469.p.9507",
+    "name": "José Ramírez",
+    "team": "Cleveland Guardians",
+    "position": "3B",
+    "selected_position": "3B",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "101",
+    "current_rank": "211",
+    "percent_started": 26
   },
   {
     "player_key": "469.p.10766",
     "name": "Bo Bichette",
     "team": "New York Mets",
     "position": "3B,SS",
-    "selected_position": "3B",
+    "selected_position": "SS",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "109",
     "current_rank": "515",
-    "percent_started": 68
-  },
-  {
-    "player_key": "469.p.11817",
-    "name": "Bryson Stott",
-    "team": "Philadelphia Phillies",
-    "position": "2B,SS",
-    "selected_position": "SS",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "326",
-    "current_rank": "230",
-    "percent_started": 30
+    "percent_started": 71
   },
   {
     "player_key": "469.p.12314",
@@ -71,11 +71,11 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "343",
     "current_rank": "847",
-    "percent_started": 28
+    "percent_started": 29
   },
   {
     "player_key": "469.p.62119",
@@ -84,24 +84,24 @@
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "258",
     "current_rank": "296",
-    "percent_started": 35
+    "percent_started": 36
   },
   {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
-    "preseason_rank": "382",
-    "current_rank": "584",
-    "percent_started": 43
+    "preseason_rank": "370",
+    "current_rank": "931",
+    "percent_started": 9
   },
   {
     "player_key": "469.p.10621",
@@ -110,11 +110,11 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "303",
-    "percent_started": 84
+    "percent_started": 86
   },
   {
     "player_key": "469.p.12309",
@@ -123,11 +123,37 @@
     "position": "1B",
     "selected_position": "Util",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "174",
     "current_rank": "51",
-    "percent_started": 59
+    "percent_started": 60
+  },
+  {
+    "player_key": "469.p.11817",
+    "name": "Bryson Stott",
+    "team": "Philadelphia Phillies",
+    "position": "2B,SS",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "326",
+    "current_rank": "230",
+    "percent_started": 32
+  },
+  {
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "382",
+    "current_rank": "584",
+    "percent_started": 35
   },
   {
     "player_key": "469.p.10964",
@@ -136,11 +162,11 @@
     "position": "1B,2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "209",
     "current_rank": "91",
-    "percent_started": 56
+    "percent_started": 59
   },
   {
     "player_key": "469.p.12435",
@@ -149,24 +175,11 @@
     "position": "C",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "121",
     "current_rank": "998",
     "percent_started": 24
-  },
-  {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "370",
-    "current_rank": "931",
-    "percent_started": 10
   },
   {
     "player_key": "469.p.10236",
@@ -175,24 +188,11 @@
     "position": "2B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "243",
     "current_rank": "904",
-    "percent_started": 11
-  },
-  {
-    "player_key": "469.p.9507",
-    "name": "José Ramírez",
-    "team": "Cleveland Guardians",
-    "position": "3B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "IL10",
-    "preseason_rank": "101",
-    "current_rank": "211",
-    "percent_started": 26
+    "percent_started": 13
   },
   {
     "player_key": "469.p.60256",
@@ -201,11 +201,11 @@
     "position": "OF",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "1843",
     "current_rank": "1184",
-    "percent_started": 2
+    "percent_started": 3
   },
   {
     "player_key": "469.p.12351",
@@ -227,7 +227,7 @@
     "position": "2B,3B,SS",
     "selected_position": "NA",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "NA",
     "preseason_rank": "2060",
     "current_rank": "1832",
@@ -240,11 +240,11 @@
     "position": "SP",
     "selected_position": "SP",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "243",
-    "percent_started": 85
+    "percent_started": 87
   },
   {
     "player_key": "469.p.12281",
@@ -322,7 +322,7 @@
     "status": "Healthy",
     "preseason_rank": "71",
     "current_rank": "277",
-    "percent_started": 87
+    "percent_started": 89
   },
   {
     "player_key": "469.p.11479",
