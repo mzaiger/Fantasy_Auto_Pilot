@@ -36,7 +36,7 @@
     "status": "Healthy",
     "preseason_rank": "63",
     "current_rank": "121",
-    "percent_started": 53
+    "percent_started": 54
   },
   {
     "player_key": "469.p.10766",
@@ -57,7 +57,7 @@
     "team": "Philadelphia Phillies",
     "position": "2B,SS",
     "selected_position": "SS",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "326",
@@ -70,7 +70,7 @@
     "team": "Cleveland Guardians",
     "position": "OF",
     "selected_position": "OF",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "343",
@@ -99,7 +99,7 @@
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "1841",
+    "preseason_rank": "1843",
     "current_rank": "1184",
     "percent_started": 3
   },
@@ -135,7 +135,7 @@
     "team": "Cleveland Guardians",
     "position": "3B",
     "selected_position": "BN",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "101",
@@ -205,7 +205,7 @@
     "status": "Healthy",
     "preseason_rank": "243",
     "current_rank": "904",
-    "percent_started": 13
+    "percent_started": 14
   },
   {
     "player_key": "469.p.12351",
@@ -229,7 +229,7 @@
     "is_editable": true,
     "is_starting": 0,
     "status": "NA",
-    "preseason_rank": "2059",
+    "preseason_rank": "2060",
     "current_rank": "1832",
     "percent_started": null
   },
@@ -268,7 +268,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "526",
+    "preseason_rank": "525",
     "current_rank": "2254",
     "percent_started": null
   },
@@ -281,7 +281,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "409",
+    "preseason_rank": "410",
     "current_rank": "354",
     "percent_started": 20
   },
@@ -291,7 +291,7 @@
     "team": "Philadelphia Phillies",
     "position": "RP",
     "selected_position": "RP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
     "preseason_rank": "95",
@@ -307,7 +307,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "423",
+    "preseason_rank": "424",
     "current_rank": "310",
     "percent_started": 2
   },
@@ -322,7 +322,7 @@
     "status": "Healthy",
     "preseason_rank": "71",
     "current_rank": "277",
-    "percent_started": 89
+    "percent_started": 90
   },
   {
     "player_key": "469.p.11709",
@@ -333,7 +333,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "435",
+    "preseason_rank": "437",
     "current_rank": "554",
     "percent_started": 6
   },
@@ -372,7 +372,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "606",
+    "preseason_rank": "609",
     "current_rank": "2341",
     "percent_started": null
   },
@@ -385,7 +385,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "684",
+    "preseason_rank": "685",
     "current_rank": "2194",
     "percent_started": 2
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "452",
+    "preseason_rank": "454",
     "current_rank": "1943",
     "percent_started": 2
   }
