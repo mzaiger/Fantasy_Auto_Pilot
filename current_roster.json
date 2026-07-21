@@ -19,7 +19,7 @@
     "position": "1B,OF",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "62",
     "current_rank": "103",
@@ -36,7 +36,7 @@
     "status": "Healthy",
     "preseason_rank": "63",
     "current_rank": "121",
-    "percent_started": 52
+    "percent_started": 53
   },
   {
     "player_key": "469.p.10766",
@@ -88,7 +88,7 @@
     "status": "Healthy",
     "preseason_rank": "258",
     "current_rank": "296",
-    "percent_started": 36
+    "percent_started": 37
   },
   {
     "player_key": "469.p.60256",
@@ -99,7 +99,7 @@
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "1843",
+    "preseason_rank": "1841",
     "current_rank": "1184",
     "percent_started": 3
   },
@@ -166,7 +166,7 @@
     "status": "Healthy",
     "preseason_rank": "382",
     "current_rank": "584",
-    "percent_started": 35
+    "percent_started": 34
   },
   {
     "player_key": "469.p.10964",
@@ -214,7 +214,7 @@
     "position": "2B,3B,SS,OF",
     "selected_position": "IL",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "IL10",
     "preseason_rank": "1516",
     "current_rank": "1099",
@@ -229,7 +229,7 @@
     "is_editable": true,
     "is_starting": 0,
     "status": "NA",
-    "preseason_rank": "2060",
+    "preseason_rank": "2059",
     "current_rank": "1832",
     "percent_started": null
   },
@@ -268,7 +268,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "525",
+    "preseason_rank": "526",
     "current_rank": "2254",
     "percent_started": null
   },
@@ -281,7 +281,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "410",
+    "preseason_rank": "409",
     "current_rank": "354",
     "percent_started": 20
   },
@@ -307,7 +307,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "424",
+    "preseason_rank": "423",
     "current_rank": "310",
     "percent_started": 2
   },
@@ -333,7 +333,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "437",
+    "preseason_rank": "435",
     "current_rank": "554",
     "percent_started": 6
   },
@@ -372,7 +372,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "609",
+    "preseason_rank": "606",
     "current_rank": "2341",
     "percent_started": null
   },
@@ -385,7 +385,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "685",
+    "preseason_rank": "684",
     "current_rank": "2194",
     "percent_started": 2
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "454",
+    "preseason_rank": "452",
     "current_rank": "1943",
     "percent_started": 2
   }
