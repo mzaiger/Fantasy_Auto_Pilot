@@ -36,33 +36,33 @@
     "status": "Healthy",
     "preseason_rank": "63",
     "current_rank": "121",
-    "percent_started": 50
-  },
-  {
-    "player_key": "469.p.9507",
-    "name": "José Ramírez",
-    "team": "Cleveland Guardians",
-    "position": "3B",
-    "selected_position": "3B",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "IL10",
-    "preseason_rank": "101",
-    "current_rank": "211",
-    "percent_started": 26
+    "percent_started": 52
   },
   {
     "player_key": "469.p.10766",
     "name": "Bo Bichette",
     "team": "New York Mets",
     "position": "3B,SS",
-    "selected_position": "SS",
+    "selected_position": "3B",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "109",
     "current_rank": "515",
-    "percent_started": 71
+    "percent_started": 72
+  },
+  {
+    "player_key": "469.p.11817",
+    "name": "Bryson Stott",
+    "team": "Philadelphia Phillies",
+    "position": "2B,SS",
+    "selected_position": "SS",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "326",
+    "current_rank": "230",
+    "percent_started": 32
   },
   {
     "player_key": "469.p.12314",
@@ -91,17 +91,17 @@
     "percent_started": 36
   },
   {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
+    "player_key": "469.p.60256",
+    "name": "Luis Lara",
+    "team": "Milwaukee Brewers",
     "position": "OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": 0,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "370",
-    "current_rank": "931",
-    "percent_started": 9
+    "preseason_rank": "1843",
+    "current_rank": "1184",
+    "percent_started": 3
   },
   {
     "player_key": "469.p.10621",
@@ -127,20 +127,33 @@
     "status": "Healthy",
     "preseason_rank": "174",
     "current_rank": "51",
-    "percent_started": 60
+    "percent_started": 61
   },
   {
-    "player_key": "469.p.11817",
-    "name": "Bryson Stott",
-    "team": "Philadelphia Phillies",
-    "position": "2B,SS",
+    "player_key": "469.p.9507",
+    "name": "José Ramírez",
+    "team": "Cleveland Guardians",
+    "position": "3B",
     "selected_position": "BN",
     "is_editable": true,
-    "is_starting": 1,
+    "is_starting": 0,
+    "status": "IL10",
+    "preseason_rank": "101",
+    "current_rank": "211",
+    "percent_started": 26
+  },
+  {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
     "status": "Healthy",
-    "preseason_rank": "326",
-    "current_rank": "230",
-    "percent_started": 32
+    "preseason_rank": "370",
+    "current_rank": "931",
+    "percent_started": 9
   },
   {
     "player_key": "469.p.60776",
@@ -195,19 +208,6 @@
     "percent_started": 13
   },
   {
-    "player_key": "469.p.60256",
-    "name": "Luis Lara",
-    "team": "Milwaukee Brewers",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "1843",
-    "current_rank": "1184",
-    "percent_started": 3
-  },
-  {
     "player_key": "469.p.12351",
     "name": "Brendan Donovan",
     "team": "Seattle Mariners",
@@ -232,19 +232,6 @@
     "preseason_rank": "2060",
     "current_rank": "1832",
     "percent_started": null
-  },
-  {
-    "player_key": "469.p.12345",
-    "name": "Kyle Bradish",
-    "team": "Baltimore Orioles",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "73",
-    "current_rank": "243",
-    "percent_started": 87
   },
   {
     "player_key": "469.p.12281",
@@ -273,6 +260,19 @@
     "percent_started": 69
   },
   {
+    "player_key": "469.p.10910",
+    "name": "Corbin Burnes",
+    "team": "Arizona Diamondbacks",
+    "position": "SP",
+    "selected_position": "SP",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "IL60",
+    "preseason_rank": "525",
+    "current_rank": "2254",
+    "percent_started": null
+  },
+  {
     "player_key": "469.p.11644",
     "name": "Tyler Rogers",
     "team": "Toronto Blue Jays",
@@ -299,17 +299,17 @@
     "percent_started": 95
   },
   {
-    "player_key": "469.p.11358",
-    "name": "Garrett Whitlock",
-    "team": "Boston Red Sox",
-    "position": "RP",
+    "player_key": "469.p.11479",
+    "name": "Braydon Fisher",
+    "team": "Toronto Blue Jays",
+    "position": "SP,RP",
     "selected_position": "RP",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "401",
-    "current_rank": "119",
-    "percent_started": 22
+    "preseason_rank": "424",
+    "current_rank": "310",
+    "percent_started": 2
   },
   {
     "player_key": "469.p.9334",
@@ -325,19 +325,6 @@
     "percent_started": 89
   },
   {
-    "player_key": "469.p.11479",
-    "name": "Braydon Fisher",
-    "team": "Toronto Blue Jays",
-    "position": "SP,RP",
-    "selected_position": "P",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "424",
-    "current_rank": "310",
-    "percent_started": 2
-  },
-  {
     "player_key": "469.p.11709",
     "name": "Kyle Finnegan",
     "team": "Detroit Tigers",
@@ -351,17 +338,30 @@
     "percent_started": 6
   },
   {
-    "player_key": "469.p.10910",
-    "name": "Corbin Burnes",
-    "team": "Arizona Diamondbacks",
+    "player_key": "469.p.12345",
+    "name": "Kyle Bradish",
+    "team": "Baltimore Orioles",
     "position": "SP",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
-    "status": "IL60",
-    "preseason_rank": "525",
-    "current_rank": "2254",
-    "percent_started": null
+    "status": "Healthy",
+    "preseason_rank": "73",
+    "current_rank": "243",
+    "percent_started": 86
+  },
+  {
+    "player_key": "469.p.11358",
+    "name": "Garrett Whitlock",
+    "team": "Boston Red Sox",
+    "position": "RP",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "401",
+    "current_rank": "119",
+    "percent_started": 22
   },
   {
     "player_key": "469.p.11202",
