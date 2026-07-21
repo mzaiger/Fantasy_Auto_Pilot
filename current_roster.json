@@ -23,20 +23,20 @@
     "status": "Healthy",
     "preseason_rank": "62",
     "current_rank": "103",
-    "percent_started": 75
+    "percent_started": 76
   },
   {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
+    "player_key": "469.p.12100",
+    "name": "Otto Lopez",
+    "team": "Miami Marlins",
+    "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
     "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "209",
-    "current_rank": "91",
-    "percent_started": 55
+    "status": "DTD",
+    "preseason_rank": "63",
+    "current_rank": "121",
+    "percent_started": 38
   },
   {
     "player_key": "469.p.10766",
@@ -49,7 +49,7 @@
     "status": "Healthy",
     "preseason_rank": "109",
     "current_rank": "515",
-    "percent_started": 66
+    "percent_started": 68
   },
   {
     "player_key": "469.p.11817",
@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "326",
     "current_rank": "230",
-    "percent_started": 29
+    "percent_started": 30
   },
   {
     "player_key": "469.p.12314",
@@ -101,7 +101,7 @@
     "status": "Healthy",
     "preseason_rank": "382",
     "current_rank": "584",
-    "percent_started": 44
+    "percent_started": 43
   },
   {
     "player_key": "469.p.10621",
@@ -114,7 +114,7 @@
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "303",
-    "percent_started": 86
+    "percent_started": 84
   },
   {
     "player_key": "469.p.12309",
@@ -130,17 +130,17 @@
     "percent_started": 59
   },
   {
-    "player_key": "469.p.12100",
-    "name": "Otto Lopez",
-    "team": "Miami Marlins",
-    "position": "2B,SS",
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
-    "status": "DTD",
-    "preseason_rank": "63",
-    "current_rank": "121",
-    "percent_started": 40
+    "status": "Healthy",
+    "preseason_rank": "209",
+    "current_rank": "91",
+    "percent_started": 56
   },
   {
     "player_key": "469.p.12435",
@@ -179,7 +179,7 @@
     "status": "Healthy",
     "preseason_rank": "243",
     "current_rank": "904",
-    "percent_started": 9
+    "percent_started": 11
   },
   {
     "player_key": "469.p.9507",
@@ -244,20 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "243",
-    "percent_started": 78
-  },
-  {
-    "player_key": "469.p.9334",
-    "name": "Kevin Gausman",
-    "team": "Toronto Blue Jays",
-    "position": "SP",
-    "selected_position": "SP",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "71",
-    "current_rank": "277",
-    "percent_started": 80
+    "percent_started": 85
   },
   {
     "player_key": "469.p.12281",
@@ -271,6 +258,19 @@
     "preseason_rank": "344",
     "current_rank": "382",
     "percent_started": 11
+  },
+  {
+    "player_key": "469.p.11014",
+    "name": "Freddy Peralta",
+    "team": "New York Mets",
+    "position": "SP",
+    "selected_position": "SP",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "135",
+    "current_rank": "867",
+    "percent_started": 69
   },
   {
     "player_key": "469.p.11644",
@@ -312,17 +312,17 @@
     "percent_started": 22
   },
   {
-    "player_key": "469.p.11014",
-    "name": "Freddy Peralta",
-    "team": "New York Mets",
+    "player_key": "469.p.9334",
+    "name": "Kevin Gausman",
+    "team": "Toronto Blue Jays",
     "position": "SP",
     "selected_position": "P",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "135",
-    "current_rank": "867",
-    "percent_started": 73
+    "preseason_rank": "71",
+    "current_rank": "277",
+    "percent_started": 87
   },
   {
     "player_key": "469.p.11479",

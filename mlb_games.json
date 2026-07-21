@@ -51,30 +51,6 @@
       "game_number": 1
     },
     {
-      "game_pk": 823519,
-      "game_date": "2026-07-21",
-      "start_time_utc": "2026-07-21T23:05:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 134,
-        "name": "Pittsburgh Pirates",
-        "abbreviation": "PIT"
-      },
-      "home_team": {
-        "id": 147,
-        "name": "New York Yankees",
-        "abbreviation": "NYY"
-      },
-      "venue": "Yankee Stadium",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
       "game_pk": 822787,
       "game_date": "2026-07-21",
       "start_time_utc": "2026-07-21T23:07:00Z",
@@ -358,6 +334,30 @@
         "abbreviation": "SEA"
       },
       "venue": "T-Mobile Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823519,
+      "game_date": "2026-07-21",
+      "start_time_utc": "2026-07-21T23:05:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DR",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 134,
+        "name": "Pittsburgh Pirates",
+        "abbreviation": "PIT"
+      },
+      "home_team": {
+        "id": 147,
+        "name": "New York Yankees",
+        "abbreviation": "NYY"
+      },
+      "venue": "Yankee Stadium",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
