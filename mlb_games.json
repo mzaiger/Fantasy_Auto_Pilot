@@ -199,8 +199,8 @@
       "game_date": "2026-07-22",
       "start_time_utc": "2026-07-22T00:10:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Umpire review",
-      "status_code": "NH",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
