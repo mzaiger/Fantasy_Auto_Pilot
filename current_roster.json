@@ -6,11 +6,11 @@
     "position": "C",
     "selected_position": "C",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "51",
     "current_rank": "124",
-    "percent_started": 91
+    "percent_started": 90
   },
   {
     "player_key": "469.p.12005",
@@ -26,17 +26,17 @@
     "percent_started": 77
   },
   {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
+    "player_key": "469.p.12100",
+    "name": "Otto Lopez",
+    "team": "Miami Marlins",
+    "position": "2B,SS",
     "selected_position": "2B",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "209",
-    "current_rank": "94",
-    "percent_started": 58
+    "preseason_rank": "63",
+    "current_rank": "122",
+    "percent_started": 63
   },
   {
     "player_key": "469.p.10766",
@@ -45,7 +45,7 @@
     "position": "3B,SS",
     "selected_position": "3B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "109",
     "current_rank": "517",
@@ -62,7 +62,7 @@
     "status": "Healthy",
     "preseason_rank": "326",
     "current_rank": "231",
-    "percent_started": 30
+    "percent_started": 29
   },
   {
     "player_key": "469.p.12314",
@@ -88,20 +88,20 @@
     "status": "Healthy",
     "preseason_rank": "258",
     "current_rank": "308",
-    "percent_started": 36
+    "percent_started": 35
   },
   {
-    "player_key": "469.p.60256",
-    "name": "Luis Lara",
-    "team": "Milwaukee Brewers",
-    "position": "OF",
+    "player_key": "469.p.60776",
+    "name": "José Caballero",
+    "team": "New York Yankees",
+    "position": "2B,3B,SS,OF",
     "selected_position": "OF",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "1858",
-    "current_rank": "1192",
-    "percent_started": 2
+    "preseason_rank": "382",
+    "current_rank": "591",
+    "percent_started": 44
   },
   {
     "player_key": "469.p.10621",
@@ -114,7 +114,7 @@
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "326",
-    "percent_started": 84
+    "percent_started": 82
   },
   {
     "player_key": "469.p.12309",
@@ -127,20 +127,33 @@
     "status": "Healthy",
     "preseason_rank": "174",
     "current_rank": "54",
-    "percent_started": 61
+    "percent_started": 60
   },
   {
-    "player_key": "469.p.12100",
-    "name": "Otto Lopez",
-    "team": "Miami Marlins",
-    "position": "2B,SS",
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "63",
-    "current_rank": "122",
-    "percent_started": 59
+    "preseason_rank": "209",
+    "current_rank": "94",
+    "percent_started": 57
+  },
+  {
+    "player_key": "469.p.60256",
+    "name": "Luis Lara",
+    "team": "Milwaukee Brewers",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "1858",
+    "current_rank": "1192",
+    "percent_started": 2
   },
   {
     "player_key": "469.p.9507",
@@ -167,19 +180,6 @@
     "preseason_rank": "370",
     "current_rank": "931",
     "percent_started": 9
-  },
-  {
-    "player_key": "469.p.60776",
-    "name": "José Caballero",
-    "team": "New York Yankees",
-    "position": "2B,3B,SS,OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "382",
-    "current_rank": "591",
-    "percent_started": 39
   },
   {
     "player_key": "469.p.12435",
@@ -227,7 +227,7 @@
     "position": "2B,3B,SS",
     "selected_position": "NA",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 0,
     "status": "NA",
     "preseason_rank": "2060",
     "current_rank": "1835",
@@ -257,20 +257,20 @@
     "status": "Healthy",
     "preseason_rank": "135",
     "current_rank": "872",
-    "percent_started": 62
+    "percent_started": 60
   },
   {
-    "player_key": "469.p.10910",
-    "name": "Corbin Burnes",
-    "team": "Arizona Diamondbacks",
+    "player_key": "469.p.9334",
+    "name": "Kevin Gausman",
+    "team": "Toronto Blue Jays",
     "position": "SP",
     "selected_position": "SP",
     "is_editable": true,
     "is_starting": null,
-    "status": "IL60",
-    "preseason_rank": "527",
-    "current_rank": "2256",
-    "percent_started": null
+    "status": "Healthy",
+    "preseason_rank": "71",
+    "current_rank": "450",
+    "percent_started": 76
   },
   {
     "player_key": "469.p.11644",
@@ -299,30 +299,30 @@
     "percent_started": 95
   },
   {
+    "player_key": "469.p.11358",
+    "name": "Garrett Whitlock",
+    "team": "Boston Red Sox",
+    "position": "RP",
+    "selected_position": "RP",
+    "is_editable": true,
+    "is_starting": null,
+    "status": "Healthy",
+    "preseason_rank": "401",
+    "current_rank": "121",
+    "percent_started": 23
+  },
+  {
     "player_key": "469.p.11479",
     "name": "Braydon Fisher",
     "team": "Toronto Blue Jays",
     "position": "SP,RP",
-    "selected_position": "RP",
+    "selected_position": "P",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "423",
     "current_rank": "312",
     "percent_started": 2
-  },
-  {
-    "player_key": "469.p.9334",
-    "name": "Kevin Gausman",
-    "team": "Toronto Blue Jays",
-    "position": "SP",
-    "selected_position": "P",
-    "is_editable": true,
-    "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "71",
-    "current_rank": "450",
-    "percent_started": 80
   },
   {
     "player_key": "469.p.11709",
@@ -342,26 +342,26 @@
     "name": "Kyle Bradish",
     "team": "Baltimore Orioles",
     "position": "SP",
-    "selected_position": "BN",
+    "selected_position": "P",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "73",
     "current_rank": "245",
-    "percent_started": 84
+    "percent_started": 86
   },
   {
-    "player_key": "469.p.11358",
-    "name": "Garrett Whitlock",
-    "team": "Boston Red Sox",
-    "position": "RP",
+    "player_key": "469.p.10910",
+    "name": "Corbin Burnes",
+    "team": "Arizona Diamondbacks",
+    "position": "SP",
     "selected_position": "BN",
     "is_editable": true,
     "is_starting": null,
-    "status": "Healthy",
-    "preseason_rank": "401",
-    "current_rank": "121",
-    "percent_started": 23
+    "status": "IL60",
+    "preseason_rank": "527",
+    "current_rank": "2256",
+    "percent_started": null
   },
   {
     "player_key": "469.p.11202",
