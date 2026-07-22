@@ -78,19 +78,6 @@
     "percent_started": 29
   },
   {
-    "player_key": "469.p.62119",
-    "name": "Jakob Marsee",
-    "team": "Miami Marlins",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "258",
-    "current_rank": "308",
-    "percent_started": 35
-  },
-  {
     "player_key": "469.p.60776",
     "name": "José Caballero",
     "team": "New York Yankees",
@@ -117,11 +104,37 @@
     "percent_started": 81
   },
   {
+    "player_key": "469.p.9507",
+    "name": "José Ramírez",
+    "team": "Cleveland Guardians",
+    "position": "3B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "101",
+    "current_rank": "209",
+    "percent_started": 40
+  },
+  {
+    "player_key": "469.p.62119",
+    "name": "Jakob Marsee",
+    "team": "Miami Marlins",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "258",
+    "current_rank": "308",
+    "percent_started": 35
+  },
+  {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
     "position": "1B",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
@@ -154,19 +167,6 @@
     "preseason_rank": "1858",
     "current_rank": "1192",
     "percent_started": 1
-  },
-  {
-    "player_key": "469.p.9507",
-    "name": "José Ramírez",
-    "team": "Cleveland Guardians",
-    "position": "3B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "101",
-    "current_rank": "209",
-    "percent_started": 40
   },
   {
     "player_key": "469.p.62971",
