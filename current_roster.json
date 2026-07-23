@@ -265,7 +265,7 @@
     "team": "Arizona Diamondbacks",
     "position": "SP",
     "selected_position": "SP",
-    "is_editable": true,
+    "is_editable": false,
     "is_starting": null,
     "status": "IL60",
     "preseason_rank": "525",
