@@ -1,38 +1,14 @@
 {
-  "dump_date": "2026-07-24",
+  "dump_date": "2026-07-25",
   "game_count": 15,
   "mlb_games": [
     {
-      "game_pk": 823759,
-      "game_date": "2026-07-24",
-      "start_time_utc": "2026-07-24T20:10:00Z",
-      "status_abstract": "Final",
-      "status_detailed": "Final",
-      "status_code": "F",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 115,
-        "name": "Colorado Rockies",
-        "abbreviation": "COL"
-      },
-      "home_team": {
-        "id": 158,
-        "name": "Milwaukee Brewers",
-        "abbreviation": "MIL"
-      },
-      "venue": "American Family Field",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
-      "game_pk": 824248,
-      "game_date": "2026-07-24",
-      "start_time_utc": "2026-07-24T22:40:00Z",
-      "status_abstract": "Final",
-      "status_detailed": "Final",
-      "status_code": "F",
+      "game_pk": 824244,
+      "game_date": "2026-07-25",
+      "start_time_utc": "2026-07-25T17:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -51,36 +27,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 823352,
-      "game_date": "2026-07-24",
-      "start_time_utc": "2026-07-24T22:40:00Z",
-      "status_abstract": "Final",
-      "status_detailed": "Final",
-      "status_code": "F",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 112,
-        "name": "Chicago Cubs",
-        "abbreviation": "CHC"
-      },
-      "home_team": {
-        "id": 134,
-        "name": "Pittsburgh Pirates",
-        "abbreviation": "PIT"
-      },
-      "venue": "PNC Park",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
-      "game_pk": 822707,
-      "game_date": "2026-07-24",
-      "start_time_utc": "2026-07-24T22:45:00Z",
-      "status_abstract": "Final",
-      "status_detailed": "Final",
-      "status_code": "F",
+      "game_pk": 822704,
+      "game_date": "2026-07-25",
+      "start_time_utc": "2026-07-25T20:05:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -99,132 +51,36 @@
       "game_number": 1
     },
     {
-      "game_pk": 823434,
-      "game_date": "2026-07-24",
-      "start_time_utc": "2026-07-24T22:45:00Z",
-      "status_abstract": "Final",
-      "status_detailed": "Final",
-      "status_code": "F",
+      "game_pk": 823197,
+      "game_date": "2026-07-25",
+      "start_time_utc": "2026-07-25T20:05:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
-        "id": 147,
-        "name": "New York Yankees",
-        "abbreviation": "NYY"
+        "id": 108,
+        "name": "Los Angeles Angels",
+        "abbreviation": "LAA"
       },
       "home_team": {
-        "id": 143,
-        "name": "Philadelphia Phillies",
-        "abbreviation": "PHI"
+        "id": 137,
+        "name": "San Francisco Giants",
+        "abbreviation": "SF"
       },
-      "venue": "Citizens Bank Park",
+      "venue": "Oracle Park",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
     },
     {
-      "game_pk": 824812,
-      "game_date": "2026-07-24",
-      "start_time_utc": "2026-07-24T23:05:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 144,
-        "name": "Atlanta Braves",
-        "abbreviation": "ATL"
-      },
-      "home_team": {
-        "id": 110,
-        "name": "Baltimore Orioles",
-        "abbreviation": "BAL"
-      },
-      "venue": "Oriole Park at Camden Yards",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
-      "game_pk": 823601,
-      "game_date": "2026-07-24",
-      "start_time_utc": "2026-07-24T23:10:00Z",
-      "status_abstract": "Final",
-      "status_detailed": "Final",
-      "status_code": "F",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 119,
-        "name": "Los Angeles Dodgers",
-        "abbreviation": "LAD"
-      },
-      "home_team": {
-        "id": 121,
-        "name": "New York Mets",
-        "abbreviation": "NYM"
-      },
-      "venue": "Citi Field",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
-      "game_pk": 822952,
-      "game_date": "2026-07-24",
-      "start_time_utc": "2026-07-24T23:10:00Z",
-      "status_abstract": "Final",
-      "status_detailed": "Final",
-      "status_code": "F",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 114,
-        "name": "Cleveland Guardians",
-        "abbreviation": "CLE"
-      },
-      "home_team": {
-        "id": 139,
-        "name": "Tampa Bay Rays",
-        "abbreviation": "TB"
-      },
-      "venue": "Tropicana Field",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
-      "game_pk": 823843,
-      "game_date": "2026-07-24",
-      "start_time_utc": "2026-07-24T23:10:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 135,
-        "name": "San Diego Padres",
-        "abbreviation": "SD"
-      },
-      "home_team": {
-        "id": 146,
-        "name": "Miami Marlins",
-        "abbreviation": "MIA"
-      },
-      "venue": "loanDepot park",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
-      "game_pk": 824733,
-      "game_date": "2026-07-24",
-      "start_time_utc": "2026-07-24T23:15:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "game_pk": 824734,
+      "game_date": "2026-07-25",
+      "start_time_utc": "2026-07-25T20:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -243,60 +99,132 @@
       "game_number": 1
     },
     {
-      "game_pk": 824573,
-      "game_date": "2026-07-24",
-      "start_time_utc": "2026-07-24T23:40:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "game_pk": 823841,
+      "game_date": "2026-07-25",
+      "start_time_utc": "2026-07-25T20:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
-        "id": 117,
-        "name": "Houston Astros",
-        "abbreviation": "HOU"
+        "id": 135,
+        "name": "San Diego Padres",
+        "abbreviation": "SD"
       },
       "home_team": {
-        "id": 145,
-        "name": "Chicago White Sox",
-        "abbreviation": "CWS"
+        "id": 146,
+        "name": "Miami Marlins",
+        "abbreviation": "MIA"
       },
-      "venue": "Rate Field",
+      "venue": "loanDepot park",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
     },
     {
-      "game_pk": 822872,
+      "game_pk": 823435,
       "game_date": "2026-07-25",
-      "start_time_utc": "2026-07-25T00:05:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "start_time_utc": "2026-07-25T22:05:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
-        "id": 136,
-        "name": "Seattle Mariners",
-        "abbreviation": "SEA"
+        "id": 147,
+        "name": "New York Yankees",
+        "abbreviation": "NYY"
       },
       "home_team": {
-        "id": 140,
-        "name": "Texas Rangers",
-        "abbreviation": "TEX"
+        "id": 143,
+        "name": "Philadelphia Phillies",
+        "abbreviation": "PHI"
       },
-      "venue": "Globe Life Field",
+      "venue": "Citizens Bank Park",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
     },
     {
-      "game_pk": 823680,
+      "game_pk": 822948,
       "game_date": "2026-07-25",
-      "start_time_utc": "2026-07-25T00:10:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "start_time_utc": "2026-07-25T22:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 114,
+        "name": "Cleveland Guardians",
+        "abbreviation": "CLE"
+      },
+      "home_team": {
+        "id": 139,
+        "name": "Tampa Bay Rays",
+        "abbreviation": "TB"
+      },
+      "venue": "Tropicana Field",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823355,
+      "game_date": "2026-07-25",
+      "start_time_utc": "2026-07-25T22:40:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 112,
+        "name": "Chicago Cubs",
+        "abbreviation": "CHC"
+      },
+      "home_team": {
+        "id": 134,
+        "name": "Pittsburgh Pirates",
+        "abbreviation": "PIT"
+      },
+      "venue": "PNC Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 824811,
+      "game_date": "2026-07-25",
+      "start_time_utc": "2026-07-25T23:05:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 144,
+        "name": "Atlanta Braves",
+        "abbreviation": "ATL"
+      },
+      "home_team": {
+        "id": 110,
+        "name": "Baltimore Orioles",
+        "abbreviation": "BAL"
+      },
+      "venue": "Oriole Park at Camden Yards",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823679,
+      "game_date": "2026-07-25",
+      "start_time_utc": "2026-07-25T23:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -315,12 +243,84 @@
       "game_number": 1
     },
     {
-      "game_pk": 823031,
+      "game_pk": 824571,
       "game_date": "2026-07-25",
-      "start_time_utc": "2026-07-25T00:15:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "start_time_utc": "2026-07-25T23:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "abbreviation": "HOU"
+      },
+      "home_team": {
+        "id": 145,
+        "name": "Chicago White Sox",
+        "abbreviation": "CWS"
+      },
+      "venue": "Rate Field",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823758,
+      "game_date": "2026-07-25",
+      "start_time_utc": "2026-07-25T23:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 115,
+        "name": "Colorado Rockies",
+        "abbreviation": "COL"
+      },
+      "home_team": {
+        "id": 158,
+        "name": "Milwaukee Brewers",
+        "abbreviation": "MIL"
+      },
+      "venue": "American Family Field",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823600,
+      "game_date": "2026-07-25",
+      "start_time_utc": "2026-07-25T23:15:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 119,
+        "name": "Los Angeles Dodgers",
+        "abbreviation": "LAD"
+      },
+      "home_team": {
+        "id": 121,
+        "name": "New York Mets",
+        "abbreviation": "NYM"
+      },
+      "venue": "Citi Field",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823027,
+      "game_date": "2026-07-25",
+      "start_time_utc": "2026-07-25T23:15:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -339,25 +339,25 @@
       "game_number": 1
     },
     {
-      "game_pk": 823196,
+      "game_pk": 822869,
       "game_date": "2026-07-25",
-      "start_time_utc": "2026-07-25T02:15:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "start_time_utc": "2026-07-25T23:15:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
-        "id": 108,
-        "name": "Los Angeles Angels",
-        "abbreviation": "LAA"
+        "id": 136,
+        "name": "Seattle Mariners",
+        "abbreviation": "SEA"
       },
       "home_team": {
-        "id": 137,
-        "name": "San Francisco Giants",
-        "abbreviation": "SF"
+        "id": 140,
+        "name": "Texas Rangers",
+        "abbreviation": "TEX"
       },
-      "venue": "Oracle Park",
+      "venue": "Globe Life Field",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
