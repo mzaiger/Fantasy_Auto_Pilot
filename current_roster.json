@@ -49,7 +49,7 @@
     "status": "Healthy",
     "preseason_rank": "101",
     "current_rank": "235",
-    "percent_started": 75
+    "percent_started": 76
   },
   {
     "player_key": "469.p.10766",
@@ -75,7 +75,7 @@
     "status": "Healthy",
     "preseason_rank": "382",
     "current_rank": "678",
-    "percent_started": 39
+    "percent_started": 40
   },
   {
     "player_key": "469.p.62119",
@@ -190,7 +190,7 @@
     "is_editable": true,
     "is_starting": 1,
     "status": "Healthy",
-    "preseason_rank": "1859",
+    "preseason_rank": "1871",
     "current_rank": "1208",
     "percent_started": 1
   },
@@ -216,7 +216,7 @@
     "is_editable": true,
     "is_starting": 0,
     "status": "IL10",
-    "preseason_rank": "1532",
+    "preseason_rank": "1534",
     "current_rank": "1111",
     "percent_started": 5
   },
@@ -229,7 +229,7 @@
     "is_editable": true,
     "is_starting": 0,
     "status": "NA",
-    "preseason_rank": "2061",
+    "preseason_rank": "2062",
     "current_rank": "1840",
     "percent_started": null
   },
@@ -320,7 +320,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "429",
+    "preseason_rank": "437",
     "current_rank": "385",
     "percent_started": 2
   },
@@ -333,7 +333,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "Healthy",
-    "preseason_rank": "428",
+    "preseason_rank": "427",
     "current_rank": "489",
     "percent_started": 6
   },
@@ -359,7 +359,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "527",
+    "preseason_rank": "524",
     "current_rank": "2260",
     "percent_started": null
   },
@@ -372,7 +372,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "607",
+    "preseason_rank": "604",
     "current_rank": "2345",
     "percent_started": null
   },
@@ -385,7 +385,7 @@
     "is_editable": false,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "686",
+    "preseason_rank": "682",
     "current_rank": "2201",
     "percent_started": 2
   },
@@ -398,7 +398,7 @@
     "is_editable": true,
     "is_starting": null,
     "status": "IL60",
-    "preseason_rank": "454",
+    "preseason_rank": "452",
     "current_rank": "1950",
     "percent_started": 2
   }
