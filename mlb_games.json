@@ -79,8 +79,8 @@
       "game_date": "2026-07-24",
       "start_time_utc": "2026-07-24T22:45:00Z",
       "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "status_detailed": "Player challenge",
+      "status_code": "MJ",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -271,8 +271,8 @@
       "game_date": "2026-07-25",
       "start_time_utc": "2026-07-25T00:05:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
