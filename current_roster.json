@@ -19,7 +19,7 @@
     "position": "1B,OF",
     "selected_position": "1B",
     "is_editable": true,
-    "is_starting": null,
+    "is_starting": 1,
     "status": "Healthy",
     "preseason_rank": "62",
     "current_rank": "108",
@@ -49,7 +49,7 @@
     "status": "Healthy",
     "preseason_rank": "101",
     "current_rank": "237",
-    "percent_started": 77
+    "percent_started": 78
   },
   {
     "player_key": "469.p.10766",
@@ -78,19 +78,6 @@
     "percent_started": 39
   },
   {
-    "player_key": "469.p.62119",
-    "name": "Jakob Marsee",
-    "team": "Miami Marlins",
-    "position": "OF",
-    "selected_position": "OF",
-    "is_editable": true,
-    "is_starting": 0,
-    "status": "Healthy",
-    "preseason_rank": "258",
-    "current_rank": "327",
-    "percent_started": 32
-  },
-  {
     "player_key": "469.p.12314",
     "name": "Steven Kwan",
     "team": "Cleveland Guardians",
@@ -104,6 +91,19 @@
     "percent_started": 34
   },
   {
+    "player_key": "469.p.62971",
+    "name": "Dylan Crews",
+    "team": "Washington Nationals",
+    "position": "OF",
+    "selected_position": "OF",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "370",
+    "current_rank": "891",
+    "percent_started": 10
+  },
+  {
     "player_key": "469.p.10621",
     "name": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
@@ -114,20 +114,46 @@
     "status": "Healthy",
     "preseason_rank": "56",
     "current_rank": "290",
-    "percent_started": 89
+    "percent_started": 90
+  },
+  {
+    "player_key": "469.p.10964",
+    "name": "Luis García Jr.",
+    "team": "Washington Nationals",
+    "position": "1B,2B",
+    "selected_position": "Util",
+    "is_editable": true,
+    "is_starting": 1,
+    "status": "Healthy",
+    "preseason_rank": "209",
+    "current_rank": "94",
+    "percent_started": 46
+  },
+  {
+    "player_key": "469.p.62119",
+    "name": "Jakob Marsee",
+    "team": "Miami Marlins",
+    "position": "OF",
+    "selected_position": "BN",
+    "is_editable": true,
+    "is_starting": 0,
+    "status": "Healthy",
+    "preseason_rank": "258",
+    "current_rank": "327",
+    "percent_started": 32
   },
   {
     "player_key": "469.p.12309",
     "name": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
     "position": "1B",
-    "selected_position": "Util",
+    "selected_position": "BN",
     "is_editable": true,
     "is_starting": 0,
     "status": "Healthy",
     "preseason_rank": "174",
     "current_rank": "62",
-    "percent_started": 44
+    "percent_started": 43
   },
   {
     "player_key": "469.p.11817",
@@ -143,19 +169,6 @@
     "percent_started": 29
   },
   {
-    "player_key": "469.p.62971",
-    "name": "Dylan Crews",
-    "team": "Washington Nationals",
-    "position": "OF",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "370",
-    "current_rank": "891",
-    "percent_started": 10
-  },
-  {
     "player_key": "469.p.10236",
     "name": "Gleyber Torres",
     "team": "Detroit Tigers",
@@ -167,19 +180,6 @@
     "preseason_rank": "243",
     "current_rank": "924",
     "percent_started": 16
-  },
-  {
-    "player_key": "469.p.10964",
-    "name": "Luis García Jr.",
-    "team": "Washington Nationals",
-    "position": "1B,2B",
-    "selected_position": "BN",
-    "is_editable": true,
-    "is_starting": 1,
-    "status": "Healthy",
-    "preseason_rank": "209",
-    "current_rank": "94",
-    "percent_started": 46
   },
   {
     "player_key": "469.p.60256",
@@ -244,7 +244,7 @@
     "status": "Healthy",
     "preseason_rank": "135",
     "current_rank": "874",
-    "percent_started": 71
+    "percent_started": 72
   },
   {
     "player_key": "469.p.12345",
