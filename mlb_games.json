@@ -171,30 +171,6 @@
       "game_number": 2
     },
     {
-      "game_pk": 823598,
-      "game_date": "2026-07-28",
-      "start_time_utc": "2026-07-28T23:10:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 144,
-        "name": "Atlanta Braves",
-        "abbreviation": "ATL"
-      },
-      "home_team": {
-        "id": 121,
-        "name": "New York Mets",
-        "abbreviation": "NYM"
-      },
-      "venue": "Citi Field",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
       "game_pk": 823676,
       "game_date": "2026-07-28",
       "start_time_utc": "2026-07-28T23:40:00Z",
@@ -382,6 +358,30 @@
         "abbreviation": "LAD"
       },
       "venue": "UNIQLO Field at Dodger Stadium",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823598,
+      "game_date": "2026-07-28",
+      "start_time_utc": "2026-07-28T23:10:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DI",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 144,
+        "name": "Atlanta Braves",
+        "abbreviation": "ATL"
+      },
+      "home_team": {
+        "id": 121,
+        "name": "New York Mets",
+        "abbreviation": "NYM"
+      },
+      "venue": "Citi Field",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
