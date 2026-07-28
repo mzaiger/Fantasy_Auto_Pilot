@@ -123,30 +123,6 @@
       "game_number": 1
     },
     {
-      "game_pk": 824490,
-      "game_date": "2026-07-27",
-      "start_time_utc": "2026-07-27T23:10:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Delayed Start",
-      "status_code": "PO",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 114,
-        "name": "Cleveland Guardians",
-        "abbreviation": "CLE"
-      },
-      "home_team": {
-        "id": 113,
-        "name": "Cincinnati Reds",
-        "abbreviation": "CIN"
-      },
-      "venue": "Great American Ball Park",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
       "game_pk": 823597,
       "game_date": "2026-07-27",
       "start_time_utc": "2026-07-27T23:10:00Z",
@@ -174,9 +150,9 @@
       "game_pk": 824570,
       "game_date": "2026-07-27",
       "start_time_utc": "2026-07-27T23:40:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Delayed Start",
-      "status_code": "PG",
+      "status_abstract": "Live",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -198,9 +174,9 @@
       "game_pk": 823025,
       "game_date": "2026-07-27",
       "start_time_utc": "2026-07-27T23:45:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Delayed Start",
-      "status_code": "PI",
+      "status_abstract": "Live",
+      "status_detailed": "Warmup",
+      "status_code": "PW",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -286,6 +262,30 @@
         "abbreviation": "SF"
       },
       "venue": "Oracle Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 824490,
+      "game_date": "2026-07-27",
+      "start_time_utc": "2026-07-27T23:10:00Z",
+      "status_abstract": "Final",
+      "status_detailed": "Postponed",
+      "status_code": "DR",
+      "postponed": true,
+      "postpone_reason": "Postponed",
+      "away_team": {
+        "id": 114,
+        "name": "Cleveland Guardians",
+        "abbreviation": "CLE"
+      },
+      "home_team": {
+        "id": 113,
+        "name": "Cincinnati Reds",
+        "abbreviation": "CIN"
+      },
+      "venue": "Great American Ball Park",
       "series_desc": "Regular Season",
       "doubleheader": "N",
       "game_number": 1
