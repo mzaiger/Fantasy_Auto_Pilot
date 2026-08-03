@@ -30,12 +30,13 @@ jobs:
           YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
           YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
           YAHOO_TOKEN: ${{ secrets.YAHOO_TOKEN }}
-          MAKE_API_KEY: ${{ secrets.MAKE_API_KEY }}
         run: |
           CURRENT_DATE=$(TZ="America/Chicago" date +%Y-%m-%d)
           python Fantasy_Auto_Pilot_Main.py --league 469.l.23321 --team "Zegster" --date "$CURRENT_DATE"
 
       - name: 2. Send to Make.com
+        env:
+          MAKE_API_KEY: ${{ secrets.MAKE_API_KEY }}
         run: python Fantasy_Auto_Pilot_Schedule_Make.py
 
       - name: 3. Commit and Push JSON
