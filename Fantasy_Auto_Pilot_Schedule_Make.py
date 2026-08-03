@@ -7,7 +7,7 @@ def send_to_make():
     # PASTE YOUR URL FROM MAKE HERE
     MAKE_WEBHOOK_URL = "https://hook.us2.make.com/88c77386m8dg9jacqjjx5k1tswcb8o3p"
     # IF YOU ADDED AN API KEY, PUT IT HERE
-    API_KEY = "Zaiger2026"
+    API_KEY = os.getenv("MAKE_API_KEY")
     if not os.path.exists(json_file):
         print(f"Error: {json_file} not found.")
         return
