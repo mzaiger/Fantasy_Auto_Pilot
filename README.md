@@ -35,6 +35,25 @@ to a Make.com webhook for external automation triggers.
 timed around MLB game start windows, then commits and pushes any roster
 changes back to the repo.
 
+## GitHub secrets required
+
+The workflow (`.github/workflows/fantasy_autopilot_schedule.yml`) needs
+these added under repo → Settings → Secrets and variables → Actions:
+
+| Secret | Used for |
+|---|---|
+| `YAHOO_CLIENT_ID` | Yahoo Fantasy API OAuth2 |
+| `YAHOO_CLIENT_SECRET` | Yahoo Fantasy API OAuth2 |
+| `YAHOO_TOKEN` | Cached Yahoo OAuth token (JSON), so the workflow doesn't need an interactive login each run |
+| `MAKE_API_KEY` | Sent as the `x-make-apikey` header when forwarding `mlb_games.json` to the Make.com webhook (`Fantasy_Auto_Pilot_Schedule_Make.py`) — only needed if you use that step |
+
+**Important:** all four secrets need to be declared at the **job level**
+`env:` (or repeated on every step that needs them) — a secret declared
+only under one step's `env:` block isn't visible to later steps in the
+same job. This bit us once already: `MAKE_API_KEY` was only wired into
+step 1's `env:`, so step 2 (`Fantasy_Auto_Pilot_Schedule_Make.py`) saw an
+empty key and Make.com rejected the request as unauthorized.
+
 ## Setup
 
 Requires Yahoo Fantasy API OAuth2 credentials as environment variables /
