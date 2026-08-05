@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install yahoofantasy lxml requests-oauthlib
+          pip install yahoofantasy lxml requests-oauthlib selenium webdriver-manager
 
       - name: Run Fantasy Auto Pilot
         env:
@@ -31,6 +31,11 @@ jobs:
         run: |
           CURRENT_DATE=$(TZ="America/Chicago" date +%Y-%m-%d)
           python Fantasy_Auto_Pilot_Main.py --league 469.l.23321 --team "Zegster" --date "$CURRENT_DATE"
+
+      - name: Set Active Players
+        env:
+          YAHOO_COOKIES_B64: ${{ secrets.YAHOO_COOKIES_B64 }}
+        run: python manualTriggerSetLineup.py "https://baseball.fantasysports.yahoo.com/b1/23321/12"
 
       - name: Commit and Push changes
         run: |
