@@ -1,18 +1,19 @@
 """
-Logs into Yahoo and clicks the "Set Active Players" button on a Yahoo
-Fantasy roster page.
+Yahoo Fantasy roster automation for use in GitHub Actions.
 
-Setup:
-    pip install selenium webdriver-manager
+Instead of logging in interactively (impossible in a headless CI
+runner with 2FA), this loads a previously-exported, authenticated
+session via cookies stored in the YAHOO_COOKIES_B64 secret.
 
-Before running, set these environment variables (do NOT hardcode creds):
-    export YAHOO_EMAIL="your_email_or_username"
-    export YAHOO_PASSWORD="your_password"
+Env vars required:
+    YAHOO_COOKIES_B64  - base64-encoded JSON cookie export (see export_yahoo_cookies.py)
 
 Usage:
-    python set_active_players.py "https://football.fantasysports.yahoo.com/f1/XXXXX/YYYYY"
+    python set_active_players_ci.py "https://baseball.fantasysports.yahoo.com/b1/XXXXX/YYYYY"
 """
 
+import base64
+import json
 import os
 import sys
 import time
@@ -26,52 +27,46 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-YAHOO_EMAIL = os.environ.get("YAHOO_EMAIL")
-YAHOO_PASSWORD = os.environ.get("YAHOO_PASSWORD")
-
-if not YAHOO_EMAIL or not YAHOO_PASSWORD:
-    sys.exit("Set YAHOO_EMAIL and YAHOO_PASSWORD environment variables first.")
+COOKIES_B64 = os.environ.get("YAHOO_COOKIES_B64")
+if not COOKIES_B64:
+    sys.exit("Set YAHOO_COOKIES_B64 environment variable (base64-encoded cookie export).")
 
 
-def build_driver(headless: bool = False) -> webdriver.Chrome:
+def build_driver() -> webdriver.Chrome:
     options = webdriver.ChromeOptions()
-    if headless:
-        options.add_argument("--headless=new")
+    options.add_argument("--headless=new")
     options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_argument("--start-maximized")
+    options.add_argument("--window-size=1920,1080")
     service = Service(ChromeDriverManager().install())
     return webdriver.Chrome(service=service, options=options)
 
 
-def login_to_yahoo(driver: webdriver.Chrome, wait: WebDriverWait) -> None:
-    driver.get("https://login.yahoo.com")
+def load_cookies(driver: webdriver.Chrome) -> None:
+    cookies = json.loads(base64.b64decode(COOKIES_B64))
 
-    # Username step
-    email_field = wait.until(EC.presence_of_element_located((By.ID, "login-username")))
-    email_field.send_keys(YAHOO_EMAIL)
-    driver.find_element(By.ID, "login-signin").click()
+    # Must be on the target domain before cookies can be added
+    driver.get("https://baseball.fantasysports.yahoo.com")
 
-    # Password step
-    password_field = wait.until(EC.presence_of_element_located((By.ID, "login-passwd")))
-    password_field.send_keys(YAHOO_PASSWORD)
-    driver.find_element(By.ID, "login-signin").click()
+    for cookie in cookies:
+        # Selenium chokes on some fields (e.g. sameSite values, expiry as float)
+        cookie.pop("sameSite", None)
+        if "expiry" in cookie:
+            cookie["expiry"] = int(cookie["expiry"])
+        try:
+            driver.add_cookie(cookie)
+        except Exception as e:
+            print(f"Skipped cookie {cookie.get('name')}: {e}")
 
-    # Give Yahoo a moment in case of a 2FA / "verify it's you" challenge.
-    # If that screen appears, pause here and complete it manually.
-    time.sleep(3)
-    if "challenge" in driver.current_url or "verify" in driver.current_url:
-        input("Complete the Yahoo verification step in the browser, then press Enter here...")
+    driver.refresh()
 
 
 def click_set_active_players(driver: webdriver.Chrome, wait: WebDriverWait) -> None:
-    # Try a few strategies since Yahoo's markup/class names shift over time.
     strategies = [
         (By.XPATH, "//button[contains(., 'Set Active Players')]"),
         (By.XPATH, "//a[contains(., 'Set Active Players')]"),
         (By.XPATH, "//*[contains(text(), 'Set Active Players')]"),
         (By.CSS_SELECTOR, "input[value*='Set Active']"),
     ]
-
     for by, selector in strategies:
         try:
             button = wait.until(EC.element_to_be_clickable((by, selector)))
@@ -80,27 +75,27 @@ def click_set_active_players(driver: webdriver.Chrome, wait: WebDriverWait) -> N
             return
         except TimeoutException:
             continue
-
-    raise NoSuchElementException(
-        "Could not find 'Set Active Players' button with any known strategy. "
-        "Inspect the page and add the correct selector."
-    )
+    raise NoSuchElementException("Could not find 'Set Active Players' button.")
 
 
 def main() -> None:
     if len(sys.argv) < 2:
-        sys.exit("Usage: python set_active_players.py <roster_page_url>")
+        sys.exit("Usage: python set_active_players_ci.py <roster_page_url> (e.g. your baseball.fantasysports.yahoo.com roster URL)")
 
     roster_url = sys.argv[1]
-
-    driver = build_driver(headless=False)  # keep headless=False until selectors are confirmed
+    driver = build_driver()
     wait = WebDriverWait(driver, 20)
 
     try:
-        login_to_yahoo(driver, wait)
+        load_cookies(driver)
         driver.get(roster_url)
+
+        # If cookies were stale/expired, we'll land on a login page instead
+        if "login.yahoo.com" in driver.current_url:
+            sys.exit("Session cookies expired — re-run export_yahoo_cookies.py locally and update the secret.")
+
         click_set_active_players(driver, wait)
-        time.sleep(2)  # let any confirmation UI settle
+        time.sleep(2)
     finally:
         driver.quit()
 
