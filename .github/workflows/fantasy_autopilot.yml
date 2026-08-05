@@ -35,7 +35,7 @@ jobs:
       - name: Set Active Players
         env:
           YAHOO_COOKIES_B64: ${{ secrets.YAHOO_COOKIES_B64 }}
-        run: python manualTriggerSetLineup.py "https://baseball.fantasysports.yahoo.com/b1/23321/12"
+        run: python manualTriggerSetLineup.py "https://baseball.fantasysports.yahoo.com/b1/23321/12/team?&date=2026-08-06&stat1=S&stat2=D"
 
       - name: Commit and Push changes
         run: |
