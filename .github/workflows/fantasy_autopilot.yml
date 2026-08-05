@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -21,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install yahoofantasy lxml requests-oauthlib selenium webdriver-manager
+          pip install yahoofantasy lxml requests-oauthlib selenium
 
       - name: Run Fantasy Auto Pilot
         env:
