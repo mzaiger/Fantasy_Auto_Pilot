@@ -20,11 +20,9 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
-from webdriver_manager.chrome import ChromeDriverManager
 
 
 COOKIES_B64 = os.environ.get("YAHOO_COOKIES_B64")
@@ -37,12 +35,38 @@ def build_driver() -> webdriver.Chrome:
     options.add_argument("--headless=new")
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument("--window-size=1920,1080")
-    service = Service(ChromeDriverManager().install())
-    return webdriver.Chrome(service=service, options=options)
+    # Required in CI containers (running as root) or Chrome can hang/crash silently
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
+    # Selenium 4.6+ auto-downloads a matching driver via Selenium Manager —
+    # no need for webdriver-manager, which can grab a mismatched version.
+    driver = webdriver.Chrome(options=options)
+    driver.set_page_load_timeout(30)  # fail loudly instead of hanging forever
+    return driver
 
 
 def load_cookies(driver: webdriver.Chrome) -> None:
-    cookies = json.loads(base64.b64decode(COOKIES_B64))
+    # Strip stray whitespace/newlines that copy-paste often introduces,
+    # and fix missing padding (base64 length must be a multiple of 4).
+    cleaned = "".join(COOKIES_B64.split())
+    cleaned += "=" * (-len(cleaned) % 4)
+
+    try:
+        decoded = base64.b64decode(cleaned, validate=True)
+    except Exception as e:
+        sys.exit(
+            f"YAHOO_COOKIES_B64 is not valid base64 ({e}). "
+            "Regenerate it from yahoo_cookies.json and re-paste the secret without editing it."
+        )
+
+    try:
+        cookies = json.loads(decoded)
+    except Exception as e:
+        sys.exit(
+            f"YAHOO_COOKIES_B64 decoded but isn't valid JSON ({e}). "
+            "The secret is likely corrupted or truncated — regenerate and re-paste it."
+        )
 
     # Must be on the target domain before cookies can be added
     driver.get("https://baseball.fantasysports.yahoo.com")
