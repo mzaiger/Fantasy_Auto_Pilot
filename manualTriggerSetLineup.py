@@ -39,10 +39,15 @@ def build_driver() -> webdriver.Chrome:
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
+    # Yahoo's pages carry a lot of ad/analytics scripts that can keep the
+    # "load" event from ever firing. "eager" returns once the DOM is parsed
+    # instead of waiting on every subresource, which is what was causing the
+    # "Timed out receiving message from renderer" TimeoutException.
+    options.page_load_strategy = "eager"
     # Selenium 4.6+ auto-downloads a matching driver via Selenium Manager —
     # no need for webdriver-manager, which can grab a mismatched version.
     driver = webdriver.Chrome(options=options)
-    driver.set_page_load_timeout(30)  # fail loudly instead of hanging forever
+    driver.set_page_load_timeout(45)  # fail loudly instead of hanging forever
     return driver
 
 
@@ -68,8 +73,14 @@ def load_cookies(driver: webdriver.Chrome) -> None:
             "The secret is likely corrupted or truncated — regenerate and re-paste it."
         )
 
-    # Must be on the target domain before cookies can be added
-    driver.get("https://baseball.fantasysports.yahoo.com")
+    # Must be on the target domain before cookies can be added. Even with the
+    # "eager" strategy Yahoo can occasionally hang past the timeout on a slow
+    # CI network — treat that as "good enough to add cookies", not a fatal
+    # error, since window.stop() leaves us on the right domain either way.
+    try:
+        driver.get("https://baseball.fantasysports.yahoo.com")
+    except TimeoutException:
+        driver.execute_script("window.stop();")
 
     for cookie in cookies:
         # Selenium chokes on some fields (e.g. sameSite values, expiry as float)
@@ -112,7 +123,10 @@ def main() -> None:
 
     try:
         load_cookies(driver)
-        driver.get(roster_url)
+        try:
+            driver.get(roster_url)
+        except TimeoutException:
+            driver.execute_script("window.stop();")
 
         # If cookies were stale/expired, we'll land on a login page instead
         if "login.yahoo.com" in driver.current_url:
