@@ -86,10 +86,10 @@ def load_cookies(driver: webdriver.Chrome) -> None:
 
 def click_set_active_players(driver: webdriver.Chrome, wait: WebDriverWait) -> None:
     strategies = [
-        (By.XPATH, "//button[contains(., 'Set Active Players')]"),
-        (By.XPATH, "//a[contains(., 'Set Active Players')]"),
-        (By.XPATH, "//*[contains(text(), 'Set Active Players')]"),
-        (By.CSS_SELECTOR, "input[value*='Set Active']"),
+        (By.XPATH, "//button[contains(., 'Start Active Players')]"),
+        (By.XPATH, "//a[contains(., 'Start Active Players')]"),
+        (By.XPATH, "//*[contains(text(), 'Start Active Players')]"),
+        (By.CSS_SELECTOR, "input[value*='Start Active']"),
     ]
     for by, selector in strategies:
         try:
@@ -99,7 +99,7 @@ def click_set_active_players(driver: webdriver.Chrome, wait: WebDriverWait) -> N
             return
         except TimeoutException:
             continue
-    raise NoSuchElementException("Could not find 'Set Active Players' button.")
+    raise NoSuchElementException("Could not find 'Start Active Players' button.")
 
 
 def main() -> None:
