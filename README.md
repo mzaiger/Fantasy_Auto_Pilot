@@ -33,7 +33,7 @@ orchestrates all of them for a given `--date`):
    longer runs as its own workflow step — it's only invoked as a backup
    when the API push doesn't confirm success.
 6. **`Fantasy_Auto_Pilot_Update_YAML.py`** — (currently disabled in
-   `Main.py`) rewrites the GitHub Actions cron schedule based on that
+   `Fantasy_Auto_Pilot_Main.py`) rewrites the GitHub Actions cron schedule based on that
    day's game start times
 
 `Fantasy_Auto_Pilot_Schedule_Make.py` optionally forwards `mlb_games.json`
