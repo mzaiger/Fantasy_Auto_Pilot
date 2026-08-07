@@ -2,6 +2,7 @@ import os
 import json
 import time
 import argparse
+import datetime
 from pathlib import Path
 from requests_oauthlib import OAuth2Session
 
@@ -14,6 +15,18 @@ AUTHORIZATION_URL = "https://api.login.yahoo.com/oauth2/request_auth"
 TOKEN_URL = "https://api.login.yahoo.com/oauth2/get_token"
 TOKEN_CACHE = Path("token_cache.json")
 BASE_URL = "https://fantasysports.yahooapis.com/fantasy/v2"
+
+# Written on every *successful* roster push so index.html can show when the
+# roster was last actually updated (and flag it if that goes stale).
+STATUS_FILE = Path("last_updated.json")
+
+def _write_status(date_str=None):
+    """Record the date/time of the last confirmed-successful roster update."""
+    roster_date = date_str or datetime.date.today().isoformat()
+    STATUS_FILE.write_text(json.dumps({
+        "date": roster_date,
+        "updated_at_utc": datetime.datetime.utcnow().isoformat() + "Z",
+    }, indent=2))
 
 # --- AUTH HELPERS (Standard from your previous scripts) ---
 def _save_token(token): 
@@ -76,6 +89,7 @@ def push_roster_update(session, team_key, xml_file, date_str=None):
 
     if resp.status_code == 200 or resp.status_code == 201:
         print("✅ Roster updated successfully!")
+        _write_status(date_str)
     else:
         print(f"❌ Failed to update roster. Status Code: {resp.status_code}")
         print(f"Response: {resp.text}")

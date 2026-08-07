@@ -90,6 +90,19 @@
             margin-top: 5px;
         }
 
+        .api-down-banner {
+            display: none;
+            margin-top: 12px;
+            padding: 10px 16px;
+            border-radius: 6px;
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c2c7;
+            font-weight: bold;
+            text-align: center;
+        }
+        .api-down-banner.show { display: block; }
+
         .log-container {
             margin-top: 40px;
             background: #fff;
@@ -122,7 +135,9 @@
     <header>
         <h1>Fantasy Baseball Auto Pilot</h1>
         <div id="roster-date" style="margin-top: 5px; color: var(--text);"></div>
+        <div id="roster-updated" class="refresh-tag"></div>
         <div id="last-updated" class="refresh-tag"></div>
+        <div id="api-down-banner" class="api-down-banner"></div>
     </header>
 
     <div class="grid">
@@ -206,6 +221,45 @@
 
         } catch (error) {
             console.error("Error loading fantasy data:", error);
+        }
+
+        // Separate, non-blocking fetch: last_updated.json is only written by
+        // Fantasy_Auto_Pilot_Update_Roster.py on a *confirmed successful*
+        // push, so its date reflects when the live roster was actually
+        // last updated (not just when the pipeline last ran).
+        await loadRosterUpdatedStatus(cacheBuster);
+    }
+
+    async function loadRosterUpdatedStatus(cacheBuster) {
+        const rosterUpdatedEl = document.getElementById('roster-updated');
+        const apiDownBanner = document.getElementById('api-down-banner');
+
+        try {
+            const res = await fetch(`last_updated.json${cacheBuster}`);
+            if (!res.ok) throw new Error(`status.json fetch failed: ${res.status}`);
+            const status = await res.json();
+
+            if (status && status.date) {
+                const updatedDate = new Date(`${status.date}T00:00:00`);
+                const today = new Date();
+                today.setHours(0, 0, 0, 0);
+                const diffDays = Math.round((today - updatedDate) / (1000 * 60 * 60 * 24));
+
+                rosterUpdatedEl.innerHTML = `<strong>Roster last updated: ${status.date}</strong>`;
+
+                if (diffDays > 7) {
+                    apiDownBanner.classList.add('show');
+                    apiDownBanner.innerHTML = `⚠️ API may be down — roster hasn't updated in ${diffDays} days (last update: ${status.date}).`;
+                } else {
+                    apiDownBanner.classList.remove('show');
+                    apiDownBanner.innerHTML = '';
+                }
+            }
+        } catch (error) {
+            // last_updated.json may not exist yet (e.g. first deploy before
+            // any successful push) — fail quietly rather than breaking the
+            // rest of the dashboard.
+            console.error("Error loading roster update status:", error);
         }
     }
 
