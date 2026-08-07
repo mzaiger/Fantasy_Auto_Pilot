@@ -24,9 +24,9 @@ orchestrates all of them for a given `--date`):
    updated successfully!`), it also writes `last_updated.json` with that
    day's date — this is what `index.html` reads to show when the roster
    was actually last updated.
-5. **Backup trigger** — `Main.py` checks whether step 4 printed the
+5. **Backup trigger** — `Fantasy_Auto_Pilot_Main.py` checks whether step 4 printed the
    `✅ Roster updated successfully!` message. If it didn't (API call
-   failed, timed out, etc.), `Main.py` automatically falls back to
+   failed, timed out, etc.), `Fantasy_Auto_Pilot_Main.py` automatically falls back to
    `manualTriggerSetLineup.py`, which drives a headless Chrome/Selenium
    session (authenticated via the `YAHOO_COOKIES_B64` secret) to click
    "Start Active Players" directly on the Yahoo roster page. This no
