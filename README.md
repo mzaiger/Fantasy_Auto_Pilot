@@ -37,7 +37,9 @@ orchestrates all of them for a given `--date`):
    day's game start times
 
 `Fantasy_Auto_Pilot_Schedule_Make.py` optionally forwards `mlb_games.json`
-to a Make.com webhook for external automation triggers.
+to a Make.com webhook for external automation triggers. See
+[Timing reliability workaround](#timing-reliability-workaround-google-calendar-trigger)
+below for how this webhook is used in practice.
 
 ## Automation
 
@@ -45,6 +47,93 @@ to a Make.com webhook for external automation triggers.
 `fantasy_autopilot.yml` here) runs the full pipeline on a cron schedule
 timed around MLB game start windows, then commits and pushes any roster
 changes back to the repo.
+
+## Timing reliability workaround (Google Calendar trigger)
+
+GitHub Actions cron jobs aren't reliable on exact timing — scheduled runs
+can be delayed, so the pipeline needed a more precise way to fire right
+before first pitch. This is handled outside the repo with Make.com and a
+Google Apps Script:
+
+1. `Fantasy_Auto_Pilot_Schedule_Make.py` sends `mlb_games.json` to the
+   Make.com webhook (`MAKE_API_KEY`).
+2. The Make.com scenario connects to Google Calendar and creates an
+   **"MLB Trigger"** event 15–30 minutes before each game's start time.
+3. A Google Apps Script (managed at
+   [script.google.com](https://script.google.com/home/)) runs on a
+   time-driven trigger every 15 minutes, checks the calendar for an
+   upcoming **"MLB Trigger"** event in that window, and if one is found,
+   fires a `repo_dispatch` event (`trigger-roster-update`) against the
+   GitHub repo via the GitHub API — which is what actually kicks off the
+   roster update pipeline 15–30 minutes ahead of the game.
+
+This effectively replaces relying on GitHub Actions' own cron timing for
+the final trigger — the calendar event, not the cron schedule, decides
+the precise moment.
+
+**Apps Script (`checkCalendarAndTrigger`):**
+
+```javascript
+function checkCalendarAndTrigger() {
+  const now = new Date();
+  const end = new Date(now.getTime() + 0.25 * 60 * 60 * 1000); // next 15 minutes
+
+  const events = CalendarApp.getDefaultCalendar()
+    .getEvents(now, end, { search: "MLB Trigger" });
+
+  if (events.length > 0) {
+    const token = PropertiesService.getScriptProperties().getProperty("GITHUB_TOKEN");
+    const url = "https://api.github.com/repos/mzaiger/Fantasy_Auto_Pilot/dispatches";
+
+    const options = {
+      method: "POST",
+      headers: {
+        "Authorization": "Bearer " + token,
+        "Accept": "application/vnd.github.v3+json",
+        "User-Agent": "Make-Automation"
+      },
+      contentType: "application/json",
+      payload: JSON.stringify({ event_type: "trigger-roster-update" })
+    };
+
+    UrlFetchApp.fetch(url, options);
+    Logger.log("Dispatched successfully!");
+  } else {
+    Logger.log("No MLB Trigger event found.");
+  }
+}
+```
+
+**Setup:**
+
+1. Go to [script.google.com](https://script.google.com/home/) and create
+   a new project (or open the existing one), then paste in the
+   `checkCalendarAndTrigger` function above.
+2. Store the GitHub token as a script property instead of hardcoding it:
+   in the Apps Script editor, go to **Project Settings → Script
+   Properties → Add script property**, set the name to `GITHUB_TOKEN`,
+   and paste in a GitHub personal access token scoped to trigger repo
+   dispatches (`repo` scope) on `mzaiger/Fantasy_Auto_Pilot`. The script
+   reads it at runtime with
+   `PropertiesService.getScriptProperties().getProperty("GITHUB_TOKEN")`,
+   so the token itself never appears in the script code.
+3. Add a time-driven trigger: in the Apps Script editor, go to
+   **Triggers** (clock icon) → **Add Trigger**, set the function to
+   `checkCalendarAndTrigger`, event source to **Time-driven**, and the
+   type to **Minutes timer → Every 15 minutes** (matching the 15-minute
+   lookahead window in the script).
+4. On the GitHub side, the workflow needs a `repository_dispatch` trigger
+   listening for the `trigger-roster-update` event type, e.g.:
+
+   ```yaml
+   on:
+     repository_dispatch:
+       types: [trigger-roster-update]
+   ```
+
+Rotate the `GITHUB_TOKEN` script property periodically the same way you'd
+rotate any personal access token, and never paste the raw token into the
+script body or commit it anywhere.
 
 ## GitHub secrets required
 
