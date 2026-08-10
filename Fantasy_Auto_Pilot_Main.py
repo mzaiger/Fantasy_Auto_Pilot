@@ -34,6 +34,55 @@ def run_command(command, capture=False):
         print(f"Error occurred while running {command[0]}: {e}")
         sys.exit(1)
 
+def run_command_with_retry(command, attempts=3, wait_seconds=60):
+    """
+    Runs a shell command with retry logic.
+
+    Waits wait_seconds before the first attempt, then waits again between
+    failed attempts. Returns True if the command eventually succeeds,
+    False if all attempts fail.
+    """
+    for attempt in range(1, attempts + 1):
+        if attempt == 1:
+            print(f"⏳ Waiting {wait_seconds} seconds before first backup attempt...")
+        else:
+            print(f"⏳ Waiting {wait_seconds} seconds before retry {attempt}/{attempts}...")
+
+        time.sleep(wait_seconds)
+
+        print(f"Executing (attempt {attempt}/{attempts}): {' '.join(command)}")
+
+        try:
+            result = subprocess.run(
+                command,
+                check=True,
+                capture_output=True,
+                text=True
+            )
+
+            if result.stdout:
+                print(result.stdout, end="" if result.stdout.endswith("\n") else "\n")
+
+            if result.stderr:
+                print(result.stderr, end="" if result.stderr.endswith("\n") else "\n")
+
+            print(f"✅ Attempt {attempt}/{attempts} succeeded.")
+            return True
+
+        except subprocess.CalledProcessError as e:
+            if e.stdout:
+                print(e.stdout, end="" if e.stdout.endswith("\n") else "\n")
+
+            if e.stderr:
+                print(e.stderr, end="" if e.stderr.endswith("\n") else "\n")
+
+            print(f"❌ Attempt {attempt}/{attempts} failed for {command[0]}: {e}")
+
+            if attempt == attempts:
+                return False
+
+    return False
+
 def main():
     parser = argparse.ArgumentParser(description="Run full Fantasy Auto-Pilot pipeline.")
     parser.add_argument("--date", required=True, help="Target date in YYYY-MM-DD format")
@@ -81,14 +130,29 @@ def main():
     # 4b. Backup: if the API push didn't confirm success, fall back to the
     # Selenium-based manual trigger to force-set the active lineup directly
     # on the Yahoo roster page.
+    #
+    # Wait 1 minute before trying, and retry up to 3 total attempts if it fails.
     if ROSTER_SUCCESS_MESSAGE not in (update_output or ""):
         print("⚠️ Roster update did not confirm success — running backup manual trigger...")
-        run_command([
-            "python", "manualTriggerSetLineup.py",
-            args.roster_url
-        ])
+
+        backup_succeeded = run_command_with_retry(
+            [
+                "python",
+                "manualTriggerSetLineup.py",
+                args.roster_url
+            ],
+            attempts=3,
+            wait_seconds=60
+        )
+
+        if not backup_succeeded:
+            print("❌ Backup manual trigger failed after 3 attempts.")
+            sys.exit(1)
+        else:
+            print("✅ Backup manual trigger completed successfully.")
     else:
         print("Roster update confirmed — skipping backup manual trigger.")
+        
 
     # 5. Update YAML
     #run_command([
