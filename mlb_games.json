@@ -7,8 +7,8 @@
       "game_date": "2026-08-13",
       "start_time_utc": "2026-08-13T17:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -27,12 +27,36 @@
       "game_number": 1
     },
     {
+      "game_pk": 824561,
+      "game_date": "2026-08-13",
+      "start_time_utc": "2026-08-13T17:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 113,
+        "name": "Cincinnati Reds",
+        "abbreviation": "CIN"
+      },
+      "home_team": {
+        "id": 145,
+        "name": "Chicago White Sox",
+        "abbreviation": "CWS"
+      },
+      "venue": "Rate Field",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
       "game_pk": 823829,
       "game_date": "2026-08-13",
       "start_time_utc": "2026-08-13T17:10:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -55,8 +79,8 @@
       "game_date": "2026-08-13",
       "start_time_utc": "2026-08-13T17:35:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -75,36 +99,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 824561,
-      "game_date": "2026-08-13",
-      "start_time_utc": "2026-08-13T18:10:00Z",
-      "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
-      "postponed": false,
-      "postpone_reason": null,
-      "away_team": {
-        "id": 113,
-        "name": "Cincinnati Reds",
-        "abbreviation": "CIN"
-      },
-      "home_team": {
-        "id": 145,
-        "name": "Chicago White Sox",
-        "abbreviation": "CWS"
-      },
-      "venue": "Rate Field",
-      "series_desc": "Regular Season",
-      "doubleheader": "N",
-      "game_number": 1
-    },
-    {
       "game_pk": 822776,
       "game_date": "2026-08-13",
       "start_time_utc": "2026-08-13T19:07:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
