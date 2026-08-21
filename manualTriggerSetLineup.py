@@ -106,6 +106,12 @@ def click_set_active_players(driver: webdriver.Chrome, wait: WebDriverWait) -> N
         try:
             button = wait.until(EC.element_to_be_clickable((by, selector)))
             button.click()
+            time.sleep(3)
+
+            print("URL AFTER CLICK:", driver.current_url)
+            print("BUTTON TEXT AFTER CLICK:", button.text)
+            print("PAGE CONTAINS START ACTIVE:",
+            "Start Active Players" in driver.page_source)
             print(f"Clicked button using strategy: {by} -> {selector}")
             return
         except TimeoutException:
