@@ -106,8 +106,11 @@ def click_set_active_players(driver: webdriver.Chrome, wait: WebDriverWait) -> N
         try:
             button = wait.until(EC.element_to_be_clickable((by, selector)))
             button.click()
+
+            # Wait for Yahoo to finish processing the click/navigation
+            time.sleep(8)
+
             print("URL AFTER CLICK:", driver.current_url)
-            time.sleep(3)
 
             if "login.yahoo.com" in driver.current_url:
                 raise RuntimeError(
