@@ -140,9 +140,6 @@ def main() -> None:
         if "login.yahoo.com" in driver.current_url:
             sys.exit("Session cookies expired — re-run export_yahoo_cookies.py locally and update the secret.")
 
-        print("CURRENT URL:", driver.current_url)
-        print("PAGE TITLE:", driver.title)
-        print(driver.page_source[:10000])
         click_set_active_players(driver, wait)
         time.sleep(2)
     finally:
