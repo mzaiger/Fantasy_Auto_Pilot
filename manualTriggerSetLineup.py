@@ -112,9 +112,8 @@ def click_set_active_players(driver: webdriver.Chrome, wait: WebDriverWait) -> N
                 raise RuntimeError(
                 "Yahoo redirected to login after Start Active Players click. "
                 "Yahoo session/cookies are not being accepted for this action."
-    )
-
-print("Yahoo remained on fantasy page after click.")
+                )
+            print("Yahoo remained on fantasy page after click.")
             print(f"Clicked button using strategy: {by} -> {selector}")
             return
         except TimeoutException:
