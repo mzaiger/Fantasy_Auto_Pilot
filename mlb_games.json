@@ -1,14 +1,14 @@
 {
-  "dump_date": "2026-08-24",
-  "game_count": 10,
+  "dump_date": "2026-08-25",
+  "game_count": 15,
   "mlb_games": [
     {
-      "game_pk": 824235,
-      "game_date": "2026-08-24",
-      "start_time_utc": "2026-08-24T22:40:00Z",
-      "status_abstract": "Final",
-      "status_detailed": "Final",
-      "status_code": "F",
+      "game_pk": 824233,
+      "game_date": "2026-08-25",
+      "start_time_utc": "2026-08-25T22:40:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -27,12 +27,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 823828,
-      "game_date": "2026-08-24",
-      "start_time_utc": "2026-08-24T22:40:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "game_pk": 823826,
+      "game_date": "2026-08-25",
+      "start_time_utc": "2026-08-25T22:40:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -51,12 +51,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 822695,
-      "game_date": "2026-08-24",
-      "start_time_utc": "2026-08-24T22:45:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "game_pk": 822693,
+      "game_date": "2026-08-25",
+      "start_time_utc": "2026-08-25T22:45:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -75,12 +75,108 @@
       "game_number": 1
     },
     {
-      "game_pk": 824557,
-      "game_date": "2026-08-24",
-      "start_time_utc": "2026-08-24T23:40:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "In Progress",
-      "status_code": "I",
+      "game_pk": 823505,
+      "game_date": "2026-08-25",
+      "start_time_utc": "2026-08-25T23:05:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "abbreviation": "HOU"
+      },
+      "home_team": {
+        "id": 147,
+        "name": "New York Yankees",
+        "abbreviation": "NYY"
+      },
+      "venue": "Yankee Stadium",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 822773,
+      "game_date": "2026-08-25",
+      "start_time_utc": "2026-08-25T23:07:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 118,
+        "name": "Kansas City Royals",
+        "abbreviation": "KC"
+      },
+      "home_team": {
+        "id": 141,
+        "name": "Toronto Blue Jays",
+        "abbreviation": "TOR"
+      },
+      "venue": "Rogers Centre",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823585,
+      "game_date": "2026-08-25",
+      "start_time_utc": "2026-08-25T23:10:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 158,
+        "name": "Milwaukee Brewers",
+        "abbreviation": "MIL"
+      },
+      "home_team": {
+        "id": 121,
+        "name": "New York Mets",
+        "abbreviation": "NYM"
+      },
+      "venue": "Citi Field",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 824881,
+      "game_date": "2026-08-25",
+      "start_time_utc": "2026-08-25T23:15:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 119,
+        "name": "Los Angeles Dodgers",
+        "abbreviation": "LAD"
+      },
+      "home_team": {
+        "id": 144,
+        "name": "Atlanta Braves",
+        "abbreviation": "ATL"
+      },
+      "venue": "Truist Park",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 824556,
+      "game_date": "2026-08-25",
+      "start_time_utc": "2026-08-25T23:40:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -99,12 +195,36 @@
       "game_number": 1
     },
     {
-      "game_pk": 823992,
+      "game_pk": 823016,
       "game_date": "2026-08-25",
-      "start_time_utc": "2026-08-25T01:38:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "start_time_utc": "2026-08-25T23:45:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
+      "postponed": false,
+      "postpone_reason": null,
+      "away_team": {
+        "id": 110,
+        "name": "Baltimore Orioles",
+        "abbreviation": "BAL"
+      },
+      "home_team": {
+        "id": 138,
+        "name": "St. Louis Cardinals",
+        "abbreviation": "STL"
+      },
+      "venue": "Busch Stadium",
+      "series_desc": "Regular Season",
+      "doubleheader": "N",
+      "game_number": 1
+    },
+    {
+      "game_pk": 823989,
+      "game_date": "2026-08-26",
+      "start_time_utc": "2026-08-26T01:38:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -123,12 +243,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 825041,
-      "game_date": "2026-08-25",
-      "start_time_utc": "2026-08-25T01:40:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "game_pk": 825042,
+      "game_date": "2026-08-26",
+      "start_time_utc": "2026-08-26T01:40:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -147,12 +267,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 823260,
-      "game_date": "2026-08-25",
-      "start_time_utc": "2026-08-25T01:40:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "game_pk": 823259,
+      "game_date": "2026-08-26",
+      "start_time_utc": "2026-08-26T01:40:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -171,12 +291,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 824964,
-      "game_date": "2026-08-25",
-      "start_time_utc": "2026-08-25T01:40:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "game_pk": 824962,
+      "game_date": "2026-08-26",
+      "start_time_utc": "2026-08-26T01:40:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -195,12 +315,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 823097,
-      "game_date": "2026-08-25",
-      "start_time_utc": "2026-08-25T01:40:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "game_pk": 823098,
+      "game_date": "2026-08-26",
+      "start_time_utc": "2026-08-26T01:40:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -219,12 +339,12 @@
       "game_number": 1
     },
     {
-      "game_pk": 823183,
-      "game_date": "2026-08-25",
-      "start_time_utc": "2026-08-25T01:45:00Z",
-      "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "game_pk": 823181,
+      "game_date": "2026-08-26",
+      "start_time_utc": "2026-08-26T01:45:00Z",
+      "status_abstract": "Preview",
+      "status_detailed": "Scheduled",
+      "status_code": "S",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
