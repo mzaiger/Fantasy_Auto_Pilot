@@ -79,8 +79,8 @@
       "game_date": "2026-09-24",
       "start_time_utc": "2026-09-24T18:35:00Z",
       "status_abstract": "Live",
-      "status_detailed": "Warmup",
-      "status_code": "PW",
+      "status_detailed": "In Progress",
+      "status_code": "I",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
@@ -151,8 +151,8 @@
       "game_date": "2026-09-24",
       "start_time_utc": "2026-09-24T22:45:00Z",
       "status_abstract": "Preview",
-      "status_detailed": "Scheduled",
-      "status_code": "S",
+      "status_detailed": "Pre-Game",
+      "status_code": "P",
       "postponed": false,
       "postpone_reason": null,
       "away_team": {
